@@ -1,4 +1,9 @@
-playwright>=1.45
-pdfplumber>=0.11
-openpyxl>=3.1
-reportlab>=4.2
+playwright>=1.45          # browser automation (navigate TxDOT, download PDFs)
+pypdf>=4.0                # read the fillable summary-sheet form fields
+pypdfium2>=4.0            # render scanned pages to images for OCR
+opencv-python-headless>=4.8  # detect bid-tab table grid lines
+pytesseract>=0.3.10       # Python wrapper for the Tesseract OCR engine (installed separately)
+numpy>=1.24
+openpyxl>=3.1             # Excel output
+reportlab>=4.0            # PDF output
+pytest>=8.0               # tests (dev only)

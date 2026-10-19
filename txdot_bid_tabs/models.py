@@ -16,7 +16,7 @@ class ProjectListing:
 
 @dataclass
 class BidItem:
-    """A line item every bidder prices (taken from the first bid tab)."""
+    """A line item every bidder prices (taken from the bid tabs)."""
 
     item: str                # e.g. "F-164.2"
     description: str
@@ -26,25 +26,36 @@ class BidItem:
 
 @dataclass
 class Bid:
-    """One bidder's prices for a project."""
+    """One bidder's prices for a project, in bid-opening order."""
 
     bidder: str
-    unit_prices: dict[str, float] = field(default_factory=dict)  # item -> unit price
-    totals: dict[str, float] = field(default_factory=dict)       # item -> extended total
-    base_bid: float | None = None
+    base_bid: float                                              # from the summary form (typed, authoritative)
+    unit_prices: dict[str, float] = field(default_factory=dict)  # item code -> unit price
+    totals: dict[str, float] = field(default_factory=dict)       # item code -> extended total
+    verified: bool = False                                       # line totals reconcile to base_bid
 
 
 @dataclass
 class Project:
     """Everything extracted from one project PDF."""
 
+    project_id: str          # e.g. "NTB2614LHART00034" (falls back to CSJ if unknown)
     airport: str
     csj: str
     scope: str
+    description: str         # long description from the bid form, e.g. "WILDLIFE FENCING AND GATES"
     bid_date: datetime
+    location: str = ""
     items: list[BidItem] = field(default_factory=list)
     bids: list[Bid] = field(default_factory=list)
+    notes: list[str] = field(default_factory=list)  # extraction warnings / corrections, for the audit log
 
     @property
     def low_bid(self) -> Bid:
-        return min(self.bids, key=lambda b: b.base_bid or float("inf"))
+        return min(self.bids, key=lambda b: b.base_bid)
+
+    @property
+    def label(self) -> str:
+        """Column header used in the master sheet, e.g. 'Lockhart Municipal (October 2026)'."""
+        name = self.airport.replace(" Airport", "").strip()
+        return f"{name} ({self.bid_date:%B %Y})"
