@@ -166,7 +166,8 @@ def _write_table(wb: Workbook, name: str, cols: list[str], rows: list[dict]) -> 
             region = ws.cell(row=i, column=cols.index("Region") + 1)
             region.fill = PatternFill("solid", fgColor="FFF2CC")  # user-editable input
     widths = {"Project ID": 20, "Airport": 30, "Bidder": 32, "Description": 44, "Low Bidder": 32,
-              "Source PDF": 60, "Price Age": 18, "Last Updated": 17, "Scope": 14, "Location": 14}
+              "Source PDF": 60, "Price Age": 18, "Last Updated": 17, "Scope": 14, "Location": 14,
+              "Low Bid": 16, "Total": 16, "Unit Price": 14}  # money columns fit $9,999,999.99
     for j, h in enumerate(cols, start=1):
         ws.column_dimensions[get_column_letter(j)].width = widths.get(h, 12)
     ws.freeze_panes = "B2"

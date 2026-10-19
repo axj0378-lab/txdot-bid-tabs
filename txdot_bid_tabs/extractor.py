@@ -4,9 +4,17 @@ PDF layout (new format, Oct 2026+), confirmed on the Lockhart PDF:
   page 1     Bid Result Summary Sheet. A *fillable form*: airport, scope, CSJ,
              date/time/location, bidder names and base bids are form fields, so
              they are read exactly with no OCR.
-  then, per bidder, in bid-opening order (NOT price order):
-             "Bid Form - Page 1 of 4"  scanned  -> Name of Bidder (OCR)
-             "Bid Form - Page 2 of 4"  scanned  -> bid tab table (grid OCR)
+  then, per bidder, in bid-opening order (NOT price order), a scanned bid form.
+  Two variants have been seen:
+    Lockhart (4-page form)  page 1: Name of Bidder (OCR); page 2: bid tab table.
+                            The Item column holds the spec code ("F-164.2").
+    Zapata (6-page form)    page 1: Name of Bidder above the start of the bid tab;
+                            the table continues over the next pages, then a
+                            "Bid Summary" page. The Item column is a line number
+                            and the spec code leads the description
+                            ("Item P-152-4.1, Drainage Excavation ...").
+  A page naming a bidder starts that bidder; every table page after it, up to
+  the next name, adds rows to the same bidder.
 
 Because the bid tabs are OCR'd, every bidder's numbers are cross-checked:
   * qty x unit price must equal the line total,
@@ -127,6 +135,31 @@ def clean_description(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip().upper()
 
 
+SPEC_CODE = re.compile(r"[A-Z]{1,3}-\d")
+# Spec code leading a (cleaned, upper-case) description, as in the Zapata form:
+#   "C-105, CONTRACTOR MOBILIZATION"     "ITEM PARKHILL P-140-3.1, TEMPORARY ..."
+#   "ITEM MC1-1, FURNISH AND INSTALL"    "TXDOT ITEM 341 HOT MIX ASPHALT, ..."
+# OCR sometimes drops the "I" of "ITEM" or adds a stray mark before it.
+_DESC_CODE = re.compile(
+    r"^\W*(?:(?P<txdot>TXDOT)\s+)?(?:I?TEM\s+)?(?:[A-Z]+\s+)??"
+    r"(?P<code>[A-Z]{1,3}\d*-[0-9A-Z][0-9A-Z.\-]*|(?(txdot)\d+(?:-[\d.]+)?|(?!)))"
+    r"(?:\s*[,.;:]\s*|\s+)(?P<rest>.+)$")
+
+
+def split_description_code(description: str) -> tuple[str, str] | None:
+    """'ITEM P-152-4.1, DRAINAGE EXCAVATION' -> ('P-152-4.1', 'DRAINAGE EXCAVATION').
+    TxDOT standard items get a TX- prefix to match the Lockhart codes ('TX-341').
+    Returns None if the description doesn't start with a spec code."""
+    m = _DESC_CODE.match(description)
+    if not m:
+        return None
+    code = m.group("code").rstrip(".-")
+    if m.group("txdot"):
+        code = f"TX-{code}"
+    code = re.sub(r"(\d)([A-Z])$", lambda g: g[1] + g[2].lower(), code)  # 5.1A -> 5.1a
+    return code, m.group("rest").strip()
+
+
 # --------------------------------------------------------------------------
 # Scanned pages
 # --------------------------------------------------------------------------
@@ -155,6 +188,12 @@ def _map_columns(header_cells: list[str]) -> dict[str, int]:
             if needle in t and key not in mapping:
                 mapping[key] = idx
                 break
+    # One unreadable header cell (e.g. "Qty" OCR'd as "aty") is unambiguous:
+    # it's the one column left over.
+    missing = {k for _, k in COLUMN_KEYS} - mapping.keys()
+    unmapped = set(range(len(header_cells))) - set(mapping.values())
+    if len(missing) == 1 and len(unmapped) == 1:
+        mapping[missing.pop()] = unmapped.pop()
     return mapping
 
 
@@ -173,13 +212,17 @@ def read_bid_table(gray, grid: ocr.TableGrid) -> list[RawRow]:
     rows = []
     for r in range(1, len(grid.rows)):
         item = normalize_item(ocr.ocr_cell(gray, box(r, cols["item"]), ocr.ITEM))
-        if not item:
+        description = clean_description(ocr.ocr_cell(gray, box(r, cols["description"]), ocr.TEXT))
+        if not item and not description:
             continue  # blank row
+        # Item column holding a line number: the spec code leads the description.
+        if not SPEC_CODE.match(item) and (split := split_description_code(description)):
+            item, description = split
         rows.append(RawRow(
             item=item,
             qty=parse_qty(ocr.ocr_cell(gray, box(r, cols["qty"]), ocr.NUMERIC)),
             unit=ocr.ocr_cell(gray, box(r, cols["unit"]), ocr.UNIT),
-            description=clean_description(ocr.ocr_cell(gray, box(r, cols["description"]), ocr.TEXT)),
+            description=description,
             unit_price=parse_money(ocr.ocr_cell(gray, box(r, cols["unit_price"]), ocr.NUMERIC)),
             total=parse_money(ocr.ocr_cell(gray, box(r, cols["total"]), ocr.NUMERIC)),
         ))
@@ -193,7 +236,7 @@ def read_bid_form(text: str) -> tuple[str, str]:
         name = m.group(1).strip()
     desc = ""
     if m := re.search(r"Project Description:?\s*\n\s*(.+)", text):
-        desc = m.group(1).strip()
+        desc = m.group(1).strip(" -")
     return name, desc
 
 
@@ -219,7 +262,10 @@ def reconcile(rows: list[RawRow], base_bid: float | None) -> tuple[dict[str, flo
             notes.append(f"{r.item}: could not read qty/price (qty={q}, unit={up}, total={tot})")
             continue
         if up is None:
-            options.append([(round(tot / q, 2), tot)])
+            # the total may itself be off by a stray digit ($11,810.06 for
+            # $11,810.00); the unit price it implies, rounded to cents, fixes that
+            derived = round(tot / q, 2)
+            options.append(list(dict.fromkeys([(derived, tot), (derived, round(derived * q, 2))])))
         elif tot is None:
             options.append([(up, round(up * q, 2))])
         elif abs(up * q - tot) < CENT:
@@ -239,9 +285,37 @@ def reconcile(rows: list[RawRow], base_bid: float | None) -> tuple[dict[str, flo
                 chosen, verified = trial, True
                 break
 
+    # Both numbers on a line misread ($500.50 / $5,506.10 for $500.56 / $5,506.16):
+    # no reading reconciles. If exactly one line can absorb the shortfall, i.e. the
+    # base bid implies a total that is a whole-cent unit price x qty and within 1%
+    # of what OCR read, solve that line from the base bid.
+    solved = None
+    if base_bid is not None and not verified:
+        fixes = []
+        for i in ambiguous:
+            q = rows[i].qty
+            total = round(base_bid - sum(t for k, (_, t) in enumerate(chosen) if k != i), 2)
+            up = round(total / q, 2)
+            if (total > 0 and abs(up * q - total) < CENT
+                    and any(abs(total - t) <= 0.01 * t for _, t in options[i])):
+                fixes.append((i, (up, total)))
+        if len(fixes) == 1:
+            solved, pick = fixes[0]
+            chosen[solved], verified = pick, True
+
     for i in ambiguous:
         r = rows[i]
         up, tot = chosen[i]
+        if i == solved:
+            notes.append(f"{r.item}: OCR read unit price {r.unit_price or 0:,.2f} / total "
+                         f"{r.total or 0:,.2f} (qty {r.qty:g}), neither consistent; solved from "
+                         f"the base bid -> {up:,.2f} / {tot:,.2f}")
+            continue
+        if r.unit_price is None:
+            if tot != r.total:
+                notes.append(f"{r.item}: unit price unreadable and total {r.total:,.2f} disagrees "
+                             f"with qty {r.qty:g}; corrected total -> {up:,.2f} / {tot:,.2f}")
+            continue
         fixed = "total" if up == r.unit_price else "unit price"
         notes.append(f"{r.item}: OCR read unit price {r.unit_price:,.2f} / total {r.total:,.2f}, "
                      f"which disagree with qty {r.qty:g}; corrected {fixed} -> "
@@ -255,6 +329,9 @@ def reconcile(rows: list[RawRow], base_bid: float | None) -> tuple[dict[str, flo
     return unit_prices, totals, verified, notes
 
 
+UNITS = {"LS", "LF", "EA", "SY", "SF", "CY", "TON", "GAL", "AC", "HR", "DAY", "MO", "LB", "SM", "CF"}
+
+
 def _consensus_rows(tables: list[list[RawRow]], notes: list[str]) -> list[BidItem]:
     """Every bidder prices the same items. Use a majority vote across bidders
     for item code, qty, unit and description so one bad OCR read can't win."""
@@ -265,10 +342,25 @@ def _consensus_rows(tables: list[list[RawRow]], notes: list[str]) -> list[BidIte
 
         def vote(attr):
             vals = [getattr(c, attr) for c in cells if getattr(c, attr) not in (None, "")]
-            return Counter(vals).most_common(1)[0][0] if vals else None
+            if attr == "unit":  # a clipped read ("A" for "EA") shouldn't outvote a real unit
+                vals = [v for v in vals if v in UNITS] or vals
+            counts = Counter(vals)
+            if attr == "qty":
+                # Prefer the qty under which the most bidders' unit price x qty
+                # equals their line total; plain votes only break ties ("11" read
+                # as "1" by one bidder and missed by another is otherwise a coin toss).
+                def fits(q):
+                    return sum(c.unit_price is not None and c.total is not None
+                               and abs(c.unit_price * q - c.total) < CENT for c in cells)
+                return max(counts, key=lambda q: (fits(q), counts[q])) if counts else None
+            return counts.most_common(1)[0][0] if vals else None
 
         item = BidItem(item=vote("item"), qty=vote("qty"), unit=vote("unit"),
                        description=vote("description") or "")
+        if item.item in {it.item for it in items}:  # codes key the prices, so keep them unique
+            notes.append(f"row {i + 1}: item code {item.item} repeats an earlier row; "
+                         f"recorded as {item.item}#{i + 1}")
+            item.item = f"{item.item}#{i + 1}"
         items.append(item)
         for c in cells:
             if c.item != item.item or c.qty != item.qty:
@@ -276,6 +368,33 @@ def _consensus_rows(tables: list[list[RawRow]], notes: list[str]) -> list[BidIte
                              f"using consensus {item.item} qty {item.qty}")
                 c.item, c.qty = item.item, item.qty
     return items
+
+
+_NAME_WORDS = {"co": "company", "corp": "corporation", "incorporated": "inc", "ltd": "limited"}
+
+
+def _name_key(name: str) -> str:
+    """'ANDERSON COLUMBIA CO., INC.' -> 'anderson columbia company inc'"""
+    words = re.sub(r"[^a-z0-9 ]", " ", name.lower()).split()
+    return " ".join(_NAME_WORDS.get(w, w) for w in words)
+
+
+def match_bidders(ocr_names: list[str], form_names: list[str]) -> dict[str, str | None]:
+    """Map each OCR'd bidder name to its typed summary-sheet name (None if no match).
+
+    Names are compared case-insensitively with common abbreviations expanded
+    (bid forms say "CO., INC." where the summary sheet says "Company, Inc.").
+    If exactly one name on each side is left over, they're paired by elimination."""
+    keys = {_name_key(f): f for f in form_names}
+    result: dict[str, str | None] = {}
+    for o in ocr_names:
+        m = difflib.get_close_matches(_name_key(o), list(keys), n=1, cutoff=0.6)
+        result[o] = keys[m[0]] if m else None
+    left_ocr = [o for o, f in result.items() if f is None]
+    left_form = [f for f in form_names if f not in result.values()]
+    if len(left_ocr) == 1 and len(left_form) == 1:
+        result[left_ocr[0]] = left_form[0]
+    return result
 
 
 # --------------------------------------------------------------------------
@@ -290,25 +409,35 @@ def extract_project(pdf_path: Path, listing: ProjectListing | None = None) -> Pr
                          "old-format (pre Oct 2026) PDF?")
     notes: list[str] = []
 
-    # Pages after the summary alternate: bid form (bidder name) then bid tab.
+    # Pages after the summary: each bidder's bid form names the bidder, then
+    # the bid tab follows on the same page and/or the next ones.
     pages = ocr.render_pages(pdf_path)
-    current_name, description = None, ""
-    tables: list[tuple[str, list[RawRow]]] = []
+    description = ""
+    tables: list[tuple[str, list[RawRow]]] = []  # (OCR'd bidder name, rows) per bidder
     for page_no, gray in enumerate(pages[1:], start=2):
         grid = ocr.find_table(gray)
-        if grid and len(grid.rows) > 2:
-            if current_name is None:
+        is_tab = bool(grid and len(grid.rows) > 2)
+        # The bidder's name sits above the table on a combined page; skip OCR
+        # when there's only a page header above it (continuation pages).
+        top = grid.rows[0][0] if is_tab else gray.shape[0]
+        name, desc = read_bid_form(ocr.page_text(gray[:top])) if top > ocr.RENDER_DPI else ("", "")
+        if name:
+            tables.append((name, []))
+            description = description or desc
+            log.info("page %d: bid form for %s", page_no, name)
+        if is_tab:
+            if not tables:
                 notes.append(f"page {page_no}: bid tab without a preceding bid form page")
-                current_name = f"Unknown bidder {len(tables) + 1}"
-            tables.append((current_name, read_bid_table(gray, grid)))
-            log.info("page %d: bid tab for %s (%d rows)", page_no, current_name, len(tables[-1][1]))
-            current_name = None
-        else:
-            name, desc = read_bid_form(ocr.page_text(gray))
-            if name:
-                current_name = name
-                description = description or desc
-                log.info("page %d: bid form for %s", page_no, name)
+                tables.append((f"Unknown bidder {len(tables) + 1}", []))
+            rows = read_bid_table(gray, grid)
+            tables[-1][1].extend(rows)
+            log.info("page %d: bid tab for %s (%d rows)", page_no, tables[-1][0], len(rows))
+    for name, rows in tables:
+        if not rows:
+            notes.append(f"{name}: bid form found but no bid tab rows")
+    tables = [t for t in tables if t[1]]
+    if not tables:
+        raise ValueError(f"{pdf_path.name}: no bid tab tables found")
 
     # Bidder names / base bids from the typed form are authoritative; match the
     # OCR'd names to them.
@@ -316,11 +445,11 @@ def extract_project(pdf_path: Path, listing: ProjectListing | None = None) -> Pr
     base_by_name = dict(form["bidders"])
     items = _consensus_rows([rows for _, rows in tables], notes)
 
+    matches = match_bidders([n for n, _ in tables], form_names)
     bids = []
     for ocr_name, rows in tables:
-        match = difflib.get_close_matches(ocr_name, form_names, n=1, cutoff=0.6)
-        name = match[0] if match else ocr_name
-        if not match:
+        name = matches[ocr_name] or ocr_name
+        if matches[ocr_name] is None:
             notes.append(f"bidder '{ocr_name}' not found on the summary sheet")
         base = base_by_name.get(name)
         unit_prices, totals, verified, bid_notes = reconcile(rows, base)

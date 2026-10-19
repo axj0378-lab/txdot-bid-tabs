@@ -16,12 +16,19 @@ bid comparison and a statewide unit-price database:
 |---|---|
 | `NTB2614LHART00034_bid_summary.xlsx` | Bid tabulation for Lockhart Municipal Airport, plus an *Extraction Log* sheet showing what was verified |
 | `NTB2614LHART00034_bid_summary.pdf` | The same tabulation as a PDF |
+| `NTB2521ZAPAT00053_bid_summary.xlsx` / `.pdf` | The same for Zapata County Airport |
 | `master_unit_prices.xlsx` | Master workbook: *Master Unit Prices* view, *Projects*, and *Bid Data* (the database) |
 
 **Lockhart result:** 3 bidders, 11 items. Low bidder is **Delta Specialty Contractors LLC at
 $686,695.00**, followed by Fencing Unlimited LLC ($892,450.00, +30.0%) and Digg Commercial LLC
-($1,663,920.00, +142.3%). All three bidders' extracted line items reconcile exactly to the base
-bids on TxDOT's summary sheet.
+($1,663,920.00, +142.3%).
+
+**Zapata County result:** 3 bidders, 51 items. Low bidder is **Anderson Columbia Company, Inc. at
+$5,660,055.00**, followed by Sterling Delaware Holding Company ($6,945,199.67, +22.7%) and
+Foremost Paving, Inc. ($8,185,518.05, +44.6%).
+
+For both projects, every bidder's extracted line items reconcile exactly to the base bids on
+TxDOT's summary sheet.
 
 ## Setup
 
@@ -30,7 +37,9 @@ Requires **Python 3.10+** and the **Tesseract OCR engine** (a separate program, 
 1. Install Tesseract:
    - Windows: install from the [UB Mannheim build](https://github.com/UB-Mannheim/tesseract/wiki).
      The script finds the default `C:\Program Files\Tesseract-OCR\tesseract.exe` automatically.
-     For any other location, set the `TESSERACT_CMD` environment variable to the exe path.
+     For any other location (e.g. a per-user install without admin rights:
+     `tesseract-ocr-w64-setup-*.exe /S /CurrentUser /D=%LOCALAPPDATA%\Programs\Tesseract-OCR`),
+     set the `TESSERACT_CMD` environment variable to the exe path.
    - macOS: `brew install tesseract`
    - Ubuntu/Debian: `sudo apt install tesseract-ocr`
 2. Install the Python packages and the browser Playwright drives:
@@ -56,7 +65,8 @@ python main.py --pdf samples/ntb2614lhart00034br.pdf   # offline: skip the websi
 python -m pytest -q                                     # run the tests
 ```
 
-Each run takes about 30-40 seconds per project, most of it OCR. Re-running is safe: the
+Each run takes about 1 minute for a small project like Lockhart (7 pages) and about 4 minutes
+for Zapata (16 pages, 51 items), almost all of it OCR. Re-running is safe: the
 master sheet replaces a project's rows instead of duplicating them. The exit code is 0 when
 everything verified, 2 when something needs review, and 1 when no project matched.
 
@@ -82,15 +92,24 @@ and Opportunities*, then *Bid results*. The bid results table is parsed into
 (title, project ID, opening date, PDF link) rows. Only projects opened on or after
 October 2026 are processed, since TxDOT changed the PDF format that month.
 
-**The PDF is two different kinds of document.** Inspecting the Lockhart PDF showed:
+**The PDF is two different kinds of document.** Page 1 is the Bid Result Summary Sheet, a
+**fillable PDF form**: airport, CSJ, scope, date, bidder names and base bids are read straight
+from the form fields, exactly, with no OCR. The rest is each bidder's **scanned** bid form, in
+bid-opening order. Two layouts of the bid form have been seen:
 
-| Pages | Content | How it is read |
+| | Lockhart (4-page bid form) | Zapata (6-page bid form, Form 2506) |
 |---|---|---|
-| 1 | Bid Result Summary Sheet | A **fillable PDF form**. Airport, CSJ, scope, date, bidder names and base bids are read straight from the form fields, exactly, with no OCR. |
-| 2, 4, 6 | Bid form page 1 (per bidder) | **Scanned image.** OCR finds "Name of Bidder". |
-| 3, 5, 7 | Bid form page 2 (per bidder) | **Scanned image.** OCR reads the bid tab table. |
+| Pages per bidder in the PDF | 2: name page, then the bid tab | 5: name **and** the first bid tab rows on one page, the table continued over 3 more pages, then a "Bid Summary" page |
+| *Item* column | Spec code (`F-164.2`) | Line number (`1`..`51`); the spec code leads the description (`Item P-152-4.1, Drainage ...`) |
 
-Full-page OCR mangled the bid tab tables, so `ocr.py` finds the table's ruling lines with
+The extractor handles both: a page with "Name of Bidder" starts a bidder (the area above a
+table is OCR'd too), and every table page after it adds rows to that bidder until the next
+name. When the Item column isn't a spec code, the code is taken from the description
+(`TxDOT Item 341` becomes `TX-341`, matching the TxDOT codes on Lockhart). Codes are kept as
+printed; TxDOT's own forms mix styles (`L-125.1` and `L-125-3` on the same page).
+
+Full-page OCR mangled the bid tab tables, so `ocr.py` straightens each page (scans come in up to
+~0.6° off, enough to push ruling lines into the cells), finds the table's ruling lines with
 OpenCV and OCRs each cell separately. Numeric columns are restricted to `0-9 $ , .`.
 
 **OCR is never trusted on its own.** Every bidder's numbers are cross-checked:
@@ -102,9 +121,16 @@ OpenCV and OCRs each cell separately. Numeric columns are restricted to `0-9 $ ,
 - **Line totals must sum to the base bid** typed on the summary sheet. That number comes from a
   form field, so it is reliable ground truth.
 - **Item codes and quantities must match across bidders.** Everyone bids the same items, so a
-  majority vote fixes a single bad read. On Lockhart, one blank quantity was filled this way.
+  vote fixes a single bad read. For quantities the vote prefers the value under which the most
+  bidders' qty x unit price = total, so a tie (Zapata's `11` read once as `1`, once not at all)
+  is settled by the prices rather than by chance.
+- **One line left over is solved from the base bid.** If both numbers on a single line are
+  misread (Zapata: $500.50 / $5,506.10 for $500.56 / $5,506.16), the base bid implies that line's
+  total. It is accepted only if it gives a whole-cent unit price within 1% of what OCR read, and
+  the correction is logged.
 - **OCR'd bidder names are matched to the typed names** on the summary sheet, which are used
-  as the official names.
+  as the official names. Matching ignores case and expands abbreviations ("CO., INC." on the bid
+  form vs "Company, Inc." on the summary sheet).
 
 Corrections are written to the *Extraction Log* sheet. A bidder that cannot be verified is
 still output but flagged in the log, in the summary notes, and in the exit code.
@@ -139,14 +165,14 @@ average low-bid unit price per item over those windows, a first step toward slid
 
 ## Limitations and future work
 
-- **Live-site testing.** My development environment could not reach txdot.gov, so the scraper
-  was written against the page structure (confirmed from the live page's content and the
-  deck's screenshots) and tested against a local copy of that structure. The extraction,
-  reports and master sheet were tested end-to-end on the real Lockhart PDF. Run
-  `python main.py --headed` to watch the live run.
-- **Only one PDF in the new format has been seen.** The table detection reads column headers
-  rather than assuming positions, but a different scan quality or layout could need tuning.
-  Zapata County Airport (10/14/2026) has since been posted and would be the next test.
+- **Live-site testing.** The full pipeline was run against the live TxDOT site on 10/19/2026:
+  both the direct and `--full-path` navigation, and `--all-new`, which found 18 projects and
+  processed the two in the new format (Lockhart and Zapata County) with every bidder verified.
+  Run `python main.py --headed` to watch it.
+- **Two PDFs in the new format have been seen**, with two different bid form layouts (see above).
+  The table detection reads column headers rather than assuming positions, but a new layout or
+  much poorer scan could still need tuning. Unverified bidders are flagged, never silently
+  accepted, so the exit code and Extraction Log show when that happens.
 - **Inflation adjustment** to today's dollars (slide 12): needs a cost index choice (e.g.
   FHWA NHCCI or ENR CCI) applied by bid date.
 - **Regionalization** (slide 7): the *Region* column exists in *Projects* (yellow, user-editable,

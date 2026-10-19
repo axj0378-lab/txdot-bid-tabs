@@ -225,20 +225,24 @@ def write_summary_pdf(project: Project, out_dir: Path = OUTPUT_DIR, source_url: 
     s_cell = ParagraphStyle("c", fontName="Helvetica", fontSize=7, leading=8.5)
     s_head = ParagraphStyle("h", fontName="Helvetica-Bold", fontSize=7.5, leading=9, alignment=1)
 
+    s_info = ParagraphStyle("i", fontName="Helvetica", fontSize=8.5, leading=10)
+    s_info_b = ParagraphStyle("ib", parent=s_info, fontName="Helvetica-Bold")
+
     story = [Paragraph(f"Bid Tabulation: {project.airport}", s_title)]
-    info = [
-        ["Project ID", project.project_id, "Bid Opening",
-         f"{project.bid_date:%B %d, %Y %I:%M %p}".replace(" 0", " ")],
-        ["TxDOT CSJ #", project.csj, "Location", project.location],
-        ["Scope", project.scope, "Bidders", str(len(bids))],
-        ["Description", project.description, "Low Bidder", f"{low.bidder} (${low.base_bid:,.2f})"],
+    info = [  # values as Paragraphs so long text wraps instead of running into the next column
+        ["Project ID", Paragraph(project.project_id, s_info), "Bid Opening",
+         Paragraph(f"{project.bid_date:%B %d, %Y %I:%M %p}".replace(" 0", " "), s_info)],
+        ["TxDOT CSJ #", Paragraph(project.csj, s_info), "Location", Paragraph(project.location, s_info)],
+        ["Scope", Paragraph(project.scope, s_info), "Bidders", Paragraph(str(len(bids)), s_info)],
+        ["Description", Paragraph(project.description, s_info), "Low Bidder",
+         Paragraph(f"{low.bidder} (${low.base_bid:,.2f})", s_info_b)],
     ]
     t = Table(info, colWidths=[1.0 * inch, 3.2 * inch, 1.0 * inch, 4.0 * inch], hAlign="LEFT")
     t.setStyle(TableStyle([
         ("FONT", (0, 0), (-1, -1), "Helvetica", 8.5),
         ("FONT", (0, 0), (0, -1), "Helvetica-Bold", 8.5),
         ("FONT", (2, 0), (2, -1), "Helvetica-Bold", 8.5),
-        ("FONT", (3, 3), (3, 3), "Helvetica-Bold", 8.5),
+        ("VALIGN", (0, 0), (-1, -1), "TOP"),
         ("BOTTOMPADDING", (0, 0), (-1, -1), 1.5), ("TOPPADDING", (0, 0), (-1, -1), 1.5),
     ]))
     story += [t, Spacer(1, 8)]

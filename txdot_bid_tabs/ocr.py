@@ -1,7 +1,8 @@
 """OCR helpers for the scanned bid-form pages.
 
 The bid tabs are scans, and whole-page OCR mangles the table borders. Instead we:
-  1. render the page at 300 DPI,
+  1. render the page at 300 DPI and straighten it (scans come in a few tenths
+     of a degree off, enough to push ruling lines into the cells),
   2. find the table's ruling lines with morphological filters (OpenCV),
   3. crop every cell and OCR it on its own, with a character whitelist for
      numeric columns so "$150,000.00" can't come back as "$150,000.0€".
@@ -37,16 +38,50 @@ TEXT = "--psm 6"
 
 
 def render_pages(pdf_path: Path, dpi: int = RENDER_DPI) -> list[np.ndarray]:
-    """Render every page of the PDF to a grayscale numpy array."""
+    """Render every page of the PDF to a deskewed grayscale numpy array."""
     pdf = pdfium.PdfDocument(str(pdf_path))
     try:
         pages = []
         for page in pdf:
             pil = page.render(scale=dpi / 72).to_pil().convert("L")
-            pages.append(np.array(pil))
+            pages.append(deskew(np.array(pil)))
         return pages
     finally:
         pdf.close()
+
+
+def _horizontal_lines(gray: np.ndarray) -> np.ndarray:
+    """Mask of long horizontal strokes (table rules)."""
+    w = gray.shape[1]
+    binary = cv2.adaptiveThreshold(~gray, 255, cv2.ADAPTIVE_THRESH_MEAN_C,
+                                   cv2.THRESH_BINARY, 15, -2)
+    return cv2.morphologyEx(binary, cv2.MORPH_OPEN,
+                            cv2.getStructuringElement(cv2.MORPH_RECT, (w // 10, 1)))
+
+
+def skew_angle(gray: np.ndarray) -> float:
+    """Median angle (degrees) of the page's long horizontal lines; 0 if none."""
+    w = gray.shape[1]
+    contours, _ = cv2.findContours(_horizontal_lines(gray), cv2.RETR_EXTERNAL,
+                                   cv2.CHAIN_APPROX_NONE)
+    angles = []
+    for c in contours:
+        if cv2.boundingRect(c)[2] < w // 4:
+            continue  # only long rules give a reliable angle
+        vx, vy, _, _ = cv2.fitLine(c, cv2.DIST_L2, 0, 0.01, 0.01).ravel()
+        angles.append(np.degrees(np.arctan2(vy, vx)))
+    angles = [a for a in angles if abs(a) < 3]
+    return float(np.median(angles)) if angles else 0.0
+
+
+def deskew(gray: np.ndarray) -> np.ndarray:
+    """Rotate the page so its table rules are level."""
+    angle = skew_angle(gray)
+    if abs(angle) < 0.05:
+        return gray
+    h, w = gray.shape
+    m = cv2.getRotationMatrix2D((w / 2, h / 2), angle, 1.0)
+    return cv2.warpAffine(gray, m, (w, h), flags=cv2.INTER_CUBIC, borderValue=255)
 
 
 def page_text(gray: np.ndarray) -> str:
@@ -80,8 +115,7 @@ def find_table(gray: np.ndarray) -> TableGrid | None:
     h, w = gray.shape
     binary = cv2.adaptiveThreshold(~gray, 255, cv2.ADAPTIVE_THRESH_MEAN_C,
                                    cv2.THRESH_BINARY, 15, -2)
-    horiz = cv2.morphologyEx(binary, cv2.MORPH_OPEN,
-                             cv2.getStructuringElement(cv2.MORPH_RECT, (w // 10, 1)))
+    horiz = _horizontal_lines(gray)
     vert = cv2.morphologyEx(binary, cv2.MORPH_OPEN,
                             cv2.getStructuringElement(cv2.MORPH_RECT, (1, h // 50)))
     grid = cv2.dilate(horiz | vert, np.ones((3, 3), np.uint8))
@@ -111,4 +145,7 @@ def ocr_cell(gray: np.ndarray, box: tuple[int, int, int, int], config: str) -> s
         return ""
     crop = cv2.copyMakeBorder(crop, 20, 20, 20, 20, cv2.BORDER_CONSTANT, value=255)
     text = pytesseract.image_to_string(crop, config=config)
+    if not text.strip() and "--psm 7" in config:
+        # psm 7 (text line) often returns nothing for a lone short token like "1"
+        text = pytesseract.image_to_string(crop, config=config.replace("--psm 7", "--psm 8"))
     return re.sub(r"\s+", " ", text).strip()
