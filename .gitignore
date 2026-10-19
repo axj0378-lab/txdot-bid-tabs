@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.DS_Store
+.vscode/
+.idea/
+
+# Downloaded source PDFs are re-fetchable; keep the folder only.
+downloads/*
+!downloads/.gitkeep
