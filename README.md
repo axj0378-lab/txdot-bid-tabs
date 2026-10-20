@@ -10,14 +10,19 @@ bid comparison and a statewide unit-price database:
 5. **Bid summary (PDF):** the same comparison as a one-page PDF for TxDOT
 6. **Master sheet (Excel):** statewide unit-price database, seeded with the Lockhart project
 
-## Deliverables (in `output/`)
+## Submission contents
 
-| File | What it is |
+| Requested | File(s) |
 |---|---|
-| `NTB2614LHART00034_bid_summary.xlsx` | Bid tabulation for Lockhart Municipal Airport, plus an *Extraction Log* sheet showing what was verified |
-| `NTB2614LHART00034_bid_summary.pdf` | The same tabulation as a PDF |
-| `NTB2521ZAPAT00053_bid_summary.xlsx` / `.pdf` | The same for Zapata County Airport |
-| `master_unit_prices.xlsx` | Master workbook: *Master Unit Prices* view, *Projects*, and *Bid Data* (the database) |
+| Script/code files | `main.py` and the `txdot_bid_tabs/` package (plus `tests/` and `requirements.txt`) |
+| Excel summary | `output/NTB2614LHART00034_bid_summary.xlsx` (Lockhart Municipal Airport), with an *Extraction Log* sheet showing what was verified |
+| PDF summary | `output/NTB2614LHART00034_bid_summary.pdf` |
+| Master Excel sheet | `output/master_unit_prices.xlsx`: *Master Unit Prices* view, *Projects*, and *Bid Data* (the database) |
+| README / notes | This file: [How to run](#how-to-run), [Required packages](#required-packages-and-dependencies), [Assumptions](#assumptions), [Incomplete parts](#incomplete-parts-and-further-development) |
+
+A second project in the new format, Zapata County Airport, was also processed:
+`output/NTB2521ZAPAT00053_bid_summary.xlsx` / `.pdf`, and it is included in the master sheet.
+`samples/` holds the Lockhart bid-tab PDF so the script can be run without the website.
 
 **Lockhart result:** 3 bidders, 11 items. Low bidder is **Delta Specialty Contractors LLC at
 $686,695.00**, followed by Fencing Unlimited LLC ($892,450.00, +30.0%) and Digg Commercial LLC
@@ -30,9 +35,23 @@ Foremost Paving, Inc. ($8,185,518.05, +44.6%).
 For both projects, every bidder's extracted line items reconcile exactly to the base bids on
 TxDOT's summary sheet.
 
-## Setup
+## Required packages and dependencies
 
-Requires **Python 3.10+** and the **Tesseract OCR engine** (a separate program, not a pip package).
+Written in **Python 3.10+**. It also needs the **Tesseract OCR engine**, a separate program
+(not a pip package). Python packages (`requirements.txt`):
+
+| Package | Used for |
+|---|---|
+| `playwright` | Browser automation: navigate TxDOT's site, download the PDFs |
+| `pypdf` | Read the fillable form fields on the bid result summary sheet |
+| `pypdfium2` | Render the scanned pages to images for OCR |
+| `opencv-python-headless`, `numpy` | Straighten pages and find the bid-tab table grid |
+| `pytesseract` | Python wrapper for Tesseract |
+| `openpyxl` | Excel outputs |
+| `reportlab` | PDF output |
+| `pytest` | Tests only |
+
+Setup:
 
 1. Install Tesseract:
    - Windows: install from the [UB Mannheim build](https://github.com/UB-Mannheim/tesseract/wiki).
@@ -51,7 +70,7 @@ pip install -r requirements.txt
 playwright install chromium
 ```
 
-## Usage
+## How to run
 
 ```bash
 python main.py                    # go to TxDOT, find Lockhart, download, process
@@ -163,7 +182,7 @@ average low-bid unit price per item over those windows, a first step toward slid
 - The project ID (e.g. `NTB2614LHART00034`) is the unique key for upserts. In offline mode it is
   taken from TxDOT's file name.
 
-## Limitations and future work
+## Incomplete parts and further development
 
 - **Live-site testing.** The full pipeline was run against the live TxDOT site on 10/19/2026:
   both the direct and `--full-path` navigation, and `--all-new`, which found 18 projects and
