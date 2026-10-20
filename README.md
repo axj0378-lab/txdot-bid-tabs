@@ -7,7 +7,7 @@ bid comparison and a statewide unit-price database:
 2. **Downloads** the project's bid-tab PDF
 3. **Extracts** every bidder's unit prices: typed form fields + OCR of the scanned bid tabs, with cross-checks
 4. **Bid summary (Excel):** side-by-side comparison of all bidders, low bidder highlighted
-5. **Bid summary (PDF):** the same comparison as a one-page PDF for TxDOT
+5. **Bid summary (PDF):** the same comparison as a PDF for TxDOT
 6. **Master sheet (Excel):** statewide unit-price database, seeded with the Lockhart project
 
 ## Submission contents
@@ -34,6 +34,77 @@ Foremost Paving, Inc. ($8,185,518.05, +44.6%).
 
 For both projects, every bidder's extracted line items reconcile exactly to the base bids on
 TxDOT's summary sheet.
+
+## What's in this folder
+
+```
+txdot-bid-tabs/
+  README.md                  this file
+  requirements.txt           Python packages to install (see below)
+  main.py                    the script you run: runs the whole pipeline, start to finish
+
+  txdot_bid_tabs/            the code, one file per step
+    config.py                  settings: TxDOT URLs, folder paths, OCR resolution, format cutoff date
+    models.py                  data classes passed between steps (project, bidder, line item)
+    scraper.py                 step 1-2: opens TxDOT's site, reads the bid results table, downloads the PDF
+    ocr.py                     step 3: turns scanned pages into images, straightens them, finds the
+                               table grid, reads each cell with Tesseract
+    extractor.py               step 3: reads the PDF's form fields, assembles each bidder's line items,
+                               and cross-checks/corrects the OCR (see "How it works")
+    reports.py                 step 4-5: writes the bid summary Excel and PDF
+    master_sheet.py            step 6: adds the project to the master unit-price workbook
+
+  output/                    the results (re-created every time the script runs)
+    NTB2614LHART00034_bid_summary.xlsx   Lockhart bid summary (Excel)
+    NTB2614LHART00034_bid_summary.pdf    Lockhart bid summary (PDF)
+    NTB2521ZAPAT00053_bid_summary.xlsx   Zapata County bid summary (Excel)
+    NTB2521ZAPAT00053_bid_summary.pdf    Zapata County bid summary (PDF)
+    master_unit_prices.xlsx              master sheet: both projects combined
+
+  samples/
+    ntb2614lhart00034br.pdf  TxDOT's original Lockhart bid-tab PDF, for running without the website
+
+  tests/
+    test_core.py             automated tests of the parsing, cross-checks and master-sheet logic
+```
+
+The output files are named by TxDOT's project ID (`NTB2614LHART00034` = Lockhart).
+
+**Inside the output files**
+
+- **Bid summary Excel**, sheet *Bid Summary*: project info at the top (airport, CSJ, scope, bid
+  date), then one row per bid item, with each bidder's unit price and line total side by side.
+  Bidders are ordered low to high, the low bidder is highlighted, and the totals row matches
+  the base bids. Sheet *Extraction Log*: for each bidder, whether its numbers verified against
+  TxDOT's base bid, and any OCR readings that were corrected.
+- **Bid summary PDF**: the same tabulation, ready to send (1 page for Lockhart, 4 for Zapata's
+  51 items).
+- **Master sheet**, three tabs:
+  - *Bid Data*: the database. One row per bidder per item, for every project and every
+    bidder, with the low bid flagged.
+  - *Projects*: one row per project (ID, airport, date, low bidder, number of bidders). Its
+    *Region* column is left for the user to fill in and is kept across runs.
+  - *Master Unit Prices*: the view. One row per bid item, with a Unit Price / Qty column block
+    per project, plus the price age and average low-bid unit price per item. These cells are
+    formulas over *Bid Data*, so they update when data is added.
+
+**What happens when you run `python main.py`**
+
+1. `scraper.py` opens TxDOT's Aviation Bid Results page in a hidden Chrome browser and reads
+   the table of projects.
+2. It keeps projects opened on or after 10/1/2026 (the new PDF format), picks Lockhart (or the
+   project you name), and downloads its bid-tab PDF into `downloads/`.
+3. `extractor.py` reads page 1's summary sheet (bidder names and base bids, exact form
+   fields), then uses `ocr.py` to read each bidder's scanned bid tab, and cross-checks every
+   number until each bidder's line items add up to their base bid.
+4. `reports.py` writes the bid summary Excel and PDF into `output/`.
+5. `master_sheet.py` adds the project to `output/master_unit_prices.xlsx`, replacing its rows if
+   the project is already there, so running twice never duplicates data.
+6. The console prints the low bidder and the files written. The script exits with 0 if every
+   bidder verified, or 2 if anything needs a manual check (also noted in the Extraction Log).
+
+The files in `output/` came from running `python main.py --all-new` on 10/19/2026, which processed
+both new-format projects on the site. Running it again overwrites them with the same results.
 
 ## Required packages and dependencies
 
@@ -90,20 +161,6 @@ master sheet replaces a project's rows instead of duplicating them. The exit cod
 everything verified, 2 when something needs review, and 1 when no project matched.
 
 ## How it works
-
-```
-main.py                    pipeline + command-line options
-txdot_bid_tabs/
-  config.py                URLs, paths, settings
-  models.py                data classes passed between stages
-  scraper.py               Playwright navigation, table parsing, PDF download (with retries)
-  extractor.py             PDF parsing, cross-checks, auto-correction
-  ocr.py                   page rendering, table grid detection, per-cell OCR
-  reports.py               bid summary Excel + PDF
-  master_sheet.py          master workbook (upsert)
-samples/                   the Lockhart PDF, so the pipeline can be run offline
-tests/                     unit tests (parsing, reconciliation, upsert)
-```
 
 **Navigation.** By default the script opens the Bid Results page directly, as slide 6 suggests.
 `--full-path` follows the deck's route instead: Aviation Division page, then *Aviation Resources
