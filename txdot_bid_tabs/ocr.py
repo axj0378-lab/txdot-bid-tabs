@@ -24,12 +24,17 @@ import pytesseract
 RENDER_DPI = 300
 
 # Tesseract is a system binary, not a pip package. On Windows the installer
-# doesn't add it to PATH, so look in the default install location too.
-_WINDOWS_DEFAULT = Path(r"C:\Program Files\Tesseract-OCR\tesseract.exe")
+# doesn't add it to PATH, so look in the default install locations too
+# (all users, and a per-user install without admin rights).
+_WINDOWS_DEFAULTS = [Path(r"C:\Program Files\Tesseract-OCR\tesseract.exe"),
+                     Path(os.environ.get("LOCALAPPDATA", "")) / "Programs/Tesseract-OCR/tesseract.exe"]
 if os.environ.get("TESSERACT_CMD"):
     pytesseract.pytesseract.tesseract_cmd = os.environ["TESSERACT_CMD"]
-elif not shutil.which("tesseract") and _WINDOWS_DEFAULT.exists():
-    pytesseract.pytesseract.tesseract_cmd = str(_WINDOWS_DEFAULT)
+elif not shutil.which("tesseract"):
+    for _exe in _WINDOWS_DEFAULTS:
+        if _exe.exists():
+            pytesseract.pytesseract.tesseract_cmd = str(_exe)
+            break
 
 NUMERIC = "--psm 7 -c tessedit_char_whitelist=0123456789$,."
 UNIT = "--psm 7 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ"
