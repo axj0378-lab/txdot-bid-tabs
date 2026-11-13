@@ -1,0 +1,1427 @@
+{
+ "project_id": "2509TEMPL",
+ "airport": "Draughon-Miller Central Texas Regional Airport",
+ "csj": "2509TEMPL",
+ "scope": "Runway Extension",
+ "description": "Extend Runway 3-21 (5,240' x 100') and Reconfigure Taxiway D; Alternate: Mill and Overlay Airfield Apron (re-bid)",
+ "bid_date": "2025-08-14",
+ "location": "Temple",
+ "source_pdf": "2509TEMPLBidTab.pdf",
+ "columns": [
+  "Engineer's Estimate",
+  "Don Jackson Construction, Inc",
+  "TTG Utilities, Inc.",
+  "Zachry Construction Corporation",
+  "Jordan Foster Construction LLC",
+  "Sterling Delaware Holding Company",
+  "Texas Materials Group, Inc"
+ ],
+ "estimate_column": "Engineer's Estimate",
+ "award_schedules": [
+  "Base Bid"
+ ],
+ "stated_totals": {
+  "Engineer's Estimate": 4378020.5,
+  "Don Jackson Construction, Inc": 5473075.0,
+  "TTG Utilities, Inc.": 5674674.0,
+  "Zachry Construction Corporation": 6661359.4,
+  "Jordan Foster Construction LLC": 7404203.99,
+  "Sterling Delaware Holding Company": 6078989.81,
+  "Texas Materials Group, Inc": 5862223.08
+ },
+ "items": [
+  {
+   "schedule": "Base Bid",
+   "item": "C-100",
+   "description": "Contractor Quality Control Program (CQCP)",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    100000.0,
+    46500.0,
+    135000.0,
+    65000.0,
+    175000.0,
+    190000.0,
+    160000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-102",
+   "description": "Installation and Removal of Straw Wattle",
+   "unit": "LF",
+   "qty": 255.0,
+   "prices": [
+    4.0,
+    11.0,
+    9.0,
+    18.0,
+    15.0,
+    13.22,
+    13.25
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-102",
+   "description": "Stabilized Construction Entrance",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    4000.0,
+    5750.0,
+    3650.0,
+    24728.0,
+    20000.0,
+    12982.41,
+    18000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-105",
+   "description": "Mobilization (NTE 10% of Total Bid Amount)",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    440000.0,
+    230000.0,
+    425000.0,
+    665000.0,
+    770000.0,
+    600000.0,
+    555300.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-101",
+   "description": "Remove Asphalt Pavement",
+   "unit": "SY",
+   "qty": 10260.0,
+   "prices": [
+    10.0,
+    11.5,
+    8.0,
+    12.0,
+    12.0,
+    15.0,
+    11.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-101",
+   "description": "Saw Cut (Full Depth)",
+   "unit": "LF",
+   "qty": 656.0,
+   "prices": [
+    5.0,
+    11.5,
+    4.0,
+    6.0,
+    82.0,
+    6.3,
+    3.8
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-101",
+   "description": "Remove Drainage Pipe",
+   "unit": "LF",
+   "qty": 271.0,
+   "prices": [
+    10.0,
+    44.0,
+    52.0,
+    50.0,
+    32.0,
+    30.0,
+    15.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-101",
+   "description": "Remove Headwall",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    300.0,
+    600.0,
+    950.0,
+    3140.0,
+    2400.0,
+    900.0,
+    1500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-151",
+   "description": "Clearing",
+   "unit": "",
+   "qty": 6.6,
+   "prices": [
+    5000.0,
+    1000.0,
+    1950.0,
+    3847.0,
+    10000.0,
+    10000.0,
+    7500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-152",
+   "description": "Embankment In Place",
+   "unit": "CY",
+   "qty": 17811.0,
+   "prices": [
+    6.0,
+    12.0,
+    13.0,
+    22.0,
+    30.0,
+    14.0,
+    24.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-155",
+   "description": "Lime - Treated Subgrade (8\")",
+   "unit": "SY",
+   "qty": 20503.0,
+   "prices": [
+    15.0,
+    5.5,
+    4.5,
+    5.0,
+    6.75,
+    5.5,
+    7.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-155",
+   "description": "Lime",
+   "unit": "TON",
+   "qty": 360.0,
+   "prices": [
+    250.0,
+    372.0,
+    375.0,
+    500.0,
+    385.0,
+    385.0,
+    350.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-209",
+   "description": "Crushed Aggregate Base Course (12.5\")",
+   "unit": "SY",
+   "qty": 13332.0,
+   "prices": [
+    18.0,
+    50.5,
+    46.5,
+    33.0,
+    88.0,
+    32.0,
+    52.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-209",
+   "description": "Crushed Aggregate Base Course (7.5\")",
+   "unit": "SY",
+   "qty": 7171.0,
+   "prices": [
+    15.0,
+    47.0,
+    30.0,
+    21.0,
+    54.0,
+    22.0,
+    35.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-401",
+   "description": "Asphalt Surface Course (4\")",
+   "unit": "TON",
+   "qty": 4643.0,
+   "prices": [
+    155.0,
+    200.0,
+    202.0,
+    234.0,
+    197.0,
+    177.0,
+    189.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-403",
+   "description": "Asphalt Mixture Base Course (5\")",
+   "unit": "TON",
+   "qty": 3878.0,
+   "prices": [
+    155.0,
+    200.0,
+    202.0,
+    234.0,
+    197.0,
+    177.0,
+    188.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-602",
+   "description": "Emulsified Prime Coat",
+   "unit": "GAL",
+   "qty": 6151.0,
+   "prices": [
+    7.0,
+    6.0,
+    4.0,
+    5.0,
+    3.75,
+    3.5,
+    5.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-603",
+   "description": "Emulsified Tack Coat",
+   "unit": "GAL",
+   "qty": 6048.0,
+   "prices": [
+    5.0,
+    4.5,
+    5.15,
+    6.0,
+    4.75,
+    4.5,
+    4.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620",
+   "description": "Surface Preparation, Pavement Marking Removal",
+   "unit": "SF",
+   "qty": 87556.0,
+   "prices": [
+    1.5,
+    0.5,
+    1.15,
+    0.5,
+    1.15,
+    0.36,
+    0.36
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620",
+   "description": "Permanent Reflectorized Pavement Marking (White)",
+   "unit": "SF",
+   "qty": 62202.0,
+   "prices": [
+    1.5,
+    1.0,
+    0.9,
+    1.0,
+    0.85,
+    0.88,
+    0.88
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620",
+   "description": "Permanent Reflectorized Pavement Marking (Yellow)",
+   "unit": "SF",
+   "qty": 1489.0,
+   "prices": [
+    1.5,
+    1.0,
+    0.9,
+    1.0,
+    0.85,
+    0.88,
+    0.88
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620",
+   "description": "Permanent Non-Reflectorized Pavement Marking (Black)",
+   "unit": "SF",
+   "qty": 18509.0,
+   "prices": [
+    1.5,
+    1.0,
+    0.65,
+    1.0,
+    0.62,
+    0.84,
+    0.84
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620",
+   "description": "Temporary Non-Reflectorized Pavement Marking (White)",
+   "unit": "SF",
+   "qty": 62202.0,
+   "prices": [
+    1.5,
+    0.85,
+    0.7,
+    1.0,
+    0.68,
+    0.75,
+    0.75
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620",
+   "description": "Temporary Non-Reflectorized Pavement Marking (Yellow)",
+   "unit": "SF",
+   "qty": 1489.0,
+   "prices": [
+    1.5,
+    0.85,
+    1.0,
+    1.0,
+    0.9,
+    0.75,
+    0.75
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "D-701",
+   "description": "29\" x 45\" RCPHE (Class V)",
+   "unit": "LF",
+   "qty": 438.0,
+   "prices": [
+    250.0,
+    609.0,
+    440.0,
+    806.0,
+    660.0,
+    480.0,
+    430.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "D-701",
+   "description": "24\" x 38\" RCPHE (Class III)",
+   "unit": "LF",
+   "qty": 516.0,
+   "prices": [
+    180.0,
+    412.0,
+    300.0,
+    548.0,
+    290.0,
+    410.0,
+    325.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "D-701",
+   "description": "42\" RCP (Class III)",
+   "unit": "LF",
+   "qty": 8.0,
+   "prices": [
+    500.0,
+    402.0,
+    325.0,
+    1382.0,
+    745.0,
+    520.0,
+    430.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "D-701",
+   "description": "36\" RCP (Class III)",
+   "unit": "LF",
+   "qty": 16.0,
+   "prices": [
+    350.0,
+    244.0,
+    403.0,
+    898.0,
+    400.0,
+    450.0,
+    390.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "D-701",
+   "description": "24\" RCP (Class III)",
+   "unit": "LF",
+   "qty": 272.0,
+   "prices": [
+    200.0,
+    121.0,
+    140.0,
+    163.0,
+    130.0,
+    200.0,
+    125.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "D-701",
+   "description": "18\" RCP (Class V)",
+   "unit": "LF",
+   "qty": 164.0,
+   "prices": [
+    200.0,
+    119.0,
+    150.0,
+    218.0,
+    128.0,
+    180.0,
+    110.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "D-701",
+   "description": "29\" x 45\" RCPHE End Section",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    4000.0,
+    16560.0,
+    5300.0,
+    18486.0,
+    4400.0,
+    5700.0,
+    9500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "D-701",
+   "description": "24\" x 38\" RCPHE End Section",
+   "unit": "EA",
+   "qty": 6.0,
+   "prices": [
+    2000.0,
+    12800.0,
+    3400.0,
+    14547.0,
+    4300.0,
+    6300.0,
+    8500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "D-701",
+   "description": "18\" RCP End Section",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    2500.0,
+    1955.0,
+    1450.0,
+    4477.0,
+    3200.0,
+    4700.0,
+    2400.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "D-705",
+   "description": "6\" Conventional Underdrain",
+   "unit": "LF",
+   "qty": 840.0,
+   "prices": [
+    45.0,
+    28.0,
+    36.0,
+    27.0,
+    40.0,
+    70.0,
+    60.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "D-705",
+   "description": "4\" Conventional Underdrain",
+   "unit": "LF",
+   "qty": 1547.0,
+   "prices": [
+    30.0,
+    22.0,
+    34.0,
+    25.0,
+    36.0,
+    60.0,
+    55.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "D-705",
+   "description": "6\" Perforated Outlet Pipe",
+   "unit": "LF",
+   "qty": 40.0,
+   "prices": [
+    40.0,
+    23.0,
+    36.0,
+    30.0,
+    49.0,
+    100.0,
+    50.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "D-705",
+   "description": "4\" Perforated Outlet Pipe",
+   "unit": "LF",
+   "qty": 20.0,
+   "prices": [
+    30.0,
+    23.0,
+    35.0,
+    26.0,
+    81.0,
+    120.0,
+    50.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "D-705",
+   "description": "6\" Non-Perforated Outlet Pipe",
+   "unit": "LF",
+   "qty": 40.0,
+   "prices": [
+    40.0,
+    23.0,
+    36.0,
+    22.0,
+    87.0,
+    100.0,
+    50.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "D-705",
+   "description": "4\" Non-Perforated Outlet Pipe",
+   "unit": "LF",
+   "qty": 20.0,
+   "prices": [
+    30.0,
+    23.0,
+    34.0,
+    19.0,
+    80.0,
+    120.0,
+    50.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "D-705",
+   "description": "18\" French Drain",
+   "unit": "LF",
+   "qty": 60.0,
+   "prices": [
+    100.0,
+    105.0,
+    150.0,
+    29.0,
+    233.0,
+    140.0,
+    100.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "D-705",
+   "description": "Cleanout Riser (6\" Pipe)",
+   "unit": "EA",
+   "qty": 4.0,
+   "prices": [
+    1500.0,
+    600.0,
+    1400.0,
+    1661.0,
+    890.0,
+    1800.0,
+    300.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "D-705",
+   "description": "Cleanout Riser (4\" Pipe)",
+   "unit": "EA",
+   "qty": 8.0,
+   "prices": [
+    1000.0,
+    500.0,
+    1300.0,
+    1655.0,
+    790.0,
+    1800.0,
+    300.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "D-751",
+   "description": "4' x 12' Grate Inlet",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    30000.0,
+    36570.0,
+    15500.0,
+    58597.0,
+    17000.0,
+    25000.0,
+    38000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "D-751",
+   "description": "5'x 5' Grate Inlet",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    12000.0,
+    33925.0,
+    9300.0,
+    27762.0,
+    13000.0,
+    15000.0,
+    20000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "1.45",
+   "description": "TREC Erosion Control Blanket (Type 2C)",
+   "unit": "SY",
+   "qty": 13524.0,
+   "prices": [
+    1.5,
+    1.6,
+    2.5,
+    2.0,
+    1.55,
+    1.37,
+    1.37
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "1.46",
+   "description": "PTM Permanent Transition Mat",
+   "unit": "SF",
+   "qty": 512.0,
+   "prices": [
+    30.0,
+    43.0,
+    15.0,
+    50.0,
+    43.0,
+    37.86,
+    37.86
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "T-901",
+   "description": "Permanent Seeding",
+   "unit": "",
+   "qty": 11.6,
+   "prices": [
+    1500.0,
+    1050.0,
+    2900.0,
+    5538.0,
+    1020.0,
+    9000.0,
+    913.84
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "T-901",
+   "description": "Temporary Seeding",
+   "unit": "",
+   "qty": 11.6,
+   "prices": [
+    1000.0,
+    925.0,
+    2300.0,
+    904.0,
+    900.0,
+    4680.0,
+    806.68
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "T-905",
+   "description": "Placement of Topsoil (Obtained on Site)",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    15000.0,
+    9200.0,
+    21500.0,
+    72975.0,
+    112000.0,
+    68000.0,
+    72000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "T-908",
+   "description": "Hydro-Mulch",
+   "unit": "",
+   "qty": 8.8,
+   "prices": [
+    1000.0,
+    4000.0,
+    10000.0,
+    2425.0,
+    2100.0,
+    1850.0,
+    1823.75
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105",
+   "description": "Remove No. 8 AWG, L-824C Cable in Duct",
+   "unit": "LF",
+   "qty": 2975.0,
+   "prices": [
+    0.75,
+    0.86,
+    1.5,
+    1.0,
+    0.9,
+    0.75,
+    0.75
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105",
+   "description": "Remove 2-inch Conduit (Including Cable)",
+   "unit": "LF",
+   "qty": 3175.0,
+   "prices": [
+    3.0,
+    11.5,
+    1.8,
+    1.0,
+    11.0,
+    10.0,
+    13.2
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105",
+   "description": "Remove 2-Way, 2-inch Sand Encased Duct Bank (Including Cable)",
+   "unit": "LF",
+   "qty": 260.0,
+   "prices": [
+    3.75,
+    13.8,
+    24.0,
+    1.0,
+    14.0,
+    12.0,
+    15.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105",
+   "description": "Remove and Salvage Elevated Edge Light, Base to be Removed",
+   "unit": "EA",
+   "qty": 24.0,
+   "prices": [
+    75.0,
+    230.0,
+    485.0,
+    498.0,
+    230.0,
+    200.0,
+    335.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105",
+   "description": "Remove and Salvage Elevated Edge Light, Base Can to Remain",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    65.0,
+    145.0,
+    345.0,
+    166.0,
+    144.0,
+    125.0,
+    125.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105",
+   "description": "Remove and Salvage Taxiway Retroreflective Edge Marker",
+   "unit": "EA",
+   "qty": 7.0,
+   "prices": [
+    30.0,
+    164.0,
+    35.0,
+    166.0,
+    28.0,
+    150.0,
+    250.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105",
+   "description": "Remove and Salvage Airfield Sign, Foundation to be Removed",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    375.0,
+    575.0,
+    1890.0,
+    842.0,
+    575.0,
+    500.0,
+    1130.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105",
+   "description": "Remove and Salvage Airfield Sign, Foundation to Remain",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    250.0,
+    405.0,
+    1430.0,
+    465.0,
+    400.0,
+    350.0,
+    350.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105",
+   "description": "Remove and Dispose Airfield Sign and Foundation",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    375.0,
+    575.0,
+    1900.0,
+    961.0,
+    575.0,
+    500.0,
+    1200.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "",
+   "description": "Pea Loch ne r 1.60 L-105 Remove and Dispose 2-Way JCP",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    350.0,
+    1400.0,
+    750.0,
+    299.0,
+    1435.0,
+    1250.0,
+    1900.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-108",
+   "description": "No. 8 AWG, L-824C, Installed in Conduit",
+   "unit": "LF",
+   "qty": 11000.0,
+   "prices": [
+    3.25,
+    8.05,
+    4.5,
+    4.0,
+    8.0,
+    7.0,
+    7.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-108",
+   "description": "No. 6 AWG Bare Counterpoise Wire, Including Trench",
+   "unit": "LF",
+   "qty": 4150.0,
+   "prices": [
+    5.5,
+    11.5,
+    13.0,
+    7.0,
+    11.5,
+    10.0,
+    10.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-108",
+   "description": "No. 6 AWG Bare Counterpoise Wire, Installed in Conduit Trench",
+   "unit": "LF",
+   "qty": 2415.0,
+   "prices": [
+    4.25,
+    9.2,
+    5.95,
+    4.0,
+    9.2,
+    8.0,
+    8.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-108",
+   "description": "Temporary Electrical Provisions",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    15000.0,
+    5200.0,
+    11000.0,
+    18617.0,
+    5200.0,
+    4500.0,
+    4500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110",
+   "description": "1-Way, 2\" Sch. 40 PVC Conduit, Sand Encased in Unclassified Material (Turf)",
+   "unit": "LF",
+   "qty": 5145.0,
+   "prices": [
+    12.0,
+    18.4,
+    28.0,
+    32.0,
+    19.0,
+    16.0,
+    16.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110",
+   "description": "1-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased in New Asphalt Shoulder",
+   "unit": "LF",
+   "qty": 1200.0,
+   "prices": [
+    16.0,
+    75.0,
+    55.0,
+    38.0,
+    74.0,
+    65.0,
+    65.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110",
+   "description": "2-Way, 2\" Sch. 40 PVC Conduit, Sand Encased, in Unclassified Material (Turf)",
+   "unit": "LF",
+   "qty": 585.0,
+   "prices": [
+    40.0,
+    40.0,
+    61.0,
+    45.0,
+    40.0,
+    35.0,
+    35.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110",
+   "description": "2-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased, Under New Pavement",
+   "unit": "LF",
+   "qty": 400.0,
+   "prices": [
+    50.0,
+    75.0,
+    59.0,
+    93.0,
+    74.0,
+    65.0,
+    65.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110",
+   "description": "1-Way, 2\" Sch. 40 PVC Conduit for Drain Installed in Turf",
+   "unit": "LF",
+   "qty": 275.0,
+   "prices": [
+    6.0,
+    46.0,
+    17.0,
+    45.0,
+    45.0,
+    40.0,
+    40.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-115",
+   "description": "2-Way Junction Can Plaza (JCP)",
+   "unit": "EA",
+   "qty": 5.0,
+   "prices": [
+    6500.0,
+    6325.0,
+    6760.0,
+    7380.0,
+    6300.0,
+    5500.0,
+    5500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125",
+   "description": "Install Salvaged L-861T(L) LED Elevated Taxiway Edge Light on New L-867B Base Can in Turf",
+   "unit": "EA",
+   "qty": 16.0,
+   "prices": [
+    2000.0,
+    1090.0,
+    2275.0,
+    3325.0,
+    1085.0,
+    950.0,
+    950.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125",
+   "description": "Install New L-861T(L) LED Elevated Taxiway Edge Light on New L-867B Base Can in Turf",
+   "unit": "EA",
+   "qty": 51.0,
+   "prices": [
+    2400.0,
+    1840.0,
+    2650.0,
+    3724.0,
+    1830.0,
+    1600.0,
+    1600.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125",
+   "description": "Install New L-861T(L) LED Elevated Taxiway Edge Light on New L-867B Base Can in New Asphalt",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    2700.0,
+    2817.0,
+    4450.0,
+    4787.0,
+    2800.0,
+    2450.0,
+    2450.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125",
+   "description": "Install Salvaged L-861(L) Elevated Runway Edge Light on New L-867B Base Can in Existing Asphalt",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    2300.0,
+    2817.0,
+    7900.0,
+    4389.0,
+    2500.0,
+    2200.0,
+    2200.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125",
+   "description": "Install New L-861(L) Elevated Runway Edge Light on New L-867B Base Can in New Asphalt Shoulder",
+   "unit": "EA",
+   "qty": 6.0,
+   "prices": [
+    2700.0,
+    3050.0,
+    3900.0,
+    4947.0,
+    3000.0,
+    2650.0,
+    2650.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125",
+   "description": "Install Salvaged L-861E(L) Elevated Runway Threshold End Light on New L-867B Base Can in Turf",
+   "unit": "EA",
+   "qty": 8.0,
+   "prices": [
+    2300.0,
+    1207.0,
+    2750.0,
+    3191.0,
+    1200.0,
+    1050.0,
+    1050.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125",
+   "description": "Install Blank Cover on Existing L-868B Base Can",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    400.0,
+    275.0,
+    350.0,
+    373.0,
+    285.0,
+    250.0,
+    250.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125",
+   "description": "Install Salvaged 3-MOD L-858(L) LED Guidance Sign on New Foundation",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    4250.0,
+    4025.0,
+    11760.0,
+    14541.0,
+    4000.0,
+    3500.0,
+    3500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125",
+   "description": "Install New 1-MOD L-858(L) LED Guidance Sign on New Foundation",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    5000.0,
+    4300.0,
+    12000.0,
+    12826.0,
+    4300.0,
+    3750.0,
+    3750.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "SS-101",
+   "description": "Temporary Marking, Lighting and Barricades",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    35000.0,
+    5100.75,
+    128000.0,
+    84102.0,
+    278000.0,
+    553150.0,
+    8000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "SS-102",
+   "description": "Remove and Replace Unsuitable Subgrade with Foundation Material as Directed by the Engineer",
+   "unit": "",
+   "qty": 200.0,
+   "prices": [
+    25.0,
+    34.0,
+    18.0,
+    55.0,
+    71.0,
+    21.0,
+    118.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TXDOT216",
+   "description": "Proof Rolling",
+   "unit": "",
+   "qty": 25.0,
+   "prices": [
+    75.0,
+    100.0,
+    95.0,
+    217.0,
+    112.0,
+    95.0,
+    130.0
+   ]
+  },
+  {
+   "schedule": "Alternate",
+   "item": "A1.01",
+   "description": "ALTERNATE - MILL AND OVERLAY AIRFIELD APRON c-105 Mobilization (NTE 10% of Total Bid Amount)",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    25245.5,
+    9200.0,
+    15000.0,
+    25000.0,
+    12518.08,
+    100.0,
+    7000.0
+   ]
+  },
+  {
+   "schedule": "Alternate",
+   "item": "P-101",
+   "description": "Cold Milling (+4\")",
+   "unit": "SY",
+   "qty": 5000.0,
+   "prices": [
+    12.0,
+    3.45,
+    5.5,
+    7.0,
+    6.2,
+    3.79,
+    3.2
+   ]
+  },
+  {
+   "schedule": "Alternate",
+   "item": "P-43",
+   "description": "Asphalt Mixture Surface Course (+4\")",
+   "unit": "",
+   "qty": 1161.0,
+   "prices": [
+    155.0,
+    200.0,
+    190.0,
+    165.0,
+    184.0,
+    165.0,
+    185.0
+   ]
+  },
+  {
+   "schedule": "Alternate",
+   "item": "P-603",
+   "description": "Emulsified Tack Coat",
+   "unit": "GAL",
+   "qty": 500.0,
+   "prices": [
+    5.0,
+    4.5,
+    6.5,
+    5.5,
+    6.15,
+    5.5,
+    4.0
+   ]
+  },
+  {
+   "schedule": "Alternate",
+   "item": "SS-101",
+   "description": "Temporary Marking, Lighting and Barricades",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    10000.0,
+    2875.0,
+    4931.0,
+    5225.0,
+    66575.0,
+    2600.0,
+    8000.0
+   ]
+  }
+ ],
+ "notes": []
+}

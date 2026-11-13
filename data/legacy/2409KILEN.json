@@ -1,0 +1,533 @@
+{
+ "project_id": "2409KILEN",
+ "airport": "Skylark Field (ILE)",
+ "csj": "2409KILEN",
+ "scope": "Taxiway, Taxilane and Apron",
+ "description": "ILE Taxiway, Taxilane, and Apron Rehabilitation (City of Killeen)",
+ "bid_date": "2025-02-27",
+ "location": "Killeen",
+ "source_pdf": "2409KILENBidTabulation.pdf",
+ "columns": [
+  "Texas Materials Group, LLC",
+  "Jordan Foster Construction, LLC",
+  "Ambrozi Contracting, LLC"
+ ],
+ "estimate_column": null,
+ "award_schedules": [
+  "Base Bid"
+ ],
+ "stated_totals": {
+  "Texas Materials Group, LLC": 3542345.0,
+  "Jordan Foster Construction, LLC": 4400765.0,
+  "Ambrozi Contracting, LLC": 6695465.0
+ },
+ "items": [
+  {
+   "schedule": "Base Bid",
+   "item": "TX-432-5.1",
+   "description": "Rock Riprap, 8\" Thick, Completed In Place",
+   "unit": "SY",
+   "qty": 810.0,
+   "prices": [
+    50.0,
+    27.5,
+    85.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "S-120-3.1",
+   "description": "Construction Safety and Security",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    70000.0,
+    60000.0,
+    200000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-102-5.1",
+   "description": "Temporary Erosion Control",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    75000.0,
+    75000.0,
+    70000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-105-6.1",
+   "description": "Ba)",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    320000.0,
+    279000.0,
+    413000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-101-5.1",
+   "description": "Asphalt Transition Milling",
+   "unit": "SY",
+   "qty": 9600.0,
+   "prices": [
+    5.0,
+    3.8,
+    4.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "8",
+   "description": "8-9 n Place Full Depth Recycled (FDR) p-207-5.1 Asphalt Aggregate Base Course",
+   "unit": "SY",
+   "qty": 38800.0,
+   "prices": [
+    21.0,
+    6.8,
+    6.5
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-207-5.2",
+   "description": "Emulsified Asphalt TN",
+   "unit": "",
+   "qty": 960.0,
+   "prices": [
+    650.0,
+    612480.0,
+    1200.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-207-5.3",
+   "description": "Cement TN",
+   "unit": "",
+   "qty": 290.0,
+   "prices": [
+    250.0,
+    250.0,
+    265.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-401-8.2",
+   "description": "P-620-5.1 Asphalt Pavement Surface Marking Course with Reflective for Milling Areas Media TN SF 2,250",
+   "unit": "SF",
+   "qty": 5900.0,
+   "prices": [
+    250.0,
+    17700.0,
+    1.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620-5.2",
+   "description": "Pavement Markings without Reflective Media",
+   "unit": "SF",
+   "qty": 11500.0,
+   "prices": [
+    3.0,
+    0.66,
+    0.85
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620-5.3",
+   "description": "Pavement Marking Removal",
+   "unit": "SF",
+   "qty": 2000.0,
+   "prices": [
+    3.0,
+    0.46,
+    0.6
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "T-901-5.1",
+   "description": "Seeding",
+   "unit": "AC",
+   "qty": 3.0,
+   "prices": [
+    5000.0,
+    6100.0,
+    3000.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 1",
+   "item": "D-754-5.1",
+   "description": "Concrete Flume Repair",
+   "unit": "LF",
+   "qty": 25.0,
+   "prices": [
+    150.0,
+    75.0,
+    475.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 1",
+   "item": "P-101-5.2",
+   "description": "Crack Repair (Less than 1.5\")",
+   "unit": "LF",
+   "qty": 15600.0,
+   "prices": [
+    3.0,
+    1.25,
+    1.2
+   ]
+  },
+  {
+   "schedule": "Add Alt 1",
+   "item": "P-101-5.3",
+   "description": "Crack Repair (Greater than 1.5\")",
+   "unit": "LF",
+   "qty": 3900.0,
+   "prices": [
+    20.0,
+    1.85,
+    2.4
+   ]
+  },
+  {
+   "schedule": "Add Alt 1",
+   "item": "P-101-5.4",
+   "description": "Asphalt Pavement Repair",
+   "unit": "SY",
+   "qty": 250.0,
+   "prices": [
+    100.0,
+    74.0,
+    78.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 1",
+   "item": "P-620-5.1",
+   "description": "Pavement Marking with Reflective Media",
+   "unit": "SF",
+   "qty": 1200.0,
+   "prices": [
+    3.0,
+    1.0,
+    1.2
+   ]
+  },
+  {
+   "schedule": "Add Alt 1",
+   "item": "P-620-5.2",
+   "description": "Markings without Reflective ravemen",
+   "unit": "SF",
+   "qty": 4750.0,
+   "prices": [
+    3.0,
+    0.66,
+    3800.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 1",
+   "item": "P-620-5.3",
+   "description": "Pavement Markings Removal",
+   "unit": "SF",
+   "qty": 1100.0,
+   "prices": [
+    3.0,
+    0.46,
+    0.5
+   ]
+  },
+  {
+   "schedule": "Add Alt 1",
+   "item": "P-631-7.1",
+   "description": "Tar Emulsion with Additives for) Slurry Coat gy",
+   "unit": "",
+   "qty": 12100.0,
+   "prices": [
+    4.5,
+    1.55,
+    28435.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2",
+   "item": "",
+   "description": "",
+   "unit": "LF",
+   "qty": 2.0,
+   "prices": [
+    1.0,
+    3000.0,
+    3.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2",
+   "item": "P-101-5.4",
+   "description": "Asphalt Pavement Repair",
+   "unit": "SY",
+   "qty": 390.0,
+   "prices": [
+    100.0,
+    89.0,
+    68.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2",
+   "item": "P-620-5.1",
+   "description": "Pavement Markings With Reflective Media",
+   "unit": "SF",
+   "qty": 1800.0,
+   "prices": [
+    3.0,
+    1.0,
+    1.2
+   ]
+  },
+  {
+   "schedule": "Add Alt 2",
+   "item": "P-620-5.2",
+   "description": "Markings without Reflective ravemen",
+   "unit": "SF",
+   "qty": 2200.0,
+   "prices": [
+    3.0,
+    0.66,
+    0.8
+   ]
+  },
+  {
+   "schedule": "Add Alt 2",
+   "item": "P-620-5.3",
+   "description": "Pavement Markings Removal",
+   "unit": "SF",
+   "qty": 1700.0,
+   "prices": [
+    3.0,
+    0.46,
+    0.55
+   ]
+  },
+  {
+   "schedule": "Add Alt 2",
+   "item": "P-631-7.1",
+   "description": "Tar Emulsion with Additives for) Slurry Coat gy",
+   "unit": "",
+   "qty": 19500.0,
+   "prices": [
+    4.5,
+    2.15,
+    2.8
+   ]
+  },
+  {
+   "schedule": "Add Alt 3",
+   "item": "SS-262-5.1",
+   "description": "ern oon",
+   "unit": "EA",
+   "qty": 6.0,
+   "prices": [
+    500.0,
+    600.0,
+    9000.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 3",
+   "item": "2",
+   "description": "8-300-5.1 Lockout/Tagout",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    4000.0,
+    3000.0,
+    15000.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 3",
+   "item": "S-301-5.1",
+   "description": "Existing Electrical Handhole, Removed Existing Base Mounted Edge Light",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    500.0,
+    1230.0,
+    355.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 3",
+   "item": "SS-301-5.3",
+   "description": "ee ee Stored Mounted Guidance Sign, esting Base",
+   "unit": "EA",
+   "qty": 7.0,
+   "prices": [
+    500.0,
+    800.0,
+    845.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 3",
+   "item": "SS-310-5.1",
+   "description": "Temporary Airfield Lighting",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    20000.0,
+    15417.0,
+    27000.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 3",
+   "item": "P-101-5.5",
+   "description": "Pavement Removal",
+   "unit": "SY",
+   "qty": 2100.0,
+   "prices": [
+    45.0,
+    5.35,
+    18900.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 3",
+   "item": "P-101-5.1",
+   "description": "Asphalt Transition Milling Mixture Surface Course for Milling",
+   "unit": "SY",
+   "qty": -150.0,
+   "prices": [
+    5.0,
+    3.35,
+    4.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 3",
+   "item": "P-620-5.2",
+   "description": "Pavement Marking without Reflective Media",
+   "unit": "SF",
+   "qty": -825.0,
+   "prices": [
+    3.0,
+    0.66,
+    1.35
+   ]
+  },
+  {
+   "schedule": "Add Alt 3",
+   "item": "P-620-5.3",
+   "description": "Pavement Marking Removal",
+   "unit": "SF",
+   "qty": 300.0,
+   "prices": [
+    3.0,
+    0.46,
+    0.55
+   ]
+  },
+  {
+   "schedule": "Add Alt 3",
+   "item": "T-901-5.1",
+   "description": "Seeding",
+   "unit": "AC",
+   "qty": 0.5,
+   "prices": [
+    10000.0,
+    6100.0,
+    1500.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 3",
+   "item": "T-905-8.1",
+   "description": "Topsoil and Grading",
+   "unit": "SY",
+   "qty": 2100.0,
+   "prices": [
+    10.0,
+    3.43,
+    3.8
+   ]
+  },
+  {
+   "schedule": "Add Alt 3",
+   "item": "L-108.5.1",
+   "description": "No. AWG, 5kV, L-824, Type C Cable, i, alled in Trench, Duet Bank or Conduit",
+   "unit": "LF",
+   "qty": 825.0,
+   "prices": [
+    3.5,
+    3.66,
+    5.3
+   ]
+  },
+  {
+   "schedule": "Add Alt 3",
+   "item": "L-108.5.2",
+   "description": "No.6 AWG, Solid Bare Copper Counterpoise _ Wire, Installed in Trehcn Including Connections/ Terminations",
+   "unit": "LF",
+   "qty": 610.0,
+   "prices": [
+    2.0,
+    1.65,
+    4.55
+   ]
+  },
+  {
+   "schedule": "Add Alt 3",
+   "item": "L-110-5.1",
+   "description": "Non-encased Electrical Conduit, 1-Way 2\"C",
+   "unit": "LF",
+   "qty": 610.0,
+   "prices": [
+    35.0,
+    36.63,
+    32.5
+   ]
+  },
+  {
+   "schedule": "Add Alt 3",
+   "item": "17",
+   "description": "Stored Base Mounted Taxiway Edge Light, 1125-5, Installed on New Base",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    5000.0,
+    4800.0,
+    5200.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 3",
+   "item": "L-125-5.2",
+   "description": "New Sign Panels, Installed in Existing Signs",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    8000.0,
+    500.0,
+    2210.0
+   ]
+  }
+ ],
+ "notes": [
+  "Base Bid: Taxiway B full depth reclamation; Alt 1 Taxilane A rehabilitation; Alt 2 apron rehabilitation; Alt 3 TW D connector and Taxiway C apron connector demolition."
+ ]
+}

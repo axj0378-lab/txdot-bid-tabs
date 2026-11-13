@@ -218,6 +218,26 @@ and each project adds a Unit Price / Qty block with its project info above it. I
 live **Price Age** (last quarter / 6 months / last year / older, based on `TODAY()`) and the
 average low-bid unit price per item over those windows, a first step toward slide 14's estimates.
 
+## Legacy bid tabs (before October 2026)
+
+The 27 historical tabs in `samples/legacy/` come from many engineering firms in many
+layouts, so they are not read by `extractor.py`. Each is extracted once into
+`data/legacy/<project>.json` and then loaded into the master workbook.
+
+1. `scripts/legacy_words.py samples/legacy out/legacy_words [--dpi 600]` - words with
+   positions from the text layer, or OCR (rules erased) when the text layer is garbled.
+2. `scripts/legacy_build.py` - turns words into priced rows (qty x unit price = amount picks
+   out each bidder's prices), applies the per-project settings and hand corrections in
+   `scripts/legacy_projects.py`, and checks every printed subtotal. `OK` means every bidder's
+   line items sum to the printed total.
+3. `scripts/build_master_legacy.py` - loads every fully reconciled project into
+   `output/master_unit_prices.xlsx` and adds a "Legacy Tabs Log" sheet (status and notes per
+   tab). Projects that don't reconcile are listed as pending and not loaded.
+
+Every hand correction in `legacy_projects.py` says what was read from the tab image and why.
+The engineer's estimate is kept as its own rows (Low Bid = "Estimate"), never ranked.
+`scripts/legacy_crops.py PROJECT out.png` stacks image crops of flagged rows for review.
+
 ## Assumptions
 
 - **Starting point.** Navigation starts at TxDOT's site, not a Google search (slide 1). Search

@@ -1,0 +1,881 @@
+{
+ "project_id": "2416FREDB",
+ "airport": "Gillespie County Airport",
+ "csj": "2416FREDB",
+ "scope": "Airfield Pavement Rehabilitation",
+ "description": "Airfield Pavement Rehabilitation (Taxiway A FDR, terminal apron, Runway 14-32, TDG 2B fillets)",
+ "bid_date": "2026-03-19",
+ "location": "Fredericksburg",
+ "source_pdf": "2416FREDBBidTabulation.pdf",
+ "columns": [
+  "Allen Keller Company",
+  "Texas Materials Group, Inc.",
+  "J3 Company, LLC"
+ ],
+ "estimate_column": null,
+ "award_schedules": [
+  "Base Bid"
+ ],
+ "stated_totals": {
+  "Allen Keller Company": 2871553.1,
+  "Texas Materials Group, Inc.": 3088721.0,
+  "J3 Company, LLC": 3096570.0
+ },
+ "items": [
+  {
+   "schedule": "Base Bid",
+   "item": "SS-120-3.1",
+   "description": "Construction Safety and Security",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    1.0,
+    87664.02,
+    133000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "SS-220-5.1",
+   "description": "Pavement Edge Grading",
+   "unit": "LF",
+   "qty": 8600.0,
+   "prices": [
+    5.0,
+    1.9,
+    2.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "SS-262-5.1",
+   "description": "Tiedown Anchors",
+   "unit": "EA",
+   "qty": 6.0,
+   "prices": [
+    40.0,
+    580.18,
+    600.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "",
+   "description": "Block Mat (Complete In TX-$8-2001-5.1 Plece",
+   "unit": "SY",
+   "qty": 600.0,
+   "prices": [
+    30.0,
+    166.44,
+    265.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TX-247-6.1",
+   "description": "Flexible Base (Complete In Place)",
+   "unit": "SY",
+   "qty": 5000.0,
+   "prices": [
+    40.0,
+    62.35,
+    190000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TX-250-5.1",
+   "description": "Geogrid Base Reinforcement Reinforced Concrete Pipe (30-Inch)",
+   "unit": "SY",
+   "qty": 5000.0,
+   "prices": [
+    15.0,
+    4.24,
+    5.35
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TX-465-5.1",
+   "description": "Sawcut and Repair) SE IPI)",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    25000.0,
+    18213.73,
+    25545.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TX-467-5.3",
+   "description": "Treatment (Type I!) (30\u00b0) (4:1) \u2018Gross)",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    2700.0,
+    5268.85,
+    4545.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TX-341-6.1",
+   "description": "Dense-Graded Hot-Mix Asphalt, Type D, SAC B, PG 64-22 (d-Inch Thickness, Litt)",
+   "unit": "TON",
+   "qty": 6300.0,
+   "prices": [
+    200.0,
+    139.28,
+    963900.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TX-341-6.2",
+   "description": "Dense-Graded Hot-Mix Asphalt, Type D, SAC B, PG 64-22 (4-Inch Thickness, 2 Lift)- Transition Area",
+   "unit": "TON",
+   "qty": 1600.0,
+   "prices": [
+    210.0,
+    172.0,
+    135.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-100-14.1",
+   "description": "Contractor Quality Control Program (CQCP)",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    150000.0,
+    159683.75,
+    132000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-102-5.1",
+   "description": "Temporary Erosion Control",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    20000.0,
+    15133.76,
+    80000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-105-6.1",
+   "description": "Base Bid).",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    300000.0,
+    230000.0,
+    300000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-101-5.1.",
+   "description": "Asphalt Transition Milling",
+   "unit": "SY",
+   "qty": 7000.0,
+   "prices": [
+    5.0,
+    8.59,
+    45150.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-101-5.2",
+   "description": "Crack Repair (Less than 1.5\")",
+   "unit": "LF",
+   "qty": 41700.0,
+   "prices": [
+    2.25,
+    1.39,
+    1.6
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-101-5.3.",
+   "description": "Crack Repair (Greater than 1.5\")",
+   "unit": "LF",
+   "qty": 12600.0,
+   "prices": [
+    3.4,
+    1.7,
+    2.66
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-101-5.4",
+   "description": "P-152-4.1 Pavement Unclassified Section Excavation Removal CY",
+   "unit": "CY",
+   "qty": 5000.0,
+   "prices": [
+    3100.0,
+    15.0,
+    3.49
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "22",
+   "description": "a1 In Place Full Depth Recycled (FDR) p-207-5.1 P-207-5.2 Asphalt Cement Aggregate Base Course TON",
+   "unit": "TON",
+   "qty": 24400.0,
+   "prices": [
+    450.0,
+    10.0,
+    269.79
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620-5.2",
+   "description": "Markings without Reflective ravement",
+   "unit": "SF",
+   "qty": 15900.0,
+   "prices": [
+    2.0,
+    1.19,
+    1.12
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620-5.3",
+   "description": "Pavement Markings Removal",
+   "unit": "SF",
+   "qty": 4400.0,
+   "prices": [
+    2.0,
+    0.44,
+    0.41
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-631-7.1",
+   "description": "Tar Emulsion with Additives for) Slurry Coat. gy, 52,000 $2.50 $130,000.00",
+   "unit": "",
+   "qty": 1.59,
+   "prices": [
+    1.58,
+    null,
+    null
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "T-901-5.1",
+   "description": "Seeding",
+   "unit": "AC",
+   "qty": 2.0,
+   "prices": [
+    3500.0,
+    4630.83,
+    14800.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "T-905-5.1",
+   "description": "Topsoil",
+   "unit": "SY",
+   "qty": 9440.0,
+   "prices": [
+    5.0,
+    3.43,
+    6.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 1",
+   "item": "P-101-5.2",
+   "description": "Crack Repair (Less than 1.5\")",
+   "unit": "LF",
+   "qty": 31100.0,
+   "prices": [
+    2.25,
+    1.76,
+    1.6
+   ]
+  },
+  {
+   "schedule": "Add Alt 1",
+   "item": "P-620-5.1",
+   "description": "Pavement Marking with Reflective Media",
+   "unit": "SF",
+   "qty": 49100.0,
+   "prices": [
+    2.0,
+    1.97,
+    1.61
+   ]
+  },
+  {
+   "schedule": "Add Alt 1",
+   "item": "P-620-5.2",
+   "description": "een Markings without Reflective",
+   "unit": "SF",
+   "qty": 4.0,
+   "prices": [
+    43100.0,
+    26200.0,
+    1.12
+   ]
+  },
+  {
+   "schedule": "Add Alt 1",
+   "item": "",
+   "description": "",
+   "unit": "SF",
+   "qty": 5.0,
+   "prices": [
+    6.0,
+    2.0,
+    0.41
+   ]
+  },
+  {
+   "schedule": "Add Alt 1",
+   "item": "",
+   "description": "p.631-7.1 Slurry Coat. gv",
+   "unit": "",
+   "qty": 47700.0,
+   "prices": [
+    2.5,
+    88722.0,
+    2.1
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 1)",
+   "item": "",
+   "description": "of Existing Safety g9.140-5.1 eee eon anew sposal",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    800.0,
+    3266.94,
+    1000.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 1)",
+   "item": "2",
+   "description": "S\u00a7S-220-5.1 Pavement Edge Grading",
+   "unit": "LF",
+   "qty": 500.0,
+   "prices": [
+    5.0,
+    5.84,
+    15.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 1)",
+   "item": "S-222-5.1",
+   "description": "Ditch Grading",
+   "unit": "LF",
+   "qty": 1040.0,
+   "prices": [
+    150.0,
+    29.9,
+    6.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 1)",
+   "item": "TX-250-5.1",
+   "description": "Geogrid Base Reinforcement",
+   "unit": "SY",
+   "qty": 1400.0,
+   "prices": [
+    15.0,
+    4.98,
+    6.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 1)",
+   "item": "TX-341-6.1",
+   "description": "Dense-Graded Hot-Mix Asphalt, Type D, SAC B, PG 64-22 (d-Inch Thickness, 2Lift)",
+   "unit": "TON",
+   "qty": 1100.0,
+   "prices": [
+    200.0,
+    124.15,
+    171.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 1)",
+   "item": "",
+   "description": "Transition Area Metal Pipe (18-Inch) (Complete Tx-460-5.1 in Place)",
+   "unit": "LF",
+   "qty": 40.0,
+   "prices": [
+    60.0,
+    90.0,
+    200.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 1)",
+   "item": "TX-460-5.2",
+   "description": "Corrugated Metal Pipe (18-Inch) (Complete in Place, Including Pavement Sawcut and Repair)",
+   "unit": "LF",
+   "qty": 85.0,
+   "prices": [
+    80.0,
+    16252.0,
+    300.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 1)",
+   "item": "T-901-5.1",
+   "description": "P-152-4.1_ Seeding Unclassified Excavation AC",
+   "unit": "AC",
+   "qty": 800.0,
+   "prices": [
+    1.0,
+    15.0,
+    4738.07
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 1)",
+   "item": "T-905-5.1",
+   "description": "Topsoil",
+   "unit": "SY",
+   "qty": 2420.0,
+   "prices": [
+    5.0,
+    3339.6,
+    4.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 1)",
+   "item": "SS-300-5.1",
+   "description": "Lockout/Tagout and Constant Current pea ilator Calibration Procedures",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    5000.0,
+    2400.0,
+    10000.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 1)",
+   "item": "",
+   "description": "Mounted Guidance Sign, ss-301-5.1 esting Base No. AWG, kV, L-824, Type C Cable",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    3000.0,
+    599.07,
+    3000.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 1)",
+   "item": "L-108-5.2",
+   "description": "No. AWG, Solid, Bare Copper Counterpoise Wire, Installed Above the Duct Bonk or Conduit, Including",
+   "unit": "LF",
+   "qty": 150.0,
+   "prices": [
+    3.0,
+    5.6,
+    7.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 1)",
+   "item": "L110-6.1",
+   "description": "Connections/T erminations 9) Electrical Condult, 1-Way, ndarivaatien",
+   "unit": "LF",
+   "qty": 150.0,
+   "prices": [
+    15.0,
+    25.0,
+    40.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 1)",
+   "item": "",
+   "description": "1125-5.1 Sion, Installed",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    4000.0,
+    12852.68,
+    11800.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 2)",
+   "item": "SS-140-5.1",
+   "description": "of Existing Safety pomoltion andy isposal",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    800.0,
+    1633.47,
+    1500.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 2)",
+   "item": "SS-220-5.1",
+   "description": "Pavement Edge Grading",
+   "unit": "LF",
+   "qty": 500.0,
+   "prices": [
+    5.0,
+    5.84,
+    7500.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 2)",
+   "item": "SS-222-5.1",
+   "description": "Ditch Grading",
+   "unit": "LF",
+   "qty": 1040.0,
+   "prices": [
+    150.0,
+    60.0,
+    6.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 2)",
+   "item": "TX-250-5.1",
+   "description": "Geogrid Base Reinforcement",
+   "unit": "SY",
+   "qty": 1400.0,
+   "prices": [
+    15.0,
+    4.98,
+    6.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 2)",
+   "item": "TX-251-6.1",
+   "description": "Place and Compact FDR Trimmings Dense-Graded Hot-Mix Asphalt, Type D",
+   "unit": "CY",
+   "qty": 350.0,
+   "prices": [
+    180.0,
+    16.37,
+    66.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 2)",
+   "item": "TX-460-5.1",
+   "description": "Metal Pipe (18-Inch) (Complete in Place)",
+   "unit": "LF",
+   "qty": 40.0,
+   "prices": [
+    60.0,
+    215.22,
+    90.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 2)",
+   "item": "",
+   "description": "Repair) Treatment (Type Il) (18\u00b0) (4:1) 1x.467-5.1 \u2018Groee)",
+   "unit": "EA",
+   "qty": 4.0,
+   "prices": [
+    5000.0,
+    2090.32,
+    4000.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 2)",
+   "item": "P-101-5.4",
+   "description": "Pavement Section Removal",
+   "unit": "SY",
+   "qty": 350.0,
+   "prices": [
+    45.0,
+    9.62,
+    18.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 2)",
+   "item": "T-901-5.1",
+   "description": "Seeding",
+   "unit": "AC",
+   "qty": 1.0,
+   "prices": [
+    3500.0,
+    4738.07,
+    6900.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 2)",
+   "item": "T-905-5.1",
+   "description": "Topsoil",
+   "unit": "SY",
+   "qty": 2420.0,
+   "prices": [
+    5.0,
+    1.38,
+    32428.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 2)",
+   "item": "",
+   "description": "Lockout/Tagout and Constant Current $S-300-5.1 Ls. Peculator Calibration Procedures Mounted Guidance Sign",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    5000.0,
+    2614.11,
+    2400.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 2)",
+   "item": "L-108-5.1.",
+   "description": "No. AWG, kV, L-824, Type C Cable, 1.2: clled in Trench, Duct Bank or Conduit",
+   "unit": "LF",
+   "qty": 350.0,
+   "prices": [
+    3.5,
+    6.32,
+    5.8
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 2)",
+   "item": "L-108-5.2",
+   "description": "No. AWG, Solid, Bare Copper Counterpoise Wire, Installed Above the Duct Bonk or Conduit, Including Connections/Terminations",
+   "unit": "LF",
+   "qty": 150.0,
+   "prices": [
+    3.0,
+    6.1,
+    5.6
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 2)",
+   "item": "L-110-5.1",
+   "description": "Electrical Conduit, 1-Way, 2- Nae",
+   "unit": "LF",
+   "qty": 150.0,
+   "prices": [
+    15.0,
+    4084.5,
+    40.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 2 (Sch 2)",
+   "item": "L-125-5.1",
+   "description": "Mounted, 3-Module Guidance) Sign, Inctalled ey",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    4000.0,
+    12852.68,
+    11800.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 3",
+   "item": "SS-262-5.1",
+   "description": "Tiedown Anchors",
+   "unit": "EA",
+   "qty": 21.0,
+   "prices": [
+    40.0,
+    593.62,
+    545.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 3",
+   "item": "TX-247-6.1",
+   "description": "Flexible Base (Complete In Place)",
+   "unit": "SY",
+   "qty": 2500.0,
+   "prices": [
+    40.0,
+    55.25,
+    39.7
+   ]
+  },
+  {
+   "schedule": "Add Alt 3",
+   "item": "TX-250-5.1",
+   "description": "Geogrid Base Reinforcement",
+   "unit": "SY",
+   "qty": 2500.0,
+   "prices": [
+    15.0,
+    3.53,
+    5.35
+   ]
+  },
+  {
+   "schedule": "Add Alt 3",
+   "item": "TX-341-6.1",
+   "description": "Dense-Graded Hot-Mix Asphalt, Type D, SAC B, PG 64-22 (4-Inch Thickness, Lift)",
+   "unit": "TON",
+   "qty": 615.0,
+   "prices": [
+    200.0,
+    134.39,
+    167.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 3",
+   "item": "P-101-5.4",
+   "description": "Pavement Section Removal",
+   "unit": "SY",
+   "qty": 2500.0,
+   "prices": [
+    45.0,
+    3.11,
+    3.45
+   ]
+  },
+  {
+   "schedule": "Add Alt 3",
+   "item": "P-152-4.1",
+   "description": "Unclassified Excavation",
+   "unit": "CY",
+   "qty": 1400.0,
+   "prices": [
+    45.0,
+    15.3,
+    27.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 3",
+   "item": "P-620-5.3",
+   "description": "Pavement Marking Removal",
+   "unit": "SF",
+   "qty": -500.0,
+   "prices": [
+    2.0,
+    0.45,
+    0.41
+   ]
+  },
+  {
+   "schedule": "Add Alt 4",
+   "item": "TX-247-6.1",
+   "description": "Flexible Base (Complete In Place)",
+   "unit": "SY",
+   "qty": 4900.0,
+   "prices": [
+    40.0,
+    55.52,
+    38.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 4",
+   "item": "TX-341-6.1",
+   "description": "Dense-Graded Hot-Mix ; Asphalt, Type D, SAC B, PG 64-22 (4-Inch Thickness, Lift)",
+   "unit": "TON",
+   "qty": 1280.0,
+   "prices": [
+    200.0,
+    133.43,
+    165.0
+   ]
+  },
+  {
+   "schedule": "Add Alt 4",
+   "item": "TX-250-5.1",
+   "description": "Geogrid Base Reinforcement",
+   "unit": "SY",
+   "qty": 4900.0,
+   "prices": [
+    15.0,
+    3.57,
+    5.35
+   ]
+  },
+  {
+   "schedule": "Add Alt 4",
+   "item": "P-101-5.4",
+   "description": "Pavement Section Removal",
+   "unit": "SY",
+   "qty": 4900.0,
+   "prices": [
+    45.0,
+    3.16,
+    3.5
+   ]
+  },
+  {
+   "schedule": "Add Alt 4",
+   "item": "P-152-4.1",
+   "description": "Unclassified Excavation",
+   "unit": "CY",
+   "qty": 2500.0,
+   "prices": [
+    15.0,
+    13.52,
+    33.5
+   ]
+  },
+  {
+   "schedule": "Add Alt 4",
+   "item": "P-620-5.3",
+   "description": "Pavement Marking Removal",
+   "unit": "SF",
+   "qty": -690.0,
+   "prices": [
+    2.0,
+    0.45,
+    0.41
+   ]
+  },
+  {
+   "schedule": "Add Alt 4",
+   "item": "P-631-7.1",
+   "description": "Tar Emulsion with Additives for, Slurry Coat. gy",
+   "unit": "",
+   "qty": -4900.0,
+   "prices": [
+    3.0,
+    1.63,
+    1.51
+   ]
+  }
+ ],
+ "notes": [
+  "Additive Alternate 2 was bid as two alternative schedules (Sch 1 and Sch 2); the summary page marks Sch 1 as not included in the award."
+ ]
+}

@@ -1,0 +1,510 @@
+{
+ "project_id": "2511LUFKN",
+ "airport": "Angelina County Airport",
+ "csj": "2511LUFKN",
+ "scope": "Taxiway and Apron",
+ "description": "Taxiway E, Taxiway F and Apron; Runway 7-25 Re-marking and Install Runway Guard Lights",
+ "bid_date": "2025-07-15",
+ "location": "Lufkin",
+ "source_pdf": "2511LUFKN_BID TAB.pdf",
+ "columns": [
+  "Engineer's Estimate",
+  "Lone Wolf, LLC",
+  "Apex Alliance, LLC",
+  "Allen Keller Company, LLC",
+  "Don Jackson Construction, Inc"
+ ],
+ "estimate_column": "Engineer's Estimate",
+ "award_schedules": [
+  "Base Bid"
+ ],
+ "stated_totals": {
+  "Engineer's Estimate": 1160850.0,
+  "Lone Wolf, LLC": 1261899.0,
+  "Apex Alliance, LLC": 1379659.85,
+  "Allen Keller Company, LLC": 1548148.18,
+  "Don Jackson Construction, Inc": 1544914.0
+ },
+ "items": [
+  {
+   "schedule": "Base Bid",
+   "item": "C-105",
+   "description": "MOBILIZATION",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    110000.0,
+    100000.0,
+    137721.0,
+    173000.0,
+    99500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TX-105",
+   "description": "FULL DEPTH ASPHALT PAVEMENT (MAX 6INCH) AND BASE REMOVAL",
+   "unit": "SY",
+   "qty": 4300.0,
+   "prices": [
+    8.0,
+    20.0,
+    23.29,
+    2.81,
+    5.85
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TX-100",
+   "description": "CLEARING/GRUBBING",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    10000.0,
+    15000.0,
+    45767.7,
+    42489.91,
+    5850.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TX-110",
+   "description": "EXCAVATION/EMBANKMENT (NATIVE)",
+   "unit": "CY",
+   "qty": 3200.0,
+   "prices": [
+    30.0,
+    25.0,
+    13.08,
+    24.07,
+    9.72
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TX-354",
+   "description": "PLANING ASPHALT CONCRETE PAVEMENT",
+   "unit": "SY",
+   "qty": 900.0,
+   "prices": [
+    15.0,
+    9.0,
+    20.7,
+    8.95,
+    30.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TX-132",
+   "description": "SUBBASE (IMPORT)",
+   "unit": "CY",
+   "qty": 2500.0,
+   "prices": [
+    80.0,
+    50.0,
+    36.61,
+    153.15,
+    137.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TX-247",
+   "description": "CRUSHED AGGREGATE BASE COURSE (6 INCH)",
+   "unit": "CY",
+   "qty": 1300.0,
+   "prices": [
+    120.0,
+    140.0,
+    129.86,
+    160.33,
+    144.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TX-300",
+   "description": "TACK COAT",
+   "unit": "SY",
+   "qty": 7200.0,
+   "prices": [
+    1.5,
+    5.0,
+    1.03,
+    0.93,
+    1.85
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TX-341",
+   "description": "HOT MIX ASPHALT: 4-INCH (DENSE GRADED)",
+   "unit": "TON",
+   "qty": 1800.0,
+   "prices": [
+    200.0,
+    220.0,
+    279.4,
+    232.01,
+    352.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620",
+   "description": "MARKING REMOVAL",
+   "unit": "SF",
+   "qty": 2000.0,
+   "prices": [
+    2.0,
+    0.6,
+    1.01,
+    0.38,
+    0.5
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620",
+   "description": "REFLECTORIZED PAVEMENT MARKING (YELLOW, WHITE)",
+   "unit": "SF",
+   "qty": 3000.0,
+   "prices": [
+    1.4,
+    1.54,
+    1.89,
+    1.31,
+    1.45
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TX-464",
+   "description": "18\" REINFORCED CONCRETE PIPE, CLASS V",
+   "unit": "LF",
+   "qty": 95.0,
+   "prices": [
+    180.0,
+    300.0,
+    353.13,
+    241.04,
+    150.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TX-464",
+   "description": "12\" REINFORCED CONCRETE PIPE, CLASS V",
+   "unit": "LF",
+   "qty": 90.0,
+   "prices": [
+    160.0,
+    300.0,
+    334.5,
+    238.11,
+    145.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TX-467.",
+   "description": "SAFETY END TREATMENT (12\")",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    5000.0,
+    3000.0,
+    4353.75,
+    1691.39,
+    1200.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TX-467",
+   "description": "SAFETY END TREATMENT (18\") INSTALL #8 AWG, L-824C, 5KV CABLE, INSTALLED IN DUCT BANK OR",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    6000.0,
+    3300.0,
+    5028.75,
+    1848.28,
+    1200.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-108-5.1",
+   "description": "CONDUIT INSTALL #6 AWG, SOLID, BARE COPPER COUNTERPOISE INCLUDING",
+   "unit": "LF",
+   "qty": 1600.0,
+   "prices": [
+    10.0,
+    7.5,
+    20.25,
+    2.65,
+    9.4
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-108-5.2",
+   "description": "GROUND RODS AND CONNECTIONS/TERMINATIONS",
+   "unit": "LF",
+   "qty": 800.0,
+   "prices": [
+    10.0,
+    9.38,
+    13.3,
+    2.65,
+    11.7
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110-5.1",
+   "description": "INSTALL 1-2\u201d SCH. 40 PVC DUCT, DIRECT EARTH BURIED",
+   "unit": "LF",
+   "qty": 500.0,
+   "prices": [
+    20.0,
+    31.25,
+    48.94,
+    26.51,
+    35.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110-5.2",
+   "description": "INSTALL 1-2\u201d SCH. 40 PVC DUCT, CONCRETE ENCASED",
+   "unit": "LF",
+   "qty": 280.0,
+   "prices": [
+    40.0,
+    81.25,
+    48.94,
+    79.52,
+    117.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.1",
+   "description": "INSTALL L-861 RUNWAY EDGE LIGHT, COMPLETE",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    1500.0,
+    2187.5,
+    1671.3,
+    2756.77,
+    2050.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.3",
+   "description": "REMOVE L-858 GUIDANCE SIGN, COMPLETE",
+   "unit": "EA",
+   "qty": 3.0,
+   "prices": [
+    1500.0,
+    937.5,
+    540.0,
+    848.24,
+    900.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.4",
+   "description": "INSTALL L-858 LED GUIDANCE SIGN, 1 MODULE, SIZE 2, COMPLETE",
+   "unit": "EA",
+   "qty": 4.0,
+   "prices": [
+    6000.0,
+    5625.0,
+    7330.55,
+    9012.51,
+    5250.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.5",
+   "description": "INSTALL L-858 LED GUIDANCE SIGN, 3 MODULE, SIZE 2, COMPLETE",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    8000.0,
+    8750.0,
+    8747.6,
+    12193.4,
+    8200.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.6",
+   "description": "INSTALL RETROREFLECTIVE MARKER",
+   "unit": "EA",
+   "qty": 20.0,
+   "prices": [
+    100.0,
+    17.5,
+    137.52,
+    14.85,
+    20.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TX-506",
+   "description": "EROSION CONTROL",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    5000.0,
+    30000.0,
+    17104.5,
+    27574.3,
+    7600.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TX-162",
+   "description": "SEEDING",
+   "unit": "SY",
+   "qty": 20500.0,
+   "prices": [
+    0.5,
+    1.3,
+    1.15,
+    1.38,
+    0.85
+   ]
+  },
+  {
+   "schedule": "Bid Alternate 1",
+   "item": "P-620",
+   "description": "MARKING REMOVAL",
+   "unit": "SF",
+   "qty": 10000.0,
+   "prices": [
+    2.0,
+    0.6,
+    1.88,
+    0.38,
+    0.5
+   ]
+  },
+  {
+   "schedule": "Bid Alternate 1",
+   "item": "P-620",
+   "description": "REFLECTORIZED PAVEMENT MARKING (YELLOW, WHITE)",
+   "unit": "SF",
+   "qty": 72000.0,
+   "prices": [
+    1.4,
+    1.54,
+    1.82,
+    1.31,
+    1.45
+   ]
+  },
+  {
+   "schedule": "Bid Alternate 2",
+   "item": "L-105-5.1",
+   "description": "INSTALL #8 AWG, L-824C, SKV CABLE, INSTALLED IN DUCT BANK OR CONDUIT",
+   "unit": "LF",
+   "qty": 5400.0,
+   "prices": [
+    10.0,
+    8.13,
+    15.1,
+    3.18,
+    9.4
+   ]
+  },
+  {
+   "schedule": "Bid Alternate 2",
+   "item": "L-108-5.2",
+   "description": "INSTALL #6 AWG, SOLID, BARE COPPER COUNTERPOISE INCLUDING GROUND RODS AND CONNECTIONS/TERMINATIONS",
+   "unit": "LF",
+   "qty": 1600.0,
+   "prices": [
+    10.0,
+    10.25,
+    13.0,
+    3.18,
+    11.7
+   ]
+  },
+  {
+   "schedule": "Bid Alternate 2",
+   "item": "L-110-5.1",
+   "description": "INSTALL 1-2\u201d SCH. 40 PVC DUCT, DIRECT EARTH BURIED",
+   "unit": "LF",
+   "qty": 950.0,
+   "prices": [
+    20.0,
+    33.75,
+    28.6,
+    26.51,
+    35.0
+   ]
+  },
+  {
+   "schedule": "Bid Alternate 2",
+   "item": "L-110-5.3",
+   "description": "INSTALL 1-2\u201d SCH. 40 HDPE DUCT, DIRECTIONALLY BORED",
+   "unit": "LF",
+   "qty": 600.0,
+   "prices": [
+    85.0,
+    115.0,
+    31.2,
+    98.6,
+    99.0
+   ]
+  },
+  {
+   "schedule": "Bid Alternate 2",
+   "item": "L-115-5.1",
+   "description": "INSTALL L-867B JUNCTION BOX, COMPLETE",
+   "unit": "EA",
+   "qty": 5.0,
+   "prices": [
+    900.0,
+    1500.0,
+    4002.43,
+    2385.66,
+    1300.0
+   ]
+  },
+  {
+   "schedule": "Bid Alternate 2",
+   "item": "L-125-5.2",
+   "description": "INSTALL L-804 LED RUNWAY GUARD LIGHT, COMPLETE",
+   "unit": "EA",
+   "qty": 6.0,
+   "prices": [
+    6000.0,
+    7437.5,
+    5418.99,
+    12405.45,
+    6700.0
+   ]
+  }
+ ],
+ "notes": [
+  "Bid date from TxDOT bid list NTB-2511LUFKN-00009 (opened July 15, 2025, 2:00 PM).",
+  "The tab labels both alternate subtotals 'Bid Alternate No. 1'; the second is Alternate 2 (the tab's grand total line says 'Alternate No. 1 and 2')."
+ ]
+}

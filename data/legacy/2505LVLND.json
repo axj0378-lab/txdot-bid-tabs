@@ -1,0 +1,616 @@
+{
+ "project_id": "2505LVLND",
+ "airport": "Levelland Municipal Airport",
+ "csj": "2505LVLND",
+ "scope": "Airfield Electrical",
+ "description": "Airfield Electrical Improvement Project",
+ "bid_date": "2026-03-12",
+ "location": "Levelland",
+ "source_pdf": "2505LVLND-BIDTAB_Detailed.pdf",
+ "columns": [
+  "Parkhill (Engineer's Estimate)",
+  "Third Generation Electric",
+  "Kobo Utility Construction Corp",
+  "Delta Specialty Contractors, LLC",
+  "Airfield Western, LLC",
+  "Scenic Electric LLC",
+  "F&W Electrical Contractors, Inc."
+ ],
+ "estimate_column": "Parkhill (Engineer's Estimate)",
+ "award_schedules": [
+  "Base Bid"
+ ],
+ "stated_totals": {
+  "Parkhill (Engineer's Estimate)": 1669920.0,
+  "Third Generation Electric": 1926507.0,
+  "Kobo Utility Construction Corp": 1549390.0,
+  "Delta Specialty Contractors, LLC": 1528753.82,
+  "Airfield Western, LLC": 1916853.0,
+  "Scenic Electric LLC": 1717400.0,
+  "F&W Electrical Contractors, Inc.": 1645000.0
+ },
+ "items": [
+  {
+   "schedule": "Base Bid",
+   "item": "C-102-5.1",
+   "description": "Temporary Air and Water Pollution, Soil Erosion, and Siltation Control",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    20000.0,
+    48000.0,
+    32500.0,
+    11764.71,
+    5773.0,
+    20000.0,
+    20000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-105-6",
+   "description": "Mobilization",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    142720.0,
+    195000.0,
+    138000.0,
+    69263.69,
+    87352.0,
+    150000.0,
+    100000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-152-4.1",
+   "description": "Grading Outside of Pavement",
+   "unit": "SY",
+   "qty": 7000.0,
+   "prices": [
+    5.0,
+    14.0,
+    9.0,
+    4.37,
+    4.24,
+    10.0,
+    9.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-153-6.1",
+   "description": "Controlled Low-Strength Material (CLSM)",
+   "unit": "CY",
+   "qty": 110.0,
+   "prices": [
+    50.0,
+    180.0,
+    235.0,
+    321.39,
+    360.0,
+    220.0,
+    150.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "T-901-5.1",
+   "description": "Seeding and Fertilizing",
+   "unit": "AC",
+   "qty": 2.0,
+   "prices": [
+    15000.0,
+    7500.0,
+    7500.0,
+    5588.24,
+    4977.0,
+    10000.0,
+    2700.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-101-5.1",
+   "description": "Removal of Existing Rotating Beacon and Tower, Excluding Foundation",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    10000.0,
+    4000.0,
+    6500.0,
+    18823.53,
+    5523.0,
+    10000.0,
+    10000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-101-5.2",
+   "description": "L-801A(L), Class 1, Voltage Driven, Rotating Beacon with Obstruction Light",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    20000,
+    16517,
+    15500,
+    10918.09,
+    49338,
+    40000,
+    20000
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-103-5.1",
+   "description": "50-foot Tip-Down Beacon Tower, On Existing Foundation",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    50000.0,
+    54358.0,
+    43500.0,
+    74488.24,
+    85796.0,
+    65000.0,
+    60000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-107-5.1",
+   "description": "Removal of Primary Wind Cone and Foundation",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    2000.0,
+    6000.0,
+    3500.0,
+    11764.71,
+    2526.0,
+    5000.0,
+    5000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-107-5.2",
+   "description": "Removal of Existing Segmented Circle",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    3500.0,
+    28000.0,
+    14500.0,
+    38235.29,
+    7697.0,
+    7500.0,
+    6000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-107-5.3",
+   "description": "L-807(L), Style I-B, Size 2, Primary Wind Cone and Foundation",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    12500.0,
+    13677.0,
+    18500.0,
+    40210.07,
+    22371.0,
+    15000.0,
+    15000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-107-5.4",
+   "description": "Segmented Circle Marker System",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    50000.0,
+    98000.0,
+    52290.0,
+    76470.59,
+    24192.0,
+    20000.0,
+    23000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-108-5.1",
+   "description": "Trenching for PVC Conduit, 24-in minimum depth",
+   "unit": "LF",
+   "qty": 15500.0,
+   "prices": [
+    10.0,
+    12.0,
+    9.75,
+    5.01,
+    7.89,
+    10.0,
+    10.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-108-5.2",
+   "description": "8 AWG, 600V, L-824, Type C, Cable Installed in Trench, Duct Bank or Conduit",
+   "unit": "LF",
+   "qty": 25600.0,
+   "prices": [
+    3.0,
+    4.7,
+    2.75,
+    4.72,
+    7.38,
+    5.0,
+    2.5
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-108-5.3",
+   "description": "6 AWG, L-824, Solid Bare Counterpoise Wire, Installed Above Duct Bank or Conduit, Including Connections/Terminations",
+   "unit": "LF",
+   "qty": 16200.0,
+   "prices": [
+    4.5,
+    4.0,
+    3.5,
+    3.55,
+    7.03,
+    5.5,
+    2.25
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-109-7.1",
+   "description": "Removal of Existing Electrical Vault Building, Equipment and Foundation",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    30000.0,
+    9000.0,
+    12500.0,
+    53529.41,
+    3849.0,
+    20000.0,
+    10250.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-109-7.2",
+   "description": "Installation of Airport Transformer Vault Equipment in New Electrical Vault Building",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    30000.0,
+    64800.0,
+    42500.0,
+    173141.18,
+    50944.0,
+    55000.0,
+    63000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-109-7.3",
+   "description": "Construction of Prefabricated Concrete Building and Foundation",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    60000.0,
+    167000.0,
+    82500.0,
+    100000.0,
+    136463.0,
+    125000.0,
+    108000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110-5.1",
+   "description": "Non-Encased Electrical Conduit, 3-inch Sch 40 PVC, Installed in Trench",
+   "unit": "LF",
+   "qty": 15400.0,
+   "prices": [
+    12.0,
+    5.0,
+    5.5,
+    4.71,
+    11.1,
+    5.0,
+    15.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110-5.2",
+   "description": "Non-Encased Electrical Conduit, 3-inch Sch 80 HDPE, Installed by Bore",
+   "unit": "LF",
+   "qty": 800.0,
+   "prices": [
+    300.0,
+    54.0,
+    105.0,
+    50.0,
+    36.0,
+    75.0,
+    55.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-115-5.1",
+   "description": "Remove Existing Electrical Handhole and Foundation",
+   "unit": "EA",
+   "qty": 13.0,
+   "prices": [
+    1000.0,
+    600.0,
+    1800.0,
+    1058.82,
+    674.0,
+    2500.0,
+    375.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-115-5.2",
+   "description": "Remove Concrete Surrounding Existing Electrical Handhole and Install 36\" Concrete Ring",
+   "unit": "EA",
+   "qty": 13.0,
+   "prices": [
+    2000.0,
+    900.0,
+    2100.0,
+    814.48,
+    1117.0,
+    1000.0,
+    700.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-115-5.3",
+   "description": "Electrical Handhole, 12\" L-867B Pull Box with Concrete Encasement",
+   "unit": "EA",
+   "qty": 28.0,
+   "prices": [
+    1000,
+    2100,
+    1650,
+    1663.87,
+    2106,
+    2500,
+    1660
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.1",
+   "description": "Removal of Existing Runway Edge Lights",
+   "unit": "EA",
+   "qty": 73.0,
+   "prices": [
+    150.0,
+    450.0,
+    175.0,
+    409.35,
+    481.0,
+    200.0,
+    125.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.2",
+   "description": "Removal of Existing Runway and Taxiway Guidance Signs, including Foundations",
+   "unit": "EA",
+   "qty": 16.0,
+   "prices": [
+    500.0,
+    1200.0,
+    1400.0,
+    2647.06,
+    1083.0,
+    750.0,
+    650.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.3",
+   "description": "Removal of PAPI-4 Primary Control Unit, Including Foundations",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    1000.0,
+    1200.0,
+    2500.0,
+    6470.59,
+    481.0,
+    2500.0,
+    650.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.4",
+   "description": "Removal of PAPI-4 Light Housing Assemblies, Including Foundations",
+   "unit": "EA",
+   "qty": 8.0,
+   "prices": [
+    2500.0,
+    1400.0,
+    1800.0,
+    4705.88,
+    481.0,
+    5000.0,
+    650.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.5",
+   "description": "Removal of Existing Runway End Indicator Light, including Foundation",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    2500.0,
+    900.0,
+    1500.0,
+    5294.12,
+    481.0,
+    500.0,
+    650.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.6",
+   "description": "L-861(L), White or White/Yellow, LED Fixtures, Runway Edge Light, Base Mounted",
+   "unit": "EA",
+   "qty": 57.0,
+   "prices": [
+    1250.0,
+    2784.0,
+    2250.0,
+    1047.76,
+    3413.0,
+    2500.0,
+    2600.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.7",
+   "description": "L-861SE(L), Red/Green, LED Fixures, Runway Threshold light, Base Mounted",
+   "unit": "EA",
+   "qty": 16.0,
+   "prices": [
+    1500.0,
+    3273.0,
+    3200.0,
+    1367.0,
+    5243.0,
+    4000.0,
+    3700.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.8",
+   "description": "L-858 One Module, Size 1, Style 2, Class 1, Mode 2 Internally Lighted LED Guidance Sign, Base Mounted",
+   "unit": "EA",
+   "qty": 10.0,
+   "prices": [
+    3500.0,
+    5428.0,
+    3900.0,
+    2542.8,
+    7431.0,
+    5000.0,
+    5000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.9",
+   "description": "L-858 Two Module, Size 1, Style 2, Class 1, Mode 2 Internally Lighted LED Guidance Sign, Base Mounted",
+   "unit": "EA",
+   "qty": 3.0,
+   "prices": [
+    4500.0,
+    6435.0,
+    4300.0,
+    5862.25,
+    9950.0,
+    6000.0,
+    6500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.10",
+   "description": "L-858 Three Module, Size 1, Style 2, Class 1, Mode 2 Internally Lighted LED Guidance Sign, Base Mounted",
+   "unit": "EA",
+   "qty": 5.0,
+   "prices": [
+    4500.0,
+    7568.0,
+    6500.0,
+    4565.15,
+    13489.0,
+    7000.0,
+    8000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.11",
+   "description": "L-881(L), Style A, Class I, PAPI-2 System, On New Foundation",
+   "unit": "EA",
+   "qty": 4.0,
+   "prices": [
+    40000,
+    32451,
+    29500,
+    13176.47,
+    35112,
+    16000,
+    46180
+   ]
+  },
+  {
+   "schedule": "Additive Alternate No. 1",
+   "item": "L-101-5.3",
+   "description": "Remove Existing Rotating Beacon Tower Foundation",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    7500,
+    4500,
+    1800,
+    5714.29,
+    7331,
+    5000,
+    5000
+   ]
+  },
+  {
+   "schedule": "Additive Alternate No. 1",
+   "item": "L-101-5.4",
+   "description": "Install Rotating Beacon Tower Foundation in Excavated Foundation Location",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    5000.0,
+    7800.0,
+    14500.0,
+    11428.57,
+    12340.0,
+    15000.0,
+    10000.0
+   ]
+  }
+ ],
+ "notes": [
+  "Fix: L-101-5.2: last two bidders' prices missed by OCR; read from the tab image",
+  "Fix: L-115-5.3: F&W price missed by OCR; read from the tab image",
+  "Fix: L-125-5.11: F&W price missed by OCR; read from the tab image",
+  "Fix: AA1-1 (L-101-5.3): Scenic price missed by OCR; read from the tab image"
+ ]
+}

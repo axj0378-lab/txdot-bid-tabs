@@ -11,3 +11,6 @@ venv/
 downloads/*
 !downloads/.gitkeep
 .pytest_cache/
+
+# OCR / word caches for the legacy tabs (regenerate with scripts/legacy_words.py)
+out/

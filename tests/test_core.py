@@ -136,10 +136,11 @@ def test_master_upsert_has_no_duplicates(tmp_path):
     upsert_project(_project("NTB2", 200.0), path)
     wb = load_workbook(path)
     data = list(wb["Bid Data"].iter_rows(min_row=2, values_only=True))
+    hdr = [c.value for c in wb["Bid Data"][1]]
     assert len(data) == 4                                  # 2 projects x 2 bidders x 1 item
     assert {r[0] for r in data} == {"NTB1", "NTB2"}
-    ntb1_low = [r for r in data if r[0] == "NTB1" and r[6] == "Yes"][0]
-    assert ntb1_low[11] == 120.0                            # replaced, not appended
+    ntb1_low = [r for r in data if r[0] == "NTB1" and r[hdr.index("Low Bid")] == "Yes"][0]
+    assert ntb1_low[hdr.index("Unit Price")] == 120.0                            # replaced, not appended
     assert wb["Projects"].max_row == 3
 
 

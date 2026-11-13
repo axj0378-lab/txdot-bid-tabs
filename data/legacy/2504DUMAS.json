@@ -1,0 +1,498 @@
+{
+ "project_id": "2504DUMAS",
+ "airport": "Moore County Airport",
+ "csj": "2504DUMAS",
+ "scope": "Apron Expansion",
+ "description": "Schedule 1 - PCC Apron Expansion",
+ "bid_date": "2025-04-23",
+ "location": "Dumas",
+ "source_pdf": "2504DUMAS-Bid Tab1.pdf",
+ "columns": [
+  "Ti-Zack Concrete, LLC",
+  "O. Trevino Construction, LLC"
+ ],
+ "estimate_column": null,
+ "award_schedules": [
+  "Base Bid"
+ ],
+ "stated_totals": {
+  "Ti-Zack Concrete, LLC": 548597.0,
+  "O. Trevino Construction, LLC": 807612.5
+ },
+ "items": [
+  {
+   "schedule": "Base Bid",
+   "item": "C-100-14.1",
+   "description": "Contractor Quality Control Program (CQCP)",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    13200.0,
+    128000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-102.5.1",
+   "description": "Installation and Removal of Erosion Controls",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    6400.0,
+    18000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-105-6",
+   "description": "Mobilization",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    25000.0,
+    40000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-101.5.1",
+   "description": "demolition Low water Paving - crossing",
+   "unit": "SF",
+   "qty": 3990.0,
+   "prices": [
+    5.7,
+    3.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-152.4.2",
+   "description": "Excavation, and Embankment 6\" PCC Subgrade, - - Option",
+   "unit": "CY",
+   "qty": 780.0,
+   "prices": [
+    112.0,
+    80.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-152.4.4",
+   "description": "Excavation, Subgrade, and Embankment - 6\" - Low Water Crossings",
+   "unit": "CY",
+   "qty": 240.0,
+   "prices": [
+    199.0,
+    100.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-209.5.1",
+   "description": "6\" - Crushed Aggregate Base Course - For HMAC Option / Tie-In",
+   "unit": "SY",
+   "qty": 40.0,
+   "prices": [
+    34.7,
+    200.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-210.5.1",
+   "description": "Caliche Base Course 6\" Water - - Crossings",
+   "unit": "SF",
+   "qty": 3800.0,
+   "prices": [
+    3.85,
+    8.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-219.5.1",
+   "description": "6\" Concrete Base Course For PCC - Recycled Aggregate - Option",
+   "unit": "SY",
+   "qty": 1500.0,
+   "prices": [
+    35.6,
+    40.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-403.8.1",
+   "description": "4\" - Asphalt Mix Pavement with Prime and Tack Coat",
+   "unit": "TON",
+   "qty": 10.0,
+   "prices": [
+    300.0,
+    4400.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "ITEM360.6",
+   "description": "8\" Concrete Pavement -",
+   "unit": "SF",
+   "qty": 12300.0,
+   "prices": [
+    14.5,
+    21.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-605.5.1",
+   "description": "Joint Sealants for Pavements HMAC -",
+   "unit": "LF",
+   "qty": 340.0,
+   "prices": [
+    6.0,
+    5.25
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-605.5.2",
+   "description": "Joint Sealants for Pavements PCC -",
+   "unit": "LF",
+   "qty": 3140.0,
+   "prices": [
+    6.0,
+    5.25
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "ITEM360.6",
+   "description": "8\" Concrete Low Water Crossing",
+   "unit": "SF",
+   "qty": 3800.0,
+   "prices": [
+    13.6,
+    21.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620.5.2B",
+   "description": "Taxiway Markings",
+   "unit": "SF",
+   "qty": 510.0,
+   "prices": [
+    25.6,
+    2.25
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "T-901-5.1",
+   "description": "Seeding",
+   "unit": "SY",
+   "qty": 5500.0,
+   "prices": [
+    1.0,
+    3.3
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "SS-260-4.1",
+   "description": "Aircraft Tie-Down Anchor",
+   "unit": "EA",
+   "qty": 8.0,
+   "prices": [
+    400.0,
+    600.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "SS-850-4.1",
+   "description": "Relocation of Retroreflective Markers Relocation of Reflectors - Existing",
+   "unit": "EA",
+   "qty": 3.0,
+   "prices": [
+    350.0,
+    125.0
+   ]
+  },
+  {
+   "schedule": "Alt Bid 1",
+   "item": "C-102.5.1",
+   "description": "Installation and Removal of Erosion Controls",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    700.0,
+    4100.0
+   ]
+  },
+  {
+   "schedule": "Alt Bid 1",
+   "item": "P-105-6",
+   "description": "Mobilization",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    10100.0,
+    21000.0
+   ]
+  },
+  {
+   "schedule": "Alt Bid 1",
+   "item": "P-152.4.2",
+   "description": "Excavation, and Embankment 6\" PCC Subgrade, - - Option",
+   "unit": "CY",
+   "qty": 780.0,
+   "prices": [
+    57.4,
+    80.0
+   ]
+  },
+  {
+   "schedule": "Alt Bid 1",
+   "item": "P-209.5.1",
+   "description": "6\" Crushed Base Course For HMAC / Tie-In - Aggregate - Option",
+   "unit": "SY",
+   "qty": 40.0,
+   "prices": [
+    34.7,
+    200.0
+   ]
+  },
+  {
+   "schedule": "Alt Bid 1",
+   "item": "P-219.5.1",
+   "description": "6\" - Recycled Concrete Aggregate Base Course - For PCC Option",
+   "unit": "SY",
+   "qty": 1500.0,
+   "prices": [
+    35.6,
+    40.0
+   ]
+  },
+  {
+   "schedule": "Alt Bid 1",
+   "item": "P-403.8.1",
+   "description": "4\" - Asphalt Mix Pavement with Prime and Tack Coat",
+   "unit": "TON",
+   "qty": 10.0,
+   "prices": [
+    200.0,
+    2975.0
+   ]
+  },
+  {
+   "schedule": "Alt Bid 1",
+   "item": "ITEM360.6",
+   "description": "8\" - Concrete Pavement",
+   "unit": "SF",
+   "qty": 12300.0,
+   "prices": [
+    14.5,
+    17.5
+   ]
+  },
+  {
+   "schedule": "Alt Bid 1",
+   "item": "S1-A1-8",
+   "description": "Joint Sealants for Pavements HMAC P-605.5.1 -",
+   "unit": "LF",
+   "qty": 200.0,
+   "prices": [
+    6.0,
+    5.25
+   ]
+  },
+  {
+   "schedule": "Alt Bid 1",
+   "item": "P-605.5.2",
+   "description": "Joint Sealants for Pavements PCC -",
+   "unit": "LF",
+   "qty": 2400.0,
+   "prices": [
+    6.0,
+    5.25
+   ]
+  },
+  {
+   "schedule": "Alt Bid 1",
+   "item": "P-620.5.2B",
+   "description": "Taxiway Markings",
+   "unit": "SF",
+   "qty": 190.0,
+   "prices": [
+    25.6,
+    2.25
+   ]
+  },
+  {
+   "schedule": "Alt Bid 1",
+   "item": "T-901-5.1",
+   "description": "Seeding",
+   "unit": "SY",
+   "qty": 120.0,
+   "prices": [
+    1.0,
+    3.3
+   ]
+  },
+  {
+   "schedule": "Alt Bid 1",
+   "item": "SS-260-4.1",
+   "description": "Aircraft Tie-Down Anchor",
+   "unit": "EA",
+   "qty": 8.0,
+   "prices": [
+    400.0,
+    600.0
+   ]
+  },
+  {
+   "schedule": "Alt Bid 2",
+   "item": "C-102.5.1",
+   "description": "Installation and Removal of Erosion Controls",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    1050.0,
+    4100.0
+   ]
+  },
+  {
+   "schedule": "Alt Bid 2",
+   "item": "P-105-6",
+   "description": "Mobilization",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    11000.0,
+    30000.0
+   ]
+  },
+  {
+   "schedule": "Alt Bid 2",
+   "item": "P-101.5.2",
+   "description": "Pavement Removal PCC Structure - Existing",
+   "unit": "SY",
+   "qty": 340.0,
+   "prices": [
+    49.3,
+    24.0
+   ]
+  },
+  {
+   "schedule": "Alt Bid 2",
+   "item": "P-152.4.2",
+   "description": "Excavation, Subgrade, and Embankment - 6\" - PCC Option",
+   "unit": "CY",
+   "qty": 1170.0,
+   "prices": [
+    56.6,
+    80.0
+   ]
+  },
+  {
+   "schedule": "Alt Bid 2",
+   "item": "P-209.5.1",
+   "description": "6\" - Crushed Aggregate Base Course - For HMAC Option / Tie-In",
+   "unit": "SY",
+   "qty": 50.0,
+   "prices": [
+    34.6,
+    200.0
+   ]
+  },
+  {
+   "schedule": "Alt Bid 2",
+   "item": "P-219.5.1",
+   "description": "6\" Concrete Base Course For PCC - Recycled Aggregate - Option",
+   "unit": "SY",
+   "qty": 2260.0,
+   "prices": [
+    35.6,
+    40.0
+   ]
+  },
+  {
+   "schedule": "Alt Bid 2",
+   "item": "P-403.8.1",
+   "description": "4\" Mix Pavement with Prime and Tack Coat - Asphalt",
+   "unit": "TON",
+   "qty": 15.0,
+   "prices": [
+    200.0,
+    2975.0
+   ]
+  },
+  {
+   "schedule": "Alt Bid 2",
+   "item": "ITEM360.6",
+   "description": "8\" Concrete Pavement -",
+   "unit": "SF",
+   "qty": 18500.0,
+   "prices": [
+    14.5,
+    16.4
+   ]
+  },
+  {
+   "schedule": "Alt Bid 2",
+   "item": "P-605.5.1",
+   "description": "Joint Sealants for Pavements HMAC -",
+   "unit": "LF",
+   "qty": 330.0,
+   "prices": [
+    6.0,
+    5.25
+   ]
+  },
+  {
+   "schedule": "Alt Bid 2",
+   "item": "P-605.5.2",
+   "description": "Joint Sealants for Pavements PCC -",
+   "unit": "LF",
+   "qty": 3700.0,
+   "prices": [
+    6.0,
+    5.25
+   ]
+  },
+  {
+   "schedule": "Alt Bid 2",
+   "item": "P-620.5.2B",
+   "description": "Taxiway Markings",
+   "unit": "SF",
+   "qty": 220.0,
+   "prices": [
+    25.6,
+    2.25
+   ]
+  },
+  {
+   "schedule": "Alt Bid 2",
+   "item": "T-901-5.1",
+   "description": "Seeding",
+   "unit": "SY",
+   "qty": 170.0,
+   "prices": [
+    1.0,
+    3.3
+   ]
+  },
+  {
+   "schedule": "Alt Bid 2",
+   "item": "SS-260-4.1",
+   "description": "Aircraft Tie-Down Anchor",
+   "unit": "EA",
+   "qty": 8.0,
+   "prices": [
+    400.0,
+    600.0
+   ]
+  }
+ ],
+ "notes": []
+}

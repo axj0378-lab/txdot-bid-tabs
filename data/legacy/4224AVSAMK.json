@@ -1,0 +1,537 @@
+{
+ "project_id": "4224AVSAMK",
+ "airport": "Statewide Group Kilo: Jones Field (Bonham), Commerce Municipal, Granbury Regional, Mexia-Limestone County, Mid-Way Regional",
+ "csj": "4224AVSAMK",
+ "scope": "Pavement Maintenance",
+ "description": "Group Kilo re-bid: rehabilitate and mark airfield pavement; crack seal, sealcoat, overlay and chip seal alternates",
+ "bid_date": "2025-08-12",
+ "location": "Statewide",
+ "source_pdf": "4224AVSAMKRE-BIDBidTab2025-09-12.pdf",
+ "columns": [
+  "Engineer's Estimate",
+  "Lone Wolf Construction, LLC",
+  "Don Jackson Construction Inc."
+ ],
+ "estimate_column": "Engineer's Estimate",
+ "award_schedules": [
+  "Bid Schedule 1",
+  "Additive Alternate 1",
+  "Additive Alternate 2"
+ ],
+ "stated_totals": {
+  "Engineer's Estimate": 3283091.0,
+  "Lone Wolf Construction, LLC": 3081862.14,
+  "Don Jackson Construction Inc.": 3019720.97
+ },
+ "items": [
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "CC-105",
+   "description": "Mobilization - Bonham",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    75000.0,
+    100000.0,
+    53012.0
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "C-105",
+   "description": "Mobilization - Commerce",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    23000.0,
+    60000.0,
+    49532.0
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "C-105",
+   "description": "Mobilization - Granbury",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    200000.0,
+    100000.0,
+    73892.0
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "C-105",
+   "description": "Mobilization - Mexia",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    50000.0,
+    60000.0,
+    49532.0
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "C-105",
+   "description": "Mobilization - Mid-Way",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    65000.0,
+    60000.0,
+    49532.0
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "SS-101",
+   "description": "Temporary Marking, Lighting and Barricades - Bonham",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    11000.0,
+    20000.0,
+    3480.0
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "SS-101",
+   "description": "Temporary Marking, Lighting and Barricades - Commerce",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    11000.0,
+    20000.0,
+    3480.0
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "SS-101",
+   "description": "Temporary Marking, Lighting and Barricades - Granbury",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    11000.0,
+    20000.0,
+    3480.0
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "SS-101",
+   "description": "Temporary Marking, Lighting and Barricades - Mexia",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    15000.0,
+    20000.0,
+    3480.0
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "SS-101",
+   "description": "Temporary Marking, Lighting and Barricades - Mid-Way",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    11000.0,
+    20000.0,
+    3480.0
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-101",
+   "description": "Clean and Seal Joints and Cracks 1/4\" to 11/2\"",
+   "unit": "LF",
+   "qty": 240400.0,
+   "prices": [
+    1.5,
+    1.8,
+    1.22
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-101",
+   "description": "Clean and Seal Joints and Cracks > 1 1/2\"",
+   "unit": "LF",
+   "qty": 4100.0,
+   "prices": [
+    2.5,
+    11.0,
+    1.62
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-101",
+   "description": "Full Depth Pavement Repair",
+   "unit": "SY",
+   "qty": 2190.0,
+   "prices": [
+    120.0,
+    80.0,
+    101.7
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-620",
+   "description": "Surface Preparation - Bonham",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    15000.0,
+    30000.0,
+    22540.0
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-620",
+   "description": "Surface Preparation - Commerce",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    15000.0,
+    30000.0,
+    18910.0
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-620",
+   "description": "Surface Preparation - Granbury",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    15000.0,
+    30000.0,
+    55860.0
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-620",
+   "description": "Surface Preparation - Mexia",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    18000.0,
+    30000.0,
+    33390.0
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-620",
+   "description": "Surface Preparation - Mid-way",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    15000.0,
+    30000.0,
+    43810.0
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-620",
+   "description": "Reflectorized Pavement Marking",
+   "unit": "SF",
+   "qty": 213589.0,
+   "prices": [
+    1.5,
+    0.46,
+    1.15
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-620",
+   "description": "Non-Reflectorized Pavement Marking",
+   "unit": "SF",
+   "qty": 158074.0,
+   "prices": [
+    1.25,
+    1.3,
+    0.63
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-620",
+   "description": "Taxiway Centerline Green Reflective Marker",
+   "unit": "EA",
+   "qty": 571.0,
+   "prices": [
+    15.0,
+    27.0,
+    16.0
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-631",
+   "description": "Refined Coal Tar Emulsion with Additives, Slurry Seal Surface",
+   "unit": "SY",
+   "qty": 398400.0,
+   "prices": [
+    2.25,
+    1.83,
+    1.77
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "23",
+   "description": "Treatment TxDOT216 Proof Rolling",
+   "unit": "",
+   "qty": 60.0,
+   "prices": [
+    75.0,
+    0.1,
+    85.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "AB1-1",
+   "description": "ADDITIVE ALTERNATE : CRACK SEAL AND SEALCOAT APRON AREAS - BONHAM TxDOT SS-3076 2\" HMAC Surface Course",
+   "unit": "TON",
+   "qty": 1500.0,
+   "prices": [
+    210.0,
+    240.0,
+    269.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "TXDOT316",
+   "description": "Double Course Chip Seal Coat Surface Treatment",
+   "unit": "",
+   "qty": 25400.0,
+   "prices": [
+    5.0,
+    7.0,
+    11.88
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "AG1-1",
+   "description": "ADDITIVE ALTERNATE : FULL DEPTH PAVEMENT REPAIR, OVERLAY AND CHIP SEAL OLD TxDOT SS-3076 Full Depth Pavement Repair",
+   "unit": "SY",
+   "qty": 1200.0,
+   "prices": [
+    120.0,
+    80.0,
+    101.7
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "TXDOT216",
+   "description": "2\" HMAC Surface Course",
+   "unit": "TON",
+   "qty": 300.0,
+   "prices": [
+    210.0,
+    282.0,
+    277.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "TXDOT316",
+   "description": "Double Coarse Chip Seal Coat Surface Treatment",
+   "unit": "",
+   "qty": 4600.0,
+   "prices": [
+    5.0,
+    7.0,
+    11.88
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 3",
+   "item": "AG2-1",
+   "description": "ADDITIVE ALTERNATE : OVERLAY AND CHIP SEAL OLD TAXIWAY - GRANBURY TxDOT SS-3076 2\" HMAC Surface Course",
+   "unit": "TON",
+   "qty": 2300.0,
+   "prices": [
+    210.0,
+    262.0,
+    266.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 3",
+   "item": "TXDOT316",
+   "description": "Double Coarse Chip Seal Coat Surface Treatment",
+   "unit": "SY",
+   "qty": 38200.0,
+   "prices": [
+    5.0,
+    7.0,
+    11.88
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DC",
+   "item": "P-101",
+   "description": "Clean and Seal Joints and Cracks 1/4\" to 1 1/2\" (Commerce apron)",
+   "unit": "LF",
+   "qty": -11200.0,
+   "prices": [
+    1.5,
+    1.8,
+    1.22
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DC",
+   "item": "P-102",
+   "description": "Clean and Seal Joints and Cracks > 1 1/2\" (Commerce apron)",
+   "unit": "LF",
+   "qty": -200.0,
+   "prices": [
+    2.5,
+    11.0,
+    1.62
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DC",
+   "item": "P-103",
+   "description": "Full Depth Pavement Repair (Commerce apron)",
+   "unit": "SY",
+   "qty": -20.0,
+   "prices": [
+    120.0,
+    80.0,
+    101.7
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DC",
+   "item": "P-631",
+   "description": "Refined Coal Tar Emulsion with Additives, Slurry Seal Surface Treatment (Commerce apron)",
+   "unit": "SY",
+   "qty": -12100.0,
+   "prices": [
+    2.25,
+    1.83,
+    1.77
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DME",
+   "item": "P-101",
+   "description": "Clean and Seal Joints and Cracks 1/4\" to 1 1/2\" (Mexia east apron)",
+   "unit": "LF",
+   "qty": -11100.0,
+   "prices": [
+    1.5,
+    1.8,
+    1.62
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DME",
+   "item": "P-102",
+   "description": "Clean and Seal Joints and Cracks > 1 1/2\" (Mexia east apron)",
+   "unit": "LF",
+   "qty": -100.0,
+   "prices": [
+    2.5,
+    11.0,
+    1.77
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DME",
+   "item": "P-103",
+   "description": "Full Depth Pavement Repair (Mexia east apron)",
+   "unit": "SY",
+   "qty": -100.0,
+   "prices": [
+    120.0,
+    80.0,
+    101.7
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DME",
+   "item": "P-631",
+   "description": "Refined Coal Tar Emulsion with Additives, Slurry Seal Surface Treatment (Mexia east apron)",
+   "unit": "SY",
+   "qty": -8500.0,
+   "prices": [
+    2.25,
+    1.83,
+    1.77
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DMW",
+   "item": "P-101",
+   "description": "Clean and Seal Joints and Cracks 1/4\" to 1 1/2\" (Mid-Way taxiway)",
+   "unit": "LF",
+   "qty": -18600.0,
+   "prices": [
+    1.5,
+    1.8,
+    1.22
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DMW",
+   "item": "P-102",
+   "description": "Clean and Seal Joints and Cracks > 1 1/2\" (Mid-Way taxiway)",
+   "unit": "LF",
+   "qty": -300.0,
+   "prices": [
+    2.5,
+    11.0,
+    1.62
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DMW",
+   "item": "P-103",
+   "description": "Full Depth Pavement Repair (Mid-Way taxiway)",
+   "unit": "SY",
+   "qty": -100.0,
+   "prices": [
+    120.0,
+    80.0,
+    101.7
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DMW",
+   "item": "P-631",
+   "description": "Refined Coal Tar Emulsion with Additives, Slurry Seal Surface Treatment (Mid-Way taxiway)",
+   "unit": "SY",
+   "qty": -21800.0,
+   "prices": [
+    2.25,
+    1.83,
+    1.77
+   ]
+  }
+ ],
+ "notes": [
+  "Multi-airport statewide group (TxDOT CSJ 4224AVSAMK, Lochner job 19632-K re-bid).",
+  "Award basis per the tab: Bid Schedule 1 + Additive Alternates 1 and 2.",
+  "Deductive alternates DC, DME and DMW were transcribed from the tab image (OCR couldn't read the negative amounts); each matches its printed subtotal."
+ ]
+}
