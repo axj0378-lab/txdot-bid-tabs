@@ -7,7 +7,7 @@ import pytest
 from txdot_bid_tabs import legacy
 
 FILES = sorted(legacy.LEGACY_DIR.glob("*.json"))
-PENDING = {"STWJULIET", "2409KILEN", "2416FREDB"}   # extracted but not yet reconciled
+PENDING: set[str] = set()   # extracted but not yet reconciled
 
 
 @pytest.mark.parametrize("path", FILES, ids=[p.stem for p in FILES])
