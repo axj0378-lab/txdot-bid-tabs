@@ -1,0 +1,481 @@
+{
+ "project_id": "2512BAYCY",
+ "airport": "Bay City Regional Airport",
+ "csj": "2512BAYCY",
+ "scope": "Runway Rehabilitation and Fencing",
+ "description": "Overlay Rehab of Runway 13/31 (Part A) and Fence Replacement (Part B)",
+ "bid_date": "2025-05-14",
+ "location": "Bay City",
+ "source_pdf": "2512BAYCY-BidTab.pdf",
+ "columns": [
+  "Texas Materials Group, Inc.",
+  "Apex Alliance, LLC"
+ ],
+ "estimate_column": null,
+ "award_schedules": [
+  "Part A",
+  "Part B"
+ ],
+ "stated_totals": {
+  "Texas Materials Group, Inc.": 5253410.0,
+  "Apex Alliance, LLC": 10295779.62
+ },
+ "items": [
+  {
+   "schedule": "Part B",
+   "item": "C-105-2",
+   "description": "MOBILIZATION FOR FENCING",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    2200.0,
+    19952.0
+   ]
+  },
+  {
+   "schedule": "Part B",
+   "item": "F-164-1",
+   "description": "BARBED WIRE FENCE REMOVAL",
+   "unit": "LF",
+   "qty": 8100.0,
+   "prices": [
+    2.25,
+    11.64
+   ]
+  },
+  {
+   "schedule": "Part B",
+   "item": "F-164-2",
+   "description": "GAME FENCE WITH BARBED WIRE TOP",
+   "unit": "LF",
+   "qty": 8100.0,
+   "prices": [
+    18.0,
+    23.88
+   ]
+  },
+  {
+   "schedule": "Part B",
+   "item": "F-164-3",
+   "description": "DITCH GATE",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    3400.0,
+    4953.0
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "TX-316-1",
+   "description": "Asphalt for Seal Coat (A-R Type II)",
+   "unit": "GAL",
+   "qty": 17980.0,
+   "prices": [
+    9.0,
+    5.32
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "TX-316-2",
+   "description": "Seal Coat Application (Type B or PB, GR-3 or -3S)",
+   "unit": "SY",
+   "qty": 43840.0,
+   "prices": [
+    4.0,
+    5.02
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "TX-316-3",
+   "description": "Seal Coat Application (Type B or PB, GR-4 or -4S)",
+   "unit": "SY",
+   "qty": 43840.0,
+   "prices": [
+    3.25,
+    5.02
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "C-100-1",
+   "description": "Contractor Quality Control Program",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    28200.0,
+    37400.0
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "C-102-1",
+   "description": "Install, Maintain and Remove Reinforced Filter Fabric Fence (Type 2)",
+   "unit": "LF",
+   "qty": 10140.0,
+   "prices": [
+    3.0,
+    7.92
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "C-102-2",
+   "description": "Install, Maintain and Remove Construction Exit (Type 3)",
+   "unit": "SY",
+   "qty": 180.0,
+   "prices": [
+    51.0,
+    46.05
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "C-105-1",
+   "description": "Mobilization for Overall Project",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    646000.0,
+    211200.0
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "P-101-1",
+   "description": "Sealing Existing Open Cracks < 1 1/2 Inches",
+   "unit": "LF",
+   "qty": 500.0,
+   "prices": [
+    7.75,
+    6.6
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "P-101-2",
+   "description": "Sealing Existing Open Cracks > 1 1/2 Inches",
+   "unit": "LF",
+   "qty": 100.0,
+   "prices": [
+    12.0,
+    12.1
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "P-101-3",
+   "description": "1 1/2 Inch Milling of Asphalt Pavement for Transitions",
+   "unit": "SY",
+   "qty": 720.0,
+   "prices": [
+    11.0,
+    55.42
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "P-101-4",
+   "description": "Demolish Asphalt Pavement",
+   "unit": "SY",
+   "qty": 40.0,
+   "prices": [
+    200.0,
+    165.0
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "P-152-1",
+   "description": "Shoulder Grading",
+   "unit": "SY",
+   "qty": 11900.0,
+   "prices": [
+    2.75,
+    2.5
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "P-152-2",
+   "description": "Stockpile and Grading Excavation",
+   "unit": "CY",
+   "qty": 750.0,
+   "prices": [
+    6.0,
+    26.52
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "P-209-1",
+   "description": "24 Inch Crushed Aggregate Base Course",
+   "unit": "SY",
+   "qty": 70.0,
+   "prices": [
+    347.0,
+    220.0
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "P-401-1",
+   "description": "2 Inch Level-Up Asphalt Pavement",
+   "unit": "TON",
+   "qty": 5650.0,
+   "prices": [
+    319.0,
+    778.76
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "P-401-2",
+   "description": "2 Inch Asphalt Pavement",
+   "unit": "TON",
+   "qty": 5180.0,
+   "prices": [
+    336.0,
+    811.94
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "P-603-1",
+   "description": "Emulsified Asphalt Tack Coat",
+   "unit": "GAL",
+   "qty": 13800.0,
+   "prices": [
+    4.25,
+    7.33
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "P-620-1",
+   "description": "Paint Marking Removal",
+   "unit": "SF",
+   "qty": 100.0,
+   "prices": [
+    6.0,
+    5.46
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "P-620-2",
+   "description": "Blackout / Black Outline",
+   "unit": "SF",
+   "qty": 1000.0,
+   "prices": [
+    0.75,
+    0.79
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "P-620-3",
+   "description": "Retro-Reflective Pavement Marking (Yellow)",
+   "unit": "SF",
+   "qty": 910.0,
+   "prices": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "P-620-4",
+   "description": "Retro-Reflective Pavement Marking (White)",
+   "unit": "SF",
+   "qty": 24400.0,
+   "prices": [
+    1.0,
+    1.02
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "P-620-5",
+   "description": "Non-Reflective Pavement Marking (Yellow)",
+   "unit": "SF",
+   "qty": 700.0,
+   "prices": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "P-620-6",
+   "description": "Non-Reflective Pavement Marking (White)",
+   "unit": "SF",
+   "qty": 24400.0,
+   "prices": [
+    1.0,
+    1.02
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "P-629-1",
+   "description": "Micro-Surface Type B",
+   "unit": "SF",
+   "qty": 100.0,
+   "prices": [
+    45.0,
+    9.9
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "T-901-1",
+   "description": "Seeding with Hydromulch",
+   "unit": "AC",
+   "qty": 2.6,
+   "prices": [
+    2450.0,
+    12100.0
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "T-904-1",
+   "description": "Block Sod",
+   "unit": "SY",
+   "qty": 5850.0,
+   "prices": [
+    5.5,
+    8.91
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "T-904-2",
+   "description": "Watering",
+   "unit": "MGAL",
+   "qty": 200.0,
+   "prices": [
+    88.0,
+    110.0
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "T-905-1",
+   "description": "2\" Topsoil",
+   "unit": "CY",
+   "qty": 676.0,
+   "prices": [
+    55.0,
+    61.02
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "SS-106-1",
+   "description": "Construction Safety Plan Compliance",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    6100.0,
+    41250.0
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "SS-106-2",
+   "description": "Low Profile Barricades",
+   "unit": "LF",
+   "qty": 150.0,
+   "prices": [
+    135.0,
+    32.22
+   ]
+  },
+  {
+   "schedule": "Part A",
+   "item": "SS-106-3",
+   "description": "Runway Closure Markers (Lighted)",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    15200.0,
+    20240.0
+   ]
+  },
+  {
+   "schedule": "Alternate 1",
+   "item": "TX-247-1",
+   "description": "24 Inch Flexible Base (in Final Position)",
+   "unit": "SY",
+   "qty": 70.0,
+   "prices": [
+    314.0,
+    220.0
+   ]
+  },
+  {
+   "schedule": "Alternate 1",
+   "item": "TX-341-1",
+   "description": "D-GR HMA Ty-D PG64-22 (2\" Level-Up)",
+   "unit": "TON",
+   "qty": 5650.0,
+   "prices": [
+    301.0,
+    236.25
+   ]
+  },
+  {
+   "schedule": "Alternate 1",
+   "item": "TX-341-2",
+   "description": "D-GR HMA Ty-D PG70-16 (2\" Surface)",
+   "unit": "TON",
+   "qty": 5180.0,
+   "prices": [
+    313.0,
+    236.25
+   ]
+  },
+  {
+   "schedule": "Alternate 1",
+   "item": "P-209-1",
+   "description": "24 Inch Crushed Aggregate Base Course (deduct)",
+   "unit": "SY",
+   "qty": -70.0,
+   "prices": [
+    347.0,
+    220.0
+   ]
+  },
+  {
+   "schedule": "Alternate 1",
+   "item": "P-401-1",
+   "description": "2 Inch Level-Up Asphalt Pavement (deduct)",
+   "unit": "TON",
+   "qty": -5650.0,
+   "prices": [
+    319.0,
+    778.76
+   ]
+  },
+  {
+   "schedule": "Alternate 1",
+   "item": "P-401-2",
+   "description": "2 Inch Asphalt Pavement (deduct)",
+   "unit": "TON",
+   "qty": -5180.0,
+   "prices": [
+    336.0,
+    811.94
+   ]
+  }
+ ],
+ "notes": [
+  "The tab header says 'Bid Tabulation for 2513BAYCY'; the file is named 2512BAYCY.",
+  "Engineer's estimate appears only as rounded totals on the summary page (no unit prices).",
+  "Alternate 1 is a deductive TxDOT-specification substitution for Part A items."
+ ]
+}

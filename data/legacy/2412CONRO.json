@@ -1,0 +1,185 @@
+{
+ "project_id": "2412CONRO",
+ "airport": "Conroe-North Houston Regional Airport",
+ "csj": "2412CONRO",
+ "scope": "Pavement Markings",
+ "description": "Mark Runway 14-32 and Runway 1-19",
+ "bid_date": "2025-10-30",
+ "location": "",
+ "source_pdf": "2412CONRO_Bid Tab.pdf",
+ "columns": [
+  "Engineer's Estimate",
+  "Lone Wolf Construction, LLC",
+  "Hi-Lite Airfield Services LLC"
+ ],
+ "estimate_column": "Engineer's Estimate",
+ "award_schedules": [
+  "Bid Schedule 2"
+ ],
+ "stated_totals": {
+  "Engineer's Estimate": 976400.0,
+  "Lone Wolf Construction, LLC": 1059184.0,
+  "Hi-Lite Airfield Services LLC": 874967.6
+ },
+ "items": [
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "C-105-6.1",
+   "description": "Mobilization",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    85000.0,
+    60000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "S-1-2.2",
+   "description": "Temporary Marking, Lighting and Barricades",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    50000.0,
+    15000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-620-5.1.a.1",
+   "description": "Removal of Existing Runway Markings",
+   "unit": "SF",
+   "qty": 243050.0,
+   "prices": [
+    0.75,
+    0.5,
+    null
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-620-5.1.a.2",
+   "description": "Removal of Existing Taxiway Markings",
+   "unit": "SF",
+   "qty": 34860.0,
+   "prices": [
+    0.75,
+    0.5,
+    null
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-620-5.1.b.1",
+   "description": "Reflectorized Pavement Markings (White)",
+   "unit": "SF",
+   "qty": 156670.0,
+   "prices": [
+    1.5,
+    1.01,
+    null
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-620-5.1.b.2",
+   "description": "Reflectorized Pavement Markings (Yellow)",
+   "unit": "SF",
+   "qty": 13030.0,
+   "prices": [
+    1.5,
+    1.01,
+    null
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-620-5.1.b.3",
+   "description": "Reflectorized Pavement Markings (Black)",
+   "unit": "SF",
+   "qty": 111650.0,
+   "prices": [
+    1.5,
+    0.98,
+    null
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 2",
+   "item": "C-105-6.1",
+   "description": "Mobilization",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    107000.0,
+    85000.0,
+    85000.0
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 2",
+   "item": "S-1-2.1",
+   "description": "Temporary Marking, Lighting and Barricades",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    50000.0,
+    20000.0,
+    46000.0
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 2",
+   "item": "P-620-5.1.e",
+   "description": "Shot Blasting",
+   "unit": "SY",
+   "qty": 144500.0,
+   "prices": [
+    2.75,
+    4.66,
+    3.87
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 2",
+   "item": "P-620-5.1.b.1",
+   "description": "Reflectorized Pavement Markings (White)",
+   "unit": "SF",
+   "qty": 156670.0,
+   "prices": [
+    1.5,
+    1.01,
+    0.79
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 2",
+   "item": "P-620-5.1.b.2",
+   "description": "Reflectorized Pavement Markings (Yellow)",
+   "unit": "SF",
+   "qty": 13030.0,
+   "prices": [
+    1.5,
+    1.01,
+    0.91
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 2",
+   "item": "P-620-5.1.b.3",
+   "description": "Reflectorized Pavement Markings (Black)",
+   "unit": "SF",
+   "qty": 111650.0,
+   "prices": [
+    1.5,
+    0.98,
+    0.44
+   ]
+  }
+ ],
+ "notes": [
+  "Award based on Bid Schedule 2 only (tab's recommended award). Hi-Lite did not bid Schedule 1."
+ ]
+}

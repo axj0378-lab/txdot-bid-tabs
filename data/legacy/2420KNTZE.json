@@ -1,0 +1,419 @@
+{
+ "project_id": "2420KNTZE",
+ "airport": "Hawthorne Field",
+ "csj": "2420KNTZE",
+ "scope": "Pavement Improvements",
+ "description": "Pavement Improvements, Schedule 1",
+ "bid_date": "2025-01-29",
+ "location": "Kountze",
+ "source_pdf": "NTB2420KNTZE00038BidReview.pdf",
+ "columns": [
+  "Engineer's Estimate",
+  "Apex Alliance, LLC",
+  "Ambrozi Contracting, LLC",
+  "Texas Materials"
+ ],
+ "estimate_column": "Engineer's Estimate",
+ "award_schedules": [
+  "Schedule 1"
+ ],
+ "stated_totals": {
+  "Engineer's Estimate": 3039895.0,
+  "Apex Alliance, LLC": 3051582.68,
+  "Ambrozi Contracting, LLC": 3278343.0,
+  "Texas Materials": 3445736.0
+ },
+ "items": [
+  {
+   "schedule": "Schedule 1",
+   "item": "SS-120-3.1",
+   "description": "Construction Safety and Security",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    40000.0,
+    40700.0,
+    59444.0,
+    20000.0
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "SS-262-5.1",
+   "description": "Tiedown Anchor",
+   "unit": "EA",
+   "qty": 48.0,
+   "prices": [
+    700.0,
+    660.0,
+    1200.0,
+    650.0
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "SS-300-5.1",
+   "description": "Lockout/Tagout and Constant Current Regulator Calibration Procedures",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    10000.0,
+    8470.0,
+    9300.0,
+    10000.0
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "SS-301-5.1",
+   "description": "Existing Base Mounted Guidance Sign, Removed",
+   "unit": "EA",
+   "qty": 4.0,
+   "prices": [
+    1000.0,
+    880.0,
+    2300.0,
+    600.0
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "SS-310-5.1",
+   "description": "Temporary Airfield Lighting",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    15000.0,
+    23650.0,
+    12800.0,
+    8000.0
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "SS-3076-6.1",
+   "description": "Dense-Graded Hot-Mix Asphalt (Ty-D)(PG-70-22)(2\" & Variable Thickness)",
+   "unit": "TON",
+   "qty": 6480.0,
+   "prices": [
+    200.0,
+    226.97,
+    216.0,
+    260.0
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "SS-3076-6.2",
+   "description": "Dense-Graded Hot-Mix Asphalt (Ty-D)(PG-70-22)(4\" Thickness)",
+   "unit": "TON",
+   "qty": 2810.0,
+   "prices": [
+    175.0,
+    226.97,
+    216.0,
+    270.3
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "SS-3076-6.3",
+   "description": "Tack Coat",
+   "unit": "GAL",
+   "qty": 48360.0,
+   "prices": [
+    4.0,
+    3.61,
+    7.8,
+    5.0
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "C-100-14.1",
+   "description": "Contractor Quality Control Program (CQCP)",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    40000.0,
+    37400.0,
+    103000.0,
+    126200.0
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "C-102-5.1",
+   "description": "Temporary Erosion Control",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    30000.0,
+    21000.0,
+    12000.0,
+    60000.0
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "C-105-6.1",
+   "description": "Mobilization (Maximum 5% of Total Bid)",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    152000.0,
+    152550.0,
+    23000.0,
+    170000.0
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "P-101-5.1",
+   "description": "Asphaltic Concrete Pavement Removal (2\")",
+   "unit": "SY",
+   "qty": 12490.0,
+   "prices": [
+    4.0,
+    3.44,
+    5.4,
+    5.0
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "P-101-5.2",
+   "description": "Full-Depth Asphaltic Pavement Removal",
+   "unit": "SY",
+   "qty": 2880.0,
+   "prices": [
+    10.0,
+    21.56,
+    28.0,
+    9.0
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "P-101-5.3",
+   "description": "Crack Repair",
+   "unit": "LF",
+   "qty": 22400.0,
+   "prices": [
+    4.0,
+    2.0,
+    5.0,
+    2.0
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "P-101-5.4",
+   "description": "Reflective Marker Removal",
+   "unit": "EA",
+   "qty": 66.0,
+   "prices": [
+    20.0,
+    27.5,
+    100.0,
+    13.0
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "P-101-5.5",
+   "description": "Pavement Marking Removal",
+   "unit": "SF",
+   "qty": 30200.0,
+   "prices": [
+    2.0,
+    1.5,
+    1.0,
+    0.6
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "P-620-5.1A",
+   "description": "Runway and Taxiway Marking, Yellow (with Reflective Media)",
+   "unit": "SF",
+   "qty": 5800.0,
+   "prices": [
+    5.0,
+    1.54,
+    1.3,
+    0.6
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "P-620-5.1B",
+   "description": "Runway and Taxiway Marking, White (with Reflective Media)",
+   "unit": "SF",
+   "qty": 21400.0,
+   "prices": [
+    5.0,
+    1.54,
+    1.3,
+    0.6
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "P-620-5.1C",
+   "description": "Runway and Taxiway Marking, Black (without Reflective Media)",
+   "unit": "SF",
+   "qty": 15300.0,
+   "prices": [
+    4.0,
+    0.63,
+    0.7,
+    0.6
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "P-620-5.1D",
+   "description": "Runway and Taxiway Marking, Green (without Reflective Media)",
+   "unit": "SF",
+   "qty": 2750.0,
+   "prices": [
+    4.0,
+    0.63,
+    1.3,
+    0.6
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "P-620-5.2A",
+   "description": "Temporary Runway and Taxiway Marking, Yellow",
+   "unit": "SF",
+   "qty": 5800.0,
+   "prices": [
+    4.0,
+    1.54,
+    1.3,
+    0.6
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "P-620-5.2B",
+   "description": "Temporary Runway and Taxiway Marking, White",
+   "unit": "SF",
+   "qty": 21400.0,
+   "prices": [
+    4.0,
+    1.54,
+    1.3,
+    0.6
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "P-620-5.2C",
+   "description": "Temporary Runway and Taxiway Marking, Green",
+   "unit": "SF",
+   "qty": 2750.0,
+   "prices": [
+    3.0,
+    0.63,
+    1.3,
+    0.6
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "T-901-5.1",
+   "description": "Seeding",
+   "unit": "AC",
+   "qty": 5.0,
+   "prices": [
+    2000.0,
+    5250.0,
+    7300.0,
+    2420.0
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "T-905-5.1",
+   "description": "Topsoil (Furnished from off the Site) (2\" Variable Thickness)",
+   "unit": "SY",
+   "qty": 24200.0,
+   "prices": [
+    5.0,
+    3.14,
+    5.6,
+    3.0
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "L-108-5.1",
+   "description": "No. 8 AWG, 5kV, L-824, Type C Cable, Installed in Trench, Duct Bank or Conduit",
+   "unit": "LF",
+   "qty": 650.0,
+   "prices": [
+    7.0,
+    14.58,
+    9.4,
+    6.0
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "L-108-5.2",
+   "description": "No. 6 AWG, Solid, Bare Copper Counterpoise Wire, Installed in Trench, Above the Duct Bank or Conduit, Including Connections/Terminations",
+   "unit": "LF",
+   "qty": 325.0,
+   "prices": [
+    8.0,
+    8.91,
+    9.4,
+    4.0
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "L-110-5.1",
+   "description": "Non-Encased Electrical Conduit, 1-Way 2-Inch C",
+   "unit": "LF",
+   "qty": 325.0,
+   "prices": [
+    25.0,
+    22.28,
+    38.0,
+    23.0
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "L-125-5.1",
+   "description": "L-858(L) Base Mounted, 3-Module Guidance Sign, Installed",
+   "unit": "EA",
+   "qty": 4.0,
+   "prices": [
+    7500.0,
+    7869.47,
+    6800.0,
+    9000.0
+   ]
+  },
+  {
+   "schedule": "Schedule 1",
+   "item": "L-125-5.2",
+   "description": "L-853 Elevated Retroreflective Marker, Installed",
+   "unit": "EA",
+   "qty": 5.0,
+   "prices": [
+    500.0,
+    459.75,
+    390.0,
+    230.0
+   ]
+  }
+ ],
+ "notes": []
+}

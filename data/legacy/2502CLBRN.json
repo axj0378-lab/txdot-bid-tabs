@@ -1,0 +1,1253 @@
+{
+ "project_id": "2502CLBRN",
+ "airport": "Cleburne Regional Airport",
+ "csj": "2502CLBRN",
+ "scope": "Apron Reconstruction",
+ "description": "Apron Reconstruction Project",
+ "bid_date": "2026-03-25",
+ "location": "",
+ "source_pdf": "2502CLBRN-BidTabulation.pdf",
+ "columns": [
+  "Engineer's Estimate",
+  "Lone Wolf Construction",
+  "Knife River",
+  "Nu-Way Construction",
+  "Jay Mills Construction Inc.",
+  "Texas Materials Group Inc."
+ ],
+ "estimate_column": "Engineer's Estimate",
+ "award_schedules": [
+  "Base Bid"
+ ],
+ "stated_totals": {
+  "Lone Wolf Construction": 2992916.6,
+  "Knife River": 3207436.0,
+  "Nu-Way Construction": 3294275.0,
+  "Jay Mills Construction Inc.": 3242845.0,
+  "Texas Materials Group Inc.": 3420409.92
+ },
+ "items": [
+  {
+   "schedule": "Base Bid",
+   "item": "SS-120-3.1",
+   "description": "CONSTRUCTION SAFETY AND SECURITY",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    85000.0,
+    5000.0,
+    180000.0,
+    40000.0,
+    50000.0,
+    120000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "SS-140-5.1",
+   "description": "STORM DRAIN PIPE REMOVAL",
+   "unit": "LF",
+   "qty": 110.0,
+   "prices": [
+    25.0,
+    100.0,
+    55.0,
+    75.0,
+    35.0,
+    15.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "SS-140-5.2",
+   "description": "MISCELLANEOUS CONCRETE DRAINAGE STRUCTURE REMOVAL",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    1500.0,
+    2000.0,
+    1500.0,
+    2500.0,
+    1000.0,
+    1500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "SS-140-5.3",
+   "description": "CONCRETE DRAINAGE FLUME REMOVAL",
+   "unit": "SY",
+   "qty": 150.0,
+   "prices": [
+    50.0,
+    50.0,
+    40.0,
+    67.0,
+    22.0,
+    75.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "SS-140-5.4",
+   "description": "TIEDOWN ANCHOR REMOVAL",
+   "unit": "EA",
+   "qty": 66.0,
+   "prices": [
+    500.0,
+    270.0,
+    315.0,
+    500.0,
+    350.0,
+    225.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "SS-212-5.1",
+   "description": "BIAXIAL GEOGRID",
+   "unit": "SY",
+   "qty": 130.0,
+   "prices": [
+    15.0,
+    30.0,
+    40.0,
+    55.0,
+    18.0,
+    25.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "SS-262-5.1",
+   "description": "TIEDOWN ANCHOR",
+   "unit": "EA",
+   "qty": 57.0,
+   "prices": [
+    750.0,
+    650.0,
+    850.0,
+    1000.0,
+    760.0,
+    545.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "SS-300-5.1",
+   "description": "LOCKOUT/TAGOUT AND CONSTANT CURRENT REGULATOR CALIBRATION PROCEDURES",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    15000.0,
+    40440.0,
+    7500.0,
+    25000.0,
+    6500.0,
+    5500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "SS-301-5.1",
+   "description": "EXISTING BASE MOUNTED EDGE LIGHT, REMOVED",
+   "unit": "EA",
+   "qty": 46.0,
+   "prices": [
+    400.0,
+    470.0,
+    725.0,
+    750.0,
+    450.0,
+    790.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "SS-301-5.2",
+   "description": "EXISTING CONCRETE ENCASED ELECTRICAL JUNCTION STRUCTURE, REMOVED",
+   "unit": "EA",
+   "qty": 10.0,
+   "prices": [
+    500.0,
+    956.0,
+    1300.0,
+    2000.0,
+    450.0,
+    275.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "SS-301-5.3",
+   "description": "EXISTING ELECTRICAL DUCT BANK, DEMOLISHED",
+   "unit": "LF",
+   "qty": 60.0,
+   "prices": [
+    50.0,
+    42.0,
+    50.0,
+    75.0,
+    10.0,
+    2.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "SS-305-5.1",
+   "description": "DIRECTIONAL BORING, 2-WAY 2\"C POLYETHYLENE CONDUITS",
+   "unit": "LF",
+   "qty": 225.0,
+   "prices": [
+    80.0,
+    118.0,
+    125.0,
+    150.0,
+    117.0,
+    100.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "SS-310-5.1",
+   "description": "TEMPORARY AIRFIELD LIGHTING",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    10000.0,
+    55000.0,
+    15000.0,
+    30000.0,
+    13000.0,
+    11000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-100-14.1",
+   "description": "CONTRACTOR QUALITY CONTROL",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    120000.0,
+    80000.0,
+    85000.0,
+    30000.0,
+    80000.0,
+    148000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-102-5.1a",
+   "description": "INSTALLATION AND REMOVAL OF SILT FENCE",
+   "unit": "LF",
+   "qty": 3250.0,
+   "prices": [
+    14.0,
+    5.0,
+    9.5,
+    6.5,
+    7.25,
+    6.45
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-102-5.1b",
+   "description": "INSTALLATION AND REMOVAL OF WATTLE DROP INLET PROTECTION",
+   "unit": "EA",
+   "qty": 9.0,
+   "prices": [
+    200.0,
+    300.0,
+    725.0,
+    250.0,
+    350.0,
+    537.93
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-102-5.1c",
+   "description": "INSTALLATION AND REMOVAL OF HEADWALL SILT TRAP",
+   "unit": "EA",
+   "qty": 5.0,
+   "prices": [
+    80.0,
+    300.0,
+    950.0,
+    750.0,
+    825.0,
+    723.39
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-102-5.1d",
+   "description": "INSTALLLATION AND REMOVAL OF CONCRETE WASHOUT",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    350.0,
+    3000.0,
+    3000.0,
+    10000.0,
+    2700.0,
+    5000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-102-5.1e",
+   "description": "INSTALLLATION AND REMOVAL OF STABILIZED CONSTRUCTION ENTRANCE (TYPE 1)",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    300.0,
+    5000.0,
+    14000.0,
+    10000.0,
+    4650.0,
+    28648.4
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-102-5.1f",
+   "description": "INSTALLATION AND REMOVAL OF GRATE INLET PROTECTION",
+   "unit": "EA",
+   "qty": 8.0,
+   "prices": [
+    150.0,
+    1500.0,
+    550.0,
+    500.0,
+    125.0,
+    237.05
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-105-6.1",
+   "description": "MOBILIZATION (MAXIMUM 10% OF",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    344000.0,
+    260000.0,
+    315000.0,
+    175000.0,
+    350000.0,
+    320000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "D-701-5.1a",
+   "description": "12-INCH REINFORCED CONCRETE PIPE (CLASS III)",
+   "unit": "LF",
+   "qty": 20.0,
+   "prices": [
+    120.0,
+    168.0,
+    180.0,
+    95.0,
+    150.0,
+    140.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "D-701-5.1b",
+   "description": "12-INCH REINFORCED CONCRETE PIPE (CLASS III), CONCRETE ENCASED",
+   "unit": "LF",
+   "qty": 80.0,
+   "prices": [
+    200.0,
+    168.0,
+    200.0,
+    205.0,
+    205.0,
+    140.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "D-701-5.1c",
+   "description": "18-INCH REINFORCED CONCRETE PIPE (CLASS III)",
+   "unit": "LF",
+   "qty": 170.0,
+   "prices": [
+    180.0,
+    180.0,
+    180.0,
+    120.0,
+    115.0,
+    150.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "D-751-5.1",
+   "description": "4-FT X 4-FT AIRFIELD GRATE INLET (STANDARD)",
+   "unit": "EA",
+   "qty": 3.0,
+   "prices": [
+    20000.0,
+    33000.0,
+    7500.0,
+    10000.0,
+    6600.0,
+    25500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-101-5.1",
+   "description": "ASPHALT CRACK REPAIR (1/4\" TO 1/2\" WIDE)",
+   "unit": "LF",
+   "qty": 52200.0,
+   "prices": [
+    0.8,
+    1.8,
+    1.8,
+    2.0,
+    1.75,
+    1.6
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-101-5.2",
+   "description": "ASPHALT CRACK REPAIR (> 1/2\" WIDE)",
+   "unit": "LF",
+   "qty": 13100.0,
+   "prices": [
+    1.5,
+    3.0,
+    2.6,
+    2.0,
+    2.5,
+    2.67
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-101-5.3",
+   "description": "FULL DEPTH ASPHALT PAVEMENT REMOVAL",
+   "unit": "SY",
+   "qty": 21250.0,
+   "prices": [
+    9.0,
+    13.5,
+    9.75,
+    7.0,
+    9.25,
+    8.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-152-4.1",
+   "description": "UNCLASSIFIED EXCAVATION",
+   "unit": "CY",
+   "qty": 5300.0,
+   "prices": [
+    30.0,
+    20.0,
+    48.0,
+    25.0,
+    31.0,
+    56.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-152-4.2",
+   "description": "ROCK EXCAVATON",
+   "unit": "CY",
+   "qty": 500.0,
+   "prices": [
+    50.0,
+    30.0,
+    10.0,
+    75.0,
+    48.0,
+    49.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-152-4.3",
+   "description": "UNSUITABLE EXCAVATION",
+   "unit": "CY",
+   "qty": 2000.0,
+   "prices": [
+    35.0,
+    30.0,
+    1.0,
+    45.0,
+    38.0,
+    45.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620-5.1",
+   "description": "FIRST APPLICATION, TEMPORARY TAXIWAY PAINTING, YELLOW (NO REFLECTIVE MEDIA)",
+   "unit": "SF",
+   "qty": 4700.0,
+   "prices": [
+    2.5,
+    0.8,
+    0.94,
+    5.0,
+    1.9,
+    0.75
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620-5.2",
+   "description": "FIRST APPLICATION, TEMPORARY TAXIWAY PAINTING, GREEN (NO REFLECTIVE MEDIA)",
+   "unit": "SF",
+   "qty": 4600.0,
+   "prices": [
+    2.5,
+    1.03,
+    1.16,
+    5.0,
+    2.1,
+    0.93
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620-5.3",
+   "description": "TAXIWAY PAINTING, YELLOW (TYPE III REFLECTIVE MEDIA)",
+   "unit": "SF",
+   "qty": 4600.0,
+   "prices": [
+    3.0,
+    1.43,
+    1.54,
+    5.0,
+    2.45,
+    1.23
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620-5.4",
+   "description": "TAXIWAY PAINTING, BLACK (NO REFLECTIVE MEDIA)",
+   "unit": "SF",
+   "qty": 9200.0,
+   "prices": [
+    2.5,
+    1.0,
+    1.06,
+    5.0,
+    2.05,
+    0.84
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620-5.5",
+   "description": "TAXIWAY PAINTING, GREEN (NO REFLECTIVE MEDIA)",
+   "unit": "SF",
+   "qty": 4600.0,
+   "prices": [
+    2.5,
+    1.4,
+    1.5,
+    5.0,
+    2.45,
+    1.2
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620-5.6",
+   "description": "PAVEMENT MARKINGS REMOVAL",
+   "unit": "SF",
+   "qty": 8200.0,
+   "prices": [
+    2.6,
+    0.6,
+    0.45,
+    6.0,
+    1.45,
+    0.36
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-631-7.1",
+   "description": "REFINED COAL TAR EMULSION WITH ADDITIVES FOR SLURRY COAT (2",
+   "unit": "SY",
+   "qty": 23400.0,
+   "prices": [
+    12.0,
+    1.86,
+    2.0,
+    7.0,
+    1.8,
+    1.66
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "T-901-5.1",
+   "description": "APPLICATIONS) SEEDING",
+   "unit": "AC",
+   "qty": 8.7,
+   "prices": [
+    2800.0,
+    3198.0,
+    6500.0,
+    10000.0,
+    4850.0,
+    21479.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "T-904-5.1",
+   "description": "SODDING",
+   "unit": "SY",
+   "qty": 10000.0,
+   "prices": [
+    10.0,
+    6.5,
+    7.25,
+    12.0,
+    7.0,
+    9.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TX-247-6.1",
+   "description": "FLEXIBLE BASE, COMPLETE IN PLACE, TYPE D, GRADE 1-2 (6-INCH THICKNESS, LIFT)",
+   "unit": "SY",
+   "qty": 17400.0,
+   "prices": [
+    20.0,
+    18.0,
+    26.75,
+    27.0,
+    18.0,
+    23.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TX-260-6.1",
+   "description": "LIME TREATMENT (ROAD-MIXED) (6%) (6-INCH THICKNESS, LIFT)",
+   "unit": "SY",
+   "qty": 17700.0,
+   "prices": [
+    10.0,
+    9.5,
+    6.5,
+    9.0,
+    9.0,
+    13.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TX-260-6.2",
+   "description": "HYDRATED LIME (SLURRY)",
+   "unit": "TON",
+   "qty": 315.0,
+   "prices": [
+    400.0,
+    410.0,
+    405.0,
+    350.0,
+    400.0,
+    308.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TX-341-6.1",
+   "description": "DENSE-GRADED HOT-MIX ASPHALT, TYPE D, SAC B, PG 64-22 (3-INCH THICKNESS, LIFT)",
+   "unit": "TON",
+   "qty": 3200.0,
+   "prices": [
+    200.0,
+    173.16,
+    170.0,
+    165.0,
+    275.0,
+    170.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TX-432-5.1",
+   "description": "STONE RIPRAP (SRR, PROTECTION, EXTENDED ROCK FILLED TRENCH TOE, GROUTED) (6-INCH THICKNESS)",
+   "unit": "SY",
+   "qty": 12.0,
+   "prices": [
+    50.0,
+    170.0,
+    300.0,
+    400.0,
+    350.0,
+    100.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TX-467-5.1",
+   "description": "TXDOT PRECAST SAFETY END TREATMENT, 12\" PIPE I.D., TYPE II, (PSET-SP)",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    2000.0,
+    3000.0,
+    2500.0,
+    3000.0,
+    2250.0,
+    2500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-108-5.1",
+   "description": "NO. AWG, kV, L-824, TYPE C CABLE, INSTALLED IN TRENCH, DUCT BANK OR CONDUIT",
+   "unit": "LF",
+   "qty": 5600.0,
+   "prices": [
+    6.5,
+    5.1,
+    3.13,
+    13.0,
+    3.0,
+    2.5
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-108-5.2",
+   "description": "NO. AWG, SOLID, BARE COPPER COUNTERPOISE WIRE, INSTALLED IN TRENCH, ABOVE THE DUCT BANK OR CONDUIT, INCLUDING",
+   "unit": "LF",
+   "qty": 1850.0,
+   "prices": [
+    8.0,
+    4.8,
+    3.13,
+    13.0,
+    3.0,
+    2.5
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110-5.1",
+   "description": "CONNECTIONS/TERMINATIONS NON-ENCASED, ELECTRICAL CONDUIT, 1-WAY 2-INCH C",
+   "unit": "LF",
+   "qty": 1650.0,
+   "prices": [
+    35.0,
+    29.4,
+    21.0,
+    27.0,
+    20.0,
+    17.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110-5.2",
+   "description": "NON-ENCASED, ELECTRICAL DUCT BANK, 2-WAY 2-INCH C CONCRETE ENCASED ELECTRICAL",
+   "unit": "LF",
+   "qty": 265.0,
+   "prices": [
+    55.0,
+    31.8,
+    26.0,
+    90.0,
+    25.0,
+    21.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-115-5.1",
+   "description": "JUNCTION STRUCTURE CAN PLAZA, TWO L-867 CLASS 1, SIZE 16\" DIAMETER BY 24\" DEPTH CANS",
+   "unit": "EA",
+   "qty": 6.0,
+   "prices": [
+    10000.0,
+    10500.0,
+    7000.0,
+    6000.0,
+    6550.0,
+    5600.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.1",
+   "description": "INSTALLED L-861T(L) BASE MOUNTED TAXIWAY EDGE LIGHT, INSTALLED",
+   "unit": "EA",
+   "qty": 37.0,
+   "prices": [
+    2500.0,
+    3180.0,
+    3250.0,
+    2000.0,
+    3020.0,
+    2600.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.2",
+   "description": "L-853, BLUE, TAXIWAY EDGE REFLECTOR, INSTALLED ON PAVEMENT",
+   "unit": "EA",
+   "qty": 10.0,
+   "prices": [
+    500.0,
+    330.0,
+    430.0,
+    1000.0,
+    400.0,
+    344.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "SS-120-3.1",
+   "description": "CONSTRUCTION SAFETY AND SECURITY",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    10000.0,
+    5000.0,
+    9000.0,
+    20000.0,
+    10000.0,
+    5600.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "SS-140-5.1",
+   "description": "STORM DRAIN PIPE REMOVAL",
+   "unit": "LF",
+   "qty": 1.0,
+   "prices": [
+    25.0,
+    3000.0,
+    500.0,
+    75.0,
+    250.0,
+    15.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "SS-140-5.2",
+   "description": "MISCELLANEOUS CONCRETE DRAINAGE STRUCTURE REMOVAL",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    1500.0,
+    3000.0,
+    1500.0,
+    2500.0,
+    1000.0,
+    1500.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "SS-262-5.1",
+   "description": "TIEDOWN ANCHOR",
+   "unit": "EA",
+   "qty": 24.0,
+   "prices": [
+    750.0,
+    650.0,
+    850.0,
+    1000.0,
+    760.0,
+    545.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "SS-301-5.1",
+   "description": "EXISTING BASE MOUNTED EDGE LIGHT, REMOVED",
+   "unit": "EA",
+   "qty": 7.0,
+   "prices": [
+    400.0,
+    470.0,
+    725.0,
+    750.0,
+    400.0,
+    1500.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "SS-301-5.2",
+   "description": "EXISTING CONCRETE ENCASED ELECTRICAL JUNCTION STRUCTURE, REMOVED",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    500.0,
+    956.0,
+    1300.0,
+    2000.0,
+    400.0,
+    225.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "SS-305-5.1",
+   "description": "DIRECTIONAL BORING, 2-WAY 2\"C POLYETHYLENE CONDUITS",
+   "unit": "LF",
+   "qty": 75.0,
+   "prices": [
+    80.0,
+    118.0,
+    125.0,
+    150.0,
+    120.0,
+    100.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "C-100-14.2",
+   "description": "CONTRACTOR QUALITY CONTROL PROGRAM (CQCP) (ADDITIVE",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    18000.0,
+    25000.0,
+    9500.0,
+    15000.0,
+    25000.0,
+    35800.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "C-102-5.1b",
+   "description": "INSTALLATION AND REMOVAL OF WATTLE DROP INLET PROTECTION",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    200.0,
+    300.0,
+    725.0,
+    250.0,
+    350.0,
+    537.93
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "C-105-6.2",
+   "description": "MOBILIZATION (MAXIMUM 10% OF",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    45000.0,
+    20000.0,
+    40000.0,
+    25000.0,
+    50000.0,
+    36000.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "D-701-5.1c",
+   "description": "18-INCH REINFORCED CONCRETE PIPE (CLASS III)",
+   "unit": "LF",
+   "qty": 160.0,
+   "prices": [
+    70.0,
+    180.0,
+    180.0,
+    120.0,
+    115.0,
+    150.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "D-751-5.1",
+   "description": "4-FT X 4-FT AIRFIELD GRATE INLET (STANDARD)",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    20000.0,
+    33000.0,
+    7500.0,
+    10000.0,
+    6600.0,
+    25500.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "P-101-5.3",
+   "description": "FULL DEPTH ASPHALT PAVEMENT REMOVAL",
+   "unit": "SY",
+   "qty": 150.0,
+   "prices": [
+    9.0,
+    13.5,
+    50.0,
+    13.5,
+    40.0,
+    12.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "P-152-4.1",
+   "description": "UNCLASSIFIED EXCAVATION",
+   "unit": "CY",
+   "qty": 296.0,
+   "prices": [
+    30.0,
+    30.0,
+    45.0,
+    25.0,
+    50.0,
+    67.75
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "P-620-5.1",
+   "description": "FIRST APPLICATION, TEMPORARY TAXIWAY PAINTING, YELLOW (NO REFLECTIVE MEDIA)",
+   "unit": "SF",
+   "qty": 800.0,
+   "prices": [
+    2.5,
+    0.8,
+    0.94,
+    5.0,
+    1.0,
+    0.75
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "P-620-5.3",
+   "description": "TAXIWAY PAINTING, YELLOW (TYPE III REFLECTIVE MEDIA)",
+   "unit": "SF",
+   "qty": 800.0,
+   "prices": [
+    3.0,
+    1.43,
+    1.16,
+    5.0,
+    1.1,
+    0.93
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "P-620-5.4",
+   "description": "TAXIWAY PAINTING, BLACK (NO REFLECTIVE MEDIA)",
+   "unit": "SF",
+   "qty": 1000.0,
+   "prices": [
+    2.5,
+    1.0,
+    1.06,
+    5.0,
+    1.0,
+    0.84
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "T-901-5.1",
+   "description": "SEEDING",
+   "unit": "AC",
+   "qty": -0.5,
+   "prices": [
+    2800.0,
+    3198.0,
+    3000.0,
+    10000.0,
+    4850.0,
+    21479.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "T-904-5.1",
+   "description": "SODDING",
+   "unit": "SY",
+   "qty": -1000.0,
+   "prices": [
+    10.0,
+    6.5,
+    5.5,
+    12.0,
+    7.0,
+    9.06
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "TX-247-6.1",
+   "description": "FLEXIBLE BASE, COMPLETE IN PLACE, TYPE D, GRADE 1-2 (6-INCH THICKNESS, LIFT)",
+   "unit": "SY",
+   "qty": 3650.0,
+   "prices": [
+    20.0,
+    18.0,
+    26.0,
+    27.0,
+    20.0,
+    23.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "TX-260-6.1",
+   "description": "LIME TREATMENT (ROAD-MIXED) (6%) (6-INCH THICKNESS, LIFT)",
+   "unit": "SY",
+   "qty": 3700.0,
+   "prices": [
+    10.0,
+    9.5,
+    6.0,
+    9.0,
+    10.0,
+    13.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "TX-260-6.2",
+   "description": "HYDRATED LIME (SLURRY)",
+   "unit": "TON",
+   "qty": 60.0,
+   "prices": [
+    400.0,
+    410.0,
+    405.0,
+    350.0,
+    400.0,
+    308.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "TX-341-6.1",
+   "description": "DENSE-GRADED HOT-MIX ASPHALT, TYPE D, SAC B, PG 64-22 (3-INCH THICKNESS, LIFT)",
+   "unit": "TON",
+   "qty": 690.0,
+   "prices": [
+    200.0,
+    173.16,
+    170.0,
+    165.0,
+    300.0,
+    170.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "L-108-5.1",
+   "description": "NO. AWG, kV, L-824, TYPE C CABLE, INSTALLED IN TRENCH, DUCT BANK OR CONDUIT",
+   "unit": "LF",
+   "qty": 1250.0,
+   "prices": [
+    6.5,
+    5.1,
+    3.13,
+    13.0,
+    3.0,
+    2.5
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "L-108-5.2",
+   "description": "NO. AWG, SOLID, BARE COPPER COUNTERPOISE WIRE, INSTALLED IN TRENCH, ABOVE THE DUCT BANK OR CONDUIT, INCLUDING",
+   "unit": "LF",
+   "qty": 500.0,
+   "prices": [
+    8.0,
+    4.8,
+    3.13,
+    13.0,
+    3.0,
+    2.5
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "L-110-5.1",
+   "description": "CONNECTIONS/TERMINATIONS NON-ENCASED, ELECTRICAL CONDUIT, 1-WAY 2-INCH C CONCRETE ENCASED ELECTRICAL",
+   "unit": "LF",
+   "qty": 100.0,
+   "prices": [
+    35.0,
+    29.4,
+    21.0,
+    27.0,
+    20.0,
+    17.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "L-115-5.1",
+   "description": "JUNCTION STRUCTURE CAN PLAZA, TWO L-867 CLASS 1, SIZE 16\" DIAMETER BY 24\" DEPTH CANS",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    10000.0,
+    10500.0,
+    7000.0,
+    6000.0,
+    6550.0,
+    5600.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "L-125-5.1",
+   "description": "INSTALLED L-861T(L) BASE MOUNTED TAXIWAY EDGE LIGHT, INSTALLED",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    2500.0,
+    3180.0,
+    3250.0,
+    2000.0,
+    3100.0,
+    2600.0
+   ]
+  }
+ ],
+ "notes": [
+  "Engineer's estimate totals on the tab ($3,973,000 base / $505,000 alt) are rounded figures that don't equal the sum of its line items; line items kept as printed.",
+  "T-901-5.1 Seeding quantity is 8.7 AC; the tab displays it rounded to 9.",
+  "Engineer's estimate amount for D-701-5.1c (Base Bid) doesn't equal qty x unit price on the tab; unit price kept.",
+  "Engineer's estimate amount for D-701-5.1c (Additive Alternate 1) doesn't equal qty x unit price on the tab; unit price kept.",
+  "Engineer's estimate amount for P-152-4.1 (Additive Alternate 1) doesn't equal qty x unit price on the tab; unit price kept."
+ ]
+}

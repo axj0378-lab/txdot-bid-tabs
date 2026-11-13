@@ -1,0 +1,305 @@
+{
+ "project_id": "2521EDINB",
+ "airport": "South Texas International Airport",
+ "csj": "2521EDINB",
+ "scope": "Fencing",
+ "description": "New Wildlife/Security Fence",
+ "bid_date": "2025-04-16",
+ "location": "Edinburg",
+ "source_pdf": "2521EDINB Fence Replacement - Bid Rec.pdf",
+ "columns": [
+  "Engineer's Estimate",
+  "Delta Specialty Contractors, LLC",
+  "Hurricane Fence Company"
+ ],
+ "estimate_column": "Engineer's Estimate",
+ "award_schedules": [
+  "Base Bid"
+ ],
+ "stated_totals": {
+  "Engineer's Estimate": 1600240.0,
+  "Delta Specialty Contractors, LLC": 1760925.0,
+  "Hurricane Fence Company": 3599104.0
+ },
+ "items": [
+  {
+   "schedule": "Base Bid",
+   "item": "1",
+   "description": "MOBILIZATION",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    68920.0,
+    60000.0,
+    475395.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "2",
+   "description": "TEMPORARY SEDIMENT CONTROL COMPOST FILTER SOCK",
+   "unit": "",
+   "qty": 12900.0,
+   "prices": [
+    5.0,
+    12.0,
+    16.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "3",
+   "description": "CONCRETE WASHOUT",
+   "unit": "EA",
+   "qty": 4.0,
+   "prices": [
+    1000.0,
+    4000.0,
+    3500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "4",
+   "description": "ROCK CONSTRUCTION EXIT",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    5000.0,
+    20000.0,
+    8100.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "5",
+   "description": "CHAIN-LINK FENCE, 10 FOOT HEIGHT WITH BARBED WIRE",
+   "unit": "",
+   "qty": 8095.0,
+   "prices": [
+    50.0,
+    43.0,
+    53.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "6",
+   "description": "CHAIN-LINK FENCE, 6 FOOT HEIGHT WITH BARBED WIRE",
+   "unit": "",
+   "qty": 160.0,
+   "prices": [
+    45.0,
+    31.0,
+    45.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "7",
+   "description": "FOOT WIDE MANUAL VEHICLE GATE",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    3000.0,
+    3000.0,
+    7000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "8",
+   "description": "FOOT WIDE MANUAL VEHICLE GATE",
+   "unit": "EA",
+   "qty": 4.0,
+   "prices": [
+    6100.0,
+    4800.0,
+    8606.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "9",
+   "description": "FOOT WIDE AUTOMATIC VEHICLE GATE",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    35000.0,
+    48000.0,
+    31500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "10",
+   "description": "FOOT WIDE MANUAL PEDESTRIAN GATE",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    3100.0,
+    900.0,
+    3100.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "11",
+   "description": "FOOT WIDE AUTOMATIC PEDESTRIAN GATE",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    10000.0,
+    2500.0,
+    12000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "12",
+   "description": "WILDLIFE EXCLUSION FENCE, FOOT HEIGHT WITH BARBED WIRE AND CHAIN LINK FENCE SKIRT",
+   "unit": "",
+   "qty": 12850.0,
+   "prices": [
+    50.0,
+    59.0,
+    86.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "13",
+   "description": "FOOT WIDE MANUAL VEHICLE GATE",
+   "unit": "EA",
+   "qty": 5.0,
+   "prices": [
+    3000.0,
+    48000.0,
+    7000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "14",
+   "description": "SEEDING",
+   "unit": "AC",
+   "qty": 8.0,
+   "prices": [
+    5000.0,
+    750.0,
+    68250.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "15",
+   "description": "REMOVE EXISTING MANUAL GATE",
+   "unit": "EA",
+   "qty": 6.0,
+   "prices": [
+    700.0,
+    500.0,
+    500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "16",
+   "description": "REMOVE AOA FENCE",
+   "unit": "",
+   "qty": 8850.0,
+   "prices": [
+    5.0,
+    2.25,
+    10.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "17",
+   "description": "REMOVE 4 FOOT WIDE PEDESTRIAN GATE",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    350.0,
+    250.0,
+    250.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "18",
+   "description": "REMOVE WILDLIFE EXCLUSION FENCE",
+   "unit": "",
+   "qty": 13630.0,
+   "prices": [
+    5.0,
+    2.25,
+    10.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "19",
+   "description": "MAINTENANCE OF TRAFFIC",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    68920.0,
+    5000.0,
+    300000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "20",
+   "description": "PROJECT SECURITY",
+   "unit": "MO",
+   "qty": 7.0,
+   "prices": [
+    12000.0,
+    2500.0,
+    21400.0
+   ]
+  },
+  {
+   "schedule": "Additive Bid 1",
+   "item": "21",
+   "description": "PRIVACY SCREENING",
+   "unit": "",
+   "qty": 905.0,
+   "prices": [
+    20.0,
+    70.0,
+    40.0
+   ]
+  },
+  {
+   "schedule": "Additive Bid 2",
+   "item": "22",
+   "description": "REMOVE AND REPLACE FOOT WIDE AUTOMATIC VEHICLE GATE (10' HEIGHT)",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    36400.0,
+    48000.0,
+    30000.0
+   ]
+  },
+  {
+   "schedule": "Additive Bid 2",
+   "item": "23",
+   "description": "REMOVE AND REPLACE FOOT WIDE AUTOMATIC VEHICLE GATE (6' HEIGHT)",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    32000.0,
+    43000.0,
+    30000.0
+   ]
+  }
+ ],
+ "notes": [
+  "Items are numbered 1, 2, 3... on this tab with no FAA spec codes."
+ ]
+}

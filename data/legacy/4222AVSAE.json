@@ -1,0 +1,4657 @@
+{
+ "project_id": "4222AVSAE",
+ "airport": "Statewide Group Alpha: Jackson County (Edna), Roger M. Dreyer Memorial (Gonzales), Aransas County (Rockport), Smithville Crawford Municipal, Terrell Municipal",
+ "csj": "4222AVSAE",
+ "scope": "Airfield Electrical",
+ "description": "Statewide Airport Electrical Construction Project (AVSAE) Group Alpha re-bid",
+ "bid_date": "2025-09-24",
+ "location": "Statewide",
+ "source_pdf": "4222AVSAE-00001-BidTabFinal (002).pdf",
+ "columns": [
+  "Engineer's Estimate",
+  "EAS Contracting, L.P.",
+  "F&W Electrical Contractors, Inc.",
+  "Airfield Western, LLC",
+  "Vellutini Corporation DBA Royal Electric Company",
+  "KOBO Utility Construction Corp"
+ ],
+ "estimate_column": "Engineer's Estimate",
+ "award_schedules": [
+  "Base Bid"
+ ],
+ "stated_totals": {
+  "EAS Contracting, L.P.": 6294269.0,
+  "F&W Electrical Contractors, Inc.": 6696764.75,
+  "Airfield Western, LLC": 6864114.05,
+  "Vellutini Corporation DBA Royal Electric Company": 7777777.0,
+  "KOBO Utility Construction Corp": 8047983.5
+ },
+ "items": [
+  {
+   "schedule": "Base Bid",
+   "item": "C-105-6.1",
+   "description": "Mobilization - Edna",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    80000.0,
+    81316.0,
+    40000.0,
+    42499.0,
+    150000.0,
+    59500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-105-6.2",
+   "description": "Mobilization - Gonzales",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    74000.0,
+    83030.0,
+    40000.0,
+    47432.0,
+    150000.0,
+    59500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-105-6.4",
+   "description": "Mobilization - Rockport",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    250000.0,
+    130430.0,
+    40000.0,
+    51801.0,
+    150000.0,
+    81500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-105-6.5",
+   "description": "Mobilization - Smithville",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    95000.0,
+    85672.0,
+    40000.0,
+    41331.0,
+    150000.0,
+    59500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-105-6.6",
+   "description": "Mobilization - Terrell",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    94000.0,
+    88336.6,
+    40000.0,
+    52364.0,
+    150000.0,
+    59500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "SS-1-1",
+   "description": "Temporary Marking, Lighting and Barricades \u2010 Edna",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    40000.0,
+    4087.0,
+    9000.0,
+    4368.0,
+    4160.0,
+    32500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "SS-1-2",
+   "description": "Temporary Marking, Lighting and Barricades \u2010 Gonzales",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    40000.0,
+    2403.0,
+    9000.0,
+    5108.0,
+    2360.0,
+    32500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "SS-1-4",
+   "description": "Temporary Marking, Lighting and Barricades \u2010 Rockport",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    60000.0,
+    11850.0,
+    9000.0,
+    9949.0,
+    7500.0,
+    41500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "SS-1-5",
+   "description": "Temporary Marking, Lighting and Barricades \u2010 Smithville",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    40000.0,
+    3197.0,
+    9000.0,
+    8067.0,
+    2200.0,
+    32500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "SS-1-6",
+   "description": "Temporary Marking, Lighting and Barricades \u2010 Terrell",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    40000.0,
+    2954.0,
+    9000.0,
+    10287.0,
+    2200.0,
+    32500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-152-4.1d",
+   "description": "Unclassified Excavation - Rockport",
+   "unit": "CY",
+   "qty": 20.0,
+   "prices": [
+    50.0,
+    312.0,
+    300.0,
+    60.0,
+    375.0,
+    350.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-152-4.1e",
+   "description": "Unclassified Excavation - Smithville",
+   "unit": "CY",
+   "qty": 5.0,
+   "prices": [
+    50.0,
+    528.0,
+    300.0,
+    60.0,
+    375.0,
+    350.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-152-4.1f",
+   "description": "Unclassified Excavation - Terrell",
+   "unit": "CY",
+   "qty": 25.0,
+   "prices": [
+    50.0,
+    259.0,
+    300.0,
+    60.0,
+    375.0,
+    350.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-152-4.2d",
+   "description": "Embankment - Rockport",
+   "unit": "CY",
+   "qty": 350.0,
+   "prices": [
+    50.0,
+    65.0,
+    125.0,
+    173.0,
+    130.0,
+    98.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-152-4.2e",
+   "description": "Embankment - Smithville",
+   "unit": "CY",
+   "qty": 100.0,
+   "prices": [
+    50.0,
+    495.0,
+    125.0,
+    173.0,
+    130.0,
+    98.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-152-4.2f",
+   "description": "Embankment - Terrell",
+   "unit": "CY",
+   "qty": 5.0,
+   "prices": [
+    50.0,
+    548.0,
+    125.0,
+    174.0,
+    130.0,
+    125.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "T-901-5.1a",
+   "description": "Seeding - Edna",
+   "unit": "AC",
+   "qty": 1.0,
+   "prices": [
+    200.0,
+    3208.0,
+    8250.0,
+    4253.0,
+    3000.0,
+    3550.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "T-901-5.1b",
+   "description": "Seeding - Gonzales",
+   "unit": "AC",
+   "qty": 1.0,
+   "prices": [
+    200.0,
+    3208.0,
+    8250.0,
+    4253.0,
+    3000.0,
+    3550.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "T-901-5.1d",
+   "description": "Seeding - Rockport",
+   "unit": "AC",
+   "qty": 4.0,
+   "prices": [
+    200.0,
+    5905.0,
+    8250.0,
+    3814.0,
+    3000.0,
+    3550.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "T-901-5.1e",
+   "description": "Seeding - Smithville",
+   "unit": "AC",
+   "qty": 4.0,
+   "prices": [
+    200.0,
+    5905.0,
+    8250.0,
+    3814.0,
+    3000.0,
+    3550.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "T-901-5.1f",
+   "description": "Seeding - Terrell",
+   "unit": "AC",
+   "qty": 2.0,
+   "prices": [
+    200.0,
+    6015.0,
+    8250.0,
+    3814.0,
+    3000.0,
+    3550.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "D-701-5.1",
+   "description": "inch Class IV RCP",
+   "unit": "LF",
+   "qty": 95.0,
+   "prices": [
+    1000.0,
+    654.0,
+    325.0,
+    1162.0,
+    325.0,
+    100.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "D-701-5.2",
+   "description": "RCP End Section",
+   "unit": "EA",
+   "qty": 4.0,
+   "prices": [
+    4000.0,
+    3435.0,
+    5500.0,
+    6329.0,
+    7000.0,
+    3500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-103-5.1",
+   "description": "Install New Beacon on New 50' Tip Down Pole, including Foundation",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    75000.0,
+    52894.0,
+    64000.0,
+    69776.0,
+    85500.0,
+    98500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-103-5.2",
+   "description": "Install Salvaged Beacon on New 50' Tip Down Pole, including Foundation",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    50000.0,
+    41438.0,
+    52000.0,
+    56020.0,
+    68000.0,
+    88500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105-5.1",
+   "description": "Remove No. 8 AWG, L-824C in duct",
+   "unit": "LF",
+   "qty": 33325.0,
+   "prices": [
+    1.0,
+    0.6,
+    0.45,
+    0.32,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105-5.2",
+   "description": "Remove 2-inch conduit including cable(s)",
+   "unit": "LF",
+   "qty": 2150.0,
+   "prices": [
+    7.5,
+    10.75,
+    7.0,
+    0.8,
+    4.0,
+    9.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105-5.3",
+   "description": "Remove Existing Stake Mounted Elevated Taxiway Edge Light and associated brooks box",
+   "unit": "EA",
+   "qty": 47.0,
+   "prices": [
+    325.0,
+    373.0,
+    100.0,
+    276.0,
+    282.0,
+    285.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105-5.4",
+   "description": "Remove Existing Elevated Taxiway Edge Light and Base Can",
+   "unit": "EA",
+   "qty": 8.0,
+   "prices": [
+    380.0,
+    434.0,
+    225.0,
+    200.0,
+    357.0,
+    955.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105-5.5",
+   "description": "Remove Existing Elevated Taxiway Edge Light, Base Can to Remain",
+   "unit": "EA",
+   "qty": 40.0,
+   "prices": [
+    80.0,
+    108.0,
+    75.0,
+    32.0,
+    56.0,
+    255.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105-5.6",
+   "description": "Remove Existing Stake Mounted Elevated Runway Edge Light And Associated Brooks Box",
+   "unit": "EA",
+   "qty": 156.0,
+   "prices": [
+    325.0,
+    371.0,
+    150.0,
+    326.0,
+    289.0,
+    255.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105-5.8",
+   "description": "Remove Existing Elevated Runway Edge Light, Base Can to Remain",
+   "unit": "EA",
+   "qty": 100.0,
+   "prices": [
+    80.0,
+    109.0,
+    75.0,
+    32.0,
+    54.0,
+    255.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105-5.9",
+   "description": "Remove Existing Stake Mounted Elevated Threshold End Light And Associated Brooks Box",
+   "unit": "EA",
+   "qty": 60.0,
+   "prices": [
+    325.0,
+    369.0,
+    150.0,
+    326.0,
+    256.0,
+    275.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105-5.10",
+   "description": "Remove Existing Elevated Threshold End Light, Base Can to Remain",
+   "unit": "EA",
+   "qty": 40.0,
+   "prices": [
+    80.0,
+    115.0,
+    75.0,
+    32.0,
+    56.0,
+    255.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105-5.12",
+   "description": "Remove Guidance Sign, Foundation to Remain",
+   "unit": "EA",
+   "qty": 17.0,
+   "prices": [
+    300.0,
+    221.0,
+    200.0,
+    80.0,
+    309.0,
+    435.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105-5.13",
+   "description": "Remove Guidance Sign and Foundation",
+   "unit": "EA",
+   "qty": 37.0,
+   "prices": [
+    1250.0,
+    987.0,
+    700.0,
+    930.0,
+    1330.0,
+    1250.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105-5.14",
+   "description": "Remove Existing Manhole",
+   "unit": "EA",
+   "qty": 9.0,
+   "prices": [
+    3500.0,
+    4359.0,
+    1800.0,
+    1098.0,
+    1460.0,
+    1850.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105-5.15",
+   "description": "Remove Existing Pullbox",
+   "unit": "EA",
+   "qty": 29.0,
+   "prices": [
+    1000.0,
+    756.0,
+    125.0,
+    272.0,
+    1090.0,
+    785.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105-5.16",
+   "description": "Remove Existing Duct Marker",
+   "unit": "EA",
+   "qty": 8.0,
+   "prices": [
+    120.0,
+    116.0,
+    65.0,
+    17.0,
+    99.0,
+    150.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105-5.17",
+   "description": "Demolish Existing Electrical Vault Building and Equipment",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    25000.0,
+    6023.0,
+    8000.0,
+    8267.0,
+    42500.0,
+    24800.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105-5.18",
+   "description": "Remove Existing Wind Cone and Associated Foundation",
+   "unit": "EA",
+   "qty": 4.0,
+   "prices": [
+    2000.0,
+    2099.0,
+    1500.0,
+    1617.0,
+    3190.0,
+    2855.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105-5.19",
+   "description": "Remove Existing Beacon, Pole, and Foundation",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    10000.0,
+    3858.0,
+    11500.0,
+    4392.0,
+    13600.0,
+    8500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105-5.20",
+   "description": "Remove Existing Beacon and Pole, Beacon to be Salvaged",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    10000.0,
+    3810.0,
+    11500.0,
+    4392.0,
+    13000.0,
+    7200.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105-5.21",
+   "description": "Remove Existing PAPI-2",
+   "unit": "EA",
+   "qty": 4.0,
+   "prices": [
+    4000.0,
+    2444.0,
+    1500.0,
+    1263.0,
+    8300.0,
+    11896.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105-5.22",
+   "description": "Remove Existing PAPI-4",
+   "unit": "EA",
+   "qty": 3.0,
+   "prices": [
+    4500.0,
+    4516.0,
+    2000.0,
+    2379.0,
+    10300.0,
+    25800.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105-5.23",
+   "description": "Remove Existing REIL",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    2500.0,
+    2781.0,
+    1500.0,
+    1263.0,
+    3610.0,
+    8590.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105-5.24",
+   "description": "Remove Concrete Encased Duct in Earth (Including Cable)",
+   "unit": "LF",
+   "qty": 282.0,
+   "prices": [
+    12.5,
+    11.95,
+    7.0,
+    144.0,
+    82.0,
+    35.5
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-105-5.25",
+   "description": "Remove 600V Circuit in Duct",
+   "unit": "LF",
+   "qty": 4950.0,
+   "prices": [
+    1.5,
+    0.65,
+    0.5,
+    0.8,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-107-5.1",
+   "description": "Install New L-807(L) LED Wind Cone Including Tip Down Pole",
+   "unit": "EA",
+   "qty": 4.0,
+   "prices": [
+    19000.0,
+    12435.0,
+    14800.0,
+    15590.0,
+    22000.0,
+    26700.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-107-5.2",
+   "description": "Paint Existing Segmented Circle Around Wind Cone",
+   "unit": "LS",
+   "qty": 5.0,
+   "prices": [
+    15000.0,
+    3567.0,
+    9000.0,
+    2430.0,
+    13500.0,
+    18500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-108-5.1",
+   "description": "No.8 AWG, L-824C 5kV Cable, Installed in Conduit or Duct",
+   "unit": "LF",
+   "qty": 139950.0,
+   "prices": [
+    2.5,
+    1.25,
+    1.95,
+    4.17,
+    2.0,
+    2.5
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-108-5.2",
+   "description": "No. 6 AWG Bare Counterpoise Wire, Installed in Conduit Trench, Including Ground Rods",
+   "unit": "LF",
+   "qty": 79790.0,
+   "prices": [
+    2.5,
+    1.2,
+    1.95,
+    5.7,
+    2.0,
+    3.5
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-108-5.3",
+   "description": "Electrical Circuit (2) #8, #8G, Installed in Conduit or Duct",
+   "unit": "LF",
+   "qty": 9750.0,
+   "prices": [
+    5.0,
+    3.85,
+    4.1,
+    7.37,
+    3.0,
+    5.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-108-5.4",
+   "description": "Electrical Circuit (2) #10, #10G, Installed in Conduit or Duct",
+   "unit": "LF",
+   "qty": 5800.0,
+   "prices": [
+    4.0,
+    2.95,
+    2.95,
+    6.21,
+    3.0,
+    4.75
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-108-5.5",
+   "description": "Electrical Circuit (2) #12, #12G, Installed in Conduit or Duct",
+   "unit": "LF",
+   "qty": 6240.0,
+   "prices": [
+    3.0,
+    2.6,
+    2.35,
+    5.72,
+    2.0,
+    4.75
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-108-5.6",
+   "description": "Temporary Electrical Provisions",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    15000.0,
+    6486.0,
+    20000.0,
+    4274.0,
+    13900.0,
+    26700.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-109-5.1",
+   "description": "Vault Equipment Modifications",
+   "unit": "LS",
+   "qty": 4.0,
+   "prices": [
+    30000.0,
+    7250.0,
+    43500.0,
+    19778.0,
+    22000.0,
+    44760.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-109-5.2",
+   "description": "4kV Constant Current Regulator",
+   "unit": "EA",
+   "qty": 7.0,
+   "prices": [
+    15000.0,
+    9602.0,
+    9800.0,
+    9858.0,
+    12000.0,
+    29869.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-109-5.3",
+   "description": "Install New Vault Building and Equipment",
+   "unit": "LS",
+   "qty": 2.0,
+   "prices": [
+    62000.0,
+    101673.0,
+    135000.0,
+    272127.0,
+    200000.0,
+    180600.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-109-5.4",
+   "description": "Replace Existing ALCMS System",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    25000.0,
+    91360.0,
+    131000.0,
+    141130.0,
+    60000.0,
+    111550.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110-5.1",
+   "description": "Procure and Install 1-Way, 2\" Sch. 40 PVC Conduit in Earth",
+   "unit": "LF",
+   "qty": 56175.0,
+   "prices": [
+    12.0,
+    10.15,
+    12.5,
+    6.27,
+    8.0,
+    15.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110-5.4",
+   "description": "Procure and Install 1-Way, 2\" Sch. 40 PVC Conduit VIA Open Cut",
+   "unit": "LF",
+   "qty": 185.0,
+   "prices": [
+    65.0,
+    60.25,
+    75.0,
+    36.0,
+    37.0,
+    45.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110-5.5",
+   "description": "Procure and Install 2-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased in Earth",
+   "unit": "LF",
+   "qty": 7725.0,
+   "prices": [
+    40.0,
+    34.05,
+    48.0,
+    29.0,
+    26.0,
+    38.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110-5.6",
+   "description": "Procure and Install 2-Way, 2\" SDR 11 HDPE Conduit, Installed VIA Directional Drill",
+   "unit": "LF",
+   "qty": 1515.0,
+   "prices": [
+    65.0,
+    56.25,
+    55.0,
+    58.0,
+    70.0,
+    95.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110-5.7",
+   "description": "Procure and Install 4-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased in Earth",
+   "unit": "LF",
+   "qty": 7215.0,
+   "prices": [
+    65.0,
+    45.7,
+    58.0,
+    40.0,
+    65.0,
+    49.5
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110-5.8",
+   "description": "Procure and Install 4-Way, 2\" SDR 11 HDPE Conduit, Installed VIA Directional Drill",
+   "unit": "LF",
+   "qty": 1195.0,
+   "prices": [
+    80.0,
+    74.15,
+    75.0,
+    117.0,
+    90.0,
+    115.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110-5.9",
+   "description": "Procure and Install 6-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased in Earth",
+   "unit": "LF",
+   "qty": 1600.0,
+   "prices": [
+    90.0,
+    63.85,
+    80.0,
+    60.0,
+    124.0,
+    65.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110-5.10",
+   "description": "Procure and Install 6-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased in Existing Pavement VIA Open Cut",
+   "unit": "LF",
+   "qty": 25.0,
+   "prices": [
+    150.0,
+    123.0,
+    175.0,
+    97.0,
+    155.0,
+    125.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110-5.11",
+   "description": "Procure and Install 6-Way, 2\" SDR 11 HDPE Conduit, VIA Directional Drill",
+   "unit": "LF",
+   "qty": 265.0,
+   "prices": [
+    100.0,
+    103.15,
+    85.0,
+    198.0,
+    112.0,
+    145.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110-5.12",
+   "description": "Procure and Install 10-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased in Earth",
+   "unit": "LF",
+   "qty": 415.0,
+   "prices": [
+    115.0,
+    92.4,
+    125.0,
+    117.0,
+    117.0,
+    95.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110-5.13",
+   "description": "Procure and Install 10-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased VIA Open Cut",
+   "unit": "LF",
+   "qty": 40.0,
+   "prices": [
+    175.0,
+    131.6,
+    225.0,
+    153.0,
+    186.0,
+    275.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110-5.14",
+   "description": "Procure and Install 10-Way, 2\" SDR 11 HDPE Conduit, VIA Directional Drill",
+   "unit": "LF",
+   "qty": 360.0,
+   "prices": [
+    115.0,
+    116.85,
+    115.0,
+    273.0,
+    110.0,
+    220.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110-5.15",
+   "description": "Procure and Install Utility Company Service entrance Infrastructure",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    110000.0,
+    46747.0,
+    21000.0,
+    3748.0,
+    113674.0,
+    35500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110-5.16",
+   "description": "Procure and Install 4-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased VIA Open Cut",
+   "unit": "LF",
+   "qty": 75.0,
+   "prices": [
+    175.0,
+    88.5,
+    125.0,
+    42.0,
+    52.0,
+    125.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-115-5.1",
+   "description": "Install New 2 Way JCP incl Sump Drain",
+   "unit": "EA",
+   "qty": 48.0,
+   "prices": [
+    8000.0,
+    6470.0,
+    5130.0,
+    4434.0,
+    9700.0,
+    3980.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-115-5.2",
+   "description": "Install New 4 Way JCP incl Sump Drain",
+   "unit": "EA",
+   "qty": 23.0,
+   "prices": [
+    12000.0,
+    12381.0,
+    7730.0,
+    8950.0,
+    12800.0,
+    7558.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-115-5.3",
+   "description": "Install New 6 Way JCP incl Sump Drain",
+   "unit": "EA",
+   "qty": 11.0,
+   "prices": [
+    16000.0,
+    16227.0,
+    10030.0,
+    12489.0,
+    15800.0,
+    12500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-115-5.4",
+   "description": "Install New 10 Way JCP incl Sump Drain",
+   "unit": "EA",
+   "qty": 3.0,
+   "prices": [
+    22500.0,
+    22206.0,
+    12930.0,
+    17095.0,
+    23000.0,
+    16500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-115-5.5",
+   "description": "Install New L-867D Pull Can in Earth",
+   "unit": "EA",
+   "qty": 14.0,
+   "prices": [
+    2500.0,
+    1586.0,
+    1855.0,
+    1902.0,
+    3110.0,
+    1900.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.1",
+   "description": "Install New L-861T(L) Elevated Taxiway Edge Light with New L867B Base Can in Earth",
+   "unit": "EA",
+   "qty": 91.0,
+   "prices": [
+    2225.0,
+    1905.0,
+    2175.0,
+    1928.0,
+    2500.0,
+    1395.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.2",
+   "description": "Install New L-861T(L) Elevated Taxiway Edge Light in Existing Base Can",
+   "unit": "EA",
+   "qty": 27.0,
+   "prices": [
+    850.0,
+    481.0,
+    825.0,
+    646.0,
+    450.0,
+    1389.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.3",
+   "description": "Install Salvaged L-861T(L) Elevated Taxiway Edge Light in Existing Base Can",
+   "unit": "EA",
+   "qty": 3.0,
+   "prices": [
+    500.0,
+    392.0,
+    675.0,
+    442.0,
+    300.0,
+    987.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.4",
+   "description": "Install New L-861T(L) Elevated Taxiway Edge Light with New L867B Base Can in Existing Shoulder Pavement",
+   "unit": "EA",
+   "qty": 9.0,
+   "prices": [
+    3750.0,
+    4336.0,
+    3500.0,
+    7856.0,
+    2800.0,
+    4850.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.5",
+   "description": "Install New L-861(L) Elevated Runway Edge Light with New L867B Base Can in Earth",
+   "unit": "EA",
+   "qty": 154.0,
+   "prices": [
+    2250.0,
+    2020.0,
+    2275.0,
+    2112.0,
+    2700.0,
+    1550.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.6",
+   "description": "Install New L-861(L) Elevated Runway Edge Light in Existing L867B Base Can",
+   "unit": "EA",
+   "qty": 100.0,
+   "prices": [
+    850.0,
+    580.0,
+    950.0,
+    727.0,
+    600.0,
+    950.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.9",
+   "description": "Install New L-861E(L) Elevated Runway Threshold Light with New L867B Base Can in Earth",
+   "unit": "EA",
+   "qty": 60.0,
+   "prices": [
+    2500.0,
+    1970.0,
+    2550.0,
+    2129.0,
+    2600.0,
+    1750.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.10",
+   "description": "Install New L-861E(L) Elevated Runway Threshold Light in Existing Base Can",
+   "unit": "EA",
+   "qty": 40.0,
+   "prices": [
+    1000.0,
+    586.0,
+    1100.0,
+    744.0,
+    700.0,
+    975.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.11",
+   "description": "Install New Guidance Sign on New Sign Foundation, 1 Module",
+   "unit": "EA",
+   "qty": 18.0,
+   "prices": [
+    7000.0,
+    5293.0,
+    5275.0,
+    4097.0,
+    8900.0,
+    3897.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.12",
+   "description": "Install New Guidance Sign on New Sign Foundation, 2 Module",
+   "unit": "EA",
+   "qty": 15.0,
+   "prices": [
+    9000.0,
+    5840.0,
+    6975.0,
+    4686.0,
+    9700.0,
+    4989.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.13",
+   "description": "Install New Guidance Sign on New Sign Foundation, 3 Module",
+   "unit": "EA",
+   "qty": 12.0,
+   "prices": [
+    11000.0,
+    6648.0,
+    8575.0,
+    5351.0,
+    10400.0,
+    6150.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.14",
+   "description": "Install New Guidance Sign on New Sign Foundation, 4 Module",
+   "unit": "EA",
+   "qty": 3.0,
+   "prices": [
+    13000.0,
+    7368.0,
+    10125.0,
+    6008.0,
+    11200.0,
+    7890.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.15",
+   "description": "Install New Guidance Sign on Existing Sign Foundation, 1 Module",
+   "unit": "EA",
+   "qty": 16.0,
+   "prices": [
+    3500.0,
+    1778.0,
+    2505.0,
+    1614.0,
+    3010.0,
+    2899.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.16",
+   "description": "Install New Guidance Sign on Existing Sign Foundation, 2 Module",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    4000.0,
+    2219.0,
+    2625.0,
+    2157.0,
+    3640.0,
+    3995.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.18",
+   "description": "Install New Isolation Transformer and Connector Kit in Existing Sign/ Fixture",
+   "unit": "EA",
+   "qty": 10.0,
+   "prices": [
+    500.0,
+    344.0,
+    485.0,
+    288.0,
+    377.0,
+    546.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.19",
+   "description": "Install New REIL",
+   "unit": "EA",
+   "qty": 5.0,
+   "prices": [
+    24000.0,
+    17011.0,
+    20000.0,
+    19166.0,
+    15000.0,
+    34889.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-130-5.1",
+   "description": "Install New LED 2-Box Papi System incl Flight Check",
+   "unit": "EA",
+   "qty": 6.0,
+   "prices": [
+    30000.0,
+    35124.0,
+    30000.0,
+    27271.0,
+    22000.0,
+    63550.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-130-5.2",
+   "description": "Install New LED 4-Box Papi System incl Flight Check",
+   "unit": "EA",
+   "qty": 5.0,
+   "prices": [
+    60000.0,
+    61650.0,
+    60000.0,
+    50347.0,
+    42000.0,
+    82700.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "0",
+   "description": "PLAN Utility Allowance NTE $100,000.00",
+   "unit": "ALLOW",
+   "qty": 1.0,
+   "prices": [
+    100000.0,
+    100000.0,
+    95000.0,
+    100000.0,
+    100000.0,
+    100000.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "C-105-6.1",
+   "description": "Mobilization - Edna",
+   "unit": "LS",
+   "qty": -1.0,
+   "prices": [
+    81316.0,
+    81316.0,
+    40000.0,
+    42499.0,
+    150000.0,
+    59500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "SS-1-1",
+   "description": "Temporary Marking, Lighting and Barricades \u2010 Edna",
+   "unit": "LS",
+   "qty": -1.0,
+   "prices": [
+    4087.0,
+    4087.0,
+    9000.0,
+    4368.0,
+    4160.0,
+    32500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "T-901-5.1a",
+   "description": "Seeding - Edna",
+   "unit": "AC",
+   "qty": -1.0,
+   "prices": [
+    3208.0,
+    3208.0,
+    8250.0,
+    4253.0,
+    3000.0,
+    3550.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-103-5.1",
+   "description": "Install New Beacon on New 50' Tip Down Pole, including Foundation",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    52894.0,
+    52894.0,
+    64000.0,
+    69776.0,
+    85500.0,
+    98500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-105-5.6",
+   "description": "Remove Existing Stake Mounted Elevated Runway Edge Light And Associated Brooks Box",
+   "unit": "EA",
+   "qty": -32.0,
+   "prices": [
+    371.0,
+    371.0,
+    150.0,
+    326.0,
+    289.0,
+    255.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-105-5.9",
+   "description": "Remove Existing Stake Mounted Elevated Threshold End Light And Associated Brooks Box",
+   "unit": "EA",
+   "qty": -16.0,
+   "prices": [
+    369.0,
+    369.0,
+    150.0,
+    326.0,
+    256.0,
+    275.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-105-5.13",
+   "description": "Remove Guidance Sign and Foundation",
+   "unit": "EA",
+   "qty": -10.0,
+   "prices": [
+    987.0,
+    987.0,
+    700.0,
+    930.0,
+    1330.0,
+    1250.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-105-5.18",
+   "description": "Remove Existing Wind Cone and Associated Foundation",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    2099.0,
+    2099.0,
+    1500.0,
+    1617.0,
+    3190.0,
+    2855.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-105-5.19",
+   "description": "Remove Existing Beacon, Pole, and Foundation",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    3858.0,
+    3858.0,
+    11500.0,
+    4392.0,
+    13600.0,
+    8500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-107-5.1",
+   "description": "Install New L-807(L) LED Wind Cone Including Tip Down Pole",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    12435.0,
+    12435.0,
+    14800.0,
+    15590.0,
+    22000.0,
+    26700.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-107-5.2",
+   "description": "Paint Existing Segmented Circle Around Wind Cone",
+   "unit": "LS",
+   "qty": -1.0,
+   "prices": [
+    3567.0,
+    3567.0,
+    9000.0,
+    2430.0,
+    13500.0,
+    18500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-108-5.1",
+   "description": "No.8 AWG, L-824C 5kV Cable, Installed in Conduit or Duct",
+   "unit": "LF",
+   "qty": -10550.0,
+   "prices": [
+    1.25,
+    1.25,
+    1.95,
+    4.17,
+    2.0,
+    2.5
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-108-5.2",
+   "description": "No. 6 AWG Bare Counterpoise Wire, Installed in Conduit Trench, Including Ground Rods",
+   "unit": "LF",
+   "qty": -12200.0,
+   "prices": [
+    1.2,
+    1.2,
+    1.95,
+    5.7,
+    2.0,
+    3.5
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-108-5.4",
+   "description": "Electrical Circuit (2) #10, #10G, Installed in Conduit or Duct",
+   "unit": "LF",
+   "qty": -3800.0,
+   "prices": [
+    2.95,
+    2.95,
+    2.95,
+    6.21,
+    3.0,
+    4.75
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-108-5.5",
+   "description": "Electrical Circuit (2) #12, #12G, Installed in Conduit or Duct",
+   "unit": "LF",
+   "qty": -950.0,
+   "prices": [
+    2.6,
+    2.6,
+    2.35,
+    5.72,
+    2.0,
+    4.75
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-109-5.1",
+   "description": "Vault Equipment Modifications",
+   "unit": "LS",
+   "qty": -1.0,
+   "prices": [
+    7250.0,
+    7250.0,
+    43500.0,
+    19778.0,
+    22000.0,
+    44760.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-109-5.2",
+   "description": "4kV Constant Current Regulator",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    9602.0,
+    9602.0,
+    9800.0,
+    9858.0,
+    12000.0,
+    29869.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-110-5.1",
+   "description": "Procure and Install 1-Way, 2\" Sch. 40 PVC Conduit in Earth",
+   "unit": "LF",
+   "qty": -8675.0,
+   "prices": [
+    10.15,
+    10.15,
+    12.5,
+    6.27,
+    8.0,
+    15.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-110-5.4",
+   "description": "Procure and Install 1-Way, 2\" Sch. 40 PVC Conduit VIA Open Cut",
+   "unit": "LF",
+   "qty": -50.0,
+   "prices": [
+    60.25,
+    60.25,
+    75.0,
+    36.0,
+    37.0,
+    45.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-110-5.5",
+   "description": "Procure and Install 2-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased in Earth",
+   "unit": "LF",
+   "qty": -1975.0,
+   "prices": [
+    34.05,
+    34.05,
+    48.0,
+    29.0,
+    26.0,
+    38.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-110-5.6",
+   "description": "Procure and Install 2-Way, 2\" SDR 11 HDPE Conduit, Installed VIA Directional Drill",
+   "unit": "LF",
+   "qty": -400.0,
+   "prices": [
+    56.25,
+    56.25,
+    55.0,
+    58.0,
+    70.0,
+    95.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-110-5.7",
+   "description": "Procure and Install 4-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased in Earth",
+   "unit": "LF",
+   "qty": -150.0,
+   "prices": [
+    45.7,
+    45.7,
+    58.0,
+    40.0,
+    65.0,
+    49.5
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-110-5.8",
+   "description": "Procure and Install 4-Way, 2\" SDR 11 HDPE Conduit, Installed VIA Directional Drill",
+   "unit": "LF",
+   "qty": -75.0,
+   "prices": [
+    74.15,
+    74.15,
+    75.0,
+    117.0,
+    90.0,
+    115.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-110-5.9",
+   "description": "Procure and Install 6-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased in Earth",
+   "unit": "LF",
+   "qty": -425.0,
+   "prices": [
+    63.85,
+    63.85,
+    80.0,
+    60.0,
+    124.0,
+    65.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-110-5.10",
+   "description": "Procure and Install 6-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased in Existing Pavement VIA Open Cut",
+   "unit": "LF",
+   "qty": -25.0,
+   "prices": [
+    123.0,
+    123.0,
+    175.0,
+    97.0,
+    155.0,
+    125.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-115-5.1",
+   "description": "Install New 2 Way JCP incl Sump Drain",
+   "unit": "EA",
+   "qty": -11.0,
+   "prices": [
+    6470.0,
+    6470.0,
+    5130.0,
+    4434.0,
+    9700.0,
+    3980.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-115-5.2",
+   "description": "Install New 4 Way JCP incl Sump Drain",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    12381.0,
+    12381.0,
+    7730.0,
+    8950.0,
+    12800.0,
+    7558.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-115-5.3",
+   "description": "Install New 6 Way JCP incl Sump Drain",
+   "unit": "EA",
+   "qty": -3.0,
+   "prices": [
+    16227.0,
+    16227.0,
+    10030.0,
+    12489.0,
+    15800.0,
+    12500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-125-5.5",
+   "description": "Install New L-861(L) Elevated Runway Edge Light with New L867B Base Can in Earth",
+   "unit": "EA",
+   "qty": -33.0,
+   "prices": [
+    2020.0,
+    2020.0,
+    2275.0,
+    2112.0,
+    2700.0,
+    1550.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-125-5.9",
+   "description": "Install New L-861E(L) Elevated Runway Threshold Light with New L867B Base Can in Earth",
+   "unit": "EA",
+   "qty": -16.0,
+   "prices": [
+    1970.0,
+    1970.0,
+    2550.0,
+    2129.0,
+    2600.0,
+    1750.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-125-5.11",
+   "description": "Install New Guidance Sign on New Sign Foundation, 1 Module",
+   "unit": "EA",
+   "qty": -8.0,
+   "prices": [
+    5293.0,
+    5293.0,
+    5275.0,
+    4097.0,
+    8900.0,
+    3897.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-125-5.13",
+   "description": "Install New Guidance Sign on New Sign Foundation, 3 Module",
+   "unit": "EA",
+   "qty": -2.0,
+   "prices": [
+    6648.0,
+    6648.0,
+    8575.0,
+    5351.0,
+    10400.0,
+    6150.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 1",
+   "item": "L-130-5.1",
+   "description": "Install New LED 2-Box Papi System incl Flight Check",
+   "unit": "EA",
+   "qty": -2.0,
+   "prices": [
+    35124.0,
+    35124.0,
+    30000.0,
+    27271.0,
+    22000.0,
+    63550.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "C-105-6.2",
+   "description": "Mobilization - Gonzales",
+   "unit": "LS",
+   "qty": -1.0,
+   "prices": [
+    83030.0,
+    83030.0,
+    40000.0,
+    47432.0,
+    150000.0,
+    59500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "SS-1-2",
+   "description": "Temporary Marking, Lighting and Barricades \u2010 Gonzales",
+   "unit": "LS",
+   "qty": -1.0,
+   "prices": [
+    2403.0,
+    2403.0,
+    9000.0,
+    5108.0,
+    2360.0,
+    32500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "T-901-5.1b",
+   "description": "Seeding - Gonzales",
+   "unit": "AC",
+   "qty": -1.0,
+   "prices": [
+    3208.0,
+    3208.0,
+    8250.0,
+    4253.0,
+    3000.0,
+    3550.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-103-5.2",
+   "description": "Install Salvaged Beacon on New 50' Tip Down Pole, including Foundation",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    41438.0,
+    41438.0,
+    52000.0,
+    56020.0,
+    68000.0,
+    88500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-105-5.2",
+   "description": "Remove 2-inch conduit including cable(s)",
+   "unit": "LF",
+   "qty": -350.0,
+   "prices": [
+    10.75,
+    10.75,
+    7.0,
+    0.8,
+    4.0,
+    9.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-105-5.3",
+   "description": "Remove Existing Stake Mounted Elevated Taxiway Edge Light and associated brooks box",
+   "unit": "EA",
+   "qty": -4.0,
+   "prices": [
+    373.0,
+    373.0,
+    100.0,
+    276.0,
+    282.0,
+    285.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-105-5.6",
+   "description": "Remove Existing Stake Mounted Elevated Runway Edge Light And Associated Brooks Box",
+   "unit": "EA",
+   "qty": -32.0,
+   "prices": [
+    371.0,
+    371.0,
+    150.0,
+    326.0,
+    289.0,
+    255.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-105-5.9",
+   "description": "Remove Existing Stake Mounted Elevated Threshold End Light And Associated Brooks Box",
+   "unit": "EA",
+   "qty": -12.0,
+   "prices": [
+    369.0,
+    369.0,
+    150.0,
+    326.0,
+    256.0,
+    275.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-105-5.15",
+   "description": "Remove Existing Pullbox",
+   "unit": "EA",
+   "qty": -4.0,
+   "prices": [
+    756.0,
+    756.0,
+    125.0,
+    272.0,
+    1090.0,
+    785.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-105-5.17",
+   "description": "Demolish Existing Electrical Vault Building and Equipment",
+   "unit": "LS",
+   "qty": -1.0,
+   "prices": [
+    6023.0,
+    6023.0,
+    8000.0,
+    8267.0,
+    42500.0,
+    24700.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-105-5.18",
+   "description": "Remove Existing Wind Cone and Associated Foundation",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    2099.0,
+    2099.0,
+    1500.0,
+    1617.0,
+    3190.0,
+    2855.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-105-5.20",
+   "description": "Remove Existing Beacon and Pole, Beacon to be Salvaged",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    3810.0,
+    3810.0,
+    11500.0,
+    4392.0,
+    13000.0,
+    7200.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-107-5.1",
+   "description": "Install New L-807(L) LED Wind Cone Including Tip Down Pole",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    12435.0,
+    12435.0,
+    14800.0,
+    15590.0,
+    22000.0,
+    26700.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-107-5.2",
+   "description": "Paint Existing Segmented Circle Around Wind Cone",
+   "unit": "LS",
+   "qty": -1.0,
+   "prices": [
+    3567.0,
+    3567.0,
+    9000.0,
+    2430.0,
+    13500.0,
+    18500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-108-5.1",
+   "description": "No.8 AWG, L-824C 5kV Cable, Installed in Conduit or Duct",
+   "unit": "LF",
+   "qty": -9000.0,
+   "prices": [
+    1.25,
+    1.25,
+    1.95,
+    4.17,
+    2.0,
+    2.5
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-108-5.2",
+   "description": "No. 6 AWG Bare Counterpoise Wire, Installed in Conduit Trench, Including Ground Rods",
+   "unit": "LF",
+   "qty": -10825.0,
+   "prices": [
+    1.2,
+    1.2,
+    1.95,
+    5.7,
+    2.0,
+    3.5
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-108-5.3",
+   "description": "Electrical Circuit (2) #8, #8G, Installed in Conduit or Duct",
+   "unit": "LF",
+   "qty": -2500.0,
+   "prices": [
+    3.85,
+    3.85,
+    4.1,
+    7.37,
+    3.0,
+    5.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-108-5.5",
+   "description": "Electrical Circuit (2) #12, #12G, Installed in Conduit or Duct",
+   "unit": "LF",
+   "qty": -1115.0,
+   "prices": [
+    2.6,
+    2.6,
+    2.35,
+    5.72,
+    2.0,
+    4.75
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-109-5.2",
+   "description": "4kV Constant Current Regulator",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    9602.0,
+    9602.0,
+    9800.0,
+    9858.0,
+    12000.0,
+    29869.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-109-5.3",
+   "description": "Install New Vault Building and Equipment",
+   "unit": "LS",
+   "qty": -1.0,
+   "prices": [
+    101673.0,
+    101673.0,
+    135000.0,
+    272127.0,
+    200000.0,
+    180600.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-110-5.1",
+   "description": "Procure and Install 1-Way, 2\" Sch. 40 PVC Conduit in Earth",
+   "unit": "LF",
+   "qty": -8300.0,
+   "prices": [
+    10.15,
+    10.15,
+    12.5,
+    6.27,
+    8.0,
+    15.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-110-5.5",
+   "description": "Procure and Install 2-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased in Earth",
+   "unit": "LF",
+   "qty": -1750.0,
+   "prices": [
+    34.05,
+    34.05,
+    48.0,
+    29.0,
+    26.0,
+    38.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-110-5.6",
+   "description": "Procure and Install 2-Way, 2\" SDR 11 HDPE Conduit, Installed VIA Directional Drill",
+   "unit": "LF",
+   "qty": -100.0,
+   "prices": [
+    56.25,
+    56.25,
+    55.0,
+    58.0,
+    70.0,
+    95.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-110-5.7",
+   "description": "Procure and Install 4-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased in Earth",
+   "unit": "LF",
+   "qty": -400.0,
+   "prices": [
+    45.7,
+    45.7,
+    58.0,
+    40.0,
+    65.0,
+    49.5
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-110-5.8",
+   "description": "Procure and Install 4-Way, 2\" SDR 11 HDPE Conduit, Installed VIA Directional Drill",
+   "unit": "LF",
+   "qty": -75.0,
+   "prices": [
+    74.15,
+    74.15,
+    75.0,
+    117.0,
+    90.0,
+    115.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-110-5.9",
+   "description": "Procure and Install 6-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased in Earth",
+   "unit": "LF",
+   "qty": -75.0,
+   "prices": [
+    63.85,
+    63.85,
+    80.0,
+    60.0,
+    124.0,
+    65.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-115-5.1",
+   "description": "Install New 2 Way JCP incl Sump Drain",
+   "unit": "EA",
+   "qty": -4.0,
+   "prices": [
+    6470.0,
+    6470.0,
+    5130.0,
+    4434.0,
+    9700.0,
+    3980.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-115-5.2",
+   "description": "Install New 4 Way JCP incl Sump Drain",
+   "unit": "EA",
+   "qty": -2.0,
+   "prices": [
+    12381.0,
+    12381.0,
+    7730.0,
+    8950.0,
+    12800.0,
+    7558.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-115-5.3",
+   "description": "Install New 6 Way JCP incl Sump Drain",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    16227.0,
+    16227.0,
+    10030.0,
+    12489.0,
+    15800.0,
+    12500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-115-5.5",
+   "description": "Install New L-867D Pull Can in Earth",
+   "unit": "EA",
+   "qty": -2.0,
+   "prices": [
+    1586.0,
+    1586.0,
+    1855.0,
+    1902.0,
+    3110.0,
+    1900.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-125-5.5",
+   "description": "Install New L-861(L) Elevated Runway Edge Light with New L867B Base Can in Earth",
+   "unit": "EA",
+   "qty": -32.0,
+   "prices": [
+    2020.0,
+    2020.0,
+    2275.0,
+    2112.0,
+    2700.0,
+    1550.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-125-5.9",
+   "description": "Install New L-861E(L) Elevated Runway Threshold Light with New L867B Base Can in Earth",
+   "unit": "EA",
+   "qty": -12.0,
+   "prices": [
+    1970.0,
+    1970.0,
+    2550.0,
+    2129.0,
+    2600.0,
+    1750.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-125-5.11",
+   "description": "Install New Guidance Sign on New Sign Foundation, 1 Module",
+   "unit": "EA",
+   "qty": -2.0,
+   "prices": [
+    5293.0,
+    5293.0,
+    5275.0,
+    4097.0,
+    8900.0,
+    3897.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-125-5.12",
+   "description": "Install New Guidance Sign on New Sign Foundation, 2 Module",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    5840.0,
+    5840.0,
+    6975.0,
+    4686.0,
+    9700.0,
+    4989.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-125-5.19",
+   "description": "Install New REIL",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    17011.0,
+    17011.0,
+    20000.0,
+    19166.0,
+    15000.0,
+    34889.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 2",
+   "item": "L-130-5.1",
+   "description": "Install New LED 2-Box Papi System incl Flight Check",
+   "unit": "EA",
+   "qty": -2.0,
+   "prices": [
+    35124.0,
+    35124.0,
+    30000.0,
+    27271.0,
+    22000.0,
+    63550.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "C-105-6.4",
+   "description": "Mobilization - Rockport",
+   "unit": "LS",
+   "qty": -1.0,
+   "prices": [
+    130430.0,
+    130430.0,
+    40000.0,
+    51801.0,
+    150000.0,
+    81900.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "SS-1-4",
+   "description": "Temporary Marking, Lighting and Barricades \u2010 Rockport",
+   "unit": "LS",
+   "qty": -1.0,
+   "prices": [
+    11850.0,
+    11850.0,
+    9000.0,
+    9949.0,
+    7500.0,
+    41500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "P-152-4.1d",
+   "description": "Unclassified Excavation - Rockport",
+   "unit": "CY",
+   "qty": -20.0,
+   "prices": [
+    312.0,
+    312.0,
+    300.0,
+    60.0,
+    375.0,
+    350.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "P-152-4.2d",
+   "description": "Embankment - Rockport",
+   "unit": "CY",
+   "qty": -350.0,
+   "prices": [
+    65.0,
+    65.0,
+    125.0,
+    173.0,
+    130.0,
+    98.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "T-901-5.1d",
+   "description": "Seeding - Rockport",
+   "unit": "AC",
+   "qty": -4.0,
+   "prices": [
+    5905.0,
+    5905.0,
+    8250.0,
+    3814.0,
+    3000.0,
+    3500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "D-701-5.1",
+   "description": "inch Class IV RCP",
+   "unit": "LF",
+   "qty": -40.0,
+   "prices": [
+    654.0,
+    654.0,
+    325.0,
+    1162.0,
+    325.0,
+    100.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "D-701-5.2",
+   "description": "RCP End Section",
+   "unit": "EA",
+   "qty": -2.0,
+   "prices": [
+    3435.0,
+    3435.0,
+    5500.0,
+    6329.0,
+    7000.0,
+    3500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-103-5.2",
+   "description": "Install Salvaged Beacon on New 50' Tip Down Pole, including Foundation",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    41438.0,
+    41438.0,
+    52000.0,
+    56020.0,
+    68000.0,
+    88500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-105-5.1",
+   "description": "Remove No. 8 AWG, L-824C in duct",
+   "unit": "LF",
+   "qty": -30600.0,
+   "prices": [
+    0.6,
+    0.6,
+    0.45,
+    0.32,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-105-5.2",
+   "description": "Remove 2-inch conduit including cable(s)",
+   "unit": "LF",
+   "qty": -1800.0,
+   "prices": [
+    10.75,
+    10.75,
+    7.0,
+    0.8,
+    4.0,
+    9.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-105-5.3",
+   "description": "Remove Existing Stake Mounted Elevated Taxiway Edge Light and associated brooks box",
+   "unit": "EA",
+   "qty": -43.0,
+   "prices": [
+    373.0,
+    373.0,
+    100.0,
+    276.0,
+    282.0,
+    285.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-105-5.4",
+   "description": "Remove Existing Elevated Taxiway Edge Light and Base Can",
+   "unit": "EA",
+   "qty": -8.0,
+   "prices": [
+    434.0,
+    434.0,
+    225.0,
+    200.0,
+    357.0,
+    955.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-105-5.5",
+   "description": "Remove Existing Elevated Taxiway Edge Light, Base Can to Remain",
+   "unit": "EA",
+   "qty": -40.0,
+   "prices": [
+    108.0,
+    108.0,
+    75.0,
+    32.0,
+    56.0,
+    255.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-105-5.8",
+   "description": "Remove Existing Elevated Runway Edge Light, Base Can to Remain",
+   "unit": "EA",
+   "qty": -100.0,
+   "prices": [
+    109.0,
+    109.0,
+    75.0,
+    32.0,
+    54.0,
+    255.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-105-5.10",
+   "description": "Remove Existing Elevated Threshold End Light, Base Can to Remain",
+   "unit": "EA",
+   "qty": -40.0,
+   "prices": [
+    115.0,
+    115.0,
+    75.0,
+    32.0,
+    56.0,
+    255.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-105-5.12",
+   "description": "Remove Guidance Sign, Foundation to Remain",
+   "unit": "EA",
+   "qty": -17.0,
+   "prices": [
+    221.0,
+    221.0,
+    200.0,
+    80.0,
+    309.0,
+    435.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-105-5.13",
+   "description": "Remove Guidance Sign and Foundation",
+   "unit": "EA",
+   "qty": -19.0,
+   "prices": [
+    987.0,
+    987.0,
+    700.0,
+    930.0,
+    1330.0,
+    1250.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-105-5.14",
+   "description": "Remove Existing Manhole",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    4359.0,
+    4359.0,
+    1800.0,
+    1098.0,
+    1460.0,
+    1850.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-105-5.15",
+   "description": "Remove Existing Pullbox",
+   "unit": "EA",
+   "qty": -15.0,
+   "prices": [
+    756.0,
+    756.0,
+    125.0,
+    272.0,
+    1090.0,
+    785.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-105-5.20",
+   "description": "Remove Existing Beacon and Pole, Beacon to be Salvaged",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    3810.0,
+    3810.0,
+    11500.0,
+    4392.0,
+    13000.0,
+    7200.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-105-5.21",
+   "description": "Remove Existing PAPI-2",
+   "unit": "EA",
+   "qty": -2.0,
+   "prices": [
+    2444.0,
+    2444.0,
+    1500.0,
+    1263.0,
+    8300.0,
+    11896.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-105-5.22",
+   "description": "Remove Existing PAPI-4",
+   "unit": "EA",
+   "qty": -2.0,
+   "prices": [
+    4516.0,
+    4516.0,
+    2000.0,
+    2379.0,
+    10300.0,
+    25800.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-105-5.23",
+   "description": "Remove Existing REIL",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    2781.0,
+    2781.0,
+    1500.0,
+    1263.0,
+    3610.0,
+    8590.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-107-5.2",
+   "description": "Paint Existing Segmented Circle Around Wind Cone",
+   "unit": "LS",
+   "qty": -1.0,
+   "prices": [
+    3567.0,
+    3567.0,
+    9000.0,
+    2430.0,
+    13500.0,
+    18500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-108-5.1",
+   "description": "No.8 AWG, L-824C 5kV Cable, Installed in Conduit or Duct",
+   "unit": "LF",
+   "qty": -93400.0,
+   "prices": [
+    1.25,
+    1.25,
+    1.95,
+    4.17,
+    2.0,
+    2.5
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-108-5.2",
+   "description": "No. 6 AWG Bare Counterpoise Wire, Installed in Conduit Trench, Including Ground Rods",
+   "unit": "LF",
+   "qty": -23615.0,
+   "prices": [
+    1.2,
+    1.2,
+    1.95,
+    5.7,
+    2.0,
+    3.5
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-108-5.5",
+   "description": "Electrical Circuit (2) #12, #12G, Installed in Conduit or Duct",
+   "unit": "LF",
+   "qty": -2450.0,
+   "prices": [
+    2.6,
+    2.6,
+    2.35,
+    5.72,
+    2.0,
+    4.75
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-108-5.6",
+   "description": "Temporary Electrical Provisions",
+   "unit": "LS",
+   "qty": -1.0,
+   "prices": [
+    6486.0,
+    6486.0,
+    20000.0,
+    4274.0,
+    13900.0,
+    26700.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-109-5.1",
+   "description": "Vault Equipment Modifications",
+   "unit": "LS",
+   "qty": -1.0,
+   "prices": [
+    7250.0,
+    7250.0,
+    43500.0,
+    19778.0,
+    22000.0,
+    44760.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-109-5.2",
+   "description": "4kV Constant Current Regulator",
+   "unit": "EA",
+   "qty": -3.0,
+   "prices": [
+    9602.0,
+    9602.0,
+    9800.0,
+    9858.0,
+    12000.0,
+    29869.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-109-5.4",
+   "description": "Replace Existing ALCMS System",
+   "unit": "LS",
+   "qty": -1.0,
+   "prices": [
+    91360.0,
+    91360.0,
+    131000.0,
+    141130.0,
+    60000.0,
+    111550.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-110-5.1",
+   "description": "Procure and Install 1-Way, 2\" Sch. 40 PVC Conduit in Earth",
+   "unit": "LF",
+   "qty": -12300.0,
+   "prices": [
+    10.15,
+    10.15,
+    12.5,
+    6.27,
+    8.0,
+    15.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-110-5.4",
+   "description": "Procure and Install 1-Way, 2\" Sch. 40 PVC Conduit VIA Open Cut",
+   "unit": "LF",
+   "qty": -105.0,
+   "prices": [
+    60.25,
+    60.25,
+    75.0,
+    36.0,
+    37.0,
+    45.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-110-5.5",
+   "description": "Procure and Install 2-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased in Earth",
+   "unit": "LF",
+   "qty": -1800.0,
+   "prices": [
+    34.05,
+    34.05,
+    48.0,
+    29.0,
+    26.0,
+    38.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-110-5.6",
+   "description": "Procure and Install 2-Way, 2\" SDR 11 HDPE Conduit, Installed VIA Directional Drill",
+   "unit": "LF",
+   "qty": -775.0,
+   "prices": [
+    56.25,
+    56.25,
+    55.0,
+    58.0,
+    70.0,
+    95.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-110-5.7",
+   "description": "Procure and Install 4-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased in Earth",
+   "unit": "LF",
+   "qty": -6320.0,
+   "prices": [
+    45.7,
+    45.7,
+    58.0,
+    40.0,
+    65.0,
+    49.5
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-110-5.8",
+   "description": "Procure and Install 4-Way, 2\" SDR 11 HDPE Conduit, Installed VIA Directional Drill",
+   "unit": "LF",
+   "qty": -725.0,
+   "prices": [
+    74.15,
+    74.15,
+    75.0,
+    117.0,
+    90.0,
+    115.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-110-5.12",
+   "description": "Procure and Install 10-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased in Earth",
+   "unit": "LF",
+   "qty": -415.0,
+   "prices": [
+    92.4,
+    92.4,
+    125.0,
+    117.0,
+    117.0,
+    95.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-110-5.13",
+   "description": "Procure and Install 10-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased VIA Open Cut",
+   "unit": "LF",
+   "qty": -40.0,
+   "prices": [
+    131.6,
+    131.6,
+    225.0,
+    153.0,
+    186.0,
+    275.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-110-5.14",
+   "description": "Procure and Install 10-Way, 2\" SDR 11 HDPE Conduit, VIA Directional Drill",
+   "unit": "LF",
+   "qty": -360.0,
+   "prices": [
+    116.85,
+    116.85,
+    115.0,
+    273.0,
+    110.0,
+    220.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-110-5.16",
+   "description": "Procure and Install 4-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased VIA Open Cut",
+   "unit": "LF",
+   "qty": -75.0,
+   "prices": [
+    88.5,
+    88.5,
+    125.0,
+    42.0,
+    52.0,
+    125.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-115-5.1",
+   "description": "Install New 2 Way JCP incl Sump Drain",
+   "unit": "EA",
+   "qty": -15.0,
+   "prices": [
+    6470.0,
+    6470.0,
+    5130.0,
+    4434.0,
+    9700.0,
+    3980.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-115-5.2",
+   "description": "Install New 4 Way JCP incl Sump Drain",
+   "unit": "EA",
+   "qty": -18.0,
+   "prices": [
+    12381.0,
+    12381.0,
+    7730.0,
+    8950.0,
+    12800.0,
+    7558.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-115-5.4",
+   "description": "Install New 10 Way JCP incl Sump Drain",
+   "unit": "EA",
+   "qty": -3.0,
+   "prices": [
+    22206.0,
+    22206.0,
+    12930.0,
+    17095.0,
+    23000.0,
+    16500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-125-5.1",
+   "description": "Install New L-861T(L) Elevated Taxiway Edge Light with New L867B Base Can in Earth",
+   "unit": "EA",
+   "qty": -91.0,
+   "prices": [
+    1905.0,
+    1905.0,
+    2175.0,
+    1928.0,
+    2500.0,
+    1395.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-125-5.2",
+   "description": "Install New L-861T(L) Elevated Taxiway Edge Light in Existing Base Can",
+   "unit": "EA",
+   "qty": -27.0,
+   "prices": [
+    481.0,
+    481.0,
+    825.0,
+    646.0,
+    450.0,
+    1389.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-125-5.3",
+   "description": "Install Salvaged L-861T(L) Elevated Taxiway Edge Light in Existing Base Can",
+   "unit": "EA",
+   "qty": -3.0,
+   "prices": [
+    392.0,
+    392.0,
+    675.0,
+    442.0,
+    300.0,
+    987.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-125-5.4",
+   "description": "Install New L-861T(L) Elevated Taxiway Edge Light with New L867B Base Can in Existing Shoulder Pavement",
+   "unit": "EA",
+   "qty": -9.0,
+   "prices": [
+    4336.0,
+    4336.0,
+    3500.0,
+    7856.0,
+    2800.0,
+    4850.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-125-5.6",
+   "description": "Install New L-861(L) Elevated Runway Edge Light in Existing L867B Base Can",
+   "unit": "EA",
+   "qty": -100.0,
+   "prices": [
+    580.0,
+    580.0,
+    950.0,
+    727.0,
+    600.0,
+    950.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-125-5.10",
+   "description": "Install New L-861E(L) Elevated Runway Threshold Light in Existing Base Can",
+   "unit": "EA",
+   "qty": -40.0,
+   "prices": [
+    586.0,
+    586.0,
+    1100.0,
+    744.0,
+    700.0,
+    975.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-125-5.12",
+   "description": "Install New Guidance Sign on New Sign Foundation, 2 Module",
+   "unit": "EA",
+   "qty": -14.0,
+   "prices": [
+    5840.0,
+    5840.0,
+    6975.0,
+    4686.0,
+    9700.0,
+    4989.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-125-5.13",
+   "description": "Install New Guidance Sign on New Sign Foundation, 3 Module",
+   "unit": "EA",
+   "qty": -10.0,
+   "prices": [
+    6648.0,
+    6648.0,
+    8575.0,
+    5351.0,
+    10400.0,
+    6150.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-125-5.14",
+   "description": "Install New Guidance Sign on New Sign Foundation, 4 Module",
+   "unit": "EA",
+   "qty": -3.0,
+   "prices": [
+    7368.0,
+    7368.0,
+    10125.0,
+    6008.0,
+    11200.0,
+    7890.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-125-5.15",
+   "description": "Install New Guidance Sign on Existing Sign Foundation, 1 Module",
+   "unit": "EA",
+   "qty": -16.0,
+   "prices": [
+    1778.0,
+    1778.0,
+    2505.0,
+    1614.0,
+    3010.0,
+    2899.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-125-5.16",
+   "description": "Install New Guidance Sign on Existing Sign Foundation, 2 Module",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    2219.0,
+    2219.0,
+    2625.0,
+    2157.0,
+    3640.0,
+    3995.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-125-5.19",
+   "description": "Install New REIL",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    17011.0,
+    17011.0,
+    20000.0,
+    19166.0,
+    15000.0,
+    34889.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 3",
+   "item": "L-130-5.2",
+   "description": "Install New LED 4-Box Papi System incl Flight Check",
+   "unit": "EA",
+   "qty": -4.0,
+   "prices": [
+    61650.0,
+    61650.0,
+    60000.0,
+    50347.0,
+    42000.0,
+    82700.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "C-105-6.5",
+   "description": "Mobilization - Smithville",
+   "unit": "LS",
+   "qty": -1.0,
+   "prices": [
+    85672.0,
+    85672.0,
+    40000.0,
+    41331.0,
+    150000.0,
+    59500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "SS-1-5",
+   "description": "Temporary Marking, Lighting and Barricades \u2010 Smithville",
+   "unit": "LS",
+   "qty": -1.0,
+   "prices": [
+    3197.0,
+    3197.0,
+    9000.0,
+    8067.0,
+    2200.0,
+    32500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "P-152-4.1e",
+   "description": "Unclassified Excavation - Smithville",
+   "unit": "CY",
+   "qty": -5.0,
+   "prices": [
+    528.0,
+    528.0,
+    300.0,
+    60.0,
+    375.0,
+    350.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "P-152-4.2e",
+   "description": "Embankment - Smithville",
+   "unit": "CY",
+   "qty": -100.0,
+   "prices": [
+    495.0,
+    495.0,
+    125.0,
+    173.0,
+    130.0,
+    98.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "T-901-5.1e",
+   "description": "Seeding - Smithville",
+   "unit": "AC",
+   "qty": -4.0,
+   "prices": [
+    5905.0,
+    5905.0,
+    8250.0,
+    3814.0,
+    3000.0,
+    3550.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "D-701-5.1",
+   "description": "inch Class IV RCP",
+   "unit": "LF",
+   "qty": -55.0,
+   "prices": [
+    654.0,
+    654.0,
+    325.0,
+    1162.0,
+    325.0,
+    100.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "D-701-5.2",
+   "description": "RCP End Section",
+   "unit": "EA",
+   "qty": -2.0,
+   "prices": [
+    3435.0,
+    3435.0,
+    5500.0,
+    6329.0,
+    7000.0,
+    3500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-103-5.1",
+   "description": "Install New Beacon on New 50' Tip Down Pole, including Foundation",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    52894.0,
+    52894.0,
+    64000.0,
+    69776.0,
+    85500.0,
+    98500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-105-5.1",
+   "description": "Remove No. 8 AWG, L-824C in duct",
+   "unit": "LF",
+   "qty": -550.0,
+   "prices": [
+    0.6,
+    0.6,
+    0.45,
+    0.32,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-105-5.6",
+   "description": "Remove Existing Stake Mounted Elevated Runway Edge Light And Associated Brooks Box",
+   "unit": "EA",
+   "qty": -42.0,
+   "prices": [
+    371.0,
+    371.0,
+    150.0,
+    326.0,
+    289.0,
+    255.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-105-5.9",
+   "description": "Remove Existing Stake Mounted Elevated Threshold End Light And Associated Brooks Box",
+   "unit": "EA",
+   "qty": -16.0,
+   "prices": [
+    369.0,
+    369.0,
+    150.0,
+    326.0,
+    256.0,
+    275.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-105-5.14",
+   "description": "Remove Existing Manhole",
+   "unit": "EA",
+   "qty": -8.0,
+   "prices": [
+    4359.0,
+    4359.0,
+    1800.0,
+    1098.0,
+    1460.0,
+    1850.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-105-5.15",
+   "description": "Remove Existing Pullbox",
+   "unit": "EA",
+   "qty": -3.0,
+   "prices": [
+    756.0,
+    756.0,
+    125.0,
+    272.0,
+    1090.0,
+    785.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-105-5.18",
+   "description": "Remove Existing Wind Cone and Associated Foundation",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    2099.0,
+    2099.0,
+    1500.0,
+    1617.0,
+    3190.0,
+    2855.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-105-5.19",
+   "description": "Remove Existing Beacon, Pole, and Foundation",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    3858.0,
+    3858.0,
+    11500.0,
+    4392.0,
+    13600.0,
+    8500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-105-5.21",
+   "description": "Remove Existing PAPI-2",
+   "unit": "EA",
+   "qty": -2.0,
+   "prices": [
+    2444.0,
+    2444.0,
+    1500.0,
+    1263.0,
+    8300.0,
+    11896.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-105-5.24",
+   "description": "Remove Concrete Encased Duct in Earth (Including Cable)",
+   "unit": "LF",
+   "qty": -282.0,
+   "prices": [
+    11.95,
+    11.95,
+    7.0,
+    144.0,
+    82.0,
+    35.5
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-107-5.1",
+   "description": "Install New L-807(L) LED Wind Cone Including Tip Down Pole",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    12435.0,
+    12435.0,
+    14800.0,
+    15590.0,
+    22000.0,
+    26700.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-107-5.2",
+   "description": "Paint Existing Segmented Circle Around Wind Cone",
+   "unit": "LS",
+   "qty": -1.0,
+   "prices": [
+    3567.0,
+    3567.0,
+    9000.0,
+    2430.0,
+    13500.0,
+    18500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-108-5.1",
+   "description": "No.8 AWG, L-824C 5kV Cable, Installed in Conduit or Duct",
+   "unit": "LF",
+   "qty": -11600.0,
+   "prices": [
+    1.25,
+    1.25,
+    1.95,
+    4.17,
+    2.0,
+    2.5
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-108-5.2",
+   "description": "No. 6 AWG Bare Counterpoise Wire, Installed in Conduit Trench, Including Ground Rods",
+   "unit": "LF",
+   "qty": -14350.0,
+   "prices": [
+    1.2,
+    1.2,
+    1.95,
+    5.7,
+    2.0,
+    3.5
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-108-5.3",
+   "description": "Electrical Circuit (2) #8, #8G, Installed in Conduit or Duct",
+   "unit": "LF",
+   "qty": -3500.0,
+   "prices": [
+    3.85,
+    3.85,
+    4.1,
+    7.37,
+    3.0,
+    5.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-108-5.5",
+   "description": "Electrical Circuit (2) #12, #12G, Installed in Conduit or Duct",
+   "unit": "LF",
+   "qty": -1725.0,
+   "prices": [
+    2.6,
+    2.6,
+    2.35,
+    5.72,
+    2.0,
+    4.75
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-109-5.1",
+   "description": "Vault Equipment Modifications",
+   "unit": "LS",
+   "qty": -1.0,
+   "prices": [
+    7250.0,
+    7250.0,
+    43500.0,
+    19778.0,
+    22000.0,
+    44760.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-109-5.2",
+   "description": "4kV Constant Current Regulator",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    9602.0,
+    9602.0,
+    9800.0,
+    9858.0,
+    12000.0,
+    29869.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-110-5.1",
+   "description": "Procure and Install 1-Way, 2\" Sch. 40 PVC Conduit in Earth",
+   "unit": "LF",
+   "qty": -12750.0,
+   "prices": [
+    10.15,
+    10.15,
+    12.5,
+    6.27,
+    8.0,
+    15.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-110-5.4",
+   "description": "Procure and Install 1-Way, 2\" Sch. 40 PVC Conduit VIA Open Cut",
+   "unit": "LF",
+   "qty": -30.0,
+   "prices": [
+    60.25,
+    60.25,
+    75.0,
+    36.0,
+    37.0,
+    45.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-110-5.6",
+   "description": "Procure and Install 2-Way, 2\" SDR 11 HDPE Conduit, Installed VIA Directional Drill",
+   "unit": "LF",
+   "qty": -165.0,
+   "prices": [
+    56.25,
+    56.25,
+    55.0,
+    58.0,
+    70.0,
+    95.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-110-5.7",
+   "description": "Procure and Install 4-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased in Earth",
+   "unit": "LF",
+   "qty": -155.0,
+   "prices": [
+    45.7,
+    45.7,
+    58.0,
+    40.0,
+    65.0,
+    49.5
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-110-5.8",
+   "description": "Procure and Install 4-Way, 2\" SDR 11 HDPE Conduit, Installed VIA Directional Drill",
+   "unit": "LF",
+   "qty": -210.0,
+   "prices": [
+    74.15,
+    74.15,
+    75.0,
+    117.0,
+    90.0,
+    115.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-110-5.9",
+   "description": "Procure and Install 6-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased in Earth",
+   "unit": "LF",
+   "qty": -350.0,
+   "prices": [
+    63.85,
+    63.85,
+    80.0,
+    60.0,
+    124.0,
+    65.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-110-5.11",
+   "description": "Procure and Install 6-Way, 2\" SDR 11 HDPE Conduit, VIA Directional Drill",
+   "unit": "LF",
+   "qty": -200.0,
+   "prices": [
+    103.15,
+    103.15,
+    85.0,
+    198.0,
+    112.0,
+    145.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-115-5.1",
+   "description": "Install New 2 Way JCP incl Sump Drain",
+   "unit": "EA",
+   "qty": -5.0,
+   "prices": [
+    6470.0,
+    6470.0,
+    5130.0,
+    4434.0,
+    9700.0,
+    3980.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-115-5.2",
+   "description": "Install New 4 Way JCP incl Sump Drain",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    12381.0,
+    12381.0,
+    7730.0,
+    8950.0,
+    12800.0,
+    7558.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-115-5.3",
+   "description": "Install New 6 Way JCP incl Sump Drain",
+   "unit": "EA",
+   "qty": -4.0,
+   "prices": [
+    16227.0,
+    16227.0,
+    10030.0,
+    12489.0,
+    15800.0,
+    12500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-115-5.5",
+   "description": "Install New L-867D Pull Can in Earth",
+   "unit": "EA",
+   "qty": -9.0,
+   "prices": [
+    1586.0,
+    1586.0,
+    1855.0,
+    1902.0,
+    3110.0,
+    1900.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-125-5.5",
+   "description": "Install New L-861(L) Elevated Runway Edge Light with New L867B Base Can in Earth",
+   "unit": "EA",
+   "qty": -39.0,
+   "prices": [
+    2020.0,
+    2020.0,
+    2275.0,
+    2112.0,
+    2700.0,
+    1550.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-125-5.9",
+   "description": "Install New L-861E(L) Elevated Runway Threshold Light with New L867B Base Can in Earth",
+   "unit": "EA",
+   "qty": -16.0,
+   "prices": [
+    1970.0,
+    1970.0,
+    2550.0,
+    2129.0,
+    2600.0,
+    1750.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-125-5.18",
+   "description": "Install New Isolation Transformer and Connector Kit in Existing Sign/ Fixture",
+   "unit": "EA",
+   "qty": -5.0,
+   "prices": [
+    344.0,
+    344.0,
+    485.0,
+    288.0,
+    377.0,
+    546.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-125-5.19",
+   "description": "Install New REIL",
+   "unit": "EA",
+   "qty": -2.0,
+   "prices": [
+    17011.0,
+    17011.0,
+    20000.0,
+    19166.0,
+    15000.0,
+    34889.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 4",
+   "item": "L-130-5.1",
+   "description": "Install New LED 2-Box Papi System incl Flight Check",
+   "unit": "EA",
+   "qty": -2.0,
+   "prices": [
+    35124.0,
+    35124.0,
+    30000.0,
+    27271.0,
+    22000.0,
+    63550.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "C-105-6.6",
+   "description": "Mobilization - Terrell",
+   "unit": "LS",
+   "qty": -1.0,
+   "prices": [
+    88336.6,
+    88336.6,
+    40000.0,
+    52364.0,
+    150000.0,
+    59500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "SS-1-6",
+   "description": "Temporary Marking, Lighting and Barricades \u2010 Terrell",
+   "unit": "LS",
+   "qty": -1.0,
+   "prices": [
+    2954.0,
+    2954.0,
+    9000.0,
+    10287.0,
+    2200.0,
+    32500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "P-152-4.1f",
+   "description": "Unclassified Excavation - Terrell",
+   "unit": "CY",
+   "qty": -25.0,
+   "prices": [
+    259.0,
+    259.0,
+    300.0,
+    60.0,
+    375.0,
+    350.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "P-152-4.2f",
+   "description": "Embankment - Terrell",
+   "unit": "CY",
+   "qty": -5.0,
+   "prices": [
+    548.0,
+    548.0,
+    125.0,
+    174.0,
+    130.0,
+    125.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "T-901-5.1f",
+   "description": "Seeding - Terrell",
+   "unit": "AC",
+   "qty": -2.0,
+   "prices": [
+    6015.0,
+    6015.0,
+    8250.0,
+    3814.0,
+    3000.0,
+    3550.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-105-5.1",
+   "description": "Remove No. 8 AWG, L-824C in duct",
+   "unit": "LF",
+   "qty": -2075.0,
+   "prices": [
+    0.6,
+    0.6,
+    0.45,
+    0.32,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-105-5.6",
+   "description": "Remove Existing Stake Mounted Elevated Runway Edge Light And Associated Brooks Box",
+   "unit": "EA",
+   "qty": -50.0,
+   "prices": [
+    371.0,
+    371.0,
+    150.0,
+    326.0,
+    289.0,
+    255.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-105-5.9",
+   "description": "Remove Existing Stake Mounted Elevated Threshold End Light And Associated Brooks Box",
+   "unit": "EA",
+   "qty": -16.0,
+   "prices": [
+    369.0,
+    369.0,
+    150.0,
+    326.0,
+    256.0,
+    275.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-105-5.13",
+   "description": "Remove Guidance Sign and Foundation",
+   "unit": "EA",
+   "qty": -8.0,
+   "prices": [
+    987.0,
+    987.0,
+    700.0,
+    930.0,
+    1330.0,
+    1250.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-105-5.15",
+   "description": "Remove Existing Pullbox",
+   "unit": "EA",
+   "qty": -7.0,
+   "prices": [
+    756.0,
+    756.0,
+    125.0,
+    272.0,
+    1090.0,
+    785.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-105-5.16",
+   "description": "Remove Existing Duct Marker",
+   "unit": "EA",
+   "qty": -8.0,
+   "prices": [
+    116.0,
+    116.0,
+    65.0,
+    17.0,
+    99.0,
+    150.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-105-5.18",
+   "description": "Remove Existing Wind Cone and Associated Foundation",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    2099.0,
+    2099.0,
+    1500.0,
+    1617.0,
+    3190.0,
+    2855.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-105-5.22",
+   "description": "Remove Existing PAPI-4",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    4516.0,
+    4516.0,
+    2000.0,
+    2379.0,
+    10300.0,
+    25800.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-105-5.23",
+   "description": "Remove Existing REIL",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    2781.0,
+    2781.0,
+    1500.0,
+    1263.0,
+    3610.0,
+    8590.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-105-5.25",
+   "description": "Remove 600V Circuit in Duct",
+   "unit": "LF",
+   "qty": -4950.0,
+   "prices": [
+    0.65,
+    0.65,
+    0.5,
+    0.8,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-107-5.1",
+   "description": "Install New L-807(L) LED Wind Cone Including Tip Down Pole",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    12435.0,
+    12435.0,
+    14800.0,
+    15590.0,
+    22000.0,
+    26700.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-107-5.2",
+   "description": "Paint Existing Segmented Circle Around Wind Cone",
+   "unit": "LS",
+   "qty": -1.0,
+   "prices": [
+    3567.0,
+    3567.0,
+    9000.0,
+    2430.0,
+    13500.0,
+    18500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-108-5.1",
+   "description": "No.8 AWG, L-824C 5kV Cable, Installed in Conduit or Duct",
+   "unit": "LF",
+   "qty": -15400.0,
+   "prices": [
+    1.25,
+    1.25,
+    1.95,
+    4.17,
+    2.0,
+    2.5
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-108-5.2",
+   "description": "No. 6 AWG Bare Counterpoise Wire, Installed in Conduit Trench, Including Ground Rods",
+   "unit": "LF",
+   "qty": -18800.0,
+   "prices": [
+    1.2,
+    1.2,
+    1.95,
+    5.7,
+    2.0,
+    3.5
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-108-5.3",
+   "description": "Electrical Circuit (2) #8, #8G, Installed in Conduit or Duct",
+   "unit": "LF",
+   "qty": -3750.0,
+   "prices": [
+    3.85,
+    3.85,
+    4.1,
+    7.37,
+    3.0,
+    5.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-108-5.4",
+   "description": "Electrical Circuit (2) #10, #10G, Installed in Conduit or Duct",
+   "unit": "LF",
+   "qty": -2000.0,
+   "prices": [
+    2.95,
+    2.95,
+    2.95,
+    6.21,
+    3.0,
+    4.75
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-109-5.1",
+   "description": "Vault Equipment Modifications",
+   "unit": "LS",
+   "qty": -1.0,
+   "prices": [
+    7250.0,
+    7250.0,
+    43500.0,
+    19778.0,
+    22000.0,
+    44760.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-109-5.2",
+   "description": "4kV Constant Current Regulator",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    9602.0,
+    9602.0,
+    9800.0,
+    9858.0,
+    12000.0,
+    29869.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-109-5.3",
+   "description": "Install New Vault Building and Equipment",
+   "unit": "LS",
+   "qty": -1.0,
+   "prices": [
+    101673.0,
+    101673.0,
+    135000.0,
+    272127.0,
+    200000.0,
+    180600.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-110-5.1",
+   "description": "Procure and Install 1-Way, 2\" Sch. 40 PVC Conduit in Earth",
+   "unit": "LF",
+   "qty": -14150.0,
+   "prices": [
+    10.15,
+    10.15,
+    12.5,
+    6.27,
+    8.0,
+    15.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-110-5.5",
+   "description": "Procure and Install 2-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased in Earth",
+   "unit": "LF",
+   "qty": -2200.0,
+   "prices": [
+    34.05,
+    34.05,
+    48.0,
+    29.0,
+    26.0,
+    38.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-110-5.6",
+   "description": "Procure and Install 2-Way, 2\" SDR 11 HDPE Conduit, Installed VIA Directional Drill",
+   "unit": "LF",
+   "qty": -75.0,
+   "prices": [
+    56.25,
+    56.25,
+    55.0,
+    58.0,
+    70.0,
+    95.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-110-5.7",
+   "description": "Procure and Install 4-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased in Earth",
+   "unit": "LF",
+   "qty": -190.0,
+   "prices": [
+    45.7,
+    45.7,
+    58.0,
+    40.0,
+    65.0,
+    49.5
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-110-5.8",
+   "description": "Procure and Install 4-Way, 2\" SDR 11 HDPE Conduit, Installed VIA Directional Drill",
+   "unit": "LF",
+   "qty": -110.0,
+   "prices": [
+    74.15,
+    74.15,
+    75.0,
+    117.0,
+    90.0,
+    115.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-110-5.9",
+   "description": "Procure and Install 6-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased in Earth",
+   "unit": "LF",
+   "qty": -750.0,
+   "prices": [
+    63.85,
+    63.85,
+    80.0,
+    60.0,
+    124.0,
+    65.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-110-5.11",
+   "description": "Procure and Install 6-Way, 2\" SDR 11 HDPE Conduit, VIA Directional Drill",
+   "unit": "LF",
+   "qty": -65.0,
+   "prices": [
+    103.15,
+    103.15,
+    85.0,
+    198.0,
+    112.0,
+    145.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-110-5.15",
+   "description": "Procure and Install Utility Company Service entrance Infrastructure",
+   "unit": "LS",
+   "qty": -1.0,
+   "prices": [
+    46747.0,
+    46747.0,
+    21000.0,
+    3748.0,
+    113674.0,
+    35500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-115-5.1",
+   "description": "Install New 2 Way JCP incl Sump Drain",
+   "unit": "EA",
+   "qty": -13.0,
+   "prices": [
+    6470.0,
+    6470.0,
+    5130.0,
+    4434.0,
+    9700.0,
+    3980.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-115-5.2",
+   "description": "Install New 4 Way JCP incl Sump Drain",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    12381.0,
+    12381.0,
+    7730.0,
+    8950.0,
+    12800.0,
+    7558.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-115-5.3",
+   "description": "Install New 6 Way JCP incl Sump Drain",
+   "unit": "EA",
+   "qty": -3.0,
+   "prices": [
+    16227.0,
+    16227.0,
+    10030.0,
+    12489.0,
+    15800.0,
+    12500.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-115-5.5",
+   "description": "Install New L-867D Pull Can in Earth",
+   "unit": "EA",
+   "qty": -3.0,
+   "prices": [
+    1586.0,
+    1586.0,
+    1855.0,
+    1902.0,
+    3110.0,
+    1900.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-125-5.5",
+   "description": "Install New L-861(L) Elevated Runway Edge Light with New L867B Base Can in Earth",
+   "unit": "EA",
+   "qty": -50.0,
+   "prices": [
+    2020.0,
+    2020.0,
+    2275.0,
+    2112.0,
+    2700.0,
+    1550.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-125-5.9",
+   "description": "Install New L-861E(L) Elevated Runway Threshold Light with New L867B Base Can in Earth",
+   "unit": "EA",
+   "qty": -16.0,
+   "prices": [
+    1970.0,
+    1970.0,
+    2550.0,
+    2129.0,
+    2600.0,
+    1750.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-125-5.11",
+   "description": "Install New Guidance Sign on New Sign Foundation, 1 Module",
+   "unit": "EA",
+   "qty": -8.0,
+   "prices": [
+    5293.0,
+    5293.0,
+    5275.0,
+    4097.0,
+    8900.0,
+    3897.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-125-5.18",
+   "description": "Install New Isolation Transformer and Connector Kit in Existing Sign/ Fixture",
+   "unit": "EA",
+   "qty": -5.0,
+   "prices": [
+    344.0,
+    344.0,
+    485.0,
+    288.0,
+    377.0,
+    546.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-125-5.19",
+   "description": "Install New REIL",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    17011.0,
+    17011.0,
+    20000.0,
+    19166.0,
+    15000.0,
+    34889.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "L-130-5.2",
+   "description": "Install New LED 4-Box Papi System incl Flight Check",
+   "unit": "EA",
+   "qty": -1.0,
+   "prices": [
+    61650.0,
+    61650.0,
+    60000.0,
+    50347.0,
+    42000.0,
+    82700.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate 5",
+   "item": "0",
+   "description": "PLAN Utility Allowance NTE $100,000.00",
+   "unit": "ALLOW",
+   "qty": -1.0,
+   "prices": [
+    100000.0,
+    100000.0,
+    95000.0,
+    100000.0,
+    100000.0,
+    100000.0
+   ]
+  }
+ ],
+ "notes": [
+  "Multi-airport statewide group; TxDOT CSJ printed as 4222AVSAE (Lochner job 20616).",
+  "Engineer's estimate base subtotal on the tab is $7,908,936.50 (before 10% contingency); its line items sum to a different figure, so the estimate isn't checked against a total.",
+  "EAS Contracting's deductive alternate subtotals are identical to the engineer's estimate on the tab; kept as printed.",
+  "The tab notes some deductive-alternate unit prices differ from the same bidder's base-bid price for the same item; both kept as printed."
+ ]
+}

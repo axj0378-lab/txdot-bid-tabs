@@ -1,0 +1,789 @@
+{
+ "project_id": "STWJULIET",
+ "airport": "Statewide Group Juliet: Brooks County (Falfurrias), Jim Hogg County (Hebbronville), Kleberg County (Kingsville), Garner Field (Uvalde), Mid Valley (Weslaco)",
+ "csj": "",
+ "scope": "Pavement Maintenance",
+ "description": "Group Juliet: rehabilitate and mark airfield pavement; crack seal and sealcoat deductive alternates",
+ "bid_date": "2025-06-12",
+ "location": "Statewide",
+ "source_pdf": "NTB Statewide Juliet BidTabSigned.pdf",
+ "columns": [
+  "Engineer's Estimate",
+  "Anderson Columbia",
+  "Don Jackson Construction Inc.",
+  "Lone Wolf Construction, LLC",
+  "Allen Keller Company"
+ ],
+ "estimate_column": "Engineer's Estimate",
+ "award_schedules": [
+  "Bid Schedule 1"
+ ],
+ "stated_totals": {
+  "Engineer's Estimate": 7920170.0,
+  "Anderson Columbia": 7849380.0,
+  "Don Jackson Construction Inc.": 6898945.0,
+  "Lone Wolf Construction, LLC": 7998510.0,
+  "Allen Keller Company": 5792813.76
+ },
+ "items": [
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "C-105-6.1",
+   "description": "Mobilization - Falfurrias",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    72000.0,
+    90000.0,
+    94865.0,
+    70000.0,
+    109990.0
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "C-105-6.2",
+   "description": "Mobilization - Hebbronville",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    52000.0,
+    90000.0,
+    77315.0,
+    65000.0,
+    109990.0
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "C-105-6.3",
+   "description": "Mobilization - Kingsville",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    76000.0,
+    90000.0,
+    983165.0,
+    65000.0,
+    109990.0
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "C-105-6.4",
+   "description": "Mobilization - Uvalde",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    257000.0,
+    360000.0,
+    188465.0,
+    360000.0,
+    109990.0
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "C-105-6.5",
+   "description": "Mobilization - Weslaco",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    79000.0,
+    90000.0,
+    90770.0,
+    65000.0,
+    109990.0
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "SS-101-3.1",
+   "description": "Temporary Marking, Lighting and Barricades - Falfurrias",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    11000.0,
+    150000.0,
+    12297.0,
+    40000.0,
+    1750.5
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "SS-101-3.2",
+   "description": "Temporary Marking, Lighting and Barricades - Hebbronville",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    11000.0,
+    150000.0,
+    9980.0,
+    40000.0,
+    1750.5
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "SS-101-3.3",
+   "description": "Temporary Marking, Lighting and Barricades - Kingsville",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    11000.0,
+    150000.0,
+    7781.0,
+    40000.0,
+    1750.5
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "SS-101-3.4",
+   "description": "Temporary Marking, Lighting and Barricades - Uvalde",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    15000.0,
+    200000.0,
+    24500.0,
+    40000.0,
+    1750.5
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "SS-101-3.5",
+   "description": "Temporary Marking, Lighting and Barricades - Weslaco",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    11000.0,
+    150000.0,
+    23623.0,
+    40000.0,
+    1750.5
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-101-5.1.1",
+   "description": "Clean and Seal Joints and Cracks 1/4\" to 11/2\"",
+   "unit": "LF",
+   "qty": 599400.0,
+   "prices": [
+    2.0,
+    125.0,
+    1.23,
+    1.75,
+    1.23
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-101-5.1.2",
+   "description": "Clean and Seal Joints and Cracks > 1 1/2\"",
+   "unit": "LF",
+   "qty": 6700.0,
+   "prices": [
+    3.0,
+    145.0,
+    146.0,
+    4.0,
+    146.0
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-101-5.1.3",
+   "description": "Full Depth Pavement Repair",
+   "unit": "",
+   "qty": 1450.0,
+   "prices": [
+    120.0,
+    214.0,
+    94.5,
+    220.0,
+    175.51
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-620-5.3-1",
+   "description": "Surface Preparation - Falfurrias",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    15000.0,
+    50000.0,
+    42222.0,
+    50000.0,
+    33097.31
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-620-5.3-2",
+   "description": "Surface Preparation - Hebbronville",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    15000.0,
+    50000.0,
+    30128.0,
+    50000.0,
+    21033.14
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-620-5.3-3",
+   "description": "Surface Preparation - Kingsville",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    15000.0,
+    50000.0,
+    29170.0,
+    50000.0,
+    20077.92
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-620-5.3-4",
+   "description": "Surface Preparation - Uvalde",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    18000.0,
+    110000.0,
+    108905.0,
+    50000.0,
+    31923.4
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-620-5.3-5",
+   "description": "Surface Preparation - Weslaco",
+   "unit": "",
+   "qty": 1.0,
+   "prices": [
+    15000.0,
+    50000.0,
+    35643.0,
+    50000.0,
+    26533.57
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-620-5.3-6",
+   "description": "Reflectorized Pavement Marking",
+   "unit": "SF",
+   "qty": 216300.0,
+   "prices": [
+    1.5,
+    1.2,
+    1.2,
+    1.2,
+    1.2
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-620-5.3-7",
+   "description": "Non-Reflectorized Pavement Marking",
+   "unit": "SF",
+   "qty": 111500.0,
+   "prices": [
+    1.25,
+    0.63,
+    0.63,
+    2.7,
+    0.64
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-620-5.3-8",
+   "description": "Taxiway Centerline Green Reflective Marker",
+   "unit": "EA",
+   "qty": 493.0,
+   "prices": [
+    15.0,
+    16.0,
+    16.0,
+    30.0,
+    16.34
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-401",
+   "description": "2\" HMAC Surface Course",
+   "unit": "TON",
+   "qty": 11700.0,
+   "prices": [
+    300.0,
+    232.0,
+    276.0,
+    290.4,
+    204.12
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "P-631",
+   "description": "Refined Coal Tar Emulsion with Additives, Slurry Seal Surface Treatment",
+   "unit": "",
+   "qty": 607800.0,
+   "prices": [
+    2.25,
+    186.0,
+    1.82,
+    190.0,
+    1.75
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "TXDOT216",
+   "description": "Proof Rolling",
+   "unit": "",
+   "qty": 60.0,
+   "prices": [
+    75.0,
+    150.0,
+    50.0,
+    1.0,
+    174.78
+   ]
+  },
+  {
+   "schedule": "Bid Schedule 1",
+   "item": "TXDOT316",
+   "description": "Chip Seal Coat Surface Treatment",
+   "unit": "",
+   "qty": 100200.0,
+   "prices": [
+    5.0,
+    757.0,
+    4.79,
+    4.0,
+    2.98
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DF",
+   "item": "P-101-5.1.1",
+   "description": "Clean and Seal Joints and Cracks 1/4\" to 11/2\"",
+   "unit": "LF",
+   "qty": -24000.0,
+   "prices": [
+    2.0,
+    0.75,
+    1.23,
+    1.75,
+    0.93
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DF",
+   "item": "P-101-5.5.2",
+   "description": "Clean and Seal Joints and Cracks > 11/2\"",
+   "unit": "LF",
+   "qty": -300.0,
+   "prices": [
+    3.0,
+    1.05,
+    146.0,
+    4.0,
+    126.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DF",
+   "item": "P-101-5.1.3",
+   "description": "Full Depth Pavement Repair",
+   "unit": "SY",
+   "qty": -10.0,
+   "prices": [
+    120.0,
+    160.0,
+    94.5,
+    220.0,
+    175.51
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DF",
+   "item": "P-631",
+   "description": "Refined Coal Tar Emulsion with Additives, Slurry Seal Surface Treatment",
+   "unit": "",
+   "qty": -29300.0,
+   "prices": [
+    2.25,
+    1.6,
+    182.0,
+    190.0,
+    175.0
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DH",
+   "item": "P-101-5.1.1",
+   "description": "Clean and Seal Joints and Cracks 1/4\" to 11/2\"",
+   "unit": "LF",
+   "qty": -17900.0,
+   "prices": [
+    2.0,
+    0.75,
+    1.23,
+    1.75,
+    0.93
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DH",
+   "item": "P-101-5.1.2",
+   "description": "Clean and Seal Joints and Cracks > 1 1/2\"",
+   "unit": "LF",
+   "qty": -300.0,
+   "prices": [
+    3.0,
+    1.05,
+    146.0,
+    4.0,
+    1.26
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DH",
+   "item": "P-101-5.1.3",
+   "description": "Full Depth Pavement Repair",
+   "unit": "",
+   "qty": -30.0,
+   "prices": [
+    120.0,
+    160.0,
+    94.5,
+    220.0,
+    175.51
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DH",
+   "item": "P-631",
+   "description": "Refined Coal Tar Emulsion with Additives, Slurry Seal Surface Treatment",
+   "unit": "",
+   "qty": -23400.0,
+   "prices": [
+    2.25,
+    160.0,
+    182.0,
+    190.0,
+    1.75
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DK",
+   "item": "P-101-5.1.1",
+   "description": "Clean and Seal Joints and Cracks 1/4\" to 11/2\"",
+   "unit": "LF",
+   "qty": -20400.0,
+   "prices": [
+    2.0,
+    0.75,
+    1.23,
+    1.75,
+    0.93
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DK",
+   "item": "P-101-5.5.2",
+   "description": "Clean and Seal Joints and Cracks > 1 1/2\"",
+   "unit": "LF",
+   "qty": -200.0,
+   "prices": [
+    3.0,
+    1.05,
+    146.0,
+    4.0,
+    1.26
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DK",
+   "item": "P-101-5.1.3",
+   "description": "Full Depth Pavement Repair",
+   "unit": "",
+   "qty": -150.0,
+   "prices": [
+    120.0,
+    160.0,
+    94.5,
+    220.0,
+    175.51
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DK",
+   "item": "P-631",
+   "description": "Refined Coal Tar Emulsion with Additives, Slurry Seal Surface Treatment",
+   "unit": "",
+   "qty": -17900.0,
+   "prices": [
+    2.25,
+    160.0,
+    182.0,
+    190.0,
+    1.75
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DU-1",
+   "item": "P-101-5.1.1",
+   "description": "Clean and Seal Joints and Cracks 1/4\" to 11/2\"",
+   "unit": "LF",
+   "qty": -70800.0,
+   "prices": [
+    2.0,
+    0.75,
+    1.23,
+    175.0,
+    0.93
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DU-1",
+   "item": "P-101-5.1.2",
+   "description": "Clean and Seal Joints and Cracks > 1 1/2\"",
+   "unit": "LF",
+   "qty": -600.0,
+   "prices": [
+    3.0,
+    105.0,
+    146.0,
+    4.0,
+    1.26
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DU-1",
+   "item": "P-101-5.1.3",
+   "description": "Full Depth Pavement Repair",
+   "unit": "",
+   "qty": -100.0,
+   "prices": [
+    120.0,
+    160.0,
+    94.5,
+    220.0,
+    175.51
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DU-1",
+   "item": "P-631",
+   "description": "Refined Coal Tar Emulsion with Additives, Slurry Seal Surface Treatment",
+   "unit": "",
+   "qty": -59000.0,
+   "prices": [
+    2.25,
+    1.6,
+    1.82,
+    1.9,
+    1.75
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DU-2",
+   "item": "P-101-5.1.1",
+   "description": "Clean and Seal Joints and Cracks 1/4\" to 11/2\"",
+   "unit": "LF",
+   "qty": -78200.0,
+   "prices": [
+    2.0,
+    0.75,
+    1.23,
+    175.0,
+    0.93
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DU-2",
+   "item": "P-101-5.1.2",
+   "description": "Clean and Seal Joints and Cracks > 11/2\"",
+   "unit": "LF",
+   "qty": -700.0,
+   "prices": [
+    3.0,
+    105.0,
+    146.0,
+    4.0,
+    1.26
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DU-2",
+   "item": "P-101-5.1.3",
+   "description": "Full Depth Pavement Repair",
+   "unit": "",
+   "qty": -100.0,
+   "prices": [
+    120.0,
+    160.0,
+    94.5,
+    220.0,
+    175.51
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DU-2",
+   "item": "P-631",
+   "description": "Refined Coal Tar Emulsion with Additives, Slurry Seal Surface Treatment",
+   "unit": "",
+   "qty": -65200.0,
+   "prices": [
+    2.25,
+    1.6,
+    1.82,
+    190.0,
+    1.75
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DU-3",
+   "item": "P-101-5.1.1",
+   "description": "Clean and Seal Joints and Cracks 1/4\" to 11/2\"",
+   "unit": "LF",
+   "qty": -36200.0,
+   "prices": [
+    2.0,
+    0.75,
+    1.23,
+    175.0,
+    0.93
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DU-3",
+   "item": "P-101-5.1.2",
+   "description": "Clean and Seal Joints and Cracks > 11/2\"",
+   "unit": "LF",
+   "qty": -400.0,
+   "prices": [
+    3.0,
+    105.0,
+    146.0,
+    4.0,
+    1.26
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DU-3",
+   "item": "P-101-5.1.3",
+   "description": "Full Depth Pavement Repair",
+   "unit": "",
+   "qty": -100.0,
+   "prices": [
+    120.0,
+    160.0,
+    94.5,
+    220.0,
+    175.51
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DU-3",
+   "item": "P-401",
+   "description": "2\" HMAC Surface Course",
+   "unit": "TON",
+   "qty": -3600.0,
+   "prices": [
+    300.0,
+    180.0,
+    276.0,
+    290.4,
+    204.12
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DU-3",
+   "item": "TXDOT316",
+   "description": "Chip Seal Coat Surface Treatment",
+   "unit": "",
+   "qty": -30200.0,
+   "prices": [
+    5.0,
+    6.25,
+    4.79,
+    4.0,
+    2.98
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DW",
+   "item": "P-101-5.1.1",
+   "description": "Clean and Seal Joints and Cracks 1/4\" to 11/2\"",
+   "unit": "LF",
+   "qty": -63800.0,
+   "prices": [
+    2.0,
+    0.75,
+    1.23,
+    175.0,
+    0.93
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DW",
+   "item": "P-101-5.5.2",
+   "description": "Clean and Seal Joints and Cracks > 11/2\"",
+   "unit": "LF",
+   "qty": -500.0,
+   "prices": [
+    3.0,
+    1.05,
+    146.0,
+    4.0,
+    1.26
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DW",
+   "item": "P-101-5.1.3",
+   "description": "Full Depth Pavement Repair",
+   "unit": "",
+   "qty": -30.0,
+   "prices": [
+    120.0,
+    160.0,
+    94.5,
+    220.0,
+    175.51
+   ]
+  },
+  {
+   "schedule": "Deductive Alternate DW",
+   "item": "P-631",
+   "description": "Refined Coal Tar Emulsion with Additives, Slurry Seal Surface Treatment",
+   "unit": "",
+   "qty": -46800.0,
+   "prices": [
+    2.25,
+    1.6,
+    182.0,
+    190.0,
+    1.75
+   ]
+  }
+ ],
+ "notes": [
+  "Multi-airport statewide group (Lochner job 19632-J); the tab gives each airport's CSJ (2421FALRS, 242?HEBRN, 4216KNGVL, 2415UVALD, 2421WESLA) but no single project CSJ."
+ ]
+}

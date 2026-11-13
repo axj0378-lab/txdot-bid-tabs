@@ -1,0 +1,1151 @@
+{
+ "project_id": "2611NACOG",
+ "airport": "A.L. Mangham Jr. Regional Airport",
+ "csj": "2611NACOG",
+ "scope": "Runway and Taxiway Rehabilitation",
+ "description": "Runway 18/36 and Taxiway Rehabilitation",
+ "bid_date": "2026-02-17",
+ "location": "Nacogdoches",
+ "source_pdf": "2611NACOG BidTab.pdf",
+ "columns": [
+  "Apex Alliance, LLC",
+  "Construction Managers of Southwest Texas, LLC",
+  "Don Jackson Construction, Inc",
+  "Drewery Construction Company, Inc.",
+  "Lone Wolf Construction, LLC"
+ ],
+ "estimate_column": null,
+ "award_schedules": [
+  "Base Bid"
+ ],
+ "stated_totals": {
+  "Apex Alliance, LLC": 3299911.48,
+  "Construction Managers of Southwest Texas, LLC": 3223050.0,
+  "Don Jackson Construction, Inc": 2901308.26,
+  "Drewery Construction Company, Inc.": 2896773.06,
+  "Lone Wolf Construction, LLC": 2947050.42
+ },
+ "items": [
+  {
+   "schedule": "Base Bid",
+   "item": "C-100",
+   "description": "Contractor Quality Control Program (CQCP)",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    47817.0,
+    42000.0,
+    7500.0,
+    50000.0,
+    40000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-102-5.1A",
+   "description": "Rock Construction Exit",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    29975.0,
+    5000.0,
+    2875.0,
+    2500.0,
+    4000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-102-5.1B",
+   "description": "Silt Fence Installation and Removal",
+   "unit": "LF",
+   "qty": 5941.0,
+   "prices": [
+    5.5,
+    3.0,
+    5.0,
+    6.0,
+    6.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "1.04",
+   "description": "C-102-5.1\u00a2 Rock Filter Dam",
+   "unit": "LF",
+   "qty": 80.0,
+   "prices": [
+    66.0,
+    25.0,
+    105.0,
+    62.0,
+    250.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-102-5.1D",
+   "description": "Inlet Protection",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    1485.0,
+    750.0,
+    700.0,
+    1500.0,
+    1000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-102-5.1E",
+   "description": "Storm Water Pollution Prevention Plan (SWPPP)",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    2475.0,
+    30000.0,
+    2875.0,
+    30000.0,
+    2000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-105",
+   "description": "Mobilization",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    139205.0,
+    320000.0,
+    243225.0,
+    220000.0,
+    220000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-101-5.1",
+   "description": "Full Depth Pavement Removal and Replacement",
+   "unit": "SY",
+   "qty": 50.0,
+   "prices": [
+    108.9,
+    800.0,
+    69.0,
+    375.0,
+    170.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-101-5.2",
+   "description": "Crack Repair (Less than 1\" Wide)",
+   "unit": "LF",
+   "qty": 25000.0,
+   "prices": [
+    3.85,
+    1.46,
+    1.32,
+    1.75,
+    1.8
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-101-5.3",
+   "description": "Crack Repair (1\" Wide and Greater)",
+   "unit": "LF",
+   "qty": 25000.0,
+   "prices": [
+    10.62,
+    0.13,
+    1.61,
+    2.0,
+    4.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-101-5.4",
+   "description": "Cold Milling (O\" - 1\")",
+   "unit": "SY",
+   "qty": 658.0,
+   "prices": [
+    9.9,
+    5.12,
+    9.5,
+    4.0,
+    4.5
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-101-5.5",
+   "description": "Cold Milling (0\" - 1.5\")",
+   "unit": "SY",
+   "qty": 1151.0,
+   "prices": [
+    9.9,
+    5.12,
+    9.5,
+    4.0,
+    4.5
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-101-5.6",
+   "description": "Cold Milling (0\" - 2\")",
+   "unit": "SY",
+   "qty": 773.0,
+   "prices": [
+    11.0,
+    5.12,
+    9.5,
+    4.0,
+    4.5
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-101-5.7",
+   "description": "Cold Milling (0\" - 3\")",
+   "unit": "SY",
+   "qty": 1554.0,
+   "prices": [
+    12.1,
+    5.12,
+    9.5,
+    4.0,
+    4.5
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-603-5.1",
+   "description": "Emulsified Asphalt Tack Coat (Areas without Reinforcement Grid or Paving Mat)",
+   "unit": "GAL",
+   "qty": 2176.0,
+   "prices": [
+    6.05,
+    5.22,
+    5.75,
+    0.01,
+    5.5
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620-5.1A",
+   "description": "White Markings (Reflective)",
+   "unit": "SF",
+   "qty": 46978.0,
+   "prices": [
+    0.98,
+    0.8,
+    0.9,
+    1.0,
+    0.88
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620-5.2B",
+   "description": "Yellow Markings (Reflective)",
+   "unit": "SF",
+   "qty": 2602.0,
+   "prices": [
+    0.98,
+    0.8,
+    0.9,
+    1.0,
+    0.88
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620-5.3C",
+   "description": "Black Markings (Non-Reflective)",
+   "unit": "SF",
+   "qty": 16523.0,
+   "prices": [
+    0.95,
+    0.77,
+    0.9,
+    0.85,
+    0.86
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620-5.4D",
+   "description": "Pavement Marking Removal",
+   "unit": "SF",
+   "qty": 68535.0,
+   "prices": [
+    0.76,
+    0.59,
+    0.65,
+    1.25,
+    0.4
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620-5.5E",
+   "description": "Temporary White Markings",
+   "unit": "SF",
+   "qty": 46978.0,
+   "prices": [
+    0.86,
+    0.69,
+    0.76,
+    1.0,
+    0.77
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620-5.6F",
+   "description": "Temporary Yellow Markings",
+   "unit": "SF",
+   "qty": 2602.0,
+   "prices": [
+    0.86,
+    0.75,
+    0.76,
+    1.0,
+    0.77
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620-5.7G",
+   "description": "Surface Preparation",
+   "unit": "SF",
+   "qty": 66103.0,
+   "prices": [
+    0.28,
+    0.21,
+    0.28,
+    0.5,
+    1.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "T-904-5.1",
+   "description": "Sodding",
+   "unit": "SY",
+   "qty": 15817.0,
+   "prices": [
+    6.02,
+    7.0,
+    5.5,
+    6.0,
+    6.4
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-108-5.1",
+   "description": "No. 8 AWG, 5kV, L824, Type C Cable, Installed in Conduit",
+   "unit": "LF",
+   "qty": 192.0,
+   "prices": [
+    5.5,
+    5.22,
+    11.5,
+    15.25,
+    11.5
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-108-5.2",
+   "description": "No. 6 AWG, Solid, Bare Copper Counterpoise Wire, Installed Above the Duct Bank or Conduit",
+   "unit": "LF",
+   "qty": 132.0,
+   "prices": [
+    5.5,
+    5.22,
+    13.8,
+    6.0,
+    13.8
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110-5.1",
+   "description": "1-2\" Non-Encased Electrical Conduit",
+   "unit": "LF",
+   "qty": 132.0,
+   "prices": [
+    27.5,
+    26.12,
+    40.0,
+    30.0,
+    40.25
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TXDOT168",
+   "description": "Vegetative Watering MG",
+   "unit": "",
+   "qty": 344.0,
+   "prices": [
+    99.0,
+    36.57,
+    22.0,
+    20.0,
+    100.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TXDOT341",
+   "description": "Dense-Graded Hot-Mix Asphalt (Type D)",
+   "unit": "TON",
+   "qty": 7317.0,
+   "prices": [
+    213.8,
+    178.06,
+    211.0,
+    173.0,
+    187.5
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "1.29",
+   "description": "TXDOT SS 3002 Reinforced Paving Mat - Taxiway",
+   "unit": "SY",
+   "qty": 7876.0,
+   "prices": [
+    9.25,
+    14.0,
+    8.72,
+    10.0,
+    8.44
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "1.30",
+   "description": "TXDOT SS 3011 Reinforcement Grid for Asphalt Pavement (Type Il) - Runway",
+   "unit": "SY",
+   "qty": 41865.0,
+   "prices": [
+    9.13,
+    20.0,
+    9.35,
+    8.5,
+    9.05
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "KSA-105-3.1",
+   "description": "Preparation of Safety Plan Compliance Document",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    5280.0,
+    10155.93,
+    2500.0,
+    7500.0,
+    1000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "KSA-105-3.2",
+   "description": "Barricades and Markings for Pavement Closures",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    4950.0,
+    6268.98,
+    5750.0,
+    35000.0,
+    7500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "KSA-210-6.1",
+   "description": "Shoulder Grading",
+   "unit": "SY",
+   "qty": 15064.0,
+   "prices": [
+    5.5,
+    0.73,
+    2.65,
+    11.5,
+    8.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "KSA-300-5.1",
+   "description": "Remove and Reinstall Runway/Taxiway Edge Light",
+   "unit": "EA",
+   "qty": 121.0,
+   "prices": [
+    453.18,
+    365.67,
+    374.0,
+    625.0,
+    373.75
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "KSA-300-5.2",
+   "description": "Adjust Runway/Taxiway Edge Light and Pad Elevation",
+   "unit": "EA",
+   "qty": 34.0,
+   "prices": [
+    1499.56,
+    1332.08,
+    2300.0,
+    600.0,
+    2300.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "KSA-300-5.3",
+   "description": "Remove HMAC Around Threshold Lights",
+   "unit": "SY",
+   "qty": 82.0,
+   "prices": [
+    20.25,
+    73.13,
+    40.0,
+    100.0,
+    15.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "KSA-300-5.4",
+   "description": "Remove Light Base Can",
+   "unit": "EA",
+   "qty": 7.0,
+   "prices": [
+    313.5,
+    313.43,
+    229.0,
+    600.0,
+    230.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "KSA-300-5.5",
+   "description": "Remove 2\" Conduit",
+   "unit": "LF",
+   "qty": 132.0,
+   "prices": [
+    24.2,
+    12.54,
+    29.0,
+    20.0,
+    28.75
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "KSA-300-5.6",
+   "description": "Remove Cable from Conduit",
+   "unit": "LF",
+   "qty": 132.0,
+   "prices": [
+    2.2,
+    2.09,
+    1.5,
+    1.0,
+    1.15
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "KSA-300-5.7",
+   "description": "Install L-867 Light Can",
+   "unit": "EA",
+   "qty": 7.0,
+   "prices": [
+    2027.15,
+    1776.1,
+    1000.0,
+    1600.0,
+    920.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "KSA-300-5.8",
+   "description": "Construct Concrete Pad Around South Threshold Lights",
+   "unit": "CY",
+   "qty": 12.0,
+   "prices": [
+    742.5,
+    888.05,
+    850.0,
+    1200.0,
+    862.5
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "KSA-300-5.9",
+   "description": "Remove and Replace Stripped Screw in L-867 Can",
+   "unit": "EA",
+   "qty": 121.0,
+   "prices": [
+    160.23,
+    130.6,
+    58.0,
+    200.0,
+    57.5
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "KSA-701-5.2",
+   "description": "Remove Taxiway Centerline Retroreflective Markers",
+   "unit": "EA",
+   "qty": 78.0,
+   "prices": [
+    23.1,
+    14.63,
+    7.0,
+    1.0,
+    4.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "KSA-701-5.3",
+   "description": "Taxiway Centerline Retroreflective Markers (Green)",
+   "unit": "EA",
+   "qty": 78.0,
+   "prices": [
+    41.75,
+    14.63,
+    16.0,
+    25.0,
+    16.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "P-101-5.1",
+   "description": "Crack Repair (Less than 1\" Wide)",
+   "unit": "LF",
+   "qty": 10000.0,
+   "prices": [
+    3.85,
+    1.2,
+    1.32,
+    1.75,
+    1.98
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "P-101-5.8",
+   "description": "Removal of Foreign Substances/Contaminates",
+   "unit": "SF",
+   "qty": 500.0,
+   "prices": [
+    5.28,
+    52.24,
+    11.5,
+    30.0,
+    6.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "P-620-5.2B",
+   "description": "Yellow Markings (Reflective)",
+   "unit": "SF",
+   "qty": 3550.0,
+   "prices": [
+    0.98,
+    0.8,
+    0.9,
+    1.0,
+    0.88
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "P-620-5.4D",
+   "description": "Pavement Marking Removal",
+   "unit": "SF",
+   "qty": 10030.0,
+   "prices": [
+    0.76,
+    0.58,
+    0.65,
+    1.0,
+    0.4
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "P-620-5.6F",
+   "description": "Temporary Yellow Markings",
+   "unit": "SF",
+   "qty": 3550.0,
+   "prices": [
+    0.86,
+    0.69,
+    0.76,
+    1.0,
+    0.88
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "A-1.06",
+   "description": "P-620-5.7g Surface Preparation",
+   "unit": "SF",
+   "qty": 3550.0,
+   "prices": [
+    0.28,
+    15.67,
+    0.28,
+    5.0,
+    3.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "P-629-8.1",
+   "description": "Thermoplastic Coal Tar Emulsion Micro-Surface Type B",
+   "unit": "SY",
+   "qty": 24683.0,
+   "prices": [
+    9.13,
+    6.78,
+    8.4,
+    8.0,
+    8.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "A-1.08",
+   "description": "KSA-105-3.2 Barricades and Markings for Pavement Closures",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    3080.0,
+    6317.94,
+    2500.0,
+    8000.0,
+    5000.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "KSA-701-5.2",
+   "description": "Remove Taxiway Centerline Retroreflective Markers",
+   "unit": "EA",
+   "qty": 142.0,
+   "prices": [
+    23.1,
+    14.63,
+    7.0,
+    1.0,
+    4.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "KSA-701-5.3",
+   "description": "Taxiway Centerline Retroreflective Markers (Green)",
+   "unit": "EA",
+   "qty": 142.0,
+   "prices": [
+    41.75,
+    14.63,
+    16.0,
+    25.0,
+    4.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "C-102-5.1B",
+   "description": "Silt Fence Installation and Removal",
+   "unit": "LF",
+   "qty": 1705.0,
+   "prices": [
+    5.5,
+    2.51,
+    5.0,
+    5.5,
+    6.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "A-2.02",
+   "description": "C-102-5.1c Rock Filter Dam",
+   "unit": "LF",
+   "qty": 100.0,
+   "prices": [
+    66.0,
+    8.36,
+    105.0,
+    62.0,
+    250.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "",
+   "description": "A - 2.03 C-102-5.1d Inlet Protection",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    1485.0,
+    296.71,
+    700.0,
+    1500.0,
+    1000.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "",
+   "description": "A - 2.04 P-101-5.2 Crack Repair (Less than 1\" Wide)",
+   "unit": "LF",
+   "qty": 10000.0,
+   "prices": [
+    3.85,
+    1.2,
+    1.32,
+    1.75,
+    1.98
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "P-101-5.4",
+   "description": "Cold Milling (0\" - 1\") - Deduct",
+   "unit": "SY",
+   "qty": -658.0,
+   "prices": [
+    9.9,
+    5.12,
+    9.5,
+    4.0,
+    4.5
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "",
+   "description": "A - 2.06 P-101-5.4 Cold Milling (O\" - 1\")",
+   "unit": "SY",
+   "qty": 1288.0,
+   "prices": [
+    9.9,
+    5.12,
+    9.5,
+    7.0,
+    4.5
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "P-101-5.6",
+   "description": "Cold Milling (0\" - 2\") - Deduct",
+   "unit": "SY",
+   "qty": -773.0,
+   "prices": [
+    11.0,
+    5.12,
+    9.5,
+    4.0,
+    4.5
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "A-2.08",
+   "description": "P-101-5.6 Cold Milling (0\" - 2\")",
+   "unit": "SY",
+   "qty": 610.0,
+   "prices": [
+    11.0,
+    5.12,
+    9.5,
+    7.0,
+    4.5
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "P-101-5.7",
+   "description": "Cold Milling (0\" - 3\") - Deduct",
+   "unit": "SY",
+   "qty": -1288.0,
+   "prices": [
+    5.5,
+    5.12,
+    9.5,
+    4.0,
+    4.5
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "P-101-5.8",
+   "description": "Removal of Foreign Substances/contaminates",
+   "unit": "SF",
+   "qty": 500.0,
+   "prices": [
+    5.28,
+    52.24,
+    11.5,
+    2.25,
+    6.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "P-603-5.1",
+   "description": "Emulsified Asphalt Tack Coat",
+   "unit": "GAL",
+   "qty": 3703.0,
+   "prices": [
+    6.05,
+    5.22,
+    5.75,
+    0.01,
+    5.5
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "P-620-5.2B",
+   "description": "Yellow Markings (Reflective)",
+   "unit": "SF",
+   "qty": 3550.0,
+   "prices": [
+    0.98,
+    0.8,
+    0.9,
+    1.0,
+    0.88
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "A-2.13",
+   "description": "P-620-5.3c Black Markings (Non-Reflective)",
+   "unit": "SF",
+   "qty": 6481.0,
+   "prices": [
+    0.95,
+    0.77,
+    0.9,
+    0.85,
+    0.84
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "P-620-5.4D",
+   "description": "Pavement Marking Removal",
+   "unit": "SF",
+   "qty": 10030.0,
+   "prices": [
+    0.86,
+    0.58,
+    0.65,
+    1.25,
+    0.4
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "P-620-5.6F",
+   "description": "Temporary Yellow Markings",
+   "unit": "SF",
+   "qty": 3550.0,
+   "prices": [
+    0.86,
+    0.69,
+    0.76,
+    1.0,
+    0.78
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "A-2.16",
+   "description": "P-620-5.7g Surface Preparation",
+   "unit": "SF",
+   "qty": 10030.0,
+   "prices": [
+    0.28,
+    0.13,
+    0.28,
+    1.0,
+    0.75
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "T-904-5.1",
+   "description": "Sodding",
+   "unit": "SY",
+   "qty": 5740.0,
+   "prices": [
+    6.02,
+    6.53,
+    5.5,
+    6.0,
+    6.4
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "TXDOT168",
+   "description": "Vegetative Watering MG",
+   "unit": "",
+   "qty": 125.0,
+   "prices": [
+    99.0,
+    52.24,
+    22.0,
+    20.0,
+    100.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "TXDOT341",
+   "description": "Dense-Graded Hot-Mix Asphalt (Type D)",
+   "unit": "TON",
+   "qty": 2870.0,
+   "prices": [
+    213.8,
+    183.37,
+    196.0,
+    173.0,
+    193.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "A-2.20",
+   "description": "KSA-105-3.2 Barricades and Markings for Pavement Closures",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    3080.0,
+    6296.19,
+    2500.0,
+    8000.0,
+    3000.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "KSA-210-6.1",
+   "description": "Shoulder Grading",
+   "unit": "SY",
+   "qty": 5467.0,
+   "prices": [
+    5.5,
+    0.73,
+    2.65,
+    11.5,
+    10.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "KSA-300-5.1",
+   "description": "Remove and Reinstall Runway/Taxiway Edge Light",
+   "unit": "EA",
+   "qty": 4.0,
+   "prices": [
+    453.18,
+    365.67,
+    374.0,
+    1000.0,
+    373.75
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "KSA-300-5.2",
+   "description": "Remove and Replace Stripped Screw in L-867 Can",
+   "unit": "EA",
+   "qty": 12.0,
+   "prices": [
+    385.0,
+    365.67,
+    100.0,
+    1600.0,
+    100.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "KSA-701-5.1",
+   "description": "Remove and Reinstall Elevated Taxiway Edge Retroreflective Markers",
+   "unit": "EA",
+   "qty": 4.0,
+   "prices": [
+    160.23,
+    156.72,
+    58.0,
+    75.0,
+    57.5
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "KSA-701-5.2",
+   "description": "Remove Taxiway Centerline Retroreflective Markers",
+   "unit": "EA",
+   "qty": 142.0,
+   "prices": [
+    23.1,
+    14.63,
+    7.0,
+    1.0,
+    16.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 2",
+   "item": "KSA-701-5.3",
+   "description": "Taxiway Centerline Retroreflective Markers (Green)",
+   "unit": "EA",
+   "qty": 142.0,
+   "prices": [
+    41.75,
+    14.63,
+    16.0,
+    25.0,
+    16.0
+   ]
+  }
+ ],
+ "notes": []
+}

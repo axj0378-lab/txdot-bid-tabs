@@ -1,0 +1,223 @@
+{
+ "project_id": "2424PRSDO",
+ "airport": "Presidio International Airport",
+ "csj": "2424PRSDO",
+ "scope": "Airfield Lighting",
+ "description": "PAPI 4L Replacement",
+ "bid_date": "2024-11-01",
+ "location": "",
+ "source_pdf": "2424PRSDO-BidTab.pdf",
+ "columns": [
+  "Engineer's Estimate",
+  "B-C Company",
+  "F&W Electrical"
+ ],
+ "estimate_column": "Engineer's Estimate",
+ "award_schedules": [
+  "Base Bid"
+ ],
+ "stated_totals": {
+  "Engineer's Estimate": 409925.0,
+  "B-C Company": 466985.0,
+  "F&W Electrical": 416970.0
+ },
+ "items": [
+  {
+   "schedule": "Base Bid",
+   "item": "C-102-5.1",
+   "description": "TEMPORARY EROSION CONTROL",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    4070.0,
+    3000.0,
+    3500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-102-5.2",
+   "description": "CONTRACTOR DUST CONTROL",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    4070.0,
+    4000.0,
+    3000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-105-5.1",
+   "description": "MOBILIZATION (MAX 10% OF PROJECT TOTAL)",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    40630.0,
+    38000.0,
+    35000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-105-5.2",
+   "description": "AIRFIELD SAFETY AND TRAFFIC CONTROL",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    4070.0,
+    3500.0,
+    2500.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-151-4.1",
+   "description": "TREE REMOVAL",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    1500.0,
+    500.0,
+    1000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-152-4.1",
+   "description": "UNCLASSIFIED EXCAVATION",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    15000.0,
+    26000.0,
+    5000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TXDOT-351",
+   "description": "AC TRENCH REPAIR",
+   "unit": "AC",
+   "qty": 1.0,
+   "prices": [
+    2000.0,
+    4000.0,
+    12000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-108-5.2",
+   "description": "NO. AWG 600V CABLE, INSTALLED IN DUCT BANK OR CONDUIT",
+   "unit": "LF",
+   "qty": 21650.0,
+   "prices": [
+    2.5,
+    4.5,
+    3.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-108-5.1",
+   "description": "NO. AWG SOLID, BARE COPPER COUNTERPOISE WIRE, INSTALLED ABOVE THE DUCT BANK OR CONDUIT, INCLUDING CONNECTIONS/TERMINATIONS",
+   "unit": "LF",
+   "qty": 5300.0,
+   "prices": [
+    4.0,
+    8.0,
+    2.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-110-5.1",
+   "description": "NON-ENCASED ELECTRICAL CONDUIT, 1W-2\" SCH PVC",
+   "unit": "LF",
+   "qty": 5420.0,
+   "prices": [
+    3.0,
+    23.0,
+    20.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-115-5.1",
+   "description": "ELECTRICAL JUNCTION STRUCTURE, L-867 SIZE D",
+   "unit": "EA",
+   "qty": 16.0,
+   "prices": [
+    2500.0,
+    1250.0,
+    3220.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.1",
+   "description": "INSTALL LED PAPI, L-880 (L) AND FOUNDATIONS",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    100000.0,
+    48000.0,
+    55600.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.2",
+   "description": "DEMOLISH AIRFIELD PLASI SYSTEM AND APPURTENANCES",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    5000.0,
+    3500.0,
+    2600.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "L-125-5.4",
+   "description": "FLIGHT CHECK ATTENDANCE",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    null,
+    3500.0,
+    4600.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "NS-101-4.1",
+   "description": "LOCATE AND PROTECT EXISTING EQUIPMENT",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    2000.0,
+    500.0,
+    1100.0
+   ]
+  },
+  {
+   "schedule": "Additive Alternate 1",
+   "item": "NS-110-5.1",
+   "description": "DIRECTIONAL BORE 1W-2\" SCH 40 HDPE",
+   "unit": "LF",
+   "qty": 200.0,
+   "prices": [
+    300.0,
+    165.0,
+    75.0
+   ]
+  }
+ ],
+ "notes": [
+  "Bid date is not printed on the tab; set to November 2024 from the M&H project number (240924) and FY2024 CSJ. Confirm against TxDOT bid results.",
+  "L-125-5.3 Miscellaneous Lighting Equipment was not bid (shown as '-').",
+  "Fix: NS-110-5.1 quantity printed as '2 00' (200 LF)"
+ ]
+}

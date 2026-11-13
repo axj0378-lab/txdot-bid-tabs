@@ -22,6 +22,15 @@ class BidItem:
     description: str
     unit: str                # LS, LF, EA, ...
     qty: float
+    schedule: str = ""       # legacy tabs: "Base Bid", "Add Alt 1", "Schedule 2"...
+    line: int = 0            # legacy tabs: row position (codes can repeat within a schedule)
+
+    @property
+    def key(self) -> str:
+        """Unique within a project; legacy tabs repeat item codes across and within schedules."""
+        if self.line:
+            return f"{self.schedule}|{self.item}|{self.line}"
+        return f"{self.schedule}|{self.item}" if self.schedule else self.item
 
 
 @dataclass
@@ -49,6 +58,8 @@ class Project:
     items: list[BidItem] = field(default_factory=list)
     bids: list[Bid] = field(default_factory=list)
     notes: list[str] = field(default_factory=list)  # extraction warnings / corrections, for the audit log
+    estimate: Bid | None = None   # engineer's estimate, when the tab shows one (never ranked)
+    source: str = ""              # "new form" or "legacy tab"
 
     @property
     def low_bid(self) -> Bid:

@@ -1,0 +1,4103 @@
+{
+ "project_id": "2612ANGLE",
+ "airport": "Texas Gulf Coast Regional Airport",
+ "csj": "2612ANGLE",
+ "scope": "Taxiway Rehabilitation and Electrical",
+ "description": "Taxiway Rehabilitation and Electrical Improvements Project; Bid Schedule 1 (HMAC) and Bid Schedule 2 (PCC) options",
+ "bid_date": "2025-10-23",
+ "location": "Angleton",
+ "source_pdf": "2612ANGLE-CombinedBidTab(BidScheduleNo.1andNo.2).pdf",
+ "columns": [
+  "Apex Alliance, LLC",
+  "Sterling Delaware Holding Company",
+  "Zachry Construction Corporation",
+  "SpawGlass Construction Corp."
+ ],
+ "estimate_column": null,
+ "award_schedules": [
+  "Sch 1 Base Bid (HMAC)"
+ ],
+ "stated_totals": {
+  "Apex Alliance, LLC": 13309325.15,
+  "Sterling Delaware Holding Company": 12989855.32,
+  "Zachry Construction Corporation": 13495531.25,
+  "SpawGlass Construction Corp.": 14976853.15
+ },
+ "items": [
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "C-100-14.1",
+   "description": "Contractor Quality Control Program",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    426800.0,
+    600000.0,
+    90000.0,
+    299613.1
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "C-102-5.1",
+   "description": "Installation and Removal of Silt Fence",
+   "unit": "LF",
+   "qty": 405.0,
+   "prices": [
+    16.05,
+    10.0,
+    6.0,
+    7.77
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "C-102-5.2",
+   "description": "Rock Construction Exit",
+   "unit": "EA",
+   "qty": 3.0,
+   "prices": [
+    22708.34,
+    7742.13,
+    7600.0,
+    8556.05
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "C-102-5.3",
+   "description": "Storm Water Pollution Prevention Plan",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    151875.0,
+    1400.0,
+    1900.0,
+    6630.96
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "C-105-8.1",
+   "description": "Mobilization",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    1299375.0,
+    1200000.0,
+    1330000.0,
+    1497685.31
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "C-105-8.2",
+   "description": "Traffic Control Devices and Personnel",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    356950.0,
+    665012.0,
+    400000.0,
+    670871.81
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "C-105-8.3",
+   "description": "Temporary Relocated Runway 35 Threshold",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    36483.75,
+    12186.7,
+    100000.0,
+    86738.33
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "P-101-5.1",
+   "description": "Asphalt Pavement Removal (Full Depth)",
+   "unit": "SY",
+   "qty": 15092.0,
+   "prices": [
+    17.25,
+    1.67,
+    3.4,
+    4.06
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "P-101-5.3",
+   "description": "2.5\" Asphalt Surface Course Removal",
+   "unit": "SY",
+   "qty": 2800.0,
+   "prices": [
+    8.05,
+    1.62,
+    2.9,
+    2.36
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "P-101-5.4",
+   "description": "1.5\" Crushed Aggregate Base Course Removal",
+   "unit": "SY",
+   "qty": 2800.0,
+   "prices": [
+    8.05,
+    1.71,
+    3.7,
+    2.49
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "P-101-5.5",
+   "description": "Crack Repair",
+   "unit": "LF",
+   "qty": 35000.0,
+   "prices": [
+    3.58,
+    2.6,
+    4.0,
+    6.09
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "P-101-5.6",
+   "description": "1.5\"-2.0\" Cold Milling",
+   "unit": "SY",
+   "qty": 38990.0,
+   "prices": [
+    3.45,
+    1.3,
+    2.5,
+    1.9
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "P-101-5.8",
+   "description": "SET Removal for 2 - 30\" RCP",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    3875.0,
+    2000.0,
+    1900.0,
+    1703.76
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "P-101-5.10",
+   "description": "30\" RCP Removal",
+   "unit": "LF",
+   "qty": 620.0,
+   "prices": [
+    24.4,
+    25.0,
+    20.0,
+    61.17
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "P-152-4.1",
+   "description": "Unclassified Excavation",
+   "unit": "CY",
+   "qty": 10500.0,
+   "prices": [
+    23.41,
+    80.0,
+    55.0,
+    16.4
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "P-152-4.2",
+   "description": "Offsite Borrow Excavation",
+   "unit": "CY",
+   "qty": 9300.0,
+   "prices": [
+    36.15,
+    1.0,
+    21.0,
+    25.72
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "P-155-8.1",
+   "description": "10\" Lime Stabilized Subgrade (6% Lime)",
+   "unit": "SY",
+   "qty": 14960.0,
+   "prices": [
+    15.75,
+    16.0,
+    7.0,
+    9.93
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "P-155-8.2",
+   "description": "Commercial Lime Slurry, Grade 2",
+   "unit": "TON",
+   "qty": 404.0,
+   "prices": [
+    425.25,
+    400.0,
+    370.0,
+    436.09
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "P-304-8.1",
+   "description": "6\" Cement-Treated Base Course",
+   "unit": "SY",
+   "qty": 14520.0,
+   "prices": [
+    40.95,
+    70.0,
+    30.0,
+    44.9
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "P-401-8.1",
+   "description": "4\" Asphalt Surface Course",
+   "unit": "TON",
+   "qty": 2865.0,
+   "prices": [
+    270.9,
+    250.0,
+    320.0,
+    359.18
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "P-401-8.2",
+   "description": "2\" Asphalt Surface Course (Overlay)",
+   "unit": "TON",
+   "qty": 4390.0,
+   "prices": [
+    274.05,
+    250.0,
+    320.0,
+    359.18
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "P-401-8.3",
+   "description": "4\" Asphalt Surface Course (Overlay)",
+   "unit": "TON",
+   "qty": 630.0,
+   "prices": [
+    289.8,
+    250.0,
+    320.0,
+    359.18
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "P-401-8.4",
+   "description": "Full Depth Pavement Repair",
+   "unit": "SY",
+   "qty": 1000.0,
+   "prices": [
+    186.9,
+    95.0,
+    250.0,
+    654.44
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "P-403-8.1",
+   "description": "5\" Asphalt Stabilized Base Course",
+   "unit": "TON",
+   "qty": 3820.0,
+   "prices": [
+    275.1,
+    200.0,
+    250.0,
+    359.18
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "P-602-5.1",
+   "description": "Emulsified Asphalt Prime Coat",
+   "unit": "GAL",
+   "qty": 3630.0,
+   "prices": [
+    4.2,
+    5.0,
+    6.0,
+    11.05
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "P-620-5.2A",
+   "description": "White Pavement Markings (Reflective)",
+   "unit": "SF",
+   "qty": 15981.0,
+   "prices": [
+    1.52,
+    1.32,
+    2.1,
+    1.93
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "P-620-5.2B",
+   "description": "Red Pavement Markings (Reflective)",
+   "unit": "SF",
+   "qty": 1155.0,
+   "prices": [
+    4.98,
+    4.33,
+    2.4,
+    2.21
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "P-620-5.2C",
+   "description": "Yellow Pavement Markings (Reflective)",
+   "unit": "SF",
+   "qty": 11634.0,
+   "prices": [
+    1.52,
+    1.32,
+    2.1,
+    1.93
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "P-620-5.2D",
+   "description": "Black Pavement Markings (Non-Reflective)",
+   "unit": "SF",
+   "qty": 27821.0,
+   "prices": [
+    0.97,
+    0.84,
+    1.25,
+    1.11
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "P-620-5.3",
+   "description": "Marking Removal",
+   "unit": "SF",
+   "qty": 4660.0,
+   "prices": [
+    0.59,
+    0.51,
+    6.0,
+    5.53
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "P-620-5.4A",
+   "description": "Phase 2 Temporary Markings (Non-Reflective)",
+   "unit": "SF",
+   "qty": 2396.0,
+   "prices": [
+    0.86,
+    0.75,
+    1.15,
+    1.05
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "P-620-5.4B",
+   "description": "Phase 3 Temporary Markings (Non-Reflective)",
+   "unit": "SF",
+   "qty": 3853.0,
+   "prices": [
+    0.86,
+    0.75,
+    1.15,
+    1.05
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "P-620-5.4C",
+   "description": "Phase 4 Temporary Markings (Non-Reflective)",
+   "unit": "SF",
+   "qty": 861.0,
+   "prices": [
+    0.86,
+    0.75,
+    1.15,
+    1.05
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "D-701-5.3",
+   "description": "Class V 36\" RCP, ASTM C76",
+   "unit": "LF",
+   "qty": 400.0,
+   "prices": [
+    405.48,
+    332.0,
+    360.0,
+    311.5
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "D-752-5.3",
+   "description": "Safety End Treatment for 2 - 36\" RCP (6:1 Slope, With Pipe Runners)",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    17930.0,
+    11135.0,
+    6600.0,
+    5056.82
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "T-901-5.1",
+   "description": "Hydromulch, Seed & Fertilizer for Permanent Application",
+   "unit": "AC",
+   "qty": 23.0,
+   "prices": [
+    4375.0,
+    7000.0,
+    2900.0,
+    2505.6
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "T-904-5.1",
+   "description": "Sodding",
+   "unit": "SY",
+   "qty": 13826.0,
+   "prices": [
+    13.75,
+    3.9,
+    4.2,
+    4.31
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "T-905-5.1",
+   "description": "Topsoil (Obtained on Site, Removed and Reinstalled)",
+   "unit": "CY",
+   "qty": 13665.0,
+   "prices": [
+    15.29,
+    30.0,
+    24.0,
+    30.14
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-103-5.1",
+   "description": "Install New Beacon on New 50' Tip Down Pole, Including Foundation",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    74025.0,
+    70500.0,
+    88000.0,
+    77913.73
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-105-5.1",
+   "description": "Remove No. 8 AWG, L-824C Cable in Duct",
+   "unit": "LF",
+   "qty": 5200.0,
+   "prices": [
+    0.53,
+    0.5,
+    0.6,
+    0.62
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-105-5.2",
+   "description": "Remove 2-inch Conduit (Including Cable)",
+   "unit": "LF",
+   "qty": 43600.0,
+   "prices": [
+    0.53,
+    0.5,
+    0.6,
+    0.55
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-105-5.3",
+   "description": "Remove Concrete Encased Duct in Earth (Including Cable)",
+   "unit": "LF",
+   "qty": 575.0,
+   "prices": [
+    16.78,
+    0.5,
+    0.6,
+    62.36
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-105-5.4",
+   "description": "Remove and Dispose of Elevated Edge Light, Base Can to be Removed",
+   "unit": "EA",
+   "qty": 395.0,
+   "prices": [
+    215.99,
+    220.0,
+    124.0,
+    192.23
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-105-5.5",
+   "description": "Remove and Dispose of Elevated Edge Light, Base Can to Remain",
+   "unit": "EA",
+   "qty": 8.0,
+   "prices": [
+    367.5,
+    220.0,
+    124.0,
+    110.52
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-105-5.6",
+   "description": "Remove and Dispose of In-Pavement Edge Light, Base Can to be Removed",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    2572.5,
+    220.0,
+    124.0,
+    513.95
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-105-5.7",
+   "description": "Remove and Dispose of Airfield Sign and Foundation",
+   "unit": "EA",
+   "qty": 60.0,
+   "prices": [
+    1113.0,
+    760.0,
+    500.0,
+    1171.67
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-105-5.8",
+   "description": "Remove Airfield Sign Foundation",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    2415.0,
+    760.0,
+    500.0,
+    1657.15
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-105-5.9",
+   "description": "Remove and Dispose of Pull Can in Turf",
+   "unit": "EA",
+   "qty": 29.0,
+   "prices": [
+    235.35,
+    220.0,
+    124.0,
+    435.57
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-105-5.10",
+   "description": "Remove and Dispose of 4-Box L-880 PAPI System and Associated Foundations",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    5145.0,
+    1480.0,
+    1200.0,
+    2325.19
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-105-5.11",
+   "description": "Remove and Dispose of Primary Windcone and Foundation",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    3885.0,
+    1480.0,
+    1200.0,
+    2325.17
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-105-5.12",
+   "description": "Remove and Dispose of Supplemental Wind Cone and Foundation",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    1916.25,
+    1240.0,
+    1200.0,
+    2325.19
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-105-5.13",
+   "description": "Remove and Dispose of Beacon, Beacon Tower, and Foundation",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    14805.0,
+    10840.0,
+    12000.0,
+    15844.59
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-105-5.14",
+   "description": "Work in Existing Airfield Lighting Vault Equipment",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    10500.0,
+    10000.0,
+    12000.0,
+    39763.75
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-107-5.1",
+   "description": "Install New L-807(L) Wind Cone Including Tip Down Pole and Foundation",
+   "unit": "EA",
+   "qty": 3.0,
+   "prices": [
+    20475.0,
+    19500.0,
+    24000.0,
+    21550.61
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-108-5.1",
+   "description": "No.8 AWG, L-824C, Installed in Conduit",
+   "unit": "LF",
+   "qty": 76550.0,
+   "prices": [
+    2.21,
+    2.1,
+    2.62,
+    2.32
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-108-5.2",
+   "description": "No. 6 AWG Bare Counterpoise Wire, Installed in Conduit Trench",
+   "unit": "LF",
+   "qty": 58610.0,
+   "prices": [
+    1.84,
+    1.75,
+    2.1,
+    1.93
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-108-5.3",
+   "description": "Electrical Circuit (Wind Cone), 2#10 AWG, 1#10G, Installed in Conduit",
+   "unit": "LF",
+   "qty": 2000.0,
+   "prices": [
+    2.63,
+    2.5,
+    3.0,
+    2.76
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-108-5.4",
+   "description": "Electrical Circuit (Beacon), 2#12 AWG, 1#12G, Installed in Conduit",
+   "unit": "LF",
+   "qty": 125.0,
+   "prices": [
+    2.63,
+    2.5,
+    3.0,
+    2.76
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-108-5.5",
+   "description": "Temporary Electrical Provisions",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    28560.0,
+    27200.0,
+    34000.0,
+    30060.33
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-109-5.1",
+   "description": "Install New Vault Building And Equipment",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    214200.0,
+    204000.0,
+    250000.0,
+    225452.49
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-109-5.2",
+   "description": "Install New 4kW L-829 Constant Current Regulator",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    13650.0,
+    13000.0,
+    16000.0,
+    14367.07
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-109-5.3",
+   "description": "Install New 7.5kW L-829 Constant Current Regulator",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    17062.5,
+    16250.0,
+    20000.0,
+    17958.84
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-109-5.4",
+   "description": "Install New 10kW L-829 Constant Current Regulator",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    19950.0,
+    19000.0,
+    23000.0,
+    20998.03
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-109-5.5",
+   "description": "Install Salvaged 10kW L-828 Constant Current Regulator",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    4368.0,
+    4160.0,
+    5200.0,
+    4597.46
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-110-5.1",
+   "description": "1-Way, 2\" Sch. 40 PVC Conduit, Direct Buried in Turf",
+   "unit": "LF",
+   "qty": 44500.0,
+   "prices": [
+    17.85,
+    17.0,
+    21.0,
+    18.79
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-110-5.2",
+   "description": "2-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased, in Turf",
+   "unit": "LF",
+   "qty": 3725.0,
+   "prices": [
+    63.0,
+    60.0,
+    74.0,
+    66.31
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-110-5.3",
+   "description": "2-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased, in Full Strength Pavement",
+   "unit": "LF",
+   "qty": 415.0,
+   "prices": [
+    84.0,
+    80.0,
+    100.0,
+    88.41
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "",
+   "description": "1.68 1L-110-5.4 4-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased, in Turf",
+   "unit": "LF",
+   "qty": 1705.0,
+   "prices": [
+    78.75,
+    75.0,
+    90.0,
+    82.89
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-110-5.5",
+   "description": "6-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased, in Turf",
+   "unit": "LF",
+   "qty": 150.0,
+   "prices": [
+    94.5,
+    90.0,
+    110.0,
+    99.46
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-110-5.6",
+   "description": "8-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased, in Turf",
+   "unit": "LF",
+   "qty": 470.0,
+   "prices": [
+    105.0,
+    100.0,
+    124.0,
+    110.52
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-112-5.1",
+   "description": "2-Way, 2\" HDPE Conduit, Installed Via Directional Drill",
+   "unit": "LF",
+   "qty": 735.0,
+   "prices": [
+    57.75,
+    55.0,
+    68.0,
+    60.78
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-112-5.2",
+   "description": "2-Way, 4\" HDPE Conduit, Installed Via Directional Drill",
+   "unit": "LF",
+   "qty": 175.0,
+   "prices": [
+    63.0,
+    60.0,
+    74.0,
+    66.31
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-112-5.3",
+   "description": "4-Way, 2\" HDPE Conduit, Installed Via Directional Drill",
+   "unit": "LF",
+   "qty": 250.0,
+   "prices": [
+    84.0,
+    80.0,
+    100.0,
+    88.41
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-112-5.4",
+   "description": "6-Way, 2\" HDPE Conduit, Installed Via Directional Drill",
+   "unit": "LF",
+   "qty": 100.0,
+   "prices": [
+    105.0,
+    100.0,
+    124.0,
+    110.52
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-112-5.5",
+   "description": "8-Way, 2\" HDPE Conduit, Installed Via Directional Drill",
+   "unit": "LF",
+   "qty": 425.0,
+   "prices": [
+    115.5,
+    110.0,
+    135.0,
+    121.57
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-115-5.1",
+   "description": "2-Way Junction Can Plaza (JCP)",
+   "unit": "EA",
+   "qty": 24.0,
+   "prices": [
+    5460.0,
+    5200.0,
+    6400.0,
+    5746.83
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-115-5.2",
+   "description": "4-Way Junction Can Plaza (JCP)",
+   "unit": "EA",
+   "qty": 4.0,
+   "prices": [
+    8190.0,
+    7800.0,
+    9500.0,
+    8620.24
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-115-5.3",
+   "description": "6-Way Junction Can Plaza (JCP)",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    11235.0,
+    10700.0,
+    13000.0,
+    11825.21
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-115-5.4",
+   "description": "8-Way Junction Can Plaza (JCP)",
+   "unit": "EA",
+   "qty": 3.0,
+   "prices": [
+    14700.0,
+    14000.0,
+    17000.0,
+    15472.23
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-115-5.5",
+   "description": "Install New Pull Can in Turf",
+   "unit": "EA",
+   "qty": 3.0,
+   "prices": [
+    2310.0,
+    2200.0,
+    2700.0,
+    2431.35
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-115-5.6",
+   "description": "Install New Pull Box in Turf",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    7392.0,
+    7040.0,
+    8500.0,
+    7780.32
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-125-5.1",
+   "description": "Install New L-861T(L) LED Elevated Taxiway Edge Light on New L-867B Base Can in Turf",
+   "unit": "EA",
+   "qty": 320.0,
+   "prices": [
+    2341.5,
+    2230.0,
+    2700.0,
+    2464.51
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-125-5.2",
+   "description": "Install New L-862(L) Elevated Runway Edge Light on New L-867B Base Can in Turf",
+   "unit": "EA",
+   "qty": 70.0,
+   "prices": [
+    2887.5,
+    2750.0,
+    3400.0,
+    3039.19
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-125-5.3",
+   "description": "Install New L-862E(L) Elevated Runway Threshold End Light on Existing Base Can",
+   "unit": "EA",
+   "qty": 8.0,
+   "prices": [
+    1312.5,
+    1250.0,
+    1500.0,
+    1381.45
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-125-5.4",
+   "description": "Install New L-862E(L) Elevated Runway Threshold End Light on New L-867B Base Can in Turf",
+   "unit": "EA",
+   "qty": 8.0,
+   "prices": [
+    2887.5,
+    2750.0,
+    3400.0,
+    3039.19
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-125-5.5",
+   "description": "Install New New L-867B Base Can with Blank Cover in Turf",
+   "unit": "EA",
+   "qty": 3.0,
+   "prices": [
+    1942.5,
+    1850.0,
+    2300.0,
+    2044.54
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-125-5.6",
+   "description": "Install New 1-MOD L-858(L) Size 2, Style 2 LED Guidance Sign on New Foundation",
+   "unit": "EA",
+   "qty": 12.0,
+   "prices": [
+    6090.0,
+    5800.0,
+    7200.0,
+    6409.92
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-125-5.7",
+   "description": "Install New 2-MOD L-858(L) Size 2, Style 2 LED Guidance Sign on New Foundation",
+   "unit": "EA",
+   "qty": 13.0,
+   "prices": [
+    7455.0,
+    7100.0,
+    8800.0,
+    7846.63
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-125-5.8",
+   "description": "Install New 3-MOD L-858(L) Size 2, Style 2 LED Guidance Sign on New Foundation",
+   "unit": "EA",
+   "qty": 17.0,
+   "prices": [
+    9135.0,
+    8700.0,
+    10500.0,
+    9614.89
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-125-5.9",
+   "description": "Install New 1-MOD L-858(L) Size 4, Style 3 LED Guidance Sign on New Foundation",
+   "unit": "EA",
+   "qty": 6.0,
+   "prices": [
+    7350.0,
+    7000.0,
+    8700.0,
+    7736.12
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-125-5.11",
+   "description": "Install New 4-MOD L-858(L) Size 2, Style 2 LED Guidance Sign on New Foundation",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    11392.5,
+    10850.0,
+    13500.0,
+    11990.98
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-125-5.12",
+   "description": "Install New 2-MOD L-858(L) Size 2, Style 3 LED Guidance Sign on New Foundation",
+   "unit": "EA",
+   "qty": 11.0,
+   "prices": [
+    9030.0,
+    8600.0,
+    10500.0,
+    9504.37
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-125-5.13",
+   "description": "Install New 3-MOD L-858(L) Size 2, Style 3 LED Guidance Sign on New Foundation",
+   "unit": "EA",
+   "qty": 3.0,
+   "prices": [
+    10500.0,
+    10000.0,
+    12000.0,
+    11051.59
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "L-130-5.1",
+   "description": "Install New LED L-880(L) Style B PAPI System",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    68250.0,
+    65000.0,
+    81000.0,
+    71835.35
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "1.95",
+   "description": "L-16231-5.1 Install New Backup Standby Generator System",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    152250.0,
+    140000.0,
+    175000.0,
+    154722.29
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "",
+   "description": "1.96 262416-5.1 Electrical Service Including Rack, Equipment, Maintenance Pad, and Utility Company Ducts",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    57750.0,
+    55000.0,
+    68000.0,
+    60783.76
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "1.97",
+   "description": "SEEPLANS 6' Wrought Iron Fence With Mow Strip",
+   "unit": "LF",
+   "qty": 132.0,
+   "prices": [
+    243.41,
+    162.0,
+    155.0,
+    170.73
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "1.98",
+   "description": "SEEPLANS 12' Manual Rolling Wrought Iron Gate",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    8800.0,
+    6200.0,
+    13000.0,
+    5253.17
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "1.99",
+   "description": "SEEPLANS Remove and Dispose of Existing Segmented Circle and Traffic Pattern Indicators",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    10250.0,
+    6500.0,
+    18500.0,
+    4705.89
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "1.100",
+   "description": "SEE PLANS Construct Segmented Circle Including Traffic Pattern Indicators",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    26875.0,
+    40000.0,
+    50000.0,
+    44206.37
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "1.101",
+   "description": "SEE PLANS Gravel Access Drive",
+   "unit": "SY",
+   "qty": 165.0,
+   "prices": [
+    98.64,
+    40.0,
+    20.0,
+    52.12
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "1.102",
+   "description": "SEE PLANS Remove Existing Concrete Curb",
+   "unit": "LF",
+   "qty": 12.0,
+   "prices": [
+    41.66,
+    28.0,
+    12.0,
+    39.05
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "1.103",
+   "description": "SEE PLANS 6\" Reinfoced PCC",
+   "unit": "SY",
+   "qty": 43.0,
+   "prices": [
+    54.54,
+    100.0,
+    125.0,
+    454.31
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "1.104",
+   "description": "SEEPLANS 12\" Flexible Aggregate Base",
+   "unit": "SY",
+   "qty": 50.0,
+   "prices": [
+    51.25,
+    60.0,
+    91.0,
+    98.4
+   ]
+  },
+  {
+   "schedule": "Sch 1 Base Bid (HMAC)",
+   "item": "KSA-701-5.1",
+   "description": "Solar Powered Green Taxiway Centerline Retroreflectors",
+   "unit": "EA",
+   "qty": 400.0,
+   "prices": [
+    104.5,
+    95.0,
+    250.0,
+    221.03
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 1",
+   "item": "",
+   "description": "Additive Alternate No. - Installation of Runway End Identifier Lights (REILs) Runway 35: A1.01] L-125-5.10 Install New REIL UNIT EA",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    28750.0,
+    25000.0,
+    30000.0,
+    33750.19
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 2",
+   "item": "A2.01",
+   "description": "Additive Alternate No. - Upgraded Taxiway Fillet Geometry for Runway Connector Taxiways (E-HMAC and G-HMAC): P-101-5.1 Asphalt Pavement Removal (Full Depth)",
+   "unit": "SY",
+   "qty": 581.0,
+   "prices": [
+    18.02,
+    4.39,
+    12.0,
+    30.88
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 2",
+   "item": "P-152-4.1",
+   "description": "Unclassified Excavation",
+   "unit": "CY",
+   "qty": 1754.0,
+   "prices": [
+    23.41,
+    80.0,
+    36.0,
+    74.04
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 2",
+   "item": "P-155-8.1",
+   "description": "10\" Lime Stabilized Subgrade (6% Lime)",
+   "unit": "SY",
+   "qty": 4208.0,
+   "prices": [
+    18.02,
+    12.0,
+    11.0,
+    23.94
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 2",
+   "item": "P-155-8.2",
+   "description": "Commercial Lime Slurry, Grade 2",
+   "unit": "TON",
+   "qty": 114.0,
+   "prices": [
+    429.3,
+    532.0,
+    370.0,
+    551.1
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 2",
+   "item": "P-304-8.1",
+   "description": "6\" Cement-Treated Base Course",
+   "unit": "SY",
+   "qty": 3972.0,
+   "prices": [
+    42.4,
+    44.0,
+    35.0,
+    62.62
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 2",
+   "item": "P-401-8.1",
+   "description": "4\" Asphalt Surface Course",
+   "unit": "TON",
+   "qty": 684.0,
+   "prices": [
+    288.32,
+    250.0,
+    360.0,
+    363.12
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 2",
+   "item": "P-403-8.1",
+   "description": "5\" Asphalt Stabilized Base Course",
+   "unit": "TON",
+   "qty": 987.0,
+   "prices": [
+    291.5,
+    200.0,
+    280.0,
+    363.12
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 2",
+   "item": "P-602-5.1",
+   "description": "Emulsified Asphalt Prime Coat",
+   "unit": "GAL",
+   "qty": 993.0,
+   "prices": [
+    4.24,
+    5.0,
+    7.0,
+    11.17
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 2",
+   "item": "T-901-5.1",
+   "description": "Hydromulch, Seed & Fertilizer for Permanent Application",
+   "unit": "AC",
+   "qty": 2.0,
+   "prices": [
+    4375.0,
+    12670.0,
+    3500.0,
+    3388.77
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 2",
+   "item": "T-904-5.1",
+   "description": "Sodding",
+   "unit": "SY",
+   "qty": 2329.0,
+   "prices": [
+    13.75,
+    4.13,
+    5.0,
+    5.0
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 2",
+   "item": "T-905-5.1",
+   "description": "Topsoil (Obtained on Site, Removed and Reinstalled)",
+   "unit": "CY",
+   "qty": 1076.0,
+   "prices": [
+    15.29,
+    63.0,
+    35.0,
+    43.84
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 3",
+   "item": "A3.01",
+   "description": "Additive Alternate No. - Upgraded Taxiway Fillet Geometry for Apron Connector Taxiways (E1-PCC, F-PCC, G1-PCC and P-101-5.1 Asphalt Pavement Removal (Full Depth)",
+   "unit": "SY",
+   "qty": 75.0,
+   "prices": [
+    52.92,
+    16.97,
+    28.0,
+    249.69
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 3",
+   "item": "P-101-5.2",
+   "description": "Concrete Pavement Removal (Full Depth)",
+   "unit": "SY",
+   "qty": 1053.0,
+   "prices": [
+    25.76,
+    23.0,
+    28.0,
+    36.95
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 3",
+   "item": "P-101-5.7",
+   "description": "24\" RCP SET Removal",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    2000.0,
+    1200.0,
+    4000.0,
+    3715.49
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 3",
+   "item": "P-101-5.8",
+   "description": "SET Removal for 2 - 30\" RCP",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    2000.0,
+    1200.0,
+    4000.0,
+    3715.49
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 3",
+   "item": "P-101-5.9",
+   "description": "42\" RCP SET Removal",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    2375.0,
+    1200.0,
+    2100.0,
+    3715.49
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 3",
+   "item": "P-101-5.11",
+   "description": "Storm Sewer Junction Box Removal",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    687.5,
+    1200.0,
+    2100.0,
+    3715.48
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 3",
+   "item": "P-152-4.1",
+   "description": "Unclassified Excavation",
+   "unit": "CY",
+   "qty": 7580.0,
+   "prices": [
+    23.41,
+    48.0,
+    18.0,
+    45.35
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 3",
+   "item": "P-155-8.1",
+   "description": "10\" Lime Stabilized Subgrade (6% Lime)",
+   "unit": "SY",
+   "qty": 7369.0,
+   "prices": [
+    18.36,
+    11.0,
+    10.0,
+    11.63
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 3",
+   "item": "P-155-8.2",
+   "description": "Commercial Lime Slurry, Grade 2",
+   "unit": "TON",
+   "qty": 200.0,
+   "prices": [
+    425.25,
+    528.0,
+    370.0,
+    567.42
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 3",
+   "item": "P-304-8.1",
+   "description": "6\" Cement-Treated Base Course",
+   "unit": "SY",
+   "qty": 720.0,
+   "prices": [
+    53.55,
+    48.0,
+    36.0,
+    65.75
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 3",
+   "item": "P-304-8.2",
+   "description": "8\" Cement-Treated Base Course",
+   "unit": "SY",
+   "qty": 6299.0,
+   "prices": [
+    56.7,
+    66.0,
+    43.0,
+    59.9
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 3",
+   "item": "P-401-8.1",
+   "description": "4\" Asphalt Surface Course",
+   "unit": "TON",
+   "qty": 123.0,
+   "prices": [
+    351.75,
+    250.0,
+    330.0,
+    373.88
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 3",
+   "item": "P-403-8.1",
+   "description": "5\" Asphalt Stabilized Base Course",
+   "unit": "TON",
+   "qty": 1779.0,
+   "prices": [
+    279.3,
+    200.0,
+    265.0,
+    373.88
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 3",
+   "item": "P-501-8.1",
+   "description": "12\" Reinforced Portland Cement Concrete",
+   "unit": "SY",
+   "qty": 5086.0,
+   "prices": [
+    156.25,
+    188.0,
+    160.0,
+    205.87
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 3",
+   "item": "P-602-5.1",
+   "description": "Emulsified Asphalt Prime Coat",
+   "unit": "GAL",
+   "qty": 1755.0,
+   "prices": [
+    4.2,
+    5.0,
+    6.5,
+    11.5
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 3",
+   "item": "P-605-5.1",
+   "description": "Joint Sealing Filler",
+   "unit": "LF",
+   "qty": 8260.0,
+   "prices": [
+    2.89,
+    3.25,
+    3.5,
+    6.9
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 3",
+   "item": "D-701-5.1",
+   "description": "24\" Dia. ASTM C76, Class V RCP",
+   "unit": "LF",
+   "qty": 16.0,
+   "prices": [
+    267.58,
+    300.0,
+    330.0,
+    187.76
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 3",
+   "item": "D-701-5.2",
+   "description": "30\" Dia. ASTM C76, Class V RCP",
+   "unit": "LF",
+   "qty": 64.0,
+   "prices": [
+    228.51,
+    363.0,
+    380.0,
+    258.69
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 3",
+   "item": "D-701-5.4",
+   "description": "42\" Dia. ASTM C76, Class V RCP",
+   "unit": "LF",
+   "qty": 32.0,
+   "prices": [
+    484.38,
+    525.0,
+    540.0,
+    562.87
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 3",
+   "item": "D-751-5.1",
+   "description": "Storm Sewer Junction Box",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    2768.75,
+    9130.0,
+    7000.0,
+    10919.2
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 3",
+   "item": "D-752-5.1",
+   "description": "Safety End Treatment for 1 - 24\" RCP (6:1 Slope, With Pipe Runners)",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    4125.0,
+    3600.0,
+    4200.0,
+    10165.41
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 3",
+   "item": "D-752-5.2",
+   "description": "Safety End Treatment for 2 - 30\" RCP (6:1 Slope, With Pipe Runners)",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    5687.5,
+    9400.0,
+    7000.0,
+    10433.64
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 3",
+   "item": "D-752-5.4",
+   "description": "Safety End Treatment for 1 - 42\" RCP (6:1 Slope, With Pipe Runners)",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    12187.5,
+    7700.0,
+    6000.0,
+    10294.21
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 3",
+   "item": "T-901-5.1",
+   "description": "Hydromulch, Seed & Fertilizer for Permanent Application",
+   "unit": "AC",
+   "qty": 4.0,
+   "prices": [
+    4375.0,
+    8870.0,
+    3500.0,
+    3489.17
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 3",
+   "item": "T-904-5.1",
+   "description": "Sodding",
+   "unit": "SY",
+   "qty": 3468.0,
+   "prices": [
+    13.75,
+    4.13,
+    5.0,
+    4.75
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 3",
+   "item": "T-905-5.1",
+   "description": "Topsoil (Obtained on Site, Removed and Reinstalled)",
+   "unit": "CY",
+   "qty": 2152.0,
+   "prices": [
+    15.29,
+    39.0,
+    33.0,
+    40.42
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 4",
+   "item": "A4.01",
+   "description": "Additive Alternate No. - Reconstruct Taxiway H: P-101-5.1 Asphalt Pavement Removal (Full Depth)",
+   "unit": "SY",
+   "qty": 350.0,
+   "prices": [
+    48.6,
+    4.25,
+    8.0,
+    12.52
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 4",
+   "item": "P-101-5.2",
+   "description": "Concrete Pavement Removal (Full Depth)",
+   "unit": "SY",
+   "qty": 355.0,
+   "prices": [
+    25.76,
+    12.03,
+    20.0,
+    36.78
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 4",
+   "item": "P-152-4.1",
+   "description": "Unclassified Excavation",
+   "unit": "CY",
+   "qty": 2700.0,
+   "prices": [
+    23.41,
+    54.0,
+    12.0,
+    42.49
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 4",
+   "item": "P-155-8.1",
+   "description": "10\" Lime Stabilized Subgrade (6% Lime)",
+   "unit": "SY",
+   "qty": 2604.0,
+   "prices": [
+    20.52,
+    21.0,
+    8.0,
+    37.05
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 4",
+   "item": "P-155-8.2",
+   "description": "Commercial Lime Slurry, Grade 2",
+   "unit": "TON",
+   "qty": 71.0,
+   "prices": [
+    437.4,
+    456.0,
+    370.0,
+    578.9
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 4",
+   "item": "P-304-8.2",
+   "description": "8\" Cement-Treated Base Course",
+   "unit": "SY",
+   "qty": 2505.0,
+   "prices": [
+    60.48,
+    60.0,
+    41.0,
+    77.35
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 4",
+   "item": "P-403-8.1",
+   "description": "5\" Asphalt Stabilized Base Course",
+   "unit": "TON",
+   "qty": 780.0,
+   "prices": [
+    287.28,
+    200.0,
+    270.0,
+    381.44
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 4",
+   "item": "P-501-8.1",
+   "description": "12\" Reinforced Portland Cement Concrete",
+   "unit": "SY",
+   "qty": 2111.0,
+   "prices": [
+    156.25,
+    172.0,
+    168.0,
+    186.85
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 4",
+   "item": "P-602-5.1",
+   "description": "Emulsified Asphalt Prime Coat",
+   "unit": "GAL",
+   "qty": 627.0,
+   "prices": [
+    4.32,
+    5.0,
+    6.5,
+    11.74
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 4",
+   "item": "P-605-5.1",
+   "description": "Joint Sealing Filler",
+   "unit": "LF",
+   "qty": 2861.0,
+   "prices": [
+    2.89,
+    3.25,
+    4.5,
+    7.04
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 4",
+   "item": "T-901-5.1",
+   "description": "Hydromulch, Seed & Fertilizer for Permanent Application",
+   "unit": "AC",
+   "qty": 2.0,
+   "prices": [
+    4375.0,
+    10191.0,
+    3200.0,
+    3559.73
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 4",
+   "item": "T-904-5.1",
+   "description": "Sodding",
+   "unit": "SY",
+   "qty": 985.0,
+   "prices": [
+    13.75,
+    4.13,
+    4.5,
+    4.85
+   ]
+  },
+  {
+   "schedule": "Sch 1 Add Alt 4",
+   "item": "T-905-5.1",
+   "description": "Topsoil (Obtained on Site, Removed and Reinstalled)",
+   "unit": "CY",
+   "qty": 1076.0,
+   "prices": [
+    15.29,
+    50.0,
+    25.0,
+    38.42
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "C-100-14.1",
+   "description": "Contractor Quality Control Program",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    426800.0,
+    600000.0,
+    90000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "C-102-5.1",
+   "description": "Installation and Removal of Silt Fence",
+   "unit": "LF",
+   "qty": 405.0,
+   "prices": [
+    16.05,
+    10.0,
+    6.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "C-102-5.2",
+   "description": "Rock Construction Exit",
+   "unit": "EA",
+   "qty": 3.0,
+   "prices": [
+    22708.34,
+    7742.13,
+    7500.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "C-102-5.3",
+   "description": "Storm Water Pollution Prevention Plan",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    151875.0,
+    1400.0,
+    1800.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "C-105-8.1",
+   "description": "Mobilization",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    1321100.0,
+    1200000.0,
+    1440000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "C-105-8.2",
+   "description": "Traffic Control Devices and Personnel",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    356950.0,
+    665078.0,
+    400000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "C-105-8.3",
+   "description": "Temporary Relocated Runway 35 Threshold",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    36483.75,
+    12186.7,
+    80000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-101-5.1",
+   "description": "Asphalt Pavement Removal (Full Depth)",
+   "unit": "SY",
+   "qty": 15092.0,
+   "prices": [
+    17.25,
+    1.67,
+    3.5,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-101-5.3",
+   "description": "2.5\" Asphalt Surface Course Removal",
+   "unit": "SY",
+   "qty": 2800.0,
+   "prices": [
+    8.05,
+    1.62,
+    3.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-101-5.4",
+   "description": "1.5\" Crushed Aggregate Base Course Removal",
+   "unit": "SY",
+   "qty": 2800.0,
+   "prices": [
+    8.05,
+    1.71,
+    4.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-101-5.5",
+   "description": "Crack Repair",
+   "unit": "LF",
+   "qty": 35000.0,
+   "prices": [
+    3.58,
+    2.6,
+    4.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-101-5.6",
+   "description": "1.5\"-2.0\" Cold Milling",
+   "unit": "SY",
+   "qty": 38990.0,
+   "prices": [
+    3.45,
+    1.3,
+    2.5,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-101-5.8",
+   "description": "SET Removal for 2 - 30\" RCP",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    3875.0,
+    2000.0,
+    1900.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-101-5.10",
+   "description": "30\" Storm Sewer Pipe Removal",
+   "unit": "LF",
+   "qty": 620.0,
+   "prices": [
+    24.4,
+    25.0,
+    20.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-152-4.1",
+   "description": "Unclassified Excavation",
+   "unit": "CY",
+   "qty": 12400.0,
+   "prices": [
+    23.41,
+    67.0,
+    51.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-152-4.2",
+   "description": "Offsite Borrow Excavation",
+   "unit": "CY",
+   "qty": 8000.0,
+   "prices": [
+    36.71,
+    1.0,
+    23.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-155-8.1",
+   "description": "10\" Lime Stabilized Subgrade (6% Lime)",
+   "unit": "SY",
+   "qty": 14960.0,
+   "prices": [
+    15.75,
+    16.0,
+    6.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-155-8.2",
+   "description": "Commercial Lime Slurry, Grade 2",
+   "unit": "TON",
+   "qty": 404.0,
+   "prices": [
+    425.25,
+    400.0,
+    370.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-304-8.2",
+   "description": "8\" Cement-Treated Base Course",
+   "unit": "SY",
+   "qty": 14520.0,
+   "prices": [
+    40.95,
+    74.0,
+    38.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-401-8.2",
+   "description": "2\" Asphalt Surface Course (Overlay)",
+   "unit": "TON",
+   "qty": 4390.0,
+   "prices": [
+    270.9,
+    250.0,
+    315.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-401-8.3",
+   "description": "4\" Asphalt Surface Course (Overlay)",
+   "unit": "TON",
+   "qty": 630.0,
+   "prices": [
+    289.8,
+    250.0,
+    315.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-401-8.4",
+   "description": "Full Depth Pavement Repair",
+   "unit": "SY",
+   "qty": 1000.0,
+   "prices": [
+    186.9,
+    95.0,
+    250.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-403-8.1",
+   "description": "5\" Asphalt Stabilized Base Course",
+   "unit": "TON",
+   "qty": 4600.0,
+   "prices": [
+    275.1,
+    200.88,
+    250.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-501-8.1",
+   "description": "12\" Reinforced Portland Cement Concrete",
+   "unit": "SY",
+   "qty": 12733.0,
+   "prices": [
+    168.75,
+    152.0,
+    132.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-602-5.1",
+   "description": "Emulsified Asphalt Prime Coat",
+   "unit": "GAL",
+   "qty": 3630.0,
+   "prices": [
+    4.2,
+    5.0,
+    6.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-605-5.1",
+   "description": "Joint Sealing Filler",
+   "unit": "LF",
+   "qty": 16245.0,
+   "prices": [
+    2.57,
+    3.25,
+    3.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-620-5.2A",
+   "description": "White Pavement Markings (Reflective)",
+   "unit": "SF",
+   "qty": 15981.0,
+   "prices": [
+    1.52,
+    1.32,
+    3.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-620-5.2B",
+   "description": "Red Pavement Markings (Reflective)",
+   "unit": "SF",
+   "qty": 1155.0,
+   "prices": [
+    4.98,
+    4.33,
+    3.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-620-5.2C",
+   "description": "Yellow Pavement Markings (Reflective)",
+   "unit": "SF",
+   "qty": 11634.0,
+   "prices": [
+    1.52,
+    1.32,
+    3.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-620-5.2D",
+   "description": "Black Pavement Markings (Non-Reflective)",
+   "unit": "SF",
+   "qty": 27821.0,
+   "prices": [
+    0.97,
+    0.84,
+    2.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-620-5.3",
+   "description": "Marking Removal",
+   "unit": "SF",
+   "qty": 4660.0,
+   "prices": [
+    0.59,
+    0.51,
+    6.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-620-5.4A",
+   "description": "Phase 2 Temporary Markings (Non-Reflective)",
+   "unit": "SF",
+   "qty": 2396.0,
+   "prices": [
+    0.86,
+    0.75,
+    1.15,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-620-5.4B",
+   "description": "Phase 3 Temporary Markings (Non-Reflective)",
+   "unit": "SF",
+   "qty": 3853.0,
+   "prices": [
+    0.86,
+    0.75,
+    1.15,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "P-620-5.4C",
+   "description": "Phase 4 Temporary Markings (Non-Reflective)",
+   "unit": "SF",
+   "qty": 861.0,
+   "prices": [
+    0.86,
+    0.75,
+    1.15,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "D-701-5.3",
+   "description": "Class V 36\" RCP, ASTM C76",
+   "unit": "LF",
+   "qty": 400.0,
+   "prices": [
+    405.48,
+    332.0,
+    360.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "D-752-5.3",
+   "description": "Safety End Treatment for 2 - 36\" RCP (6:1 Slope, With Pipe Runners)",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    17930.0,
+    11135.0,
+    6500.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "T-901-5.1",
+   "description": "Hydromulch, Seed & Fertilizer for Permanent Application",
+   "unit": "AC",
+   "qty": 23.0,
+   "prices": [
+    4375.0,
+    7000.0,
+    2800.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "T-904-5.1",
+   "description": "Sodding",
+   "unit": "SY",
+   "qty": 13826.0,
+   "prices": [
+    13.75,
+    3.9,
+    4.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "T-905-5.1",
+   "description": "Topsoil (Obtained on Site, Removed and Reinstalled)",
+   "unit": "CY",
+   "qty": 13665.0,
+   "prices": [
+    15.29,
+    30.0,
+    23.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-103-5.1",
+   "description": "Install New Beacon on New 50' Tip Down Pole, Including Foundation",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    74025.0,
+    70500.0,
+    85000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-105-5.1",
+   "description": "Remove No. 8 AWG, L-824C Cable in Duct",
+   "unit": "LF",
+   "qty": 5200.0,
+   "prices": [
+    0.53,
+    0.5,
+    0.6,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "",
+   "description": "1.42 1L-105-5.2 Remove 2-inch Conduit (Including Cable)",
+   "unit": "LF",
+   "qty": 43600.0,
+   "prices": [
+    0.53,
+    0.5,
+    0.6,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-105-5.3",
+   "description": "Remove Concrete Encased Duct in Earth (Including Cable)",
+   "unit": "LF",
+   "qty": 575.0,
+   "prices": [
+    16.78,
+    0.5,
+    0.6,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-105-5.4",
+   "description": "Remove and Dispose of Elevated Edge Light, Base Can to be Removed",
+   "unit": "EA",
+   "qty": 395.0,
+   "prices": [
+    215.99,
+    220.0,
+    120.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-105-5.5",
+   "description": "Remove and Dispose of Elevated Edge Light, Base Can to Remain",
+   "unit": "EA",
+   "qty": 8.0,
+   "prices": [
+    367.5,
+    220.0,
+    120.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-105-5.6",
+   "description": "Remove and Dispose of In-Pavement Edge Light, Base Can to be Removed",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    2572.5,
+    220.0,
+    120.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-105-5.7",
+   "description": "Remove and Dispose of Airfield Sign and Foundation",
+   "unit": "EA",
+   "qty": 60.0,
+   "prices": [
+    1113.0,
+    760.0,
+    500.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "",
+   "description": "1.48 1L-105-5.8 Remove Airfield Sign Foundation",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    2415.0,
+    760.0,
+    500.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "",
+   "description": "1.49 1L-105-5.9 Remove and Dispose of Pull Can in Turf",
+   "unit": "EA",
+   "qty": 29.0,
+   "prices": [
+    235.35,
+    220.0,
+    120.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-105-5.10",
+   "description": "Remove and Dispose of 4-Box L-880 PAPI System and Associated Foundations",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    5145.0,
+    1480.0,
+    1200.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-105-5.11",
+   "description": "Remove and Dispose of Primary Windcone and Foundation",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    3885.0,
+    1480.0,
+    1200.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-105-5.12",
+   "description": "Remove and Dispose of Supplemental Wind Cone and Foundation",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    1916.25,
+    1240.0,
+    1200.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-105-5.13",
+   "description": "Remove and Dispose of Beacon, Beacon Tower, and Foundation",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    14805.0,
+    10840.0,
+    12200.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-105-5.14",
+   "description": "Work in Existing Airfield Lighting Vault Equipment",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    10500.0,
+    10000.0,
+    12200.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-107-5.1",
+   "description": "Install New L-807(L) Wind Cone Including Tip Down Pole and Foundation",
+   "unit": "EA",
+   "qty": 3.0,
+   "prices": [
+    20475.0,
+    19500.0,
+    24000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L108-5.1",
+   "description": "No. 8 AWG, L-824C, Installed in Conduit",
+   "unit": "LF",
+   "qty": 76550.0,
+   "prices": [
+    2.21,
+    2.1,
+    2.5,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-108-5.2",
+   "description": "No. 6 AWG Bare Counterpoise Wire, Installed in Conduit Trench",
+   "unit": "LF",
+   "qty": 58610.0,
+   "prices": [
+    1.84,
+    1.75,
+    2.1,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-108-5.3",
+   "description": "Electrical Circuit (Wind Cone), 2#10 AWG, 1#10G, Installed in Conduit",
+   "unit": "LF",
+   "qty": 2000.0,
+   "prices": [
+    2.63,
+    2.5,
+    3.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-108-5.4",
+   "description": "Electrical Circuit (Beacon), 2#12 AWG, 1#12G, Installed in Conduit",
+   "unit": "LF",
+   "qty": 125.0,
+   "prices": [
+    2.63,
+    2.5,
+    3.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-108-5.5",
+   "description": "Temporary Electrical Provisions",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    28560.0,
+    27200.0,
+    33000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-109-5.1",
+   "description": "Install New Vault Building And Equipment",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    214200.0,
+    204000.0,
+    250000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-109-5.2",
+   "description": "Install New 4kW L-829 Constant Current Regulator",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    13650.0,
+    13000.0,
+    16000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-109-5.3",
+   "description": "Install New 7.5kW L-829 Constant Current Regulator",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    17062.5,
+    16250.0,
+    20000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-109-5.4",
+   "description": "Install New 10kW L-829 Constant Current Regulator",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    19950.0,
+    19000.0,
+    23000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-109-5.5",
+   "description": "Install Salvaged 10kW L-828 Constant Current Regulator",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    4368.0,
+    4160.0,
+    5000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-110-5.1",
+   "description": "1-Way, 2\" Sch. 40 PVC Conduit, Direct Buried in Turf",
+   "unit": "LF",
+   "qty": 44500.0,
+   "prices": [
+    17.85,
+    17.0,
+    20.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-110-5.2",
+   "description": "2-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased, in Turf",
+   "unit": "LF",
+   "qty": 3725.0,
+   "prices": [
+    63.0,
+    60.0,
+    73.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-110-5.3",
+   "description": "2-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased, in Full Strength Pavement",
+   "unit": "LF",
+   "qty": 415.0,
+   "prices": [
+    84.0,
+    80.0,
+    98.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-110-5.4",
+   "description": "4-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased, in Turf",
+   "unit": "LF",
+   "qty": 1705.0,
+   "prices": [
+    78.75,
+    75.0,
+    92.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-110-5.5",
+   "description": "6-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased, in Turf",
+   "unit": "LF",
+   "qty": 150.0,
+   "prices": [
+    94.5,
+    90.0,
+    110.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-110-5.6",
+   "description": "8-Way, 2\" Sch. 40 PVC Conduit, Concrete Encased, in Turf",
+   "unit": "LF",
+   "qty": 470.0,
+   "prices": [
+    105.0,
+    100.0,
+    120.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-112-5.1",
+   "description": "2-Way, 2\" HDPE Conduit, Installed Via Directional Drill",
+   "unit": "LF",
+   "qty": 735.0,
+   "prices": [
+    57.75,
+    55.0,
+    65.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-112-5.2",
+   "description": "2-Way, 4\" HDPE Conduit, Installed Via Directional Drill",
+   "unit": "LF",
+   "qty": 175.0,
+   "prices": [
+    63.0,
+    60.0,
+    72.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "",
+   "description": "1.74 1L-112-5.3 4-Way, 2\" HDPE Conduit, Installed Via Directional Drill",
+   "unit": "LF",
+   "qty": 250.0,
+   "prices": [
+    84.0,
+    80.0,
+    98.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-112-5.4",
+   "description": "6-Way, 2\" HDPE Conduit, Installed Via Directional Drill",
+   "unit": "LF",
+   "qty": 100.0,
+   "prices": [
+    105.0,
+    100.0,
+    120.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-112-5.5",
+   "description": "8-Way, 2\" HDPE Conduit, Installed Via Directional Drill",
+   "unit": "LF",
+   "qty": 425.0,
+   "prices": [
+    115.5,
+    110.0,
+    135.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-115-5.1",
+   "description": "2-Way Junction Can Plaza (JCP)",
+   "unit": "EA",
+   "qty": 24.0,
+   "prices": [
+    5460.0,
+    5200.0,
+    6400.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-115-5.2",
+   "description": "4-Way Junction Can Plaza (JCP)",
+   "unit": "EA",
+   "qty": 4.0,
+   "prices": [
+    8190.0,
+    7800.0,
+    9500.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-115-5.3",
+   "description": "6-Way Junction Can Plaza (JCP)",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    11235.0,
+    10700.0,
+    13000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-115-5.4",
+   "description": "8-Way Junction Can Plaza (JCP)",
+   "unit": "EA",
+   "qty": 3.0,
+   "prices": [
+    14700.0,
+    14000.0,
+    17000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-115-5.5",
+   "description": "Install New Pull Can in Turf",
+   "unit": "EA",
+   "qty": 3.0,
+   "prices": [
+    2310.0,
+    2200.0,
+    2700.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-115-5.6",
+   "description": "Install New Pull Box in Turf",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    7392.0,
+    7040.0,
+    8600.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-125-5.1",
+   "description": "Install New L-861T(L) LED Elevated Taxiway Edge Light on New L-867B Base Can in Turf",
+   "unit": "EA",
+   "qty": 320.0,
+   "prices": [
+    2341.5,
+    2230.0,
+    2700.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-125-5.2",
+   "description": "Install New L-862(L) Elevated Runway Edge Light on New L-867B Base Can in Turf",
+   "unit": "EA",
+   "qty": 70.0,
+   "prices": [
+    2887.5,
+    2750.0,
+    3300.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-125-5.3",
+   "description": "Install New L-862E(L) Elevated Runway Threshold End Light on Existing Base Can",
+   "unit": "EA",
+   "qty": 8.0,
+   "prices": [
+    1312.5,
+    1250.0,
+    1500.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-125-5.4",
+   "description": "Install New L-862E(L) Elevated Runway Threshold End Light on New L-867B Base Can in Turf",
+   "unit": "EA",
+   "qty": 8.0,
+   "prices": [
+    2887.5,
+    2750.0,
+    3300.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-125-5.5",
+   "description": "Install New New L-867B Base Can with Blank Cover in Turf",
+   "unit": "EA",
+   "qty": 3.0,
+   "prices": [
+    1942.5,
+    1850.0,
+    2200.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-125-5.6",
+   "description": "Install New 1-MOD L-858(L) Size 2, Style 2 LED Guidance Sign on New Foundation",
+   "unit": "EA",
+   "qty": 12.0,
+   "prices": [
+    6090.0,
+    5800.0,
+    7000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-125-5.7",
+   "description": "Install New 2-MOD L-858(L) Size 2, Style 2 LED Guidance Sign on New Foundation",
+   "unit": "EA",
+   "qty": 13.0,
+   "prices": [
+    7455.0,
+    7100.0,
+    8700.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-125-5.8",
+   "description": "Install New 3-MOD L-858(L) Size 2, Style 2 LED Guidance Sign on New Foundation",
+   "unit": "EA",
+   "qty": 17.0,
+   "prices": [
+    9135.0,
+    8700.0,
+    10500.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-125-5.9",
+   "description": "Install New 1-MOD L-858(L) Size 4, Style 3 LED Guidance Sign on New Foundation",
+   "unit": "EA",
+   "qty": 6.0,
+   "prices": [
+    7350.0,
+    7000.0,
+    8600.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-125-5.11",
+   "description": "Install New 4-MOD L-858(L) Size 2, Style 2 LED Guidance Sign on New Foundation",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    11392.5,
+    10850.0,
+    13000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-125-5.12",
+   "description": "Install New 2-MOD L-858(L) Size 2, Style 3 LED Guidance Sign on New Foundation",
+   "unit": "EA",
+   "qty": 11.0,
+   "prices": [
+    9030.0,
+    8600.0,
+    10500.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-125-5.13",
+   "description": "Install New 3-MOD L-858(L) Size 2, Style 3 LED Guidance Sign on New Foundation",
+   "unit": "EA",
+   "qty": 3.0,
+   "prices": [
+    10500.0,
+    10000.0,
+    12300.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "L-130-5.1",
+   "description": "Install New LED L-880(L) Style B PAPI System",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    68250.0,
+    65000.0,
+    80000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "1.96",
+   "description": "L-16231-5.1 Install New Backup Standby Generator System",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    152250.0,
+    140000.0,
+    170000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "",
+   "description": "1.97 262416-5.1 Electrical Service Including Rack, Equipment, Maintenance Pad, and Utility Company Ducts",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    57750.0,
+    55000.0,
+    67000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "1.98",
+   "description": "SEEPLANS 6' Wrought Iron Fence With Mow Strip",
+   "unit": "LF",
+   "qty": 132.0,
+   "prices": [
+    243.41,
+    162.0,
+    150.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "1.99",
+   "description": "SEEPLANS 12' Manual Rolling Wrought Iron Gate",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    8800.0,
+    6200.0,
+    12500.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "1.100",
+   "description": "SEEPLANS Remove and Dispose of Existing Segmented Circle and Traffic Pattern Indicators",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    10250.0,
+    6500.0,
+    18500.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "1.101",
+   "description": "SEE PLANS Construct Segmented Circle Including Traffic Pattern Indicators",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    26875.0,
+    40000.0,
+    50000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "1.102",
+   "description": "SEEPLANS Gravel Access Drive",
+   "unit": "SY",
+   "qty": 165.0,
+   "prices": [
+    98.64,
+    40.0,
+    20.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "1.103",
+   "description": "SEEPLANS Remove Existing Concrete Curb",
+   "unit": "LF",
+   "qty": 12.0,
+   "prices": [
+    41.66,
+    28.0,
+    12.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "1.104",
+   "description": "SEEPLANS 6\" Reinfoced PCC",
+   "unit": "SY",
+   "qty": 43.0,
+   "prices": [
+    54.54,
+    100.0,
+    130.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "1.105",
+   "description": "SEEPLANS 12\" Flexible Aggregate Base",
+   "unit": "SY",
+   "qty": 50.0,
+   "prices": [
+    51.25,
+    60.0,
+    90.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Base Bid (PCC)",
+   "item": "KSA-701-5.1",
+   "description": "Solar Powered Green Taxiway Centerline Retroreflectors",
+   "unit": "EA",
+   "qty": 400.0,
+   "prices": [
+    104.5,
+    95.0,
+    250.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 1",
+   "item": "A1.01",
+   "description": "Additive Alternate No. - Installation of Runway End Identifier Lights (REILs) Runway 35: L-125-5.10 Install New REIL UNIT EA",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    28750.0,
+    25000.0,
+    30000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 2",
+   "item": "A2.01",
+   "description": "Additive Alternate No. - Upgraded Taxiway Fillet Geometry for Runway Connector Taxiways (E-HMAC and G-HMAC): P-101-5.1 Asphalt Pavement Removal (Full Depth)",
+   "unit": "SY",
+   "qty": 581.0,
+   "prices": [
+    18.02,
+    4.39,
+    12.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 2",
+   "item": "P-152-4.1",
+   "description": "Unclassified Excavation",
+   "unit": "CY",
+   "qty": 1754.0,
+   "prices": [
+    23.41,
+    80.0,
+    36.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 2",
+   "item": "P-155-8.1",
+   "description": "10\" Lime Stabilized Subgrade (6% Lime)",
+   "unit": "SY",
+   "qty": 4208.0,
+   "prices": [
+    18.02,
+    12.0,
+    11.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 2",
+   "item": "P-155-8.2",
+   "description": "Commercial Lime Slurry, Grade 2",
+   "unit": "TON",
+   "qty": 114.0,
+   "prices": [
+    429.3,
+    532.0,
+    370.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 2",
+   "item": "P-304-8.1",
+   "description": "6\" Cement-Treated Base Course",
+   "unit": "SY",
+   "qty": 3972.0,
+   "prices": [
+    42.4,
+    44.0,
+    35.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 2",
+   "item": "P-401-8.1",
+   "description": "4\" Asphalt Surface Course",
+   "unit": "TON",
+   "qty": 684.0,
+   "prices": [
+    288.32,
+    250.0,
+    360.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 2",
+   "item": "P-403-8.1",
+   "description": "5\" Asphalt Stabilized Base Course",
+   "unit": "TON",
+   "qty": 987.0,
+   "prices": [
+    291.5,
+    200.0,
+    280.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 2",
+   "item": "P-602-5.1",
+   "description": "Emulsified Asphalt Prime Coat",
+   "unit": "GAL",
+   "qty": 993.0,
+   "prices": [
+    4.24,
+    5.0,
+    7.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 2",
+   "item": "T-901-5.1",
+   "description": "Hydromulch, Seed & Fertilizer for Permanent Application",
+   "unit": "AC",
+   "qty": 2.0,
+   "prices": [
+    4375.0,
+    12670.0,
+    3500.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 2",
+   "item": "T-904-5.1",
+   "description": "Sodding",
+   "unit": "SY",
+   "qty": 2329.0,
+   "prices": [
+    13.75,
+    4.13,
+    5.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 2",
+   "item": "T-905-5.1",
+   "description": "Topsoil (Obtained on Site, Removed and Reinstalled)",
+   "unit": "CY",
+   "qty": 1076.0,
+   "prices": [
+    15.29,
+    63.0,
+    35.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 3",
+   "item": "A3.01",
+   "description": "Additive Alternate No. - Upgraded Taxiway Fillet Geometry for Apron Connector Taxiways (E1-PCC, F-PCC, G1-PCC and P-101-5.1 Asphalt Pavement Removal (Full Depth)",
+   "unit": "SY",
+   "qty": 75.0,
+   "prices": [
+    52.92,
+    16.97,
+    28.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 3",
+   "item": "P-101-5.2",
+   "description": "Concrete Pavement Removal (Full Depth)",
+   "unit": "SY",
+   "qty": 1053.0,
+   "prices": [
+    25.76,
+    23.0,
+    28.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 3",
+   "item": "P-101-5.7",
+   "description": "24\" RCP SET Removal",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    2000.0,
+    1200.0,
+    4000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 3",
+   "item": "P-101-5.8",
+   "description": "SET Removal for 2 - 30\" RCP",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    2000.0,
+    1200.0,
+    4000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 3",
+   "item": "P-101-5.9",
+   "description": "42\" RCP SET Removal",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    2375.0,
+    1200.0,
+    2100.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 3",
+   "item": "P-101-5.11",
+   "description": "Storm Sewer Junction Box Removal",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    687.5,
+    1200.0,
+    2100.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 3",
+   "item": "P-152-4.1",
+   "description": "Unclassified Excavation",
+   "unit": "CY",
+   "qty": 7580.0,
+   "prices": [
+    23.41,
+    48.0,
+    18.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 3",
+   "item": "P-155-8.1",
+   "description": "10\" Lime Stabilized Subgrade (6% Lime)",
+   "unit": "SY",
+   "qty": 7369.0,
+   "prices": [
+    18.36,
+    11.0,
+    10.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 3",
+   "item": "P-155-8.2",
+   "description": "Commercial Lime Slurry, Grade 2",
+   "unit": "TON",
+   "qty": 200.0,
+   "prices": [
+    425.25,
+    528.0,
+    370.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 3",
+   "item": "P-304-8.1",
+   "description": "6\" Cement-Treated Base Course",
+   "unit": "SY",
+   "qty": 720.0,
+   "prices": [
+    53.55,
+    48.0,
+    36.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 3",
+   "item": "P-304-8.2",
+   "description": "8\" Cement-Treated Base Course",
+   "unit": "SY",
+   "qty": 6299.0,
+   "prices": [
+    56.7,
+    66.0,
+    43.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 3",
+   "item": "P-401-8.1",
+   "description": "4\" Asphalt Surface Course",
+   "unit": "TON",
+   "qty": 123.0,
+   "prices": [
+    351.75,
+    250.0,
+    330.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 3",
+   "item": "P-403-8.1",
+   "description": "5\" Asphalt Stabilized Base Course",
+   "unit": "TON",
+   "qty": 1779.0,
+   "prices": [
+    279.3,
+    200.0,
+    265.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 3",
+   "item": "P-501-8.1",
+   "description": "12\" Reinforced Portland Cement Concrete",
+   "unit": "SY",
+   "qty": 5086.0,
+   "prices": [
+    156.25,
+    188.0,
+    160.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 3",
+   "item": "P-602-5.1",
+   "description": "Emulsified Asphalt Prime Coat",
+   "unit": "GAL",
+   "qty": 1755.0,
+   "prices": [
+    4.2,
+    5.0,
+    6.5,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 3",
+   "item": "P-605-5.1",
+   "description": "Joint Sealing Filler",
+   "unit": "LF",
+   "qty": 8260.0,
+   "prices": [
+    2.89,
+    3.25,
+    3.5,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 3",
+   "item": "D-701-5.1",
+   "description": "24\" Dia. ASTM C76, Class V RCP",
+   "unit": "LF",
+   "qty": 16.0,
+   "prices": [
+    267.58,
+    300.0,
+    330.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 3",
+   "item": "D-701-5.2",
+   "description": "30\" Dia. ASTM C76, Class V RCP",
+   "unit": "LF",
+   "qty": 64.0,
+   "prices": [
+    228.51,
+    363.0,
+    380.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 3",
+   "item": "D-701-5.4",
+   "description": "42\" Dia. ASTM C76, Class V RCP",
+   "unit": "LF",
+   "qty": 32.0,
+   "prices": [
+    484.38,
+    525.0,
+    540.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 3",
+   "item": "D-751-5.1",
+   "description": "Storm Sewer Junction Box",
+   "unit": "EA",
+   "qty": 2.0,
+   "prices": [
+    2768.75,
+    9130.0,
+    7000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 3",
+   "item": "D-752-5.1",
+   "description": "Safety End Treatment for 1 - 24\" RCP (6:1 Slope, With Pipe Runners)",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    4125.0,
+    3600.0,
+    4200.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 3",
+   "item": "D-752-5.2",
+   "description": "Safety End Treatment for 2 - 30\" RCP (6:1 Slope, With Pipe Runners)",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    5687.5,
+    9400.0,
+    7000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 3",
+   "item": "D-752-5.4",
+   "description": "Safety End Treatment for 1 - 42\" RCP (6:1 Slope, With Pipe Runners)",
+   "unit": "EA",
+   "qty": 1.0,
+   "prices": [
+    12187.5,
+    7700.0,
+    6000.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 3",
+   "item": "T-901-5.1",
+   "description": "Hydromulch, Seed & Fertilizer for Permanent Application",
+   "unit": "AC",
+   "qty": 4.0,
+   "prices": [
+    4375.0,
+    8870.0,
+    3500.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 3",
+   "item": "T-904-5.1",
+   "description": "Sodding",
+   "unit": "SY",
+   "qty": 3468.0,
+   "prices": [
+    13.75,
+    4.13,
+    5.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 3",
+   "item": "T-905-5.1",
+   "description": "Topsoil (Obtained on Site, Removed and Reinstalled)",
+   "unit": "CY",
+   "qty": 2152.0,
+   "prices": [
+    15.29,
+    39.0,
+    33.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 4",
+   "item": "A4.01",
+   "description": "Additive Alternate No. - Reconstruct Taxiway H: P-101-5.1 Asphalt Pavement Removal (Full Depth)",
+   "unit": "SY",
+   "qty": 350.0,
+   "prices": [
+    48.6,
+    4.25,
+    8.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 4",
+   "item": "P-101-5.10",
+   "description": "Concrete Pavement Removal (Full Depth)",
+   "unit": "SY",
+   "qty": 355.0,
+   "prices": [
+    25.76,
+    12.03,
+    20.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 4",
+   "item": "P-152-4.1",
+   "description": "Unclassified Excavation",
+   "unit": "CY",
+   "qty": 2700.0,
+   "prices": [
+    23.41,
+    54.0,
+    12.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 4",
+   "item": "P-155-8.1",
+   "description": "10\" Lime Stabilized Subgrade (6% Lime)",
+   "unit": "SY",
+   "qty": 2604.0,
+   "prices": [
+    20.52,
+    21.0,
+    8.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 4",
+   "item": "P-155-8.2",
+   "description": "Commercial Lime Slurry, Grade 2",
+   "unit": "TON",
+   "qty": 71.0,
+   "prices": [
+    437.4,
+    456.0,
+    370.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 4",
+   "item": "P-304-8.2",
+   "description": "8\" Cement-Treated Base Course",
+   "unit": "SY",
+   "qty": 2505.0,
+   "prices": [
+    60.48,
+    60.0,
+    41.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 4",
+   "item": "P-403-8.1",
+   "description": "5\" Asphalt Stabilized Base Course",
+   "unit": "TON",
+   "qty": 780.0,
+   "prices": [
+    287.28,
+    200.0,
+    270.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 4",
+   "item": "P-501-8.1",
+   "description": "12\" Reinforced Portland Cement Concrete",
+   "unit": "SY",
+   "qty": 2111.0,
+   "prices": [
+    156.25,
+    172.0,
+    168.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 4",
+   "item": "P-602-5.1",
+   "description": "Emulsified Asphalt Prime Coat",
+   "unit": "GAL",
+   "qty": 627.0,
+   "prices": [
+    4.32,
+    5.0,
+    6.5,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 4",
+   "item": "P-605-5.1",
+   "description": "Joint Sealing Filler",
+   "unit": "LF",
+   "qty": 2861.0,
+   "prices": [
+    2.89,
+    3.25,
+    4.5,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 4",
+   "item": "T-901-5.1",
+   "description": "Hydromulch, Seed & Fertilizer for Permanent Application",
+   "unit": "AC",
+   "qty": 2.0,
+   "prices": [
+    4375.0,
+    10191.0,
+    3200.0,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 4",
+   "item": "T-904-5.1",
+   "description": "Sodding",
+   "unit": "SY",
+   "qty": 985.0,
+   "prices": [
+    13.75,
+    4.13,
+    4.5,
+    null
+   ]
+  },
+  {
+   "schedule": "Sch 2 Add Alt 4",
+   "item": "T-905-5.1",
+   "description": "Topsoil (Obtained on Site, Removed and Reinstalled)",
+   "unit": "CY",
+   "qty": 1076.0,
+   "prices": [
+    15.29,
+    50.0,
+    25.0,
+    null
+   ]
+  }
+ ],
+ "notes": [
+  "Two pavement options were bid: Schedule 1 (HMAC, 4 bidders) and Schedule 2 (PCC, 3 bidders; SpawGlass did not bid it). Bidders are ranked on Schedule 1 base bid.",
+  "The four additive alternates are the same in both schedules.",
+  "Fix: A3.14 (P-501-8.1) SpawGlass unit price unreadable; $205.87 is the only value that makes SpawGlass's printed Alt 3 total ($3,086,869.52) balance (5,086 SY)",
+  "Fix: 1.19 (P-304-8.2, Sch 2) Zachry unit price unreadable; $38.00 is the only value that makes Zachry's printed Sch 2 base total ($14,655,540.50) balance (14,520 SY)"
+ ]
+}

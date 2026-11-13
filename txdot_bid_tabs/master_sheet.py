@@ -42,10 +42,12 @@ THIN = Side(style="thin", color="A6A6A6")
 BOX = Border(left=THIN, right=THIN, top=THIN, bottom=THIN)
 
 DATA_COLS = ["Project ID", "Airport", "CSJ", "Bid Date", "Bidder", "Bid Rank", "Low Bid",
-             "Item", "Description", "Unit", "Qty", "Unit Price", "Total", "Verified"]
+             "Schedule", "Item", "Description", "Unit", "Qty", "Unit Price", "Total", "Verified"]
 PROJECT_COLS = ["Project ID", "Airport", "CSJ", "Scope", "Description", "Bid Date",
-                "Location", "Region", "Bidders", "Low Bidder", "Low Bid", "Price Age",
-                "Source PDF", "Last Updated"]
+                "Location", "Region", "Bidders", "Low Bidder", "Low Bid", "Eng. Estimate",
+                "Price Age", "Source", "Source PDF", "Last Updated"]
+# "Low Bid" column values: "Yes" / "No" for bidders, "Estimate" for the engineer's
+# estimate (kept for benchmarking; never ranked and never in the low-bid views).
 
 # Price Age buckets (slide 12), in days
 AGE_BUCKETS = [(91, "Last quarter"), (183, "Last 6 months"), (365, "Last year")]
@@ -84,14 +86,19 @@ def _project_rows(project: Project, source_url: str) -> tuple[list[dict], dict]:
     low = project.low_bid
     ranked = sorted(project.bids, key=lambda b: b.base_bid)
     data = []
-    for rank, b in enumerate(ranked, start=1):
+    entries = [(rank, b, "Yes" if b is low else "No") for rank, b in enumerate(ranked, start=1)]
+    if project.estimate:
+        entries.append((None, project.estimate, "Estimate"))
+    for rank, b, flag in entries:
         for it in project.items:
+            if it.key not in b.unit_prices:   # bidder didn't bid this schedule/item
+                continue
             data.append({
                 "Project ID": project.project_id, "Airport": project.airport, "CSJ": project.csj,
                 "Bid Date": project.bid_date, "Bidder": b.bidder, "Bid Rank": rank,
-                "Low Bid": "Yes" if b is low else "No", "Item": it.item,
+                "Low Bid": flag, "Schedule": it.schedule or None, "Item": it.item,
                 "Description": it.description, "Unit": it.unit, "Qty": it.qty,
-                "Unit Price": b.unit_prices.get(it.item), "Total": b.totals.get(it.item),
+                "Unit Price": b.unit_prices.get(it.key), "Total": b.totals.get(it.key),
                 "Verified": "Yes" if b.verified else "No",
             })
     proj = {
@@ -99,7 +106,8 @@ def _project_rows(project: Project, source_url: str) -> tuple[list[dict], dict]:
         "Scope": project.scope, "Description": project.description,
         "Bid Date": project.bid_date, "Location": project.location, "Region": None,
         "Bidders": len(project.bids), "Low Bidder": low.bidder, "Low Bid": low.base_bid,
-        "Source PDF": source_url, "Last Updated": datetime.now().replace(microsecond=0),
+        "Eng. Estimate": project.estimate.base_bid if project.estimate else None,
+        "Source": project.source or "new form", "Source PDF": source_url, "Last Updated": datetime.now().replace(microsecond=0),
     }
     return data, proj
 
@@ -110,6 +118,8 @@ def upsert_project(project: Project, path: Path = MASTER_SHEET_PATH, source_url:
     old_projects = _read_sheet(path, "Projects")
     regions = {p["Project ID"]: p.get("Region") for p in old_projects}
     projects = [p for p in old_projects if p.get("Project ID") != project.project_id]
+    for p in projects:                       # rows written before the Source column existed
+        p["Source"] = p.get("Source") or "new form"
 
     new_data, new_proj = _project_rows(project, source_url)
     new_proj["Region"] = regions.get(project.project_id)
@@ -155,7 +165,7 @@ def _write_table(wb: Workbook, name: str, cols: list[str], rows: list[dict]) -> 
             _style(c)
             if h in ("Bid Date", "Last Updated"):
                 c.number_format = "yyyy-mm-dd hh:mm" if h == "Last Updated" else "yyyy-mm-dd"
-            elif h in ("Unit Price", "Total", "Low Bid"):
+            elif h in ("Unit Price", "Total", "Eng. Estimate") or (h == "Low Bid" and name == "Projects"):
                 c.number_format = MONEY
             elif h == "Qty":
                 c.number_format = "#,##0.##"
@@ -241,9 +251,10 @@ def _write_master_view(wb: Workbook, data: list[dict], projects: list[dict]) -> 
             r = first + i
             crit = (f"{col['Project ID']},{pid_ref},{col['Item']},$A{r},"
                     f"{col['Unit']},$C{r},{col['Low Bid']},\"Yes\"")
-            # blank (not $0) when this project didn't bid the item
+            # blank (not $0) when this project didn't bid the item; averaged when the
+            # item appears in more than one bid schedule of the same project
             ws.cell(row=r, column=c_up,
-                    value=f'=IF(COUNTIFS({crit})=0,"",SUMIFS({col["Unit Price"]},{crit}))')
+                    value=f'=IF(COUNTIFS({crit})=0,"",AVERAGEIFS({col["Unit Price"]},{crit}))')
             ws.cell(row=r, column=c_qty,
                     value=f'=IF(COUNTIFS({crit})=0,"",SUMIFS({col["Qty"]},{crit}))')
             _style(ws.cell(row=r, column=c_up), fmt=MONEY, border=True)
@@ -272,7 +283,7 @@ def _write_master_view(wb: Workbook, data: list[dict], projects: list[dict]) -> 
                            value=f'=IFERROR(AVERAGEIFS({col["Unit Price"]},{crit}),"")'),
                    fmt=MONEY, border=True)
     c = est_first + len(windows)
-    _style(ws.cell(row=hdr, column=c, value="# Projects"), bold=True, fill=HEAD_FILL,
+    _style(ws.cell(row=hdr, column=c, value="# Bids"), bold=True, fill=HEAD_FILL,
            align="center", border=True)
     ws.column_dimensions[get_column_letter(c)].width = 11
     for i in range(len(item_keys)):
