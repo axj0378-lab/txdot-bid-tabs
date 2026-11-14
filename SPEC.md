@@ -26,15 +26,16 @@ Cost side of the Airfield Scope & Estimate Tool. Loads the master unit-price wor
 Foreign keys cannot cross projects:
 - **Airports**: `airports` is a mirror of `pc_airport` keyed by `faa_id`
   (`scripts/sync_airports.py`). Airports with bids but not in `pc_airport` are added with
-  `source = 'manual'`. Known: **FWS** (Fort Worth Spinks).
+  `source = 'manual'`. Known: **FWS** (Fort Worth Spinks). District/region overrides and manual
+  airports are in `data/airport_overrides.csv`.
 - **Sections**: referenced by business key `(faa_id, inspection_year, branch_id, section_id, dup_seq)`,
   never by `pc_section.id` (its loader re-inserts sections).
 - **Never write to the Pavement Condition Database.** Read-only connection only (`PCD_DB_URL`).
 
 ## Ground rules for Claude Code
 
-- Work on a branch. Apply migrations locally first (`supabase start` + `supabase db reset`)
-  when Docker is available; otherwise straight to the Estimate Master Database, which is empty.
+- Work on a branch. No Docker on this machine: migrations go straight to the Estimate Master
+  Database (empty). The Supabase CLI runs through `npx supabase ...` (Windows, no global install).
 - Schema changes only through new files in `supabase/migrations/`; never edit an applied one.
 - Secrets in `.env` (gitignored). Never print, log or commit keys.
 - Don't change the workbook pipeline's output (`main.py`, `master_sheet.py`, `reports.py`).
@@ -53,10 +54,10 @@ Foreign keys cannot cross projects:
 | Lump-sum items excluded from unit-price stats | DECIDED |
 | Multi-airport statewide groups → `project_airports`, region `MULTI-AIRPORT` | DECIDED |
 | Liberty excluded | DECIDED |
-| Price stats: all bidders vs low bid only (`cost_settings.stats_bidders`) | OPEN — default `all` |
-| Price stats include alternate schedules (`cost_settings.include_alternates`) | OPEN — default `true` |
-| Region = TxDOT district (CPT, T82, SWI, APY have none in `pc_airport`; FWS manual) | OPEN |
-| Inflation index (TxDOT HCI / FHWA NHCCI / ENR CCI) | OPEN — stats run nominal until set |
+| Price stats use all bidders (`cost_settings.stats_bidders = all`); switchable | DECIDED |
+| Price stats include alternate schedules (`include_alternates = true`); switchable | DECIDED |
+| Region = TxDOT district; overrides in `data/airport_overrides.csv` (CPT Fort Worth, T82 Austin, SWI Paris, APY Pharr, FWS Fort Worth) | DECIDED |
+| Inflation index (TxDOT HCI / FHWA NHCCI / ENR CCI) | DEFERRED — stats run nominal until set |
 | Treatment → pay item recipes (`treatment_pay_items`) | OPEN — engineering |
 
 ## Data model (`supabase/migrations/20261114*`)
@@ -91,8 +92,8 @@ Source: the workbook's **Projects** and **Bid Data** sheets (all 28 projects), e
    near-duplicates ("Lone Wolf, LLC" vs "Lone Wolf Construction, LLC") can be merged by hand.
 4. `award_total`: printed total over the award schedules (JSON `stated_totals`); for the two
    new-format projects, the workbook's Projects → Low Bid / bid totals.
-5. Units: map to `units.code`; blank or unknown → `needs_review = true`.
-   Known: Zapata `L-125.1` has no unit.
+5. Units: map to `units.code`; apply `data/unit_corrections.csv` first (Zapata `L-125.1` = EA,
+   confirmed from the PDF); anything still blank or unknown → `needs_review = true`.
 6. After loading a project call `refresh_bid_ranks()`; the low bidder must equal the workbook's
    `Low Bid = "Yes"` bidder, or fail loudly.
 7. Never create airports in the loader; every project must resolve through `project_airports.csv`.

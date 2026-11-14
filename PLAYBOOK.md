@@ -9,41 +9,57 @@ you, and move on only when the "Done when" line is true. Read SPEC.md first.
 
 1. Merge `legacy-bid-tabs` into `main` on GitHub, pull, and start a new branch:
    `git checkout main; git pull; git checkout -b cost-db`
-2. Install the Supabase CLI (`scoop install supabase`, or `npm i -g supabase`).
-   Optional: Docker Desktop, so migrations can be tested locally first.
-3. `supabase login`, then `supabase init` (if there's no `supabase/config.toml`), then
-   `supabase link --project-ref pcfuszhdxjumxagaityk`.
+2. Supabase CLI through npx (the npm package can't be installed globally on Windows):
+   `npm uninstall -g supabase`, then check `npx supabase@latest --version`.
+   Every `supabase ...` command below is run as `npx supabase ...`. No Docker needed.
+3. `npx supabase login`, then `npx supabase init` (if there's no `supabase/config.toml`), then
+   `npx supabase link --project-ref pcfuszhdxjumxagaityk`.
 4. Copy `.env.example` to `.env` and fill it in:
    - `SUPABASE_DB_URL`: Estimate Master Database → Connect → Session pooler string.
-   - `PCD_DB_URL`: **read-only** connection to the Pavement Condition Database, from your teammate.
+   - `PCD_DB_URL`: **read-only** connection to the Pavement Condition Database. Create the
+     `cost_reader` role there first (SQL below), then use its session-pooler string with user
+     `cost_reader.tglyumkbkbdcgmatwoij`.
 5. Add to `requirements.txt`: `psycopg[binary]>=3.1`, `python-dotenv>=1.0`, `rapidfuzz>=3.0`;
    `pip install -r requirements.txt`.
 
-**Done when:** `supabase projects list` shows the project as linked and `.env` is filled in.
+**Done when:** `npx supabase projects list` shows the project as linked and `.env` is filled in.
+
+Read-only role (run once in the **Pavement Condition Database** SQL editor; tell your teammate):
+
+```sql
+create role cost_reader with login password 'CHOOSE-A-STRONG-PASSWORD';
+grant usage on schema public to cost_reader;
+grant select on pc_airport, pc_inspection, pc_section, pc_distress, pc_acrp_rule, pc_acrp_map to cost_reader;
+create policy cost_reader_read on pc_airport    for select to cost_reader using (true);
+create policy cost_reader_read on pc_inspection for select to cost_reader using (true);
+create policy cost_reader_read on pc_section    for select to cost_reader using (true);
+create policy cost_reader_read on pc_distress   for select to cost_reader using (true);
+create policy cost_reader_read on pc_acrp_rule  for select to cost_reader using (true);
+create policy cost_reader_read on pc_acrp_map   for select to cost_reader using (true);
+```
 
 ---
 
 ## Session 1 — Apply the schema
 
-> Read SPEC.md and supabase/migrations/. If Docker is running, run `supabase start` and
-> `supabase db reset` to test the migrations locally; then apply them to the linked project
-> with `supabase db push`. Write tests/test_schema.py that connects with SUPABASE_DB_URL and
+> Read SPEC.md and supabase/migrations/. There is no Docker here, so check the migration SQL
+> carefully, then apply it to the linked (empty) project with `npx supabase db push`. Write tests/test_schema.py that connects with SUPABASE_DB_URL and
 > checks every table and view in SPEC.md exists and RLS is on for every table. Insert no data.
 
-**Done when:** `supabase db push` succeeds and the schema test passes.
+**Done when:** `npx supabase db push` succeeds and the schema test passes.
 
 ---
 
 ## Session 2 — Airports mirror
 
 > Write scripts/sync_airports.py: read pc_airport through PCD_DB_URL (read-only; never write
-> to it) and upsert into our airports table on faa_id, region = txdot_district. Then add the
-> manual airports listed in SPEC.md (FWS, Fort Worth Spinks) with source='manual'. Finally
+> to it) and upsert into our airports table on faa_id, region = txdot_district. Then apply
+> data/airport_overrides.csv (fills missing districts/regions, adds FWS as source='manual'). Finally
 > check that every faa_id in data/project_airports.csv exists in airports and print any that
 > don't, plus airports with no region.
 
-**Done when:** airports has ~246 rows, every project airport resolves, and you've decided the
-regions for CPT, T82, SWI, APY and FWS (see the questions list).
+**Done when:** airports has ~246 rows, every project airport resolves, and no airport used by a
+project is missing a region.
 
 ---
 
