@@ -46,7 +46,7 @@
    "schedule": "Base Bid",
    "item": "P-105-6",
    "description": "Mobilization",
-   "unit": "",
+   "unit": "LS",
    "qty": 1.0,
    "prices": [
     25000.0,
@@ -365,7 +365,7 @@
    "schedule": "Alt Bid 2",
    "item": "P-105-6",
    "description": "Mobilization",
-   "unit": "",
+   "unit": "LS",
    "qty": 1.0,
    "prices": [
     11000.0,
@@ -494,5 +494,7 @@
    ]
   }
  ],
- "notes": []
+ "notes": [
+  "Fix: S1-A2-2 Mobilization unit (LS) unreadable; read from the tab image"
+ ]
 }

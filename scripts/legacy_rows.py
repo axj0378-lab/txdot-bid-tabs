@@ -26,6 +26,7 @@ UNIT_WORDS = {
     "LB": "LB", "LBS": "LB", "AC": "AC", "ACRE": "AC", "MO": "MO", "MONTH": "MO", "DAY": "DAY",
     "DAYS": "DAY", "HR": "HR", "SFT": "SF", "SQYD": "SY", "SQ.YD.": "SY", "SQFT": "SF",
     "ALLOW": "ALLOW", "ALLOWANCE": "ALLOW", "MGAL": "MGAL", "STA": "STA", "LIN.FT.": "LF",
+    "TN": "TON", "MG": "MGAL", "LFT": "LF", "IS": "LS", "LSUM": "LS", "SQ.FT.": "SF",
     "FA": "FA", "CF": "CF", "MI": "MI", "LNFT": "LF", "UNIT": "EA", "SET": "EA", "LOT": "LS",
 }
 NUM_RE = re.compile(r"^\(?-?\$?\(?-?[\d,]*\.?\d+\)?$")
@@ -162,8 +163,9 @@ def parse_line(line: Line) -> Row | None:
     unit_idx = None
     for k, w in enumerate(words):
         t = w[4].upper().strip("|")
-        if unit is None and t in UNIT_WORDS:
-            unit, unit_idx = UNIT_WORDS[t], k
+        tu = t.rstrip(".") if t.rstrip(".") in UNIT_WORDS else t
+        if unit is None and tu in UNIT_WORDS:
+            unit, unit_idx = UNIT_WORDS[tu], k
         v = parse_num(w[4]) if NUM_RE.match(w[4].strip("|")) else None
         if v is not None:
             nums.append((k, v, (w[0] + w[2]) / 2, w[4]))
@@ -214,7 +216,8 @@ def parse_line(line: Line) -> Row | None:
         desc_words = lead[2:]
     else:
         desc_words = lead[1:] if item else lead
-    desc_words = [t for k, t in enumerate(desc_words) if not (unit_idx is not None and t.upper().strip("|") in UNIT_WORDS
+    desc_words = [t for k, t in enumerate(desc_words) if not (unit_idx is not None
+                                                               and t.upper().strip("|").rstrip(".") in UNIT_WORDS
                                                                and k == len(desc_words) - 1)]
     if not desc_words:
         # 'ITEM QTY UNIT DESCRIPTION PRICE...' layouts: description sits between the

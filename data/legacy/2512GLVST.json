@@ -86,7 +86,7 @@
    "schedule": "Base Bid",
    "item": "1.05",
    "description": "Concrete Pavement Removal",
-   "unit": "",
+   "unit": "SY",
    "qty": 1864.0,
    "prices": [
     24.0,
@@ -114,7 +114,7 @@
    "schedule": "Base Bid",
    "item": "1.07",
    "description": "Unclassified Excavation",
-   "unit": "",
+   "unit": "CY",
    "qty": 1600.0,
    "prices": [
     7.0,
@@ -240,7 +240,7 @@
    "schedule": "Base Bid",
    "item": "1.16",
    "description": "Permanent Reflectorized Pavement Marking (Yellow)",
-   "unit": "",
+   "unit": "SF",
    "qty": 10474.0,
    "prices": [
     2.5,
@@ -254,7 +254,7 @@
    "schedule": "Base Bid",
    "item": "1.17",
    "description": "Permanent Non-Reflectorized Pavement Marking (Black)",
-   "unit": "",
+   "unit": "SF",
    "qty": 5396.0,
    "prices": [
     2.0,
@@ -268,7 +268,7 @@
    "schedule": "Base Bid",
    "item": "1.18",
    "description": "Permanent Seeding",
-   "unit": "",
+   "unit": "AC",
    "qty": 2.0,
    "prices": [
     900.0,
@@ -282,7 +282,7 @@
    "schedule": "Base Bid",
    "item": "1.19",
    "description": "Temporary Seeding",
-   "unit": "",
+   "unit": "AC",
    "qty": 2.0,
    "prices": [
     900.0,
@@ -296,7 +296,7 @@
    "schedule": "Base Bid",
    "item": "1.20",
    "description": "Hydro-Mulch",
-   "unit": "",
+   "unit": "AC",
    "qty": 2.0,
    "prices": [
     4000.0,
@@ -492,7 +492,7 @@
    "schedule": "Base Bid",
    "item": "1.34",
    "description": "1-Way, 2\" Sch. PVC Conduit, Concrete Encased Installed via Saw-Kerf in 1.34",
-   "unit": "",
+   "unit": "LF",
    "qty": 2225.0,
    "prices": [
     35,
@@ -758,7 +758,7 @@
    "schedule": "Base Bid",
    "item": "1.53",
    "description": "Clearing and Grubbing",
-   "unit": "",
+   "unit": "AC",
    "qty": 2.0,
    "prices": [
     15000.0,
@@ -772,7 +772,7 @@
    "schedule": "Base Bid",
    "item": "1.54",
    "description": "Unclassified Excavation",
-   "unit": "",
+   "unit": "CY",
    "qty": 1500.0,
    "prices": [
     7.0,
@@ -786,7 +786,7 @@
    "schedule": "Base Bid",
    "item": "1.55",
    "description": "Permanent Seeding",
-   "unit": "",
+   "unit": "AC",
    "qty": 2.0,
    "prices": [
     900.0,
@@ -800,7 +800,7 @@
    "schedule": "Base Bid",
    "item": "1.56",
    "description": "Placement of Topsoil",
-   "unit": "",
+   "unit": "AC",
    "qty": 2.0,
    "prices": [
     4500.0,
@@ -814,7 +814,7 @@
    "schedule": "Base Bid",
    "item": "1.57",
    "description": "Hydro-Mulch",
-   "unit": "",
+   "unit": "AC",
    "qty": 2.0,
    "prices": [
     4000.0,
@@ -842,7 +842,7 @@
    "schedule": "Base Bid",
    "item": "1.59",
    "description": "Unclassified Excavation",
-   "unit": "",
+   "unit": "CY",
    "qty": 1200.0,
    "prices": [
     20.0,
@@ -1164,7 +1164,7 @@
    "schedule": "Add Alternate 1",
    "item": "A1.12",
    "description": "Surface Preparation, Pavement Marking Removal",
-   "unit": "",
+   "unit": "SF",
    "qty": 4200.0,
    "prices": [
     1.5,
@@ -1178,7 +1178,7 @@
    "schedule": "Add Alternate 1",
    "item": "A1.13",
    "description": "Permanent Reflectorized Pavement Marking (Yellow)",
-   "unit": "",
+   "unit": "SF",
    "qty": 12358.0,
    "prices": [
     2.5,
@@ -1192,7 +1192,7 @@
    "schedule": "Add Alternate 1",
    "item": "A1.14",
    "description": "Permanent Non-Reflectorized Pavement Marking (Black)",
-   "unit": "",
+   "unit": "SF",
    "qty": 8502.0,
    "prices": [
     2.0,
@@ -1206,7 +1206,7 @@
    "schedule": "Add Alternate 1",
    "item": "A1.15",
    "description": "Permanent Seeding",
-   "unit": "",
+   "unit": "AC",
    "qty": 1.0,
    "prices": [
     900.0,
@@ -1220,7 +1220,7 @@
    "schedule": "Add Alternate 1",
    "item": "A1.16",
    "description": "Temporary Seeding",
-   "unit": "",
+   "unit": "AC",
    "qty": 1.0,
    "prices": [
     900.0,
@@ -1234,7 +1234,7 @@
    "schedule": "Add Alternate 1",
    "item": "A1.17",
    "description": "Hydro-Mulch",
-   "unit": "",
+   "unit": "AC",
    "qty": 1.0,
    "prices": [
     4000.0,

@@ -393,8 +393,8 @@
   {
    "schedule": "Base Bid",
    "item": "TXDOT168",
-   "description": "Vegetative Watering MG",
-   "unit": "",
+   "description": "Vegetative Watering",
+   "unit": "MGAL",
    "qty": 344.0,
    "prices": [
     99.0,
@@ -1023,8 +1023,8 @@
   {
    "schedule": "Additive Alternate 2",
    "item": "TXDOT168",
-   "description": "Vegetative Watering MG",
-   "unit": "",
+   "description": "Vegetative Watering",
+   "unit": "MGAL",
    "qty": 125.0,
    "prices": [
     99.0,

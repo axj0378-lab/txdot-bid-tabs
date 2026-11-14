@@ -1,0 +1,41 @@
+project_id,faa_id,note
+2409KILEN,ILE,
+2412CONRO,CXO,
+2416FREDB,T82,
+2419ALNTA,ATA,
+2420KNTZE,45R,
+2424PRSDO,PRS,
+2501DENSN,GYI,
+2501DENSN-JUN25,GYI,
+2502CLBRN,CPT,
+2502GNDPR,GPM,
+2504DUMAS,DUX,
+2505LVLND,LLN,
+2507BGLKE,E41,
+2509TEMPL,TPL,
+2511LUFKN,LFK,
+2512BAYCY,BYY,
+2512GLVST,GLS,
+2513YOKUM,T85,
+2517HUNTS,UTS,
+2521EDINB,EBG,
+2602SPINK,FWS,Fort Worth Spinks - not in the Pavement Condition Database pc_airport table
+2611NACOG,OCH,
+2612ANGLE,LBX,
+4222AVSAE,26R,statewide group Alpha
+4222AVSAE,T20,statewide group Alpha
+4222AVSAE,RKP,statewide group Alpha
+4222AVSAE,84R,statewide group Alpha
+4222AVSAE,TRL,statewide group Alpha
+4224AVSAMK,F00,statewide group Kilo (tab prints FOO; FAA ID is F00)
+4224AVSAMK,2F7,statewide group Kilo
+4224AVSAMK,GDJ,statewide group Kilo
+4224AVSAMK,LXY,statewide group Kilo
+4224AVSAMK,JWY,statewide group Kilo
+STWJULIET,BKS,statewide group Juliet
+STWJULIET,HBV,statewide group Juliet
+STWJULIET,IKG,statewide group Juliet
+STWJULIET,UVA,statewide group Juliet
+STWJULIET,TXW,statewide group Juliet
+NTB2614LHART00034,50R,
+NTB2521ZAPAT00053,APY,
