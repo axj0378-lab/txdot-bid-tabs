@@ -1,0 +1,370 @@
+{
+ "project_id": "2517HUNTS",
+ "airport": "Huntsville Municipal Airport",
+ "csj": "2517HUNTS",
+ "scope": "Runway Pavement",
+ "description": "2025 Airport Runway Pavement Improvements",
+ "bid_date": "2025-08-19",
+ "location": "Huntsville",
+ "source_pdf": "2517HUNTS_BidTabulation.pdf",
+ "columns": [
+  "Knife River Corporation-South",
+  "Allen Keller Company",
+  "Lone Wolf Construction, LLC",
+  "Apex Alliance, LLC",
+  "Texas Materials Group, Inc."
+ ],
+ "estimate_column": null,
+ "award_schedules": [
+  "Base Bid"
+ ],
+ "stated_totals": {
+  "Knife River Corporation-South": 3515724.1,
+  "Allen Keller Company": 3729640.63,
+  "Lone Wolf Construction, LLC": 3891836.0,
+  "Apex Alliance, LLC": 4217534.1,
+  "Texas Materials Group, Inc.": 4698745.0
+ },
+ "items": [
+  {
+   "schedule": "Base Bid",
+   "item": "C-100",
+   "description": "Contractor Quality Control Program",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    275000.0,
+    91860.94,
+    17500.0,
+    53750.0,
+    63000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-102",
+   "description": "Temporary Air and Water Pollution, Soil Erosion, and Siltation Control",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    19700.0,
+    136367.87,
+    40000.0,
+    146620.6,
+    72000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "C-105",
+   "description": "Mobilization",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    305000.0,
+    355000.0,
+    150000.0,
+    150800.0,
+    550000.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "2517HUNTS#4",
+   "description": "Install RW Closure Markers (Special)",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    23165.0,
+    15219.98,
+    15000.0,
+    8680.0,
+    27150.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-101",
+   "description": "Cold Milling (Thickness Varies) (Deliver to Owner)",
+   "unit": "SY",
+   "qty": 57300.0,
+   "prices": [
+    3.37,
+    1.1,
+    3.82,
+    1.78,
+    3.3
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620",
+   "description": "Permanent Runway Painting (White)",
+   "unit": "SF",
+   "qty": 24000.0,
+   "prices": [
+    1.56,
+    0.98,
+    1.03,
+    1.9,
+    1.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "P-620",
+   "description": "Permanent Runway Painting (Yellow)",
+   "unit": "SF",
+   "qty": 10000.0,
+   "prices": [
+    0.63,
+    0.98,
+    1.03,
+    1.9,
+    1.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TXDOT-160",
+   "description": "Furnishing and Placing Topsoil",
+   "unit": "CY",
+   "qty": 1860.0,
+   "prices": [
+    31.9,
+    65.3,
+    45.0,
+    91.45,
+    90.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TXDOT-162",
+   "description": "Block Sodding",
+   "unit": "SY",
+   "qty": 2220.0,
+   "prices": [
+    11.83,
+    10.99,
+    15.0,
+    23.79,
+    7.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TXDOT-164",
+   "description": "Broadcast Seeding (Permanent) (Rural)",
+   "unit": "SY",
+   "qty": 33800.0,
+   "prices": [
+    0.4,
+    0.41,
+    0.46,
+    1.01,
+    0.4
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TXDOT-247",
+   "description": "Flexible Base (1 Inch) (Type A, Grade 1-2)",
+   "unit": "SY",
+   "qty": 57850.0,
+   "prices": [
+    3.17,
+    3.73,
+    2.38,
+    2.29,
+    4.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TXDOT-275",
+   "description": "Cement Treatment (Road Mixed) (8 Inches)",
+   "unit": "SY",
+   "qty": 57850.0,
+   "prices": [
+    1.85,
+    3.88,
+    10.5,
+    3.4,
+    7.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TXDOT-275",
+   "description": "Cement (5 Percent Used for Estimating Purposes)",
+   "unit": "TON",
+   "qty": 1040.0,
+   "prices": [
+    270.0,
+    203.72,
+    260.0,
+    359.08,
+    216.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TXDOT-310",
+   "description": "Prime Coat (MC-30 at 0.30 gal/sy)",
+   "unit": "GAL",
+   "qty": 16675.0,
+   "prices": [
+    6.74,
+    4.67,
+    6.0,
+    8.4,
+    7.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TXDOT-341",
+   "description": "Tack Coat (at 0.10 gal/sy)",
+   "unit": "GAL",
+   "qty": 5550.0,
+   "prices": [
+    5.0,
+    4.6,
+    6.0,
+    7.0,
+    7.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TXDOT-341",
+   "description": "Dense-Graded HMA (PG 64-22) (Type C) (2-Inches)",
+   "unit": "TON",
+   "qty": 6120.0,
+   "prices": [
+    143.8,
+    164.0,
+    166.0,
+    198.55,
+    199.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "TXDOT-341",
+   "description": "Dense-Graded HMA (PG 64-22) (Type D) (2-Inches)",
+   "unit": "TON",
+   "qty": 6300.0,
+   "prices": [
+    140.78,
+    165.78,
+    166.0,
+    198.55,
+    200.5
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "2517HUNTS#18",
+   "description": "Adjust PAPI Lens Height (Special)",
+   "unit": "EA",
+   "qty": 3.0,
+   "prices": [
+    1563.0,
+    4054.92,
+    1438.0,
+    2800.0,
+    1450.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "2517HUNTS#19",
+   "description": "L-867B Riser (4 Inch) (12 Inch Dia.) with Reinforced Concrete Weed Barrier (Special)",
+   "unit": "EA",
+   "qty": 28.0,
+   "prices": [
+    2382.0,
+    1914.83,
+    2191.0,
+    2520.0,
+    2100.0
+   ]
+  },
+  {
+   "schedule": "Base Bid",
+   "item": "2517HUNTS#20",
+   "description": "L-867B Riser (6 Inch) (12 Inch Dia.) with Reinforced Concrete Weed Barrier (Special)",
+   "unit": "EA",
+   "qty": 3.0,
+   "prices": [
+    2400.0,
+    1914.83,
+    2214.0,
+    2520.0,
+    2100.0
+   ]
+  },
+  {
+   "schedule": "Alternate 1",
+   "item": "P-101",
+   "description": "Cold Milling (Additional Deliver Excess to Owner)",
+   "unit": "LS",
+   "qty": 1.0,
+   "prices": [
+    14000.0,
+    18150.0,
+    150000.0,
+    11040.0,
+    -189090.0
+   ]
+  },
+  {
+   "schedule": "Alternate 1",
+   "item": "TXDOT-247",
+   "description": "Flexible Base (Remove 1-Inch) (Type A, Grade 1-2) (deduct)",
+   "unit": "SY",
+   "qty": -57850.0,
+   "prices": [
+    2.58,
+    3.23,
+    2.38,
+    2.29,
+    4.0
+   ]
+  },
+  {
+   "schedule": "Alternate 1",
+   "item": "TXDOT-275",
+   "description": "Cement Treatment (Road-Mixed) (Remove 2-Inches) (deduct)",
+   "unit": "SY",
+   "qty": -57850.0,
+   "prices": [
+    0.3,
+    0.01,
+    2.2,
+    0.23,
+    0.0
+   ]
+  },
+  {
+   "schedule": "Alternate 1",
+   "item": "TXDOT-421",
+   "description": "Cement (5 Percent Used for Estimating Purposes) (deduct)",
+   "unit": "TON",
+   "qty": -260.0,
+   "prices": [
+    270.0,
+    165.96,
+    260.0,
+    359.08,
+    216.0
+   ]
+  }
+ ],
+ "notes": [
+  "Scanned tab; all rows transcribed from the image. Items marked 'Special' have no FAA/TxDOT spec code on the tab.",
+  "Texas Materials bid Alternate 1 item 1 (cold milling) as a credit of $189,090."
+ ]
+}
