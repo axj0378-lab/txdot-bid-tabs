@@ -25,6 +25,7 @@ import pdfplumber
 import pypdfium2 as pdfium
 import pytesseract
 
+TESS_LINES = False   # --tess-lines: keep tesseract's own line grouping
 DPI = 450   # small table fonts need more than 300 (--dpi 600 for the densest tabs)
 KEYWORDS = re.compile(r"\b(total|unit|item|bid|price|quantity|description|lump|sum|each)\b", re.I)
 
@@ -59,9 +60,9 @@ def remove_rules(gray: np.ndarray) -> np.ndarray:
 
 
 def ocr_page(args) -> str:
-    pdf, i, out, dpi = args
-    global DPI
-    DPI = dpi
+    pdf, i, out, dpi, tess_lines = args
+    global DPI, TESS_LINES
+    DPI, TESS_LINES = dpi, tess_lines
     doc = pdfium.PdfDocument(str(pdf))
     img = doc[i].render(scale=DPI / 72).to_pil().convert("L")
     rotate = 0
@@ -77,6 +78,16 @@ def ocr_page(args) -> str:
     words = [[d["left"][k], d["top"][k], d["left"][k] + d["width"][k], d["top"][k] + d["height"][k],
               d["text"][k], float(d["conf"][k])]
              for k in range(len(d["text"])) if d["text"][k].strip()]
+    if TESS_LINES:   # snap each word to its tesseract line so tightly spaced rows stay apart
+        keys = [(d["block_num"][k], d["par_num"][k], d["line_num"][k])
+                for k in range(len(d["text"])) if d["text"][k].strip()]
+        ys = {}
+        for key, w in zip(keys, words):
+            ys.setdefault(key, []).append((w[1] + w[3]) / 2)
+        mid = {key: sum(v) / len(v) for key, v in ys.items()}
+        for key, w in zip(keys, words):
+            h = max(4, (w[3] - w[1]) // 4)
+            w[1], w[3] = int(mid[key] - h), int(mid[key] + h)
     (out / f"p{i + 1:02d}.json").write_text(json.dumps(
         {"w": img.shape[1], "h": img.shape[0], "source": "ocr", "rotate": rotate, "words": words}))
     return f"{pdf.stem} p{i + 1} rot={rotate} words={len(words)}"
@@ -93,6 +104,7 @@ def main() -> int:
     ap.add_argument("--force-ocr", action="store_true", help="OCR even when the text layer is usable")
     ap.add_argument("--xtol", type=float, default=3, help="text-layer letter gap that still joins a word")
     ap.add_argument("--dpi", type=int, default=DPI)
+    ap.add_argument("--tess-lines", action="store_true")
     a = ap.parse_args()
     DPI = a.dpi
     jobs = []
@@ -107,7 +119,7 @@ def main() -> int:
             continue
         n = len(pdfium.PdfDocument(str(pdf)))
         want = {int(x) - 1 for x in a.pages.split(",")} if a.pages else set(range(n))
-        jobs += [(pdf, i, out, a.dpi) for i in sorted(want) if not (out / f"p{i + 1:02d}.json").exists()]
+        jobs += [(pdf, i, out, a.dpi, a.tess_lines) for i in sorted(want) if not (out / f"p{i + 1:02d}.json").exists()]
     with ProcessPoolExecutor(a.jobs) as ex:
         for msg in ex.map(ocr_page, jobs):
             print(msg, flush=True)

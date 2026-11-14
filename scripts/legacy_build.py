@@ -121,6 +121,10 @@ def run(cfg: dict, show: bool) -> dict:
             for k, v in fx.get("price", {}).items():   # {column index: price}
                 h["prices"][int(k)] = v
             h["_check"] = []
+    if cfg.get("drop_estimate_only") and cfg.get("estimate"):
+        # merged OCR rows priced only in the estimate column (no bidder priced them)
+        e = cols.index(cfg["estimate"])
+        items = [it for it in items if any(p is not None for k, p in enumerate(it["prices"]) if k != e)]
     for it in items:
         it["qty"] = float(it["qty"])
         # OCR leaves stray marks in front of descriptions ('= Double Chip Seal', '— Install', '_ ')

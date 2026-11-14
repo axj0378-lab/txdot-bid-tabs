@@ -23,11 +23,9 @@ sys.path.insert(0, str(ROOT))
 from txdot_bid_tabs import legacy, master_sheet  # noqa: E402
 from txdot_bid_tabs.config import MASTER_SHEET_PATH  # noqa: E402
 
-PENDING_WHY = {
-    "2501DENSN-BidTab.pdf": "December 2025 re-bid; dense 4-page scan, needs transcription from the image",
-    "2517HUNTS_BidTabulation.pdf": "Scanned summary of totals per bidder; check later pages for unit prices",
-    "2602SPINK-BidTab.pdf": "Summary page plus detail pages; OCR reads almost nothing, needs transcription",
-    "2520LBRTY_CompleteBids.pdf": "One contractor's full bid proposal (Apex Alliance), not a tabulation of bidders",
+EXCLUDED = {
+    "2520LBRTY_CompleteBids.pdf": "One contractor's full bid proposal (Apex Alliance), not a tabulation of "
+                                  "competing bids; left out so it doesn't skew the low-bid prices.",
 }
 
 
@@ -59,7 +57,10 @@ def main() -> int:
     done = {json.loads(f.read_text(encoding="utf-8"))["source_pdf"] for f in legacy.LEGACY_DIR.glob("*.json")}
     for pdf in sorted((ROOT / "samples" / "legacy").glob("*.pdf")):
         if pdf.name not in done:
-            log.append((pdf.stem[:12], pdf.name, "PENDING: not extracted yet", PENDING_WHY.get(pdf.name, "")))
+            if pdf.name in EXCLUDED:
+                log.append((pdf.stem[:12], pdf.name, "EXCLUDED", EXCLUDED[pdf.name]))
+            else:
+                log.append((pdf.stem[:12], pdf.name, "PENDING: not extracted yet", ""))
 
     wb = load_workbook(a.out)
     if "Legacy Tabs Log" in wb.sheetnames:
