@@ -162,7 +162,7 @@
    "schedule": "Base Bid",
    "item": "P-151",
    "description": "Clearing",
-   "unit": "",
+   "unit": "AC",
    "qty": 6.6,
    "prices": [
     5000.0,
@@ -770,7 +770,7 @@
    "schedule": "Base Bid",
    "item": "T-901",
    "description": "Permanent Seeding",
-   "unit": "",
+   "unit": "AC",
    "qty": 11.6,
    "prices": [
     1500.0,
@@ -786,7 +786,7 @@
    "schedule": "Base Bid",
    "item": "T-901",
    "description": "Temporary Seeding",
-   "unit": "",
+   "unit": "AC",
    "qty": 11.6,
    "prices": [
     1000.0,
@@ -818,7 +818,7 @@
    "schedule": "Base Bid",
    "item": "T-908",
    "description": "Hydro-Mulch",
-   "unit": "",
+   "unit": "AC",
    "qty": 8.8,
    "prices": [
     1000.0,
@@ -1314,7 +1314,7 @@
    "schedule": "Base Bid",
    "item": "SS-102",
    "description": "Remove and Replace Unsuitable Subgrade with Foundation Material as Directed by the Engineer",
-   "unit": "",
+   "unit": "CY",
    "qty": 200.0,
    "prices": [
     25.0,
@@ -1330,7 +1330,7 @@
    "schedule": "Base Bid",
    "item": "TXDOT216",
    "description": "Proof Rolling",
-   "unit": "",
+   "unit": "HR",
    "qty": 25.0,
    "prices": [
     75.0,
@@ -1378,7 +1378,7 @@
    "schedule": "Alternate",
    "item": "P-43",
    "description": "Asphalt Mixture Surface Course (+4\")",
-   "unit": "",
+   "unit": "TON",
    "qty": 1161.0,
    "prices": [
     155.0,
@@ -1410,7 +1410,7 @@
    "schedule": "Alternate",
    "item": "SS-101",
    "description": "Temporary Marking, Lighting and Barricades",
-   "unit": "",
+   "unit": "LS",
    "qty": 1.0,
    "prices": [
     10000.0,

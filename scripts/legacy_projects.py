@@ -120,6 +120,8 @@ PROJECTS = [
         "printed": {"Base Bid": [548597.00, 807612.50],
                     "Alt Bid 1": [314494.00, 419773.50],
                     "Alt Bid 2": [481652.00, 611298.50]},
+        "fixes": [{"item": "P-105-6", "schedule": "Alt Bid 2", "unit": "LS",
+                   "why": "S1-A2-2 Mobilization unit (LS) unreadable; read from the tab image"}],
         "award_schedules": ["Base Bid"],
     },
     {
@@ -185,7 +187,7 @@ PROJECTS = [
              "why": "1.31: last three bidders' prices missed by OCR; read from the tab image"},
             {"row": 31, "item_new": "1.32", "why": "1.32: line number left in the description"},
             {"row": 32, "item_new": "1.33", "why": "1.33: line number left in the description"},
-            {"row": 33, "item_new": "1.34", "prices": [35, 104, 110, 80, 85],
+            {"row": 33, "item_new": "1.34", "unit": "LF", "prices": [35, 104, 110, 80, 85],
              "why": "1.34: last three bidders' prices missed by OCR; read from the tab image"},
             {"row": 34, "item_new": "1.35", "why": "1.35: line number left in the description"},
             {"row": 35, "item_new": "1.36", "why": "1.36: line number left in the description"},

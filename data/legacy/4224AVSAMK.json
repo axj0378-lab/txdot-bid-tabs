@@ -28,7 +28,7 @@
    "schedule": "Bid Schedule 1",
    "item": "CC-105",
    "description": "Mobilization - Bonham",
-   "unit": "",
+   "unit": "LS",
    "qty": 1.0,
    "prices": [
     75000.0,
@@ -40,7 +40,7 @@
    "schedule": "Bid Schedule 1",
    "item": "C-105",
    "description": "Mobilization - Commerce",
-   "unit": "",
+   "unit": "LS",
    "qty": 1.0,
    "prices": [
     23000.0,
@@ -76,7 +76,7 @@
    "schedule": "Bid Schedule 1",
    "item": "C-105",
    "description": "Mobilization - Mid-Way",
-   "unit": "",
+   "unit": "LS",
    "qty": 1.0,
    "prices": [
     65000.0,
@@ -88,7 +88,7 @@
    "schedule": "Bid Schedule 1",
    "item": "SS-101",
    "description": "Temporary Marking, Lighting and Barricades - Bonham",
-   "unit": "",
+   "unit": "LS",
    "qty": 1.0,
    "prices": [
     11000.0,
@@ -100,7 +100,7 @@
    "schedule": "Bid Schedule 1",
    "item": "SS-101",
    "description": "Temporary Marking, Lighting and Barricades - Commerce",
-   "unit": "",
+   "unit": "LS",
    "qty": 1.0,
    "prices": [
     11000.0,
@@ -112,7 +112,7 @@
    "schedule": "Bid Schedule 1",
    "item": "SS-101",
    "description": "Temporary Marking, Lighting and Barricades - Granbury",
-   "unit": "",
+   "unit": "LS",
    "qty": 1.0,
    "prices": [
     11000.0,
@@ -124,7 +124,7 @@
    "schedule": "Bid Schedule 1",
    "item": "SS-101",
    "description": "Temporary Marking, Lighting and Barricades - Mexia",
-   "unit": "",
+   "unit": "LS",
    "qty": 1.0,
    "prices": [
     15000.0,
@@ -136,7 +136,7 @@
    "schedule": "Bid Schedule 1",
    "item": "SS-101",
    "description": "Temporary Marking, Lighting and Barricades - Mid-Way",
-   "unit": "",
+   "unit": "LS",
    "qty": 1.0,
    "prices": [
     11000.0,
@@ -184,7 +184,7 @@
    "schedule": "Bid Schedule 1",
    "item": "P-620",
    "description": "Surface Preparation - Bonham",
-   "unit": "",
+   "unit": "LS",
    "qty": 1.0,
    "prices": [
     15000.0,
@@ -196,7 +196,7 @@
    "schedule": "Bid Schedule 1",
    "item": "P-620",
    "description": "Surface Preparation - Commerce",
-   "unit": "",
+   "unit": "LS",
    "qty": 1.0,
    "prices": [
     15000.0,
@@ -220,7 +220,7 @@
    "schedule": "Bid Schedule 1",
    "item": "P-620",
    "description": "Surface Preparation - Mexia",
-   "unit": "",
+   "unit": "LS",
    "qty": 1.0,
    "prices": [
     18000.0,
@@ -232,7 +232,7 @@
    "schedule": "Bid Schedule 1",
    "item": "P-620",
    "description": "Surface Preparation - Mid-way",
-   "unit": "",
+   "unit": "LS",
    "qty": 1.0,
    "prices": [
     15000.0,
@@ -292,7 +292,7 @@
    "schedule": "Bid Schedule 1",
    "item": "23",
    "description": "Treatment TxDOT216 Proof Rolling",
-   "unit": "",
+   "unit": "HR",
    "qty": 60.0,
    "prices": [
     75.0,
@@ -316,7 +316,7 @@
    "schedule": "Additive Alternate 1",
    "item": "TXDOT316",
    "description": "Double Course Chip Seal Coat Surface Treatment",
-   "unit": "",
+   "unit": "SY",
    "qty": 25400.0,
    "prices": [
     5.0,
@@ -352,7 +352,7 @@
    "schedule": "Additive Alternate 2",
    "item": "TXDOT316",
    "description": "Double Coarse Chip Seal Coat Surface Treatment",
-   "unit": "",
+   "unit": "SY",
    "qty": 4600.0,
    "prices": [
     5.0,

@@ -43,3 +43,9 @@ def test_no_formula_like_descriptions():
     for f in FILES:
         for it in json.loads(f.read_text(encoding="utf-8"))["items"]:
             assert not it["description"].startswith(("=", "+", "@")), (f.stem, it["item"])
+
+
+def test_every_item_has_a_unit():
+    for f in FILES:
+        for it in json.loads(f.read_text(encoding="utf-8"))["items"]:
+            assert it["unit"], (f.stem, it["item"], it["description"])

@@ -222,8 +222,8 @@
   {
    "schedule": "Base Bid",
    "item": "1.16",
-   "description": "Lime (8%) TN",
-   "unit": "",
+   "description": "Lime (8%)",
+   "unit": "TON",
    "qty": 205.0,
    "prices": [
     364.0,
@@ -287,8 +287,8 @@
   {
    "schedule": "Base Bid",
    "item": "1.21",
-   "description": "Vegetative Watering MG",
-   "unit": "",
+   "description": "Vegetative Watering",
+   "unit": "MGAL",
    "qty": 316.0,
    "prices": [
     109.0,
@@ -586,8 +586,8 @@
   {
    "schedule": "Additive Alternate No. 1",
    "item": "A-1.02",
-   "description": "Lime (8%) TN",
-   "unit": "",
+   "description": "Lime (8%)",
+   "unit": "TON",
    "qty": 8.0,
    "prices": [
     364.0,
@@ -651,8 +651,8 @@
   {
    "schedule": "Additive Alternate No. 2",
    "item": "A2.02",
-   "description": "Lime (8%) TN",
-   "unit": "",
+   "description": "Lime (8%)",
+   "unit": "TON",
    "qty": 16.0,
    "prices": [
     364.0,

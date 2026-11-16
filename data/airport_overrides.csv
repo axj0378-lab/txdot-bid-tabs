@@ -1,0 +1,6 @@
+faa_id,name,city,txdot_district,region,source,note
+CPT,,,Fort Worth,Fort Worth,pc_airport,district missing in pc_airport; Johnson County = TxDOT District 2
+T82,,,Austin,Austin,pc_airport,district missing in pc_airport; Gillespie County = TxDOT District 14
+SWI,,,Paris,Paris,pc_airport,district missing in pc_airport; Grayson County = TxDOT District 1
+APY,,,Pharr,Pharr,pc_airport,district missing in pc_airport; Zapata County = TxDOT District 21
+FWS,Fort Worth Spinks Airport,Fort Worth,Fort Worth,Fort Worth,manual,not in pc_airport; Tarrant County = TxDOT District 2
