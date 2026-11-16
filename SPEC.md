@@ -67,7 +67,8 @@ Foreign keys cannot cross projects:
 - `projects` — `project_id` = workbook Project ID; `award_schedules text[]`; `notes` = audit trail.
 - `project_airports` — one row per airport (3 statewide groups have 5 each).
 - `bidders` (normalized names), `bids` (`is_estimate`, `award_total`, `rank`, `is_low`, `verified`).
-- `bid_schedule_totals` — printed subtotal per bid × schedule (from `data/legacy/*.json`).
+- `bid_schedule_totals` — printed subtotal per bid × schedule (from `data/legacy/*.json`;
+  single-award-schedule projects only, see Loader rule 4).
 - `pay_items`, `pay_item_aliases` — canonical catalog + learned mappings.
 - `bid_line_items` — one row per bid × schedule × item; raw code/description/unit kept.
 - `cost_indices`, `regional_factors`, `cost_settings`.
@@ -86,12 +87,19 @@ Source: the workbook's **Projects** and **Bid Data** sheets (all 28 projects), e
 
 1. One transaction per project; idempotent (upsert on `projects.project_id`,
    `bids (project_id, bidder_id)`, `bid_line_items (bid_id, line_no)`). Re-running changes nothing.
-2. `Low Bid = "Estimate"` → `bids.is_estimate = true`.
+2. `Low Bid = "Estimate"` → `bids.is_estimate = true`. All engineer's estimates share one bidder,
+   `ENGINEERS ESTIMATE` (including "Parkhill (Engineer's Estimate)"); the printed name stays in
+   `bids.bidder_name_raw`.
 3. Bidder names: keep raw on `bids.bidder_name_raw`; normalize (upper case, strip punctuation,
-   drop LLC/INC/CO/LTD/CORP/COMPANY) into `bidders.name_normalized`. Print every new bidder so
-   near-duplicates ("Lone Wolf, LLC" vs "Lone Wolf Construction, LLC") can be merged by hand.
+   drop LLC/INC/CO/LTD/CORP/COMPANY/CORPORATION/INCORPORATED/LP/LLP anywhere in the name) into
+   `bidders.name_normalized`. Print every new bidder so near-duplicates ("Lone Wolf, LLC" vs
+   "Lone Wolf Construction, LLC") can be merged by hand; confirmed merges go in
+   `data/bidder_merges.csv` (`from_normalized` → `to_normalized`) and are applied on every load.
 4. `award_total`: printed total over the award schedules (JSON `stated_totals`); for the two
-   new-format projects, the workbook's Projects → Low Bid / bid totals.
+   new-format projects, the workbook's Projects → Low Bid for the low bidder and the sum of line
+   totals for the others. The JSON holds one printed total per bidder, so `bid_schedule_totals`
+   gets a row only when a project has a single award schedule (not 2512BAYCY, 4224AVSAMK).
+   New-format tabs have no schedules: their lines and award schedule are `Base Bid`.
 5. Units: map to `units.code`; apply `data/unit_corrections.csv` first (Zapata `L-125.1` = EA,
    confirmed from the PDF); anything still blank or unknown → `needs_review = true`.
 6. After loading a project call `refresh_bid_ranks()`; the low bidder must equal the workbook's
