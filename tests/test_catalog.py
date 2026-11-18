@@ -25,7 +25,7 @@ needs_db = pytest.mark.skipif(not DB_URL, reason="SUPABASE_DB_URL not set")
 def test_reviewed_catalog_is_valid():
     pay_items, aliases, check_notes = read_catalog()
     assert len(aliases) == 977
-    assert len(pay_items) == 462
+    assert len(pay_items) == 463
     assert all(v["category"] for v in pay_items.values())
     assert set(aliases.values()) == set(pay_items)
     assert set(check_notes) <= set(aliases)
@@ -133,7 +133,7 @@ def test_price_lookup_one_row_per_item_and_region(conn):
 @needs_db
 def test_price_lookup_uses_region_only_with_enough_projects(conn):
     k = _one(conn, "select min_projects_region from public.cost_settings where id")
-    assert k == 3
+    assert k == 1          # OPEN decision (SPEC.md): regional price whenever the region has bids
     bad = conn.execute("""
         select l.pay_item_id, l.region from public.v_unit_price_lookup l
         left join public.v_unit_price_stats r on r.pay_item_id = l.pay_item_id and r.region = l.region
@@ -151,11 +151,31 @@ def test_price_lookup_uses_region_only_with_enough_projects(conn):
 def test_price_lookup_follows_setting():
     with psycopg.connect(DB_URL, autocommit=True) as c:
         with c.transaction(force_rollback=True):
-            at3 = _one(c, "select count(*) from public.v_unit_price_lookup where price_source = 'region'")
             c.execute("update public.cost_settings set min_projects_region = 1")
             at1 = _one(c, "select count(*) from public.v_unit_price_lookup where price_source = 'region'")
             regional = _one(c, "select count(*) from public.v_unit_price_stats where region <> 'STATEWIDE'")
+            c.execute("update public.cost_settings set min_projects_region = 3")
+            at3 = _one(c, "select count(*) from public.v_unit_price_lookup where price_source = 'region'")
+            fallback3 = _one(c, """select count(*) from public.v_unit_price_lookup
+                                   where confidence = 'statewide fallback' and region_n_projects > 0""")
     assert at1 == regional > at3
+    assert fallback3 > 0       # regions with 1-2 projects fall back when the setting is raised
+
+
+@needs_db
+def test_price_lookup_confidence(conn):
+    bad = conn.execute("""
+        select pay_item_id, region, price_source, n_projects, region_n_projects, confidence
+        from public.v_unit_price_lookup
+        where confidence is distinct from case
+                when price_source = 'statewide' and region <> 'STATEWIDE' then 'statewide fallback'
+                when n_projects >= 3 then 'high' when n_projects = 2 then 'medium' else 'low' end""").fetchall()
+    assert not bad, bad[:10]
+    # with min_projects_region = 1 a region falls back only when it has no bids
+    assert _one(conn, """select count(*) from public.v_unit_price_lookup
+                         where confidence = 'statewide fallback' and region_n_projects > 0""") == 0
+    labels = {r[0] for r in conn.execute("select distinct confidence from public.v_unit_price_lookup")}
+    assert labels == {"high", "medium", "low", "statewide fallback"}
 
 
 @needs_db

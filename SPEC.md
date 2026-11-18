@@ -56,7 +56,7 @@ Foreign keys cannot cross projects:
 | Liberty excluded | DECIDED |
 | Price stats use all bidders (`cost_settings.stats_bidders = all`); switchable | DECIDED |
 | Price stats include alternate schedules (`include_alternates = true`); switchable | DECIDED |
-| Regional price only with ≥ 3 projects in the region (`min_projects_region`), else statewide | DECIDED |
+| Regional price whenever the region has bids (`min_projects_region = 1`), with a confidence label (previously ≥ 3 projects; revert with `min_projects_region = 3`) | OPEN — pending instructor review |
 | Region = TxDOT district; overrides in `data/airport_overrides.csv` (CPT Fort Worth, T82 Austin, SWI Paris, APY Pharr, FWS Fort Worth) | DECIDED |
 | Inflation index (TxDOT HCI / FHWA NHCCI / ENR CCI) | DEFERRED — stats run nominal until set |
 | Treatment → pay item recipes (`treatment_pay_items`) | OPEN — engineering |
@@ -74,13 +74,15 @@ Foreign keys cannot cross projects:
 - `bid_line_items` — one row per bid × schedule × item; raw code/description/unit kept;
   `excluded_from_stats` (review decision, `20261117000100`) keeps a line in the bid and the total
   checks but out of `v_unit_prices_adjusted`, `v_estimate_vs_bids` and `v_review_queue`.
-- `cost_indices`, `regional_factors`, `cost_settings` (`min_projects_region`, default 3, added in
+- `cost_indices`, `regional_factors`, `cost_settings` (`min_projects_region`, column default 3, set to 1 by
+  `20261118000200`; added in
   `20261118000100`; the older `min_sample_size` is not used by any view).
 - Views: `v_unit_prices_adjusted`, `v_unit_price_stats` (region rows + STATEWIDE),
   `v_estimate_vs_bids`, `v_bid_total_check`, `v_review_queue`, `v_unit_price_lookup` (one price
   per pay item × region: the region median when the region has ≥ `min_projects_region`
   projects, else the statewide median; `price_source` says which, with that source's
-  `n_projects`/`n_bidders`; covers every airport region + STATEWIDE).
+  `n_projects`/`n_bidders`; covers every airport region + STATEWIDE; `confidence` (`20261118000200`):
+  high = 3+ projects, medium = 2, low = 1, `statewide fallback` = region row priced statewide).
 - `treatment_pay_items`, `estimates`, `estimate_line_items` — estimate engine output (later).
 
 Tested on Supabase Postgres 17 (inside a rolled-back transaction): migrations apply, ranking
