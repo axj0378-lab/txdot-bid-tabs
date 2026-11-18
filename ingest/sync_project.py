@@ -10,13 +10,17 @@ Called by main.py after it upserts a new-format project into output/master_unit_
      (match_method = 'manual') are left alone; unmatched or review-band lines get needs_review
      and appear in v_review_queue (then: scripts/export_review_queue.py, scripts/apply_review.py).
 
-Both steps run in one transaction. The workbook is only read.
+Before step 1, a project missing from data/project_airports.csv is matched to an airport by
+name (ingest/match_airport.py) and added to the CSV with source=auto when exactly one airport
+fits; otherwise the sync stops and says to map it by hand. Airports are never created.
+
+Both steps run in one transaction. The workbook is only read. --dry-run writes nothing, not
+even the CSV.
 
 Run:  python ingest/sync_project.py NTB2614LHART00034 [--dry-run]
 """
 
 import argparse
-import csv
 import os
 import sys
 from collections import Counter
@@ -30,38 +34,63 @@ class SyncError(Exception):
     """The project could not be loaded; the message says what to fix."""
 
 
-def _airports_mapped(project_id):
-    from ingest.load_master import PROJECT_AIRPORTS_CSV
-    with open(PROJECT_AIRPORTS_CSV, newline="", encoding="utf-8-sig") as f:
-        return any(r["project_id"] == project_id and r["faa_id"].strip() for r in csv.DictReader(f))
+def _workbook_airport_names(wb):
+    rows = wb["Projects"].iter_rows(values_only=True)
+    header = next(rows)
+    i, j = header.index("Project ID"), header.index("Airport")
+    return {r[i]: r[j] for r in rows if r[i]}
+
+
+def _connect(db_url):
+    import psycopg
+    try:
+        return psycopg.connect(db_url, autocommit=True, connect_timeout=30)
+    except psycopg.OperationalError:
+        # the driver's message names the host and user; keep it out of logs (public CI)
+        raise SyncError("could not connect to the database: check SUPABASE_DB_URL") from None
 
 
 def sync_project(project_id, dry_run=False, verbose=True, db_url=None):
-    """Load + match one project. Returns a summary dict; raises SyncError with a fix-it message."""
-    import psycopg
+    """Map the airport if needed, then load + match one project. Returns a summary dict;
+    raises SyncError with a fix-it message."""
     from dotenv import load_dotenv
     from openpyxl import load_workbook
 
     from ingest.load_catalog import CATALOG_CSV, match_line_items, read_catalog
     from ingest.load_master import WORKBOOK, build_projects, load
+    from ingest.match_airport import PROJECT_AIRPORTS_CSV, auto_map, mapped_projects, read_airports
 
     retry = f"python ingest/sync_project.py {project_id}"
-    if not _airports_mapped(project_id):
-        raise SyncError(f"{project_id} is not in data/project_airports.csv (the loader never creates airports). "
-                        f"Add its FAA id(s) there, then run: {retry}")
     load_dotenv(ROOT / ".env")
     db_url = db_url or os.environ.get("SUPABASE_DB_URL")
     if not db_url:
-        raise SyncError("SUPABASE_DB_URL is not set in .env (use main.py --no-db for a workbook-only run)")
+        raise SyncError("SUPABASE_DB_URL is not set (in .env, or as a secret in CI); "
+                        "use main.py --no-db for a workbook-only run")
 
-    try:
-        projects, bidder_names, _ = build_projects(load_workbook(WORKBOOK, read_only=True, data_only=True))
-    except SystemExit as e:                     # build_projects reports workbook problems this way
-        raise SyncError(f"workbook check failed: {e}") from None
-    if project_id not in {p["project_id"] for p in projects}:
+    wb = load_workbook(WORKBOOK, read_only=True, data_only=True)
+    names = _workbook_airport_names(wb)
+    if project_id not in names:
         raise SyncError(f"{project_id} is not in {WORKBOOK.name}")
 
-    with psycopg.connect(db_url, autocommit=True) as conn:
+    with _connect(db_url) as conn:
+        airport_added = None
+        if project_id not in mapped_projects():
+            added, unresolved = auto_map({project_id: names[project_id]}, read_airports(conn),
+                                         set(), write=not dry_run)
+            if not added:
+                reason = unresolved[0][2]
+                raise SyncError(f"{project_id}: airport {names[project_id]!r} not matched ({reason}). "
+                                f"Add its FAA id(s) to data/{PROJECT_AIRPORTS_CSV.name} "
+                                f"(the loader never creates airports), then run: {retry}")
+            airport_added = added[0][1:]
+
+        try:
+            projects, bidder_names, _ = build_projects(wb, require_airports=False)
+        except SystemExit as e:                 # build_projects reports workbook problems this way
+            raise SyncError(f"workbook check failed: {e}") from None
+        if airport_added and dry_run:           # the CSV wasn't written; use the match in memory
+            next(p for p in projects if p["project_id"] == project_id)["airports"] = [airport_added[0]]
+
         units = {r[0] for r in conn.execute("select code from public.units")}
         _, _, check_notes = read_catalog(CATALOG_CSV, units=units)
         try:
@@ -76,10 +105,11 @@ def sync_project(project_id, dry_run=False, verbose=True, db_url=None):
                 queue = conn.execute("select count(*) from public.v_review_queue where project_id = %s",
                                      (project_id,)).fetchone()[0]
         except RuntimeError as e:               # load_project: unknown airport, low-bidder mismatch
-            raise SyncError(f"{e}. Nothing was written. Fix it, then run: {retry}") from None
+            raise SyncError(f"{e}. Nothing was written to the database. Fix it, then run: {retry}") from None
 
     return {"project_id": project_id, "changes": changes, "lines_rematched": matched,
-            "match_methods": methods, "review_queue": queue, "dry_run": dry_run}
+            "match_methods": methods, "review_queue": queue, "dry_run": dry_run,
+            "airport_added": airport_added}
 
 
 def describe(summary):
@@ -87,7 +117,10 @@ def describe(summary):
     ins = sum(v for k, v in c.items() if k.endswith(".inserted"))
     upd = sum(v for k, v in c.items() if k.endswith(".updated"))
     methods = ", ".join(f"{k} {v}" for k, v in sorted(summary["match_methods"].items()))
-    return (f"{summary['project_id']}: database {ins} inserted, {upd} updated; "
+    airport = summary.get("airport_added")
+    auto = (f"airport matched to {airport[0]} ({airport[1]}), added to project_airports.csv as "
+            f"source=auto; " if airport else "")
+    return (f"{summary['project_id']}: {auto}database {ins} inserted, {upd} updated; "
             f"{summary['lines_rematched']} line matches changed ({methods}); "
             f"{summary['review_queue']} lines in v_review_queue"
             + (" [dry run, rolled back]" if summary["dry_run"] else ""))

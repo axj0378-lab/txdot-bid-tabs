@@ -1,0 +1,113 @@
+# Nightly bid-tab scrape + database load.
+#
+# 06:00 UTC = midnight Central standard time (1 AM during daylight time). Also runs by hand:
+# Actions tab -> "Nightly bid tabs" -> Run workflow, or `gh workflow run nightly.yml --ref <branch>`.
+# GitHub only runs scheduled workflows from the default branch, and only offers "Run workflow"
+# once this file is on the default branch.
+#
+# Needs the repository secret SUPABASE_DB_URL (Settings -> Secrets and variables -> Actions).
+# It is passed to the Python steps as an environment variable and never echoed.
+
+name: Nightly bid tabs
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write   # commit output/ and data/ back to the branch
+  issues: write     # open or update the "needs attention" issue
+
+concurrency:
+  group: nightly-bid-tabs
+  cancel-in-progress: false
+
+jobs:
+  scrape-and-load:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install Tesseract OCR
+        run: sudo apt-get update -q && sudo apt-get install -y -q tesseract-ocr
+
+      - name: Install Python requirements
+        run: pip install -r requirements.txt
+
+      - name: Install Playwright Chromium
+        run: python -m playwright install --with-deps chromium
+
+      - name: Scrape, extract, update workbook, load database
+        id: run
+        shell: bash
+        run: |
+          set +e
+          python main.py --all-new --skip-existing 2>&1 | tee run.log
+          echo "exit=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+
+      - name: Retry unloaded projects and check what needs attention
+        id: check
+        shell: bash
+        run: |
+          python scripts/nightly_check.py --main-exit "${{ steps.run.outputs.exit }}" \
+            --log run.log --report report.md --github-output "$GITHUB_OUTPUT"
+          cat report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit changes to output/ and data/
+        if: always() && steps.run.outcome != 'skipped'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output data
+          if git diff --cached --quiet; then
+            echo "No changes in output/ or data/; nothing to commit."
+            exit 0
+          fi
+          git commit -m "Nightly bid-tab update $(date -u +%Y-%m-%d)" \
+                     -m "Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Open or update the needs-attention issue
+        if: steps.check.outputs.attention == 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          { cat report.md; echo; echo "Run: $RUN_URL (branch \`${GITHUB_REF_NAME}\`)"; } > issue.md
+          gh label create nightly-attention --color D93F0B \
+            --description "Nightly bid-tab run needs a person" 2>/dev/null || true
+          NUM=$(gh issue list --label nightly-attention --state open --json number --jq '.[0].number')
+          if [ -z "$NUM" ]; then
+            gh issue create --title "Nightly bid-tab run needs attention" \
+              --label nightly-attention --body-file issue.md
+          else
+            OLD=$(gh issue view "$NUM" --json body --jq .body | grep -v '^Run: ')
+            NEW=$(grep -v '^Run: ' issue.md)
+            gh issue edit "$NUM" --body-file issue.md
+            if [ "$OLD" != "$NEW" ]; then
+              gh issue comment "$NUM" --body "Changed in $RUN_URL; see the updated description."
+            fi
+          fi
+
+      - name: Set the run result
+        if: always()
+        shell: bash
+        run: |
+          case "${{ steps.check.outputs.severity }}" in
+            ok)   echo "Nothing needs attention." ;;
+            warn) echo "::warning::Lines are waiting in v_review_queue; see the issue." ;;
+            *)    echo "::error::A project failed or isn't loaded; see the run summary and the issue."; exit 1 ;;
+          esac

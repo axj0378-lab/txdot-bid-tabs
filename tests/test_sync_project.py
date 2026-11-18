@@ -82,8 +82,10 @@ def test_sync_to_db_reports_errors(monkeypatch, caplog):
     assert "database not updated" in caplog.text and "project_airports.csv" in caplog.text
 
 
-def test_unmapped_project_explains_fix():
-    with pytest.raises(SyncError, match="project_airports.csv.*sync_project.py NOPE123"):
+def test_project_not_in_workbook():
+    if not DB_URL:
+        pytest.skip("SUPABASE_DB_URL not set")
+    with pytest.raises(SyncError, match="NOPE123 is not in master_unit_prices.xlsx"):
         sync_project("NOPE123", dry_run=True)
 
 
