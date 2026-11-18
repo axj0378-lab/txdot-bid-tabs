@@ -109,14 +109,29 @@ Source: the workbook's **Projects** and **Bid Data** sheets (all 28 projects), e
 ## Pay item normalizer (`ingest/normalize.py`)
 
 Input: raw code, description, unit. Output: `pay_item_id` or null, method, score, needs_review.
-1. Clean code: OCR fixes (`l`/`I`→`1` in numbers, dashes), strip prefixes like `2509TEMPL#`.
-   `spec_section` = leading spec (`P-401`, `TX-341`, `TXDOT-341`→`TX-341`, `L-125`, `SS-120`).
-   Bare line numbers (`1.04`) and "Special" items have no section: match on description only.
-2. Clean description: upper case, collapse spaces, strip "(credit)/(deduct)" suffixes and
-   airport names ("- Falfurrias"), standard abbreviations.
+1. Clean code: OCR fixes (`l`/`I`→`1` and `O`→`0` between digits only, so `L-125l` stays a
+   sequence letter; unicode dashes), strip prefixes like `2509TEMPL#`.
+   `spec_section` = leading letters + 3–4 digit number (`P-401`, `L108`→`L-108`, `TX-341`,
+   `TXDOT-341`/`ITEM360`→`TX-341`/`TX-360`, `SS-3076`, `KSA-701`). Shorter numbers are line
+   numbers (`1.04`, `A-1.01`, `SS-1-1`) or OCR damage (`P-43`): no section, match on description.
+   When the code has no section, take one from the description if it is at the start (after an
+   optional line number: `1.68 1L-110-5.4 …`) or has a subsection (`… P-605.5.1`); equipment
+   types (`L-861`, `L-824C`) are not sections.
+2. Clean description: upper case, collapse spaces, strip "(credit)/(deduct)", "- Deduct",
+   "(Special)" and location tags ("- Falfurrias", "(Weslaco aprons, deduct)"; places = airport
+   cities + project locations), standard abbreviations (`2"`/`2-inch`→`2 IN`, `6'`→`6 FT`, `&`→AND,
+   `W/`→WITH, `NO.8`→`NO 8`, RWY/TWY), OCR debris.
 3. Match: alias exact → exact name within section+unit → fuzzy (rapidfuzz `token_set_ratio`):
    ≥ 0.90 auto, 0.75–0.90 needs review, < 0.75 unmatched. Never auto-create `pay_items`.
+   Never auto-matched (review instead): different number-bearing tokens or order (`4-WAY 2 IN` vs
+   `2-WAY 4 IN`, `L-867B` vs `L-867E`), a differing single letter or `<`/`>`, or a differing
+   contrast word (runway/taxiway/apron, threshold/edge, elevated/in-pavement, colours,
+   with/without, remove/install/new/salvaged, temporary/permanent, one/two/three, …). A section
+   with no catalog items for the unit falls back to all items with that unit and needs review.
 4. Confirmed matches become `pay_item_aliases` rows.
+5. Catalog suggestions (`ingest/catalog_candidates.py`) group rows only when `item_key` agrees:
+   same words in any order ignoring OF/THE/AND/COMPLETE, plurals and a repeated acronym
+   ("(SWPPP)"), with each number next to the same word. No fuzzy grouping.
 
 ## Acceptance tests
 
