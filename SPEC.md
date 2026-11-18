@@ -58,7 +58,7 @@ Foreign keys cannot cross projects:
 | Price stats include alternate schedules (`include_alternates = true`); switchable | DECIDED |
 | Regional price whenever the region has bids (`min_projects_region = 1`), with a confidence label (previously ≥ 3 projects; revert with `min_projects_region = 3`) | OPEN — pending instructor review |
 | Region = TxDOT district; overrides in `data/airport_overrides.csv` (CPT Fort Worth, T82 Austin, SWI Paris, APY Pharr, FWS Fort Worth) | DECIDED |
-| Inflation index (TxDOT HCI / FHWA NHCCI / ENR CCI) | DEFERRED — stats run nominal until set |
+| Inflation index (TxDOT HCI / FHWA NHCCI / ENR CCI) | DEFERRED — stats run nominal until set; loader ready (`scripts/load_cost_index.py`, CSVs in `data/indices/`), no index loaded or active |
 | Treatment → pay item recipes (`treatment_pay_items`) | OPEN — engineering |
 
 ## Data model (`supabase/migrations/20261114*`)
