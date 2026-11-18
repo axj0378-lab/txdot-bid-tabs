@@ -125,6 +125,13 @@ def _match_note(m, n, names):
 
 # ---------------------------------------------------------------- database
 
+def read_places(conn):
+    """Place names stripped from descriptions (normalize.clean_description): airport cities + project locations."""
+    return [r[0] for r in conn.execute(
+        """select city from public.airports where city is not null
+           union select location from public.projects where location is not null""")]
+
+
 def load(conn, pay_items, aliases, check_notes, verbose=True):
     """Write catalog + matches inside the caller's transaction. Returns Counter of changes."""
     changes = Counter()
@@ -153,9 +160,7 @@ def load(conn, pay_items, aliases, check_notes, verbose=True):
     catalog = [CatalogItem(i, s, n, u) for (s, n, u), i in ids.items()]
     db_aliases = {(d, u, s): pid for d, u, s, pid in conn.execute(
         "select description_normalized, unit_code, spec_section, pay_item_id from public.pay_item_aliases")}
-    places = [r[0] for r in conn.execute(
-        """select city from public.airports where city is not null
-           union select location from public.projects where location is not null""")]
+    places = read_places(conn)
     lines = conn.execute("""select id, raw_item_code, raw_description, unit_code, review_notes, match_method
                             from public.bid_line_items""").fetchall()
     current = {r[0]: r[1:] for r in conn.execute(

@@ -70,7 +70,9 @@ Foreign keys cannot cross projects:
 - `bid_schedule_totals` — printed subtotal per bid × schedule (from `data/legacy/*.json`;
   single-award-schedule projects only, see Loader rule 4).
 - `pay_items`, `pay_item_aliases` — canonical catalog + learned mappings.
-- `bid_line_items` — one row per bid × schedule × item; raw code/description/unit kept.
+- `bid_line_items` — one row per bid × schedule × item; raw code/description/unit kept;
+  `excluded_from_stats` (review decision, `20261117000100`) keeps a line in the bid and the total
+  checks but out of `v_unit_prices_adjusted`, `v_estimate_vs_bids` and `v_review_queue`.
 - `cost_indices`, `regional_factors`, `cost_settings`.
 - Views: `v_unit_prices_adjusted`, `v_unit_price_stats` (region rows + STATEWIDE),
   `v_estimate_vs_bids`, `v_bid_total_check`, `v_review_queue`.
@@ -132,6 +134,20 @@ Input: raw code, description, unit. Output: `pay_item_id` or null, method, score
 5. Catalog suggestions (`ingest/catalog_candidates.py`) group rows only when `item_key` agrees:
    same words in any order ignoring OF/THE/AND/COMPLETE, plurals and a repeated acronym
    ("(SWPPP)"), with each number next to the same word. No fuzzy grouping.
+
+## Catalog load and review queue
+
+- `ingest/load_catalog.py`: reviewed `data/review/catalog_candidates.csv` → `pay_items` (one per
+  section + name + unit, `notes` = review notes) and one `pay_item_aliases` row per CSV row
+  (`source = 'manual'`); then matches every line item. Rows whose `review_note` starts with
+  `CHECK` keep their match but need review. Lines with `match_method = 'manual'` are never re-matched.
+- `scripts/export_review_queue.py` → `data/review/queue.csv` (+ `data/review/pay_items.csv` for ids).
+  Decision columns: `confirmed_pay_item_id`, `exclude` (Y), `reviewer_note`.
+- `scripts/apply_review.py`: confirmed → `pay_item_id`, `match_method = 'manual'`,
+  `needs_review = false`, plus an alias for the line's normalized key (an existing alias to a
+  different item is kept and reported: remap in `catalog_candidates.csv`). Exclude →
+  `excluded_from_stats = true`, `needs_review = false`, no alias. The pay item's unit must equal the
+  line's unit. Whole file validated first; idempotent.
 
 ## Acceptance tests
 
