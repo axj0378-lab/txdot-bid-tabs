@@ -67,10 +67,16 @@ def test_apply_round_trip():
     from ingest.load_catalog import load, read_catalog
     with psycopg.connect(DB_URL, autocommit=True) as c:
         with c.transaction(force_rollback=True):
-            queue = c.execute("""select line_item_id, pay_item_id from public.v_review_queue
-                                 where pay_item_id is not null order by line_item_id limit 2""").fetchall()
-            assert len(queue) == 2, "needs at least 2 matched lines in the queue"
+            # put two alias-matched contractor lines into the queue (the real queue may be empty)
+            queue = c.execute("""select li.id, li.pay_item_id from public.bid_line_items li
+                                 join public.bids b on b.id = li.bid_id
+                                 where li.match_method = 'alias' and not b.is_estimate and li.quantity > 0
+                                   and not li.excluded_from_stats
+                                 order by li.id limit 2""").fetchall()
+            assert len(queue) == 2
             (keep_id, keep_pid), (excl_id, _) = queue
+            c.execute("update public.bid_line_items set needs_review = true where id = any(%s)",
+                      ([keep_id, excl_id],))
             before = c.execute("select count(*) from public.v_review_queue").fetchone()[0]
 
             # pretend there is no alias yet for the confirmed line, so one gets added
