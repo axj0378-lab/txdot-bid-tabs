@@ -28,7 +28,7 @@ TABLES = [
 
 VIEWS = [
     "v_unit_prices_adjusted", "v_unit_price_stats", "v_estimate_vs_bids",
-    "v_bid_total_check", "v_review_queue",
+    "v_bid_total_check", "v_review_queue", "v_unit_price_lookup",
 ]
 
 

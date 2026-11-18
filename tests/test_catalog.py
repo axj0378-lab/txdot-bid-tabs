@@ -25,7 +25,7 @@ needs_db = pytest.mark.skipif(not DB_URL, reason="SUPABASE_DB_URL not set")
 def test_reviewed_catalog_is_valid():
     pay_items, aliases, check_notes = read_catalog()
     assert len(aliases) == 977
-    assert len(pay_items) == 460
+    assert len(pay_items) == 462
     assert all(v["category"] for v in pay_items.values())
     assert set(aliases.values()) == set(pay_items)
     assert set(check_notes) <= set(aliases)
@@ -116,3 +116,52 @@ def test_rerun_changes_nothing():
         with c.transaction(force_rollback=True):
             changes = load(c, pay_items, aliases, check_notes, verbose=False)
     assert sum(changes.values()) == 0, {k: v for k, v in changes.items() if v}
+
+
+# ---------------------------------------------------------------- price lookup (Session 6)
+
+@needs_db
+def test_price_lookup_one_row_per_item_and_region(conn):
+    n_items = _one(conn, "select count(*) from public.v_unit_price_stats where region = 'STATEWIDE'")
+    n_regions = _one(conn, """select count(*) from (select region from public.airports where region is not null
+                              union select region from public.v_unit_price_stats) r""")
+    assert _one(conn, "select count(*) from public.v_unit_price_lookup") == n_items * n_regions
+    assert _one(conn, """select count(*) from (select 1 from public.v_unit_price_lookup
+                         group by pay_item_id, region having count(*) > 1) d""") == 0
+
+
+@needs_db
+def test_price_lookup_uses_region_only_with_enough_projects(conn):
+    k = _one(conn, "select min_projects_region from public.cost_settings where id")
+    assert k == 3
+    bad = conn.execute("""
+        select l.pay_item_id, l.region from public.v_unit_price_lookup l
+        left join public.v_unit_price_stats r on r.pay_item_id = l.pay_item_id and r.region = l.region
+             and l.region <> 'STATEWIDE'
+        join public.v_unit_price_stats s on s.pay_item_id = l.pay_item_id and s.region = 'STATEWIDE'
+        where l.price_source <> case when coalesce(r.n_projects, 0) >= %s then 'region' else 'statewide' end
+           or l.unit_price is distinct from case when l.price_source = 'region' then r.median else s.median end
+           or l.n_projects is distinct from case when l.price_source = 'region' then r.n_projects else s.n_projects end
+           or l.n_bidders  is distinct from case when l.price_source = 'region' then r.n_bidders  else s.n_bidders  end
+        """, (k,)).fetchall()
+    assert not bad, bad[:10]
+
+
+@needs_db
+def test_price_lookup_follows_setting():
+    with psycopg.connect(DB_URL, autocommit=True) as c:
+        with c.transaction(force_rollback=True):
+            at3 = _one(c, "select count(*) from public.v_unit_price_lookup where price_source = 'region'")
+            c.execute("update public.cost_settings set min_projects_region = 1")
+            at1 = _one(c, "select count(*) from public.v_unit_price_lookup where price_source = 'region'")
+            regional = _one(c, "select count(*) from public.v_unit_price_stats where region <> 'STATEWIDE'")
+    assert at1 == regional > at3
+
+
+@needs_db
+def test_spot_check_reproduces_view_medians(conn):
+    import sys
+    sys.path.insert(0, str(ROOT / "scripts"))
+    from spot_check import build
+    rows = build(conn, [827, 564, 682, 831, 763])          # raises if kept lines != view n / median
+    assert {r[18] for r in rows} <= {"kept", "dropped_outlier", "not_in_stats"}
