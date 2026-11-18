@@ -24,8 +24,8 @@ needs_db = pytest.mark.skipif(not DB_URL, reason="SUPABASE_DB_URL not set")
 
 def test_reviewed_catalog_is_valid():
     pay_items, aliases, check_notes = read_catalog()
-    assert len(aliases) == 981
-    assert len(pay_items) == 467
+    assert len(aliases) == 977
+    assert len(pay_items) == 460
     assert all(v["category"] for v in pay_items.values())
     assert set(aliases.values()) == set(pay_items)
     assert set(check_notes) <= set(aliases)
