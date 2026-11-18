@@ -268,7 +268,9 @@ def load_project(conn, proj, bidder_names, units):
 
     pcols = ["project_id", "csj", "airport_name_raw", "scope", "description", "bid_date",
              "location", "source", "source_pdf", "award_schedules", "notes"]
-    add("projects", upsert(conn, "projects", ["project_id"], pcols, [{c: proj[c] for c in pcols}]))
+    # A blank Source PDF (main.py --pdf offline re-runs have no URL) never erases a stored one.
+    add("projects", upsert(conn, "projects", ["project_id"], pcols, [{c: proj[c] for c in pcols}],
+                           set_exprs={"source_pdf": "coalesce(excluded.source_pdf, t.source_pdf)"}))
     project_pk = conn.execute("select id from public.projects where project_id = %s", (pid,)).fetchone()[0]
 
     add("project_airports", upsert(conn, "project_airports", ["project_id", "faa_id"], ["project_id", "faa_id"],

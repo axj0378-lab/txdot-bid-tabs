@@ -100,8 +100,14 @@ The output files are named by TxDOT's project ID (`NTB2614LHART00034` = Lockhart
 4. `reports.py` writes the bid summary Excel and PDF into `output/`.
 5. `master_sheet.py` adds the project to `output/master_unit_prices.xlsx`, replacing its rows if
    the project is already there, so running twice never duplicates data.
-6. The console prints the low bidder and the files written. The script exits with 0 if every
-   bidder verified, or 2 if anything needs a manual check (also noted in the Extraction Log).
+6. `ingest/sync_project.py` loads the project into the cost database (Supabase, see SPEC.md)
+   with the same loader as `ingest/load_master.py --project <id>`, then matches its line items to
+   pay items; anything unmatched lands in `v_review_queue`. Skip this with `--no-db`. A new
+   project must first be added to `data/project_airports.csv`; if it isn't, the workbook is still
+   updated and the log says what to add and how to retry (`python ingest/sync_project.py <id>`).
+7. The console prints the low bidder and the files written. The script exits with 0 if every
+   bidder verified and the database load worked, or 2 if anything needs a manual check (also
+   noted in the Extraction Log).
 
 The files in `output/` came from running `python main.py --all-new` on 10/19/2026, which processed
 both new-format projects on the site. Running it again overwrites them with the same results.
@@ -152,6 +158,7 @@ python main.py --headed           # watch the browser while it runs
 python main.py --force            # re-download PDFs even if already cached in downloads/
 
 python main.py --pdf samples/ntb2614lhart00034br.pdf   # offline: skip the website
+python main.py --no-db            # workbook only: don't load the project into Supabase
 python -m pytest -q                                     # run the tests
 ```
 

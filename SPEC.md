@@ -114,6 +114,8 @@ Source: the workbook's **Projects** and **Bid Data** sheets (all 28 projects), e
 6. After loading a project call `refresh_bid_ranks()`; the low bidder must equal the workbook's
    `Low Bid = "Yes"` bidder, or fail loudly.
 7. Never create airports in the loader; every project must resolve through `project_airports.csv`.
+8. A blank workbook Source PDF (offline `main.py --pdf` re-runs have no URL) never erases a stored
+   `projects.source_pdf`.
 
 ## Pay item normalizer (`ingest/normalize.py`)
 
@@ -141,6 +143,16 @@ Input: raw code, description, unit. Output: `pay_item_id` or null, method, score
 5. Catalog suggestions (`ingest/catalog_candidates.py`) group rows only when `item_key` agrees:
    same words in any order ignoring OF/THE/AND/COMPLETE, plurals and a repeated acronym
    ("(SWPPP)"), with each number next to the same word. No fuzzy grouping.
+
+## Keeping it current (`main.py` → `ingest/sync_project.py`)
+
+After `main.py` upserts a new-format project into the workbook it loads that project with the
+loader above (`--project <id>` logic) and runs the normalizer over its lines
+(`load_catalog.match_line_items`, skipping `manual` lines), in one transaction; unmatched and
+review-band lines land in `v_review_queue`. `--no-db` skips it. A project missing from
+`project_airports.csv` (or with an unknown airport or a low-bidder mismatch) is not loaded; the
+workbook is still written and the run exits 2 with the fix and the retry command
+(`python ingest/sync_project.py <id>`).
 
 ## Catalog load and review queue
 

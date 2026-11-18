@@ -132,6 +132,34 @@ def read_places(conn):
            union select location from public.projects where location is not null""")]
 
 
+def match_line_items(conn, check_notes, project_id=None):
+    """Run the normalizer over bid_line_items (all, or one workbook Project ID) against the catalog
+    and aliases in the database. Lines with match_method = 'manual' are skipped; unmatched and
+    review-band lines get needs_review and so appear in v_review_queue. Returns lines updated."""
+    catalog = [CatalogItem(*r) for r in conn.execute(
+        "select id, spec_section, canonical_name, unit_code from public.pay_items")]
+    db_aliases = {(d, u, s): pid for d, u, s, pid in conn.execute(
+        "select description_normalized, unit_code, spec_section, pay_item_id from public.pay_item_aliases")}
+    places = read_places(conn)
+    rows = conn.execute("""
+        select li.id, li.raw_item_code, li.raw_description, li.unit_code, li.review_notes, li.match_method,
+               li.pay_item_id, li.match_score, li.needs_review
+        from public.bid_line_items li
+        join public.bids b on b.id = li.bid_id
+        join public.projects p on p.id = b.project_id
+        where %(pid)s::text is null or p.project_id = %(pid)s""", {"pid": project_id}).fetchall()
+    current = {r[0]: (r[6], r[5], r[7], r[8], r[4]) for r in rows}
+
+    planned = plan_matches([r[:6] for r in rows], catalog, db_aliases, places, check_notes)
+    updates = [(*v, lid) for lid, v in planned.items() if tuple(current[lid]) != v]
+    with conn.cursor() as cur:
+        cur.executemany("""update public.bid_line_items
+                           set pay_item_id = %s, match_method = %s, match_score = %s,
+                               needs_review = %s, review_notes = %s
+                           where id = %s""", updates)
+    return len(updates)
+
+
 def load(conn, pay_items, aliases, check_notes, verbose=True):
     """Write catalog + matches inside the caller's transaction. Returns Counter of changes."""
     changes = Counter()
@@ -157,24 +185,7 @@ def load(conn, pay_items, aliases, check_notes, verbose=True):
         for s, n, u in sorted(stale):
             say(f"  {s} | {n} | {u}")
 
-    catalog = [CatalogItem(i, s, n, u) for (s, n, u), i in ids.items()]
-    db_aliases = {(d, u, s): pid for d, u, s, pid in conn.execute(
-        "select description_normalized, unit_code, spec_section, pay_item_id from public.pay_item_aliases")}
-    places = read_places(conn)
-    lines = conn.execute("""select id, raw_item_code, raw_description, unit_code, review_notes, match_method
-                            from public.bid_line_items""").fetchall()
-    current = {r[0]: r[1:] for r in conn.execute(
-        """select id, pay_item_id, match_method, match_score, needs_review, review_notes
-           from public.bid_line_items""")}
-
-    planned = plan_matches(lines, catalog, db_aliases, places, check_notes)
-    updates = [(*v, lid) for lid, v in planned.items() if tuple(current[lid]) != v]
-    with conn.cursor() as cur:
-        cur.executemany("""update public.bid_line_items
-                           set pay_item_id = %s, match_method = %s, match_score = %s,
-                               needs_review = %s, review_notes = %s
-                           where id = %s""", updates)
-    changes["bid_line_items.updated"] = len(updates)
+    changes["bid_line_items.updated"] = match_line_items(conn, check_notes)
     return changes
 
 
