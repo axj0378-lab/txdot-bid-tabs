@@ -134,4 +134,4 @@ Spot-check about 5 items by hand against the workbook. When the inflation index 
 - `treatment_pay_items` recipes with engineering (start with Crack seal/fill, Crack/joint seal,
   AC overlay/mill+overlay, Patch/recon area, Full-depth repair (local)).
 - Estimate engine (SPEC.md) once recipes and the inflation index exist.
-- Scheduled twice-daily scrape + load.
+- ~~Scheduled twice-daily scrape + load.~~ Done as a nightly run (`.github/workflows/nightly.yml`).

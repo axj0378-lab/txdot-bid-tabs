@@ -102,9 +102,11 @@ The output files are named by TxDOT's project ID (`NTB2614LHART00034` = Lockhart
    the project is already there, so running twice never duplicates data.
 6. `ingest/sync_project.py` loads the project into the cost database (Supabase, see SPEC.md)
    with the same loader as `ingest/load_master.py --project <id>`, then matches its line items to
-   pay items; anything unmatched lands in `v_review_queue`. Skip this with `--no-db`. A new
-   project must first be added to `data/project_airports.csv`; if it isn't, the workbook is still
-   updated and the log says what to add and how to retry (`python ingest/sync_project.py <id>`).
+   pay items; anything unmatched lands in `v_review_queue`. Skip this with `--no-db`. A project
+   missing from `data/project_airports.csv` is matched to an airport by name
+   (`ingest/match_airport.py`) and added with `source=auto` when exactly one airport fits;
+   otherwise the workbook is still updated and the log says what to add and how to retry
+   (`python ingest/sync_project.py <id>`).
 7. The console prints the low bidder and the files written. The script exits with 0 if every
    bidder verified and the database load worked, or 2 if anything needs a manual check (also
    noted in the Extraction Log).
@@ -159,6 +161,7 @@ python main.py --force            # re-download PDFs even if already cached in d
 
 python main.py --pdf samples/ntb2614lhart00034br.pdf   # offline: skip the website
 python main.py --no-db            # workbook only: don't load the project into Supabase
+python main.py --all-new --skip-existing   # only projects not yet in the workbook (nightly run)
 python -m pytest -q                                     # run the tests
 ```
 
@@ -285,7 +288,15 @@ The engineer's estimate is kept as its own rows (Low Bid = "Estimate"), never ra
   It already stores all bidders, so all-bid analysis is possible later.
 - **Emailing TxDOT** (slide 11): add an SMTP step that sends the summary Excel and PDF from a
   no-reply account once TxDOT provides recipients. Not built here because it needs credentials.
-- **Scheduling:** a daily scheduled run (Windows Task Scheduler / cron) with `--all-new` would
-  pick up new projects automatically, since processed projects are cached and upserted.
+- **Scheduling:** `.github/workflows/nightly.yml` runs `python main.py --all-new --skip-existing`
+  every night at 06:00 UTC (midnight Central standard time) and on demand (Actions → *Nightly bid
+  tabs* → *Run workflow*). It needs the repository secret `SUPABASE_DB_URL`. Changes to `output/`
+  and `data/` are committed back to the branch (no commit when nothing changed). Then
+  `scripts/nightly_check.py` retries projects that aren't in the database yet. If an airport
+  can't be matched, a project fails, or lines are waiting in `v_review_queue`, it opens or
+  updates one GitHub issue labelled `nightly-attention`. The run fails for the first two and
+  warns for the review queue. GitHub runs scheduled workflows only from the default branch.
+  Already-processed projects are skipped, so a re-issued bid tab needs a manual run without
+  `--skip-existing`.
 - **Scale:** the Excel database is fine for hundreds of projects. Beyond that, moving *Bid Data*
   to SQLite or Postgres and generating the Excel views from it would be the natural next step.

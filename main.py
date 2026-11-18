@@ -12,7 +12,7 @@ import sys
 from pathlib import Path
 
 from txdot_bid_tabs import extractor, master_sheet, reports, scraper
-from txdot_bid_tabs.config import HEADLESS, NEW_FORMAT_START
+from txdot_bid_tabs.config import HEADLESS, MASTER_SHEET_PATH, NEW_FORMAT_START
 from txdot_bid_tabs.models import ProjectListing
 
 log = logging.getLogger("txdot")
@@ -32,6 +32,9 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--force", action="store_true", help="re-download PDFs even if cached")
     p.add_argument("--pdf", type=Path,
                    help="offline mode: process a local bid-tab PDF, skipping the website")
+    p.add_argument("--skip-existing", action="store_true",
+                   help="skip projects already in the master workbook (nightly run: re-processing "
+                        "one only rewrites its timestamps)")
     p.add_argument("--no-db", action="store_true",
                    help="workbook only: don't load the project into the cost database (Supabase)")
     p.add_argument("-v", "--verbose", action="store_true")
@@ -81,6 +84,20 @@ def sync_to_db(project_id: str) -> bool:
     return True
 
 
+def workbook_project_ids() -> set[str]:
+    """Project IDs already in the master workbook (empty if there is no workbook yet)."""
+    if not MASTER_SHEET_PATH.exists():
+        return set()
+    from openpyxl import load_workbook
+    wb = load_workbook(MASTER_SHEET_PATH, read_only=True)
+    try:
+        rows = wb["Projects"].iter_rows(values_only=True)
+        col = next(rows).index("Project ID")
+        return {r[col] for r in rows if r[col]}
+    finally:
+        wb.close()
+
+
 def main() -> int:
     args = parse_args()
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.INFO,
@@ -98,6 +115,15 @@ def main() -> int:
     if not listings:
         log.error("No matching new-format (Oct 2026+) projects found on the bid results page.")
         return 1
+    if args.skip_existing:
+        known = workbook_project_ids()
+        skipped = [l.project_id for l in listings if l.project_id in known]
+        listings = [l for l in listings if l.project_id not in known]
+        if skipped:
+            log.info("Skipping %d projects already in the workbook: %s", len(skipped), ", ".join(skipped))
+        if not listings:
+            log.info("No new projects.")
+            return 0
 
     ok = True
     for listing in listings:

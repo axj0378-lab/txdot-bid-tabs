@@ -149,10 +149,31 @@ Input: raw code, description, unit. Output: `pay_item_id` or null, method, score
 After `main.py` upserts a new-format project into the workbook it loads that project with the
 loader above (`--project <id>` logic) and runs the normalizer over its lines
 (`load_catalog.match_line_items`, skipping `manual` lines), in one transaction; unmatched and
-review-band lines land in `v_review_queue`. `--no-db` skips it. A project missing from
-`project_airports.csv` (or with an unknown airport or a low-bidder mismatch) is not loaded; the
-workbook is still written and the run exits 2 with the fix and the retry command
-(`python ingest/sync_project.py <id>`).
+review-band lines land in `v_review_queue`. `--no-db` skips it.
+
+A project missing from `project_airports.csv` is first matched by the workbook's Airport text
+against `airports` (`ingest/match_airport.py`). The first rule that finds any candidate decides,
+and it must find exactly one:
+1. an FAA id in the name;
+2. the same normalized name;
+3. one name containing the other (at least 2 words);
+4. a city belonging to one airport.
+
+A match is appended to the CSV with `source=auto`. Hand-made rows are `source=manual`. Statewide
+groups are never auto-matched. Airports are never created. The workbook's Location is not used,
+because for new-format tabs it is the bid-opening site. An unmatched airport, an unknown airport
+or a low-bidder mismatch means the project is not loaded. The workbook is still written, and the
+run exits 2 with the fix and the retry command (`python ingest/sync_project.py <id>`).
+
+Nightly: `.github/workflows/nightly.yml` (06:00 UTC, also by hand) runs
+`main.py --all-new --skip-existing` with the repository secret `SUPABASE_DB_URL`, then
+`scripts/nightly_check.py`. That script:
+- retries workbook projects not yet in the database;
+- reports failures, auto-matched airports and `v_review_queue` counts;
+- opens or updates one `nightly-attention` issue.
+
+The run fails when a project isn't loaded and warns when only the review queue has lines. It
+commits `output/` and `data/` back to the branch only when something changed.
 
 ## Catalog load and review queue
 

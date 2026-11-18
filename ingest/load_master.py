@@ -129,8 +129,11 @@ def as_date(x):
     return date.fromisoformat(str(x)[:10])
 
 
-def build_projects(wb):
-    """All projects as plain dicts, ready to load. Pure: no database access."""
+def build_projects(wb, require_airports=True):
+    """All projects as plain dicts, ready to load. Pure: no database access.
+
+    require_airports=False lets a project missing from project_airports.csv through with
+    airports = [] (ingest/sync_project.py loads one project and checks only that one)."""
     project_rows = {p["Project ID"]: p for p in read_sheet(wb, "Projects")}
     bid_rows = read_sheet(wb, "Bid Data")
     merges = read_merges()
@@ -158,7 +161,7 @@ def build_projects(wb):
             if not path.exists():
                 raise SystemExit(f"{pid}: legacy project without {path.relative_to(ROOT)}")
             js = json.loads(path.read_text(encoding="utf-8"))
-        if not airports.get(pid):
+        if not airports.get(pid) and require_airports:
             raise SystemExit(f"{pid}: not in {PROJECT_AIRPORTS_CSV.name} (the loader never creates airports)")
 
         award_schedules = js["award_schedules"] if legacy else [NEW_FORM_SCHEDULE]
