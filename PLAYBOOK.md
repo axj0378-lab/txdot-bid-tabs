@@ -12,6 +12,9 @@ you, and move on only when the "Done when" line is true. Read SPEC.md first.
 2. Supabase CLI through npx (the npm package can't be installed globally on Windows):
    `npm uninstall -g supabase`, then check `npx supabase@latest --version`.
    Every `supabase ...` command below is run as `npx supabase ...`. No Docker needed.
+   Always push with `npx supabase db push --remote --yes`: without `--remote` the CLI targets a
+   local Docker stack, and without `--yes` it refuses to change the hosted project from an agent.
+   Check first with `npx supabase db push --remote --dry-run`.
 3. `npx supabase login`, then `npx supabase init` (if there's no `supabase/config.toml`), then
    `npx supabase link --project-ref pcfuszhdxjumxagaityk`.
 4. Copy `.env.example` to `.env` and fill it in:
@@ -43,10 +46,10 @@ create policy cost_reader_read on pc_acrp_map   for select to cost_reader using 
 ## Session 1 — Apply the schema
 
 > Read SPEC.md and supabase/migrations/. There is no Docker here, so check the migration SQL
-> carefully, then apply it to the linked (empty) project with `npx supabase db push`. Write tests/test_schema.py that connects with SUPABASE_DB_URL and
+> carefully, then apply it to the linked (empty) project with `npx supabase db push --remote --yes`. Write tests/test_schema.py that connects with SUPABASE_DB_URL and
 > checks every table and view in SPEC.md exists and RLS is on for every table. Insert no data.
 
-**Done when:** `npx supabase db push` succeeds and the schema test passes.
+**Done when:** `npx supabase db push --remote --yes` succeeds and the schema test passes.
 
 ---
 
